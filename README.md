@@ -1,2 +1,3 @@
-yjboAntiCompilation-·´±àÒë
-·´±àÒëµÄÊµÏÖËùÊ¹ÓÃµÄ×ÊÔ´¡£²Î¿¼£ºhttps://gold.xitu.io/entry/577a8dc1128fe1005654d598
+yjboAntiCompilation-åç¼–è¯‘
+åç¼–è¯‘çš„å®ç°æ‰€ä½¿ç”¨çš„èµ„æºã€‚å‚è€ƒï¼šhttps://gold.xitu.io/entry/577a8dc1128fe1005654d598
+https://raw.githubusercontent.com/hytcyjb/yjboAntiCompilation/06bae97acccf5126c17ca370ded5849b671a7452/ScreenShort/fby-1.png
