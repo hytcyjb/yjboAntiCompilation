@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/type_tip" android:text="@string/found" android:layout_toRightOf="@id/line_left" style="@style/Line_TipText" />
+        <ImageView android:id="@id/line_right" android:layout_toRightOf="@id/type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <com.didi.common.ui.webview.CommonWebViewEx android:id="@id/taxi_wait_for_arrival_found_web" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="@dimen/wait_for_arrival_found_web_layout_height" android:layout_below="@id/line_layout" />
+    <ProgressBar android:id="@id/taxi_wait_for_arrival_found_loading" android:layout_width="@dimen/wait_for_arrival_found_loading_size" android:layout_height="@dimen/wait_for_arrival_found_loading_size" android:indeterminateDrawable="@drawable/progressbar_drawable" android:layout_centerInParent="true" />
+</RelativeLayout>

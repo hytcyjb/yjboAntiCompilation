@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/invoice_history_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/invoice_history_margin" android:layout_marginBottom="@dimen/invoice_history_margin" android:layout_centerVertical="true">
+        <TextView android:id="@id/invoice_history_head" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextView.Gray.Medium" />
+        <TextView android:id="@id/invoice_history_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/invoice_history_head" style="@style/TextView.LightGray.Small" />
+    </RelativeLayout>
+    <TextView android:id="@id/invoice_history_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.Orange.Large" />
+</RelativeLayout>

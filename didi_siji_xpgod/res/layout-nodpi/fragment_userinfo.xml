@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:background="@color/realtime_slide_voice_call_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.didi.common.ui.component.VerticalViewContainer android:id="@id/first_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_item_margin_top" />
+            <com.didi.common.ui.component.VerticalViewContainer android:id="@id/second_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_item_margin_top" />
+            <com.didi.common.ui.component.VerticalViewContainer android:id="@id/third_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_item_margin_top" android:layout_marginBottom="@dimen/setting_item_margin_top" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

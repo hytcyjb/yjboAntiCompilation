@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/webLayoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/web_title_bar" layout="@layout/common_webview_title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/web_title_bar">
+        <LinearLayout android:orientation="vertical" android:id="@id/webviewParent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.didi.common.ui.webview.OldCommonWebViewEx android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/errorView" android:background="@color/white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imgError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+            <TextView android:textSize="@dimen/font_size_xxx_large" android:textColor="@color/gray" android:gravity="center" android:id="@id/txtError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/menu_bg_half_transparent" android:paddingTop="27.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/closeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/close" android:background="@drawable/specialcar_home_btn_close" android:layout_width="@dimen/announcement_popup_close_width" android:layout_height="@dimen/announcement_popup_close_height" android:layout_marginTop="@dimen/announcement_popup_close_margin_top" android:layout_marginRight="@dimen/announcement_popup_close_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <View android:id="@id/vertical_line" android:background="@*android:color/white" android:layout_width="@dimen/announcement_popup_line_width" android:layout_height="@dimen/announcement_popup_line_height" android:layout_marginRight="@dimen/announcement_popup_line_margin_right" android:layout_below="@id/close" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/vp" android:layout_width="@dimen/announcement_popup_main_width" android:layout_height="@dimen/announcement_popup_main_height" android:layout_marginTop="@dimen/announcement_popup_main_margin_top" android:layout_centerHorizontal="true">
+        <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="@dimen/announcement_popup_dot_layout_height" android:layout_marginBottom="@dimen/announcement_popup_dot_layout_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <View android:id="@id/dot0" android:background="@drawable/dot_focused" style="@style/dot_style" />
+            <View android:id="@id/dot1" style="@style/dot_style" />
+            <View android:id="@id/dot2" style="@style/dot_style" />
+            <View android:id="@id/dot3" style="@style/dot_style" />
+            <View android:id="@id/dot4" style="@style/dot_style" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

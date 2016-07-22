@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:paddingBottom="@dimen/realtime_bottom_bar_margin_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/realtime_bottom_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.RelativeLayout android:id="@id/bottom_bar_ddriver_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_nowcall_btn_height" android:layout_marginLeft="@dimen/bottom_bar_channel_margin_left" android:layout_marginRight="@dimen/bottom_bar_channel_margin_left" android:layout_centerVertical="true" x:background="@drawable/realtime_bottom_bar_textcall_bg_selector">
+        <x.ImageView android:id="@id/ddrive_search_icon" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginLeft="40.0px" android:layout_marginRight="20.0px" android:layout_centerVertical="true" x:src="@drawable/common_icon_magnifier" />
+        <TextView android:textSize="@dimen/font_size_s_large" android:textColor="@color/light_s_gray" android:id="@id/bottom_bar_ddrive_guide_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realtime_bottom_bar_textcall_txt" android:layout_toRightOf="@id/ddrive_search_icon" android:layout_centerVertical="true" />
+    </x.RelativeLayout>
+    <x.LinearLayout android:orientation="horizontal" android:id="@id/ddrive_bottom_click_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_nowcall_btn_height" android:layout_marginLeft="@dimen/bottom_bar_channel_margin_left" android:layout_marginRight="@dimen/bottom_bar_channel_margin_left" android:layout_centerVertical="true" />
+</RelativeLayout>

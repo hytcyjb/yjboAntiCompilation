@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/cityName" android:background="@drawable/menu_item_selector" android:paddingLeft="@dimen/city_pick_hot_item_cityname_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/city_pick_hot_item_cityname_height" style="@style/TextView.DarkGray.Medium" />
+</LinearLayout>

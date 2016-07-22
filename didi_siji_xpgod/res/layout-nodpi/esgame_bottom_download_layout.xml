@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/esgameBottomDownloadUrl" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="185.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line" android:background="@color/light_ss_gray" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <RelativeLayout android:id="@id/layout01" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@id/downProgressBar" android:layout_width="860.0px" android:layout_height="12.0px" android:layout_marginLeft="44.0px" android:layout_marginTop="52.0px" android:max="10000" android:progress="0" android:progressDrawable="@drawable/esgame_download_progressbar_selector" android:layout_alignParentLeft="true" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/font_size_x_small" android:textColor="@color/light_gray" android:id="@id/curSizeTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:text="0MB" android:layout_below="@id/downProgressBar" android:layout_alignLeft="@id/downProgressBar" />
+        <TextView android:textSize="@dimen/font_size_x_small" android:textColor="@color/light_gray" android:id="@id/totalSizeTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:text="0MB" android:layout_below="@id/downProgressBar" android:layout_alignRight="@id/downProgressBar" />
+        <ImageView android:id="@id/delBtnImg" android:layout_width="60.0px" android:layout_height="60.0px" android:layout_marginTop="32.0px" android:layout_marginRight="44.0px" android:src="@drawable/common_btn_del_selector" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/font_size_large" android:textColor="@color/white" android:gravity="center" android:id="@id/stateChangeBtn" android:background="@drawable/common_btn_download_selector" android:layout_width="1010.0px" android:layout_height="140.0px" android:layout_marginBottom="24.0px" android:text="@string/esgame_download_download" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

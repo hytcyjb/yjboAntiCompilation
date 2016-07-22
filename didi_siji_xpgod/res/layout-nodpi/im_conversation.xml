@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:background="@color/translunt_light_ss_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.im.component.ConversationTitleBar android:id="@id/im_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/im_titlebar_height" />
+    <com.didi.im.component.PullDownRefreshListView android:id="@id/im_conversation_listview" android:paddingBottom="@dimen/im_listview_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:transcriptMode="normal" android:cacheColorHint="@null" android:divider="@null" android:layout_above="@id/im_bottombar" android:layout_below="@id/im_title_bar" />
+    <com.didi.im.component.ConversationBottomBar android:id="@id/im_bottombar" android:layout_width="fill_parent" android:layout_height="@dimen/im_common_bottombar_height" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/shadowLayout" android:background="@color/menu_bg_half_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

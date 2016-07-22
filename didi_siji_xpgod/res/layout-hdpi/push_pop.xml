@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/map_mark_progress" android:layout_width="233.0dip" android:layout_height="90.0dip" android:max="100" android:progressDrawable="@drawable/map_mark_progress_bg" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <com.didi.common.richtextview.RichTextView android:textSize="18.0sp" android:textColor="@color/light_gray" android:id="@id/tvLeft_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

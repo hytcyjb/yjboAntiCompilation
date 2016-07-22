@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/map_bg_bubble_normal" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.common.richtextview.RichTextView android:textSize="15.0sp" android:textColor="@color/light_gray" android:gravity="center" android:id="@id/drive_wait_default_tip" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/drive_wait_content_layout" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.didi.common.richtextview.RichTextView android:textSize="15.0sp" android:textColor="@color/light_gray" android:id="@id/drive_wait_time_tip" android:paddingLeft="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/valuate_line" android:layout_width="1.0px" android:layout_height="40.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="7.0dip" android:src="@color/line_dark_gray" android:layout_toRightOf="@id/drive_wait_time_tip" />
+        <RelativeLayout android:id="@id/money_layout" android:paddingRight="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/valuate_line">
+            <TextView android:textSize="35.0sp" android:id="@id/drive_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" style="@style/TextView.Orange.XXXLarge" />
+            <TextView android:textSize="12.0sp" android:id="@id/money_point" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." android:layout_toRightOf="@id/drive_money" style="@style/TextView.Orange.Small" />
+            <TextView android:textSize="12.0sp" android:gravity="bottom" android:id="@id/money_decimal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01" android:layout_toRightOf="@id/money_point" android:layout_alignBottom="@id/money_point" style="@style/TextView.Orange.Small" />
+            <TextView android:textSize="12.0sp" android:id="@id/money_yuan" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/estimate_price_fare_yuan" android:layout_toRightOf="@id/money_point" android:layout_below="@id/money_decimal" style="@style/TextView.LightGray.Small" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

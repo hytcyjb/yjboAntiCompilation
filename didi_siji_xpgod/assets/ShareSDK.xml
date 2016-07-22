@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    
+    <ShareSDK 
+        AppKey = "439ea9a8e718"/> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+    
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <SinaWeibo
+        Id="1"
+        SortId="1"
+        AppKey="3120272533"
+        AppSecret="47cb49b8bc9fc9ee31b946a4415bfa05"
+        RedirectUrl="http://www.xiaojukeji.com"
+        ShareByAppClient="false"
+        Enable="true" />
+
+    <Wechat
+        Id="4"
+        SortId="4"
+        AppId="wxd5b252a1660012b4"
+        AppSecret="76a3ef13871d4100a9da674189fae8b9"
+        BypassApproval="false"
+        Enable="true" />
+    
+    <WechatMoments
+        Id="5"
+        SortId="5"
+        AppId="wxd5b252a1660012b4"
+        AppSecret="76a3ef13871d4100a9da674189fae8b9"
+        BypassApproval="false"
+        Enable="true" />
+        
+     <QZone
+        Id="3"
+        SortId="3"
+        AppId="100884080"
+        AppKey="f7344210ceae85efb334ff62592adb30"
+        ShareByAppClient="true"
+        Enable="true" />
+     
+     <QQ
+        Id="7"
+        SortId="7"
+        AppId="100884080"
+        AppKey="f7344210ceae85efb334ff62592adb30"
+        ShareByAppClient="true"
+        Enable="true" />
+    
+	
+</DevInfor>

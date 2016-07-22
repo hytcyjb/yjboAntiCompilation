@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.didi.beatles.ui.component.BtsPassengerFeeDetailView android:orientation="vertical" android:id="@id/btsFeeDetailView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/normalFeeContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="12.0dip">
+        <TextView android:textColor="@color/dark_gray" android:id="@id/btsTotalFeeTVLabel" android:text="@string/bts_fee_detail_total_fee" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/btsFeeDetailTextViewStyle" />
+        <TextView android:textColor="@color/dark_gray" android:id="@id/btsTotalFeeYuan" android:text="@string/bts_common_yuan" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/btsFeeDetailTextViewStyle" />
+        <TextView android:textSize="@dimen/bts_font_size_xx_large" android:textColor="@color/dark_gray" android:id="@id/totalFeeTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/bts_common_0" android:includeFontPadding="false" android:layout_toLeftOf="@id/btsTotalFeeYuan" android:layout_alignBaseline="@id/btsTotalFeeYuan" android:layout_alignBottom="@id/btsTotalFeeYuan" />
+    </RelativeLayout>
+    <View android:id="@id/topLine" android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="21.329987dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/discountFeeContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/btsFreeStampPsngerPay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/bts_psnger_wait_pay_free_stamp" android:contentDescription="@null" />
+</com.didi.beatles.ui.component.BtsPassengerFeeDetailView>

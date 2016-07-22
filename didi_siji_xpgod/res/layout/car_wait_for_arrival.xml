@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/car_wait_for_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <com.didi.car.ui.component.CarWaitForArrivalDriverBar android:id="@id/car_wait_for_arrival_driver_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.didi.common.ui.component.FlipperView android:id="@id/common_flipper_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/wait_for_arrival_panel_slide_in" android:outAnimation="@anim/wait_for_arrival_panel_slide_out" android:layout_below="@id/car_wait_for_arrival_driver_bar">
+        <com.didi.car.ui.component.CarWaitForArrivalInfoBar android:id="@id/car_wait_for_arrival_info_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.didi.car.ui.component.CarWaitForArrivalCostDetailView android:id="@id/car_wait_for_arrival_detail_view" android:background="@color/white" android:paddingTop="@dimen/detail_layout_margin_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.didi.common.ui.component.SimpleScrollView android:id="@id/car_wait_for_arrival_pay_evaluate_layout" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/car_wait_for_arrival_driver_bar">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/car_wait_for_arrival_driver_bar">
+                <com.didi.car.ui.component.CarWaitForArrivalPaidView android:id="@id/car_wait_for_arrival_paid_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paid_layout_margin_top" />
+                <com.didi.car.ui.component.CarWaitForArrivalEvaluateView android:id="@id/car_wait_for_arrival_evaluate_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/evaluate_layout_margin_top" android:layout_below="@id/car_wait_for_arrival_paid_view" />
+                <com.didi.car.ui.component.CarWaitForArrivalCancelTripView android:id="@id/car_wait_for_arrival_cancel_trip_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cancel_trip_layout_margin_top" android:layout_below="@id/car_wait_for_arrival_paid_view" />
+            </RelativeLayout>
+        </com.didi.common.ui.component.SimpleScrollView>
+    </com.didi.common.ui.component.FlipperView>
+    <com.didi.car.ui.component.CarWaitForArrivalFooterBar android:id="@id/car_wait_for_arrival_footer_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/car_wait_for_arrival_footer_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

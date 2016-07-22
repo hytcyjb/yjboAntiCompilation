@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="30.0px" android:paddingTop="36.0px" android:paddingRight="30.0px" android:paddingBottom="36.0px" android:layout_width="fill_parent" android:layout_height="178.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_large" android:textColor="@color/gray" android:id="@id/sug_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/light_gray" android:id="@id/sug_addr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" android:layout_below="@id/sug_name" />
+    <x.ImageView android:id="@id/select_icon" android:visibility="gone" android:layout_width="51.0px" android:layout_height="67.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/map_departure_icon_small" />
+</RelativeLayout>

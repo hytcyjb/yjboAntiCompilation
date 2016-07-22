@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btsNoRobIcon" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="57.0dip" android:src="@drawable/bts_xexception_no_order" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/bts_font_size_medium" android:id="@id/btsNoRobTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/bts_passenger_no_driver_rob" android:layout_below="@id/btsNoRobIcon" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/text_color_white" android:id="@id/btsPassengerReSendOrderBtn" android:layout_marginTop="61.0dip" android:text="@string/bts_passenger_no_driver_rob" android:layout_below="@id/btsNoRobIcon" android:layout_centerHorizontal="true" style="@style/btsStyleCommonMiddleSizeBtn" />
+</RelativeLayout>

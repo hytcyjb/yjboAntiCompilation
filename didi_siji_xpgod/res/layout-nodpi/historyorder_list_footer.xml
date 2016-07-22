@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="191.0px">
+        <TextView android:gravity="center" android:id="@id/nomore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_more_order_tip" android:layout_centerInParent="true" style="@style/TextView.LightGray.Small" />
+        <ImageView android:id="@id/loading" android:layout_width="50.0px" android:layout_height="50.0px" android:src="@anim/loading_set" android:layout_centerInParent="true" style="@style/ImageView" />
+    </RelativeLayout>
+</RelativeLayout>

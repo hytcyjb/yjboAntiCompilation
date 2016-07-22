@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@*android:anim/linear_interpolator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="@integer/bts_anim_up_slide_in_duration" android:fillAfter="true" android:fromYDelta="100.0%" android:toYDelta="0.0%" android:fillEnabled="true" />
+    <alpha android:duration="@integer/bts_anim_up_slide_in_duration" android:fillAfter="true" android:fromAlpha="0.0" android:toAlpha="1.0" android:fillEnabled="true" />
+</set>

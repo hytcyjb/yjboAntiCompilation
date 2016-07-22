@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/ended_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.didi.taxi.ui.component.TaxiWaitForArrivalDriverBar android:id="@id/ended_driver_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ended_title_bar" />
+    <x.RelativeLayout android:gravity="center" android:id="@id/ended_line_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/evaluate_tip_margin_top" android:layout_below="@id/ended_driver_info">
+        <ImageView android:id="@id/complainted_line_left" android:layout_height="1.0px" android:src="@color/light_sss_gray" style="@style/Line_LineImage" />
+        <TextView android:id="@id/complainted_content" android:layout_marginLeft="@dimen/complainted_content_margin" android:layout_marginRight="@dimen/complainted_content_margin" android:text="@string/cancel_trip_car_title_tip" android:layout_toRightOf="@id/complainted_line_left" style="@style/TextView.Light_s_gray.Small" />
+        <ImageView android:id="@id/complainted_line_right" android:layout_height="1.0px" android:src="@color/light_sss_gray" android:layout_toRightOf="@id/complainted_content" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <x.ImageView android:id="@id/ended_type_icon" android:layout_width="@dimen/endedorder_type_icon_width" android:layout_height="@dimen/endedorder_type_icon_width" android:layout_marginTop="@dimen/endedorder_type_icon_margin_top" android:layout_marginBottom="@dimen/endedorder_type_icon_margin_bottom" android:layout_below="@id/ended_line_layout" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/ended_reason_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginRight="80.0px" android:singleLine="false" android:layout_below="@id/ended_type_icon" android:layout_centerHorizontal="true" style="@style/TextView.Gray.Small" />
+</RelativeLayout>

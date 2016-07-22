@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/complaint_reason_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.LinearLayout android:id="@id/end_order_layout_edit" android:visibility="gone" android:layout_width="@dimen/complaint_reason_item_width" android:layout_height="@dimen/endorder_input_edit_height" x:background="@drawable/common_bg_top_pressed">
+        <EditText android:textSize="@dimen/font_size_medium" android:textColor="@color/gray" android:textColorHint="@color/light_s_gray" android:gravity="top" android:id="@id/end_order_content_edit" android:background="@null" android:paddingLeft="@dimen/end_order_edit_content_left" android:paddingTop="@dimen/end_order_edit_content_top" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/end_order_reason_txt" android:singleLine="false" />
+    </x.LinearLayout>
+    <x.RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/end_order_layout_reason" android:visibility="visible" android:layout_width="@dimen/complaint_reason_item_width" android:layout_height="@dimen/complaint_reason_item_height" x:background="@drawable/common_bg_area_selector">
+        <x.ImageView android:id="@id/endorder_item_icon" android:layout_width="@dimen/complaint_reason_item_icon_height" android:layout_height="@dimen/complaint_reason_item_icon_height" android:layout_marginLeft="@dimen/complaint_reason_item_icon_margin_left" android:layout_marginRight="@dimen/complaint_reason_item_icon_margin_right" android:layout_centerVertical="true" x:src="@drawable/complain_icn_fire" />
+        <TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/gray" android:id="@id/endorder_reason_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/endorder_item_icon" android:layout_centerVertical="true" />
+        <x.ImageView android:id="@id/endorder_select_icon" android:visibility="gone" android:layout_width="@dimen/common_check_box_height" android:layout_height="@dimen/common_check_box_height" android:layout_marginRight="@dimen/complaint_reason_check_box_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_checkbox_pressed" />
+    </x.RelativeLayout>
+</RelativeLayout>

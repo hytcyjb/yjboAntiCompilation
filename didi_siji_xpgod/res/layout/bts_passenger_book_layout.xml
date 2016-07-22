@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.beatles.map.BtsMapView android:id="@id/bts_map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.didi.beatles.ui.component.BtsTitleBar android:id="@id/bts_passenger_book_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+</RelativeLayout>

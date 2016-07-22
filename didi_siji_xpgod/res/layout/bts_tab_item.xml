@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="@color/gray" android:id="@id/text_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="test" android:layout_centerInParent="true" />
+    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/red_hint_dot" android:visibility="visible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-6.0dip" android:src="@drawable/bts_red_point" android:layout_alignTop="@id/text_t" android:layout_alignRight="@id/text_t" />
+</RelativeLayout>

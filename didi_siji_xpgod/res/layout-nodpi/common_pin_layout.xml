@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/common_pin_img" android:duplicateParentState="true" android:layout_width="@dimen/price_reamrk_pin_img_size" android:layout_height="@dimen/price_reamrk_pin_img_size" android:layout_marginTop="33.0px" android:src="@drawable/common_pin_ic_price_selector" android:layout_centerHorizontal="true" style="@style/ImageView" />
+    <TextView android:textColor="@color/common_pin_above_text_color_selector" android:id="@id/common_pin_txt_above" android:visibility="gone" android:layout_width="80.0px" android:layout_height="80.0px" android:layout_marginTop="25.0px" android:text="@string/pin_yuan" android:layout_centerHorizontal="true" style="@style/TextView.Center.Orange.XLarge" />
+    <TextView android:textColor="@color/common_pin_below_text_color_selector" android:id="@id/common_pin_txt_below" android:layout_width="190.0px" android:layout_height="100.0px" android:layout_marginTop="@dimen/price_reamrk_pin_txt_below_margin_top" android:text="@string/pin_price" android:layout_centerHorizontal="true" style="@style/TextView.Gray.XSmall.Center" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/remark_tag_text_color_selector" android:gravity="center_vertical" android:id="@id/remark_tv" android:background="@drawable/remark_txt_bg" android:paddingLeft="@dimen/price_reamrk_txt_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TextView.Light_s_gray.Large" />
+    <x.ImageView android:layout_gravity="center_vertical" android:id="@id/add_note_plus" android:layout_width="@dimen/price_reamrk_image_plus_width" android:layout_height="@dimen/price_reamrk_image_plus_height" android:layout_marginLeft="@dimen/price_reamrk_image_plus_margin_left" x:background="@drawable/addnotes_icn_plus" />
+</FrameLayout>

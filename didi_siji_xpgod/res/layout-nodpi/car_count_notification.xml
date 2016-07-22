@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:padding="15.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_notification" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/car_count_notification_title" android:singleLine="true" style="@style/NotificationTitle" />
+        <TextView android:textSize="12.0sp" android:gravity="left" android:id="@id/car_notification_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/NotificationContent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/car_notification_count_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="4.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#7fffffff" android:gravity="center" android:id="@id/car_notification_count_title" android:background="@drawable/car_notification_count_title_bg" android:layout_width="90.0dip" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="3.0" style="@style/NotificationContent" />
+        <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/car_notification_count" android:background="@drawable/car_notification_count_bg" android:layout_width="90.0dip" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="5.0" style="@style/NotificationTitle" />
+    </LinearLayout>
+</LinearLayout>

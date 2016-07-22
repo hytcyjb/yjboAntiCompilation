@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.departure.DepartSearchTitle android:id="@id/departure_search_bar" android:layout_width="fill_parent" android:layout_height="@dimen/search_input_layout_height" />
+    <FrameLayout android:id="@id/map_view_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="800.0px" android:layout_below="@id/departure_search_bar">
+        <com.didi.common.ui.component.SoSoMapView android:id="@id/departure_map_view" android:background="@color/window_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="800.0px" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/icon_layout" android:background="@color/transparent" android:layout_width="91.0px" android:layout_height="210.0px" android:layout_marginBottom="45.0px">
+            <ImageView android:id="@id/departure_icon" android:layout_width="70.0px" android:layout_height="90.0px" android:src="@drawable/departure_map_icon" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_gravity="center" android:id="@id/departure_icon_shadow" android:layout_width="21.0px" android:layout_height="11.0px" android:src="@drawable/departure_icon_shadow" android:layout_below="@id/departure_icon" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <x.ImageView android:layout_gravity="bottom" android:id="@id/locatione_icon" android:layout_width="106.0px" android:layout_height="107.0px" android:layout_marginLeft="20.0px" android:layout_marginBottom="40.0px" x:src="@drawable/home_map_btn_crosshair" />
+    </FrameLayout>
+    <ImageView android:id="@id/address_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:src="@color/title_bar_line_bg" android:layout_below="@id/map_view_layout" />
+    <RelativeLayout android:gravity="center" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/address_line">
+        <ProgressBar android:id="@id/progress" android:layout_width="60.0px" android:layout_height="60.0px" android:indeterminateDrawable="@drawable/progressbar_drawable" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/font_size_large" android:textColor="@color/light_gray" android:gravity="center_vertical" android:id="@id/loading_txt" android:paddingLeft="36.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_txt" android:layout_toRightOf="@id/progress" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/load_failed_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/address_line">
+        <TextView android:textSize="@dimen/font_size_large" android:textColor="@color/light_gray" android:gravity="center_vertical" android:id="@id/load_failed_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/load_failed_txt" />
+    </RelativeLayout>
+    <ListView android:id="@id/search_result_list_view" android:background="@color/white" android:visibility="visible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:listSelector="@color/search_view_bg" android:scrollingCache="false" android:divider="@color/search_view_bg" android:dividerHeight="0.5sp" android:layout_below="@id/address_line" />
+    <ListView android:id="@id/sug_list_view" android:background="@color/white" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:listSelector="@color/search_view_bg" android:scrollingCache="false" android:divider="@color/search_view_bg" android:dividerHeight="0.5sp" android:layout_below="@id/departure_search_bar" />
+    <RelativeLayout android:id="@id/search_load_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/departure_search_bar">
+        <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/layout_search_costom_address_height">
+            <ProgressBar android:id="@id/sug_progress" android:layout_width="50.0px" android:layout_height="50.0px" android:layout_marginLeft="36.0px" android:layout_marginRight="15.0px" android:indeterminateDrawable="@drawable/progressbar_drawable" android:layout_centerVertical="true" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_loading_tag" android:layout_toRightOf="@id/sug_progress" android:layout_centerVertical="true" style="@style/TextView.Gray.Large" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="2.0px" android:src="@color/search_view_bg" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@id/sug_resend_tv" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/layout_search_costom_address_height" android:text="@string/search_no_result_target" android:layout_centerInParent="true" style="@style/TextView.Gray.Small1" />
+    <TextView android:gravity="center" android:id="@id/sug_fail_tv" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/layout_search_costom_address_height" android:text="@string/search_fail_target" android:layout_centerInParent="true" style="@style/TextView.Gray.Small1" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_search_costom_address" android:background="@color/white" android:paddingLeft="36.0px" android:layout_width="fill_parent" android:layout_height="@dimen/layout_search_costom_address_height" android:layout_below="@id/departure_search_bar">
+        <TextView android:gravity="center_vertical" android:id="@id/txt_search_comstom_action" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/set_target" style="@style/TextView.Gray.Small1" />
+        <TextView android:gravity="center_vertical" android:id="@id/txt_search_comstom_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/txt_search_comstom_name_max_width" style="@style/TextView.Gray.Small1.Bold" />
+        <TextView android:gravity="center_vertical" android:id="@id/txt_search_comstom_target" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/current_locate_target" style="@style/TextView.Gray.Small1" />
+    </LinearLayout>
+</x.RelativeLayout>

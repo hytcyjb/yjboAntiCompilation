@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/selector_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <x.ImageView android:id="@id/star_one" android:layout_marginLeft="0.0px" style="@style/ImageView.DriverGradeStar" />
+    <x.ImageView android:id="@id/star_two" android:layout_toRightOf="@id/star_one" style="@style/ImageView.DriverGradeStar" />
+    <x.ImageView android:id="@id/star_three" android:layout_toRightOf="@id/star_two" style="@style/ImageView.DriverGradeStar" />
+    <x.ImageView android:id="@id/star_four" android:layout_toRightOf="@id/star_three" style="@style/ImageView.DriverGradeStar" />
+    <x.ImageView android:id="@id/star_five" android:layout_marginRight="0.0px" android:layout_toRightOf="@id/star_four" style="@style/ImageView.DriverGradeStar" />
+</RelativeLayout>

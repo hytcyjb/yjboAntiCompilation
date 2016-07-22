@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/menu_item_selector" android:paddingTop="@dimen/pay_type_item_padding_topbottom" android:paddingBottom="@dimen/pay_type_item_padding_topbottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pay_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_by_weixin" android:layout_centerVertical="true" style="@style/TextView.LightGray.Small" />
+    <TextView android:id="@id/pay_type_value" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.LightGray.Small" />
+</RelativeLayout>

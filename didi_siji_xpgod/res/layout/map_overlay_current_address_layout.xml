@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_layout" android:background="@drawable/map_bg_bubble_normal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/relativeContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="6.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:id="@id/content_location_name_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_my_loc_unknown" android:singleLine="true" android:maxLength="11" style="@style/TextView.Orange.Large" />
+                <TextView android:textSize="16.0sp" android:ellipsize="middle" android:id="@id/content_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:maxWidth="200.0dip" android:text="" android:singleLine="true" style="@style/TextView.Orange.Large" />
+                <TextView android:textSize="16.0sp" android:id="@id/around_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_my_loc_name_around" android:singleLine="true" android:drawableRight="@drawable/common_icn_arrow" android:drawablePadding="10.0dip" style="@style/TextView.Orange.Large" />
+                <ImageView android:id="@id/arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/common_icn_arrow" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/frameLayoutAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="12.0sp" android:id="@id/content_location_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="暂无" style="@style/TextView.LightGray.Small" />
+                <com.didi.common.richtextview.RichTextView android:textSize="12.0sp" android:id="@id/view_estimate_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextView.LightGray.Small" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayoutFirstNotication" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/relativeContent" android:layout_alignLeft="@id/relativeContent" android:layout_alignRight="@id/relativeContent">
+            <View android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="0.30000007dip" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <ImageView android:id="@id/imgIconNotication" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/map_point_on" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="12.0sp" android:gravity="top" android:id="@id/departure_infoindow_notication" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/departure_infowindow_notication" android:maxLines="2" android:layout_toRightOf="@id/imgIconNotication" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.2" style="@style/TextView.LightGray.Small" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_width="wrap_content" android:layout_height="6.0dip" />
+</LinearLayout>

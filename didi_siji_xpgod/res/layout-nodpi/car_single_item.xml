@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/menu_item_selector" android:paddingTop="@dimen/pay_type_item_padding_topbottom" android:paddingBottom="@dimen/pay_type_item_padding_topbottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pay_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_other_way" android:drawableRight="@drawable/common_pay_dropdown" android:drawablePadding="8.0px" android:layout_alignParentRight="true" style="@style/TextView.LightGray.Small" />
+</RelativeLayout>

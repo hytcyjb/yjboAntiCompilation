@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/topic_cover_webview_wrap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="152.0px" android:layout_marginBottom="358.0px">
+        <com.didi.common.ui.webview.CommonWebViewEx android:id="@id/topic_cover_webview" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/errorView" android:background="@color/white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imgError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+            <TextView android:textSize="@dimen/font_size_xxx_large" android:textColor="@color/gray" android:gravity="center" android:id="@id/txtError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/car_estimate_web_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@anim/loading_set" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.didi.frame.realtime.SlideVoiceView android:id="@id/slide_voice_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/slide_voice_view_height" />
+    <com.didi.frame.realtime.BottomBar android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/realtime_bottom_bar_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

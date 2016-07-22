@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_bubble_pop_duration">100</integer>
+    <integer name="anim_bubble_restore_delay">720</integer>
+    <integer name="anim_bubble_restore_duration">50</integer>
+    <integer name="anim_down_slide_out_duration">80</integer>
+    <integer name="anim_left_slide_in_duration">200</integer>
+    <integer name="anim_left_slide_out_duration">200</integer>
+    <integer name="anim_right_slide_in_duration">200</integer>
+    <integer name="anim_right_slide_out_duration">200</integer>
+    <integer name="anim_title_fade_out">300</integer>
+    <integer name="anim_up_slide_in_duration">120</integer>
+    <integer name="intro_item_pic_pop">200</integer>
+    <integer name="intro_item_pic_restore">50</integer>
+    <integer name="intro_item_txt_pop">200</integer>
+    <integer name="intro_item_txt_restore">50</integer>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/head_contentLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip">
+        <FrameLayout android:id="@id/arrow_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/pull_listview_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pull_listview_arrow" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/head_progressBar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" style="@style/IM.LittleProgressBar" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/test_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/arrow_layout" android:layout_centerVertical="true">
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/head_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/head_lastUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/head_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

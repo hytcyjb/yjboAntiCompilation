@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/feebackLayout" android:background="@color/realtime_slide_voice_call_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="@dimen/font_size_medium" android:textColor="@color/dark_gray" android:textColorHint="@color/light_s_gray" android:gravity="left" android:id="@id/feedback" android:background="@drawable/round_edittext" android:paddingLeft="@dimen/feedback_et_padding_left" android:paddingTop="@dimen/feedback_et_padding_top" android:paddingRight="@dimen/feedback_et_padding_right" android:paddingBottom="@dimen/feedback_et_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_et_height" android:layout_marginLeft="@dimen/feedback_et_margin_left" android:layout_marginTop="@dimen/setting_item_margin_top" android:layout_marginRight="@dimen/feedback_et_margin_right" android:hint="@string/feedback_hit" android:minLines="4" android:maxLength="250" />
+        <Button android:textSize="@dimen/font_size_large" android:textColor="@color/common_login_btn_text_color" android:id="@id/tvSubmit" android:background="@drawable/common_btn_orange_selector" android:layout_width="fill_parent" android:layout_height="@dimen/login_submit_height" android:layout_marginLeft="@dimen/feedback_et_margin_left" android:layout_marginTop="@dimen/feedback_et_button_margin_top" android:layout_marginRight="@dimen/feedback_et_margin_right" android:text="@string/submit" android:layout_below="@id/feedback" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/tip3" android:layout_width="650.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:gravity="right" android:layout_width="220.0px" android:layout_height="wrap_content" android:text="@string/feedback_tips4" style="@style/TextView.Gray.Small" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_tips5" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/tips_qq1" android:layout_width="650.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin" android:layout_above="@id/tip3" android:layout_centerHorizontal="true">
+            <TextView android:gravity="right" android:visibility="invisible" android:layout_width="220.0px" android:layout_height="wrap_content" android:text="@string/feedback_tips_kefu" style="@style/TextView.Gray.Small" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_tips_kefu_value_2" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/tips_qq2" android:layout_width="650.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin" android:layout_above="@id/tips_qq1" android:layout_centerHorizontal="true">
+            <TextView android:gravity="right" android:layout_width="220.0px" android:layout_height="wrap_content" android:text="@string/feedback_tips_kefu" style="@style/TextView.Gray.Small" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_tips_kefu_value" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/tips_ddrive" android:layout_width="650.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin" android:layout_above="@id/tips_qq2" android:layout_centerHorizontal="true">
+            <TextView android:gravity="right" android:layout_width="220.0px" android:layout_height="wrap_content" style="@style/TextView.Gray.Small" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_tips_ddrive_phone" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/tips2" android:layout_width="650.0px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin" android:layout_above="@id/tips_ddrive" android:layout_centerHorizontal="true">
+            <TextView android:gravity="right" android:layout_width="220.0px" android:layout_height="wrap_content" android:text="@string/feedback_tips_phone" style="@style/TextView.Gray.Small" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_tips_phone_value" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+        <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/feedback_tips_item_margin" android:layout_above="@id/tips2">
+            <x.ImageView android:id="@id/evaluate_line_left" style="@style/Line_LineImage" />
+            <TextView android:id="@id/evaluate_type_tip" android:text="@string/feedback_tips1" android:layout_toRightOf="@id/evaluate_line_left" style="@style/Line_TipText" />
+            <x.ImageView android:id="@id/evaluate_line_right" android:layout_toRightOf="@id/evaluate_type_tip" style="@style/Line_LineImage" />
+        </x.RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

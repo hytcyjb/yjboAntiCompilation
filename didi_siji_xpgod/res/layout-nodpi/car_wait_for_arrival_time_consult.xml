@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/consult_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/car_wait_for_arrival_consult_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/consult_txt_margin_top" android:text="@string/consult_tip" android:singleLine="true" android:layout_centerHorizontal="true" style="@style/TextView.Gray.Small" />
+        <RelativeLayout android:paddingTop="@dimen/consult_btn_layout_margin_top_bottom" android:paddingBottom="@dimen/consult_btn_layout_margin_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/car_wait_for_arrival_consult_txt" android:layout_centerHorizontal="true">
+            <x.Button android:gravity="center" android:id="@id/car_wait_for_arrival_consult_no_btn" android:layout_width="@dimen/consult_btn_width" android:layout_height="@dimen/consult_btn_height" android:text="@string/consult_unaccept" x:background="@drawable/common_bg_area_selector" style="@style/TextView.Gray.Large" />
+            <x.Button android:gravity="center" android:id="@id/car_wait_for_arrival_consult_yes_btn" android:layout_width="@dimen/consult_btn_width" android:layout_height="@dimen/consult_btn_height" android:layout_marginLeft="@dimen/consult_btn_margin_left" android:text="@string/consult_accept" android:layout_toRightOf="@id/car_wait_for_arrival_consult_no_btn" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Large" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

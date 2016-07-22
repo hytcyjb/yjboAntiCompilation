@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/btsFreeOrNot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:button="@drawable/common_checkbox_selector" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_toRightOf="@id/btsFreeOrNot" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="#ff2a3139" android:id="@id/btsFreeDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_driver_send_passenger_with_free_pay" />
+        <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="#ff989898" android:id="@id/btsPayDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_driver_send_passenger_with_free_pay_minute" android:layout_below="@id/btsFreeDescription" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_tag_tips" android:background="@drawable/icon_activity_common_tip" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    <com.didi.common.richtextview.RichTextView android:textSize="14.0sp" android:id="@id/txt_tag_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" style="@style/TextView.LightGray.Small" />
+    <View android:id="@id/view_tag_question" android:background="@drawable/car_add_price_ques" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+</LinearLayout>

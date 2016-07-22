@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top">
+        <ImageView android:id="@id/detail_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/detail_type_tip" android:text="@string/ddrive_detail_cost" android:layout_toRightOf="@id/detail_line_left" style="@style/Line_TipText" />
+        <ImageView android:layout_toRightOf="@id/detail_type_tip" style="@style/Line_LineImage" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/pay_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_txt_cost_margin_top" android:layout_marginBottom="35.0px" android:layout_alignParentBottom="true">
+        <x.Button android:id="@id/cost_detail_btn_pay" android:layout_width="fill_parent" android:layout_height="@dimen/detail_btn_pay_height" android:layout_marginLeft="@dimen/detail_btn_pay_margin_left_right" android:layout_marginTop="20.0px" android:layout_marginRight="@dimen/detail_btn_pay_margin_left_right" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Center.Large" />
+        <TextView android:gravity="center" android:id="@id/pay_tips" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/ddrive_pay_tips" style="@style/TextView.LightGray.Small" />
+    </LinearLayout>
+    <ScrollView android:id="@id/cost_detail_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pay_area" android:layout_below="@id/line_layout">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/detail_txt_items_width" android:layout_height="fill_parent">
+            <com.didi.ddrive.ui.component.DDriveCostDetailItemsView android:ellipsize="start" android:gravity="center_horizontal" android:id="@id/cost_detail_txt" android:scrollbars="none" android:layout_width="@dimen/detail_txt_items_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_txt_cost_margin_top" android:maxLines="8" android:singleLine="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/detail_txt_items_lint_space" style="@style/TextView.Gray.Small" />
+            <TextView android:id="@id/cost_detail_txt_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0px" android:layout_below="@id/cost_detail_txt" android:layout_alignParentRight="true" style="@style/TextView.DarkGray.XXXLarge" />
+            <TextView android:id="@id/cost_detail_txt_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ddrive_detail_total_cost" android:layout_alignBaseline="@id/cost_detail_txt_cost" android:layout_alignBottom="@id/cost_detail_txt_cost" android:layout_alignParentLeft="true" style="@style/TextView.DarkGray.Small" />
+            <TextView android:id="@id/cost_detail_txt_tips_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_yuan" android:layout_alignBaseline="@id/cost_detail_txt_cost" android:layout_alignBottom="@id/cost_detail_txt_cost" android:layout_alignParentRight="true" style="@style/TextView.DarkGray.Small" />
+            <ImageView android:id="@id/ddrive_order_pay_line" android:layout_marginTop="@dimen/detail_txt_cost_margin_top" android:layout_below="@id/cost_detail_txt_cost" style="@style/Line_Fill_LineImage" />
+            <com.didi.ddrive.ui.component.DDriveOrderPayView android:gravity="center_horizontal" android:id="@id/cost_pay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ddrive_order_pay_line" android:layout_centerHorizontal="true" />
+            <com.didi.ddrive.ui.component.DDriveOrderPayMethodView android:id="@id/pay_method_view" android:scrollbars="none" android:layout_width="@dimen/detail_txt_items_width" android:layout_height="wrap_content" android:layout_below="@id/cost_pay" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

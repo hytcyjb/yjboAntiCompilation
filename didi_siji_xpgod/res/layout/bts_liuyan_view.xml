@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_gray" android:id="@id/bts_liuyan_label_textview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginLeft="20.0dip" android:text="@string/bts_passenger_liuyan" />
+    <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_gray" android:gravity="center_vertical" android:id="@id/bts_liuyan_textview" android:layout_width="wrap_content" android:layout_height="29.0dip" />
+</LinearLayout>

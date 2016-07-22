@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <LinearLayout android:orientation="vertical" android:id="@id/bindLayout" android:background="@color/realtime_slide_voice_call_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layout_sina" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height" android:layout_marginTop="@dimen/setting_item_margin_top">
+            <TextView android:gravity="center" android:id="@id/tvSina" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_binding_text_margin_left" android:text="@string/share_tab_sina_weibo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+            <x.Button android:gravity="center" android:id="@id/btnSina" android:layout_width="@dimen/common_binding_button_width" android:layout_height="@dimen/common_binding_button_height" android:layout_marginTop="@dimen/common_binding_button_margin_top" android:layout_marginRight="@dimen/common_binding_button_margin_right" android:layout_marginBottom="@dimen/common_binding_button_margin_bottom" android:text="@string/binding" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Center.Medium" />
+        </RelativeLayout>
+        <ImageView android:background="@color/menu_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+        <RelativeLayout android:id="@id/layout_tencent" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+            <TextView android:gravity="center" android:id="@id/tvTencent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_binding_text_margin_left" android:text="@string/share_tab_tencent_weibo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+            <x.Button android:gravity="center" android:id="@id/btnTencent" android:layout_width="@dimen/common_binding_button_width" android:layout_height="@dimen/common_binding_button_height" android:layout_marginTop="@dimen/common_binding_button_margin_top" android:layout_marginRight="@dimen/common_binding_button_margin_right" android:layout_marginBottom="@dimen/common_binding_button_margin_bottom" android:text="@string/binding" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Center.Medium" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

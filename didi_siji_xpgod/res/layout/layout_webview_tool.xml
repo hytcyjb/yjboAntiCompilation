@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <android.support.v4.view.ViewPager android:id="@id/viewPager" android:background="@color/white" android:paddingTop="20.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="218.0dip" android:flipInterval="30" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearlayoutCancel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linearLayoutPoints" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/phone_line" android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="10.0dip" />
+            <Button android:textSize="18.0sp" android:textColor="@drawable/webview_tool_btn_cancel_selector" android:gravity="center" android:id="@id/btnWebViewToolCancel" android:background="@drawable/empty" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="取消" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

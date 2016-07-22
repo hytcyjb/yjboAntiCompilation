@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/estimate_price_car_type_layout_margin_bottom" android:layout_marginTop="@dimen/estimate_price_car_type_layout_margin_right" android:layout_marginRight="@dimen/estimate_price_car_type_layout_margin_bottom" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.ImageView android:layout_width="@dimen/common_dialog_icon_img_wdith" android:layout_height="@dimen/common_dialog_icon_img_height" android:layout_marginTop="@dimen/estimate_price_car_type_layout_margin_top" android:layout_marginBottom="@dimen/estimate_price_car_type_layout_margin_top" android:src="@drawable/ic_driverinfo_empty" android:scaleType="fitXY" />
+    <x.TextView android:textColorHint="@color/light_s_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未选择车型,无法显示预估车费哦~" style="@style/TextView.Light_s_gray.Small" />
+    <x.TextView android:textColorHint="@color/light_s_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/estimate_price_car_type_layout_margin_top" android:text="请返回至 上⼀页面选择车型" style="@style/TextView.Light_s_gray.Small" />
+</LinearLayout>

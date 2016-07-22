@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.sdu.didi.psnger"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <com.didi.common.ui.component.DrawerView android:id="@id/drawer" android:layout_width="fill_parent" android:layout_height="wrap_content" x:handle="@id/handle" x:content="@id/content" x:orientations="top_bottom" x:bottomOffset="0.0dip">
+        <x.ImageView android:id="@id/handle" android:layout_width="172.0px" android:layout_height="50.0px" x:background="@drawable/common_drawer_btn_pull_selector" />
+        <ScrollView android:id="@id/content" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/share_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.didi.frame.driverinfo.DriverCirclePhoto android:id="@id/didi_icon" android:layout_width="@dimen/share_icon_size" android:layout_height="@dimen/share_icon_size" android:layout_marginLeft="@dimen/share_icon_margin_left" android:layout_marginTop="@dimen/share_icon_margin_top" android:src="@drawable/arrival_img_diditaxi" />
+                    <x.RelativeLayout android:layout_width="@dimen/share_message_content_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/share_message_content_margin_left" android:layout_marginTop="@dimen/share_message_content_margin_top" android:layout_marginBottom="@dimen/share_message_content_margin_bottom">
+                        <x.RelativeLayout android:id="@id/message_content_layout" android:layout_width="@dimen/share_message_content_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/share_message_content_text_margin_right" android:layout_marginBottom="@dimen/share_message_content_text_margin_bottom" x:background="@drawable/arrival_btn_bubble_normal">
+                            <com.didi.common.richtextview.RichTextView android:gravity="center_vertical" android:id="@id/content_tv" android:paddingLeft="25.0px" android:paddingTop="7.0px" android:paddingRight="15.0px" android:paddingBottom="5.0px" android:scrollbars="none" android:layout_width="@dimen/share_message_content_width" android:layout_height="wrap_content" android:maxLines="3" android:singleLine="false" style="@style/TextView.DarkGray.Medium" />
+                        </x.RelativeLayout>
+                    </x.RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/car_share_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.didi.frame.driverinfo.DriverCirclePhoto android:id="@id/car_didi_icon" android:layout_width="@dimen/share_icon_size" android:layout_height="@dimen/share_icon_size" android:layout_marginLeft="@dimen/share_icon_margin_left" android:src="@drawable/arrival_img_diditaxi" />
+                    <x.RelativeLayout android:layout_width="@dimen/share_message_content_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/share_message_content_margin_left" android:layout_marginTop="@dimen/share_img_content_margin_top" android:layout_marginBottom="@dimen/share_message_content_margin_bottom">
+                        <x.RelativeLayout android:id="@id/share_img_layout" android:layout_width="@dimen/share_message_content_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/share_message_content_margin_bottom" x:background="@drawable/arrival_btn_bubble_normal">
+                            <com.android.volley.toolbox.NetworkImageView android:id="@id/img_share" android:paddingLeft="25.0px" android:paddingTop="15.0px" android:paddingBottom="15.0px" android:layout_width="@dimen/wait_driver_active_width" android:layout_height="@dimen/wait_driver_active_height" android:layout_centerInParent="true" style="@style/ImageView" />
+                        </x.RelativeLayout>
+                    </x.RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.didi.common.ui.component.DrawerView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" />
+</merge>

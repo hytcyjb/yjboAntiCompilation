@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/evaluate_tip_margin_top" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/evaluate_line_left" android:src="@color/light_sss_gray" style="@style/Line_LineImage" />
+        <TextView android:id="@id/evaluate_type_tip" android:text="@string/evaluate_driver_notice" android:layout_toRightOf="@id/evaluate_line_left" style="@style/Line_TipText" />
+        <ImageView android:id="@id/evaluate_line_right" android:src="@color/light_sss_gray" android:layout_toRightOf="@id/evaluate_type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/evaluate_star_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/evaluate_tip_margin_top" android:layout_centerHorizontal="true" style="@style/TextView.Orange.Center.XSmall" />
+    <com.didi.common.ui.component.StarView android:id="@id/evaluate_star_layout" android:layout_width="@dimen/common_input_edit_width" android:layout_height="@dimen/evaluate_star_height" android:layout_marginTop="@dimen/evaluate_start_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/evaluate_input_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/evaluate_edit_margin_top" android:layout_below="@id/evaluate_star_layout" android:layout_centerHorizontal="true">
+        <x.RelativeLayout android:layout_width="@dimen/common_input_edit_width" android:layout_height="@dimen/common_input_edit_height" x:background="@drawable/common_bg_input_pressed">
+            <x.EditText android:textSize="@dimen/font_size_medium" android:textColorHint="@color/light_s_gray" android:gravity="left" android:id="@id/evaluate_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/login_phone_number_padding_left" android:hint="@string/evaluate_guide_tip_txt" android:singleLine="false" android:maxLength="140" style="@style/TextView.DarkGray.Medium" />
+        </x.RelativeLayout>
+        <x.Button android:gravity="center" android:id="@id/evaluate_confirm_btn" android:layout_width="@dimen/pay_confirm_btn_width" android:layout_height="@dimen/pay_confirm_btn_height" android:layout_marginTop="@dimen/evaluate_confirm_btn_margin_top" android:text="@string/evaluate_confirm_txt" x:background="@drawable/common_btn_orange_selector" style="@style/Button.White.SLarge" />
+    </LinearLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/evaluate_finish_txt" android:scrollbars="vertical" android:layout_width="@dimen/evaluated_content_txt_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/evaluated_content_margin_top" android:text="@string/evaluate_guide_tip_pre" android:maxLines="2" android:singleLine="false" android:layout_below="@id/evaluate_star_layout" android:layout_centerHorizontal="true" style="@style/TextView.Orange.Small" />
+</merge>

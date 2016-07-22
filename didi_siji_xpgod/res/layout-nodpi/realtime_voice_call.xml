@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/slide_call_record_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.ImageView android:layout_gravity="center" android:id="@id/voice_speaker_img" android:layout_width="@dimen/slide_call_record_speaker_width" android:layout_height="@dimen/slide_call_record_speaker_height" x:src="@drawable/realtime_voice_call_speaker_normal" />
+    <x.ImageView android:layout_gravity="center" android:id="@id/voice_unspeaker_img" android:visibility="invisible" android:layout_width="@dimen/slide_call_record_speaker_width" android:layout_height="@dimen/slide_call_record_speaker_height" x:src="@drawable/realtime_voice_call_speaker_cancel" />
+    <x.ImageView android:layout_gravity="center" android:id="@id/voice_receiving_img" android:layout_width="@dimen/slide_call_record_receive_height" android:layout_height="@dimen/slide_call_record_receive_height" x:src="@drawable/realtime_voice_call_ready" />
+    <x.RelativeLayout android:layout_gravity="center" android:id="@id/voice_cancel_layout" android:background="@color/transparent" android:layout_width="@dimen/voice_call_cancel_layout_width" android:layout_height="@dimen/voice_call_cancel_layout_height" android:layout_marginTop="@dimen/voice_call_cancel_txt_margin_top">
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/light_gray" android:gravity="center" android:id="@id/voice_slide_up_cancel_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realtime_voice_call_cancel_up_txt" android:layout_centerInParent="true" />
+    </x.RelativeLayout>
+    <x.RelativeLayout android:layout_gravity="center" android:id="@id/voice_release_cancel_layout" android:background="@drawable/realtime_voice_call_bg_cancel" android:visibility="invisible" android:layout_width="@dimen/voice_call_cancel_layout_width" android:layout_height="@dimen/voice_call_cancel_layout_height" android:layout_marginTop="@dimen/voice_call_cancel_txt_margin_top">
+        <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:gravity="center" android:id="@id/voice_release_cancel_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realtime_voice_call_cancel_over_txt" android:layout_centerInParent="true" />
+    </x.RelativeLayout>
+</FrameLayout>

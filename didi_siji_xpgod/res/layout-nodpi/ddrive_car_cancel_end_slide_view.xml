@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/cancel_trip_reason_item_width" android:layout_height="wrap_content" android:minHeight="130.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="@dimen/font_size_medium" android:textColor="@color/gray" android:textColorHint="@color/light_s_gray" android:gravity="top" android:id="@id/end_order_content_edit" android:background="@drawable/input_normal" android:paddingLeft="25.0px" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/cancel_trip_reason_other_item_height" android:hint="@string/end_order_reason_txt" android:singleLine="false" />
+    <x.ImageView android:id="@id/endorder_item_icon" android:layout_width="@dimen/complaint_reason_item_icon_height" android:layout_height="@dimen/complaint_reason_item_icon_height" android:layout_marginLeft="@dimen/cancel_reason_item_icon_margin" android:layout_marginTop="@dimen/cancel_trip_reason_other_padding_top" android:layout_marginRight="@dimen/complaint_reason_item_icon_margin_right" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" x:src="@drawable/car_cancel_trip_option_default_icon" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="10.0px" android:paddingBottom="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="20.0px" android:paddingBottom="20.0px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="60.0px" android:layout_height="46.0px" android:layout_centerVertical="true" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" style="@style/TextView.LightGray.Small" />
+        <ImageView android:id="@id/checkbox" android:layout_width="50.0px" android:layout_height="50.0px" android:src="@drawable/pay_channel_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/orange" android:id="@id/promotion" android:background="@drawable/ddrive_payment_promotion_bg" android:padding="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:layout_marginRight="16.0px" android:layout_toLeftOf="@id/checkbox" android:layout_toRightOf="@id/title" android:layout_centerVertical="true" style="@style/TextView.LightGray.Small" />
+    </RelativeLayout>
+</RelativeLayout>

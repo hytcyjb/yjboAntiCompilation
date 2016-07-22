@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <LinearLayout android:orientation="vertical" android:id="@id/bindLayout" android:background="@color/realtime_slide_voice_call_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layout_item" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height" android:layout_marginTop="@dimen/setting_item_margin_top">
+            <TextView android:gravity="center" android:id="@id/tvPayPwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_binding_text_margin_left" android:text="@string/car_pay_nopwd" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+            <com.didi.common.ui.component.SwitchBar android:id="@id/btnPayNoPwd" android:layout_width="@dimen/setting_switch_bar_width" android:layout_height="@dimen/setting_switch_bar_height" android:layout_marginRight="@dimen/setting_item_arrow_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:background="@color/menu_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+        <LinearLayout android:orientation="vertical" android:id="@id/wxagent_content_layout" android:paddingLeft="30.0px" android:paddingTop="46.0px" android:paddingRight="30.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/wxagent_agree_layout" android:paddingLeft="30.0px" android:paddingTop="46.0px" android:visibility="gone" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <x.TextView android:gravity="center" android:id="@id/tv_wxagent_agree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wxagent_agreement_tip" style="@style/TextView.LightGray.Small" />
+            <x.TextView android:gravity="center" android:id="@id/tv_wxagent_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wxagent_agreement" android:layout_below="@id/wxagent_agree_layout" style="@style/TextView.Orange.Small" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bindRetryLayout" android:background="@color/realtime_slide_voice_call_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/tv_wxagent_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wxagent_network_error" android:singleLine="false" android:drawableTop="@drawable/network_error" android:drawablePadding="50.0px" style="@style/TextView.LightGray.Small" />
+    </LinearLayout>
+</LinearLayout>

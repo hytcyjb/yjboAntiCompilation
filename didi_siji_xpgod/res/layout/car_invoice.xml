@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/invoice_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/invoice_title_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_header_height">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invoice_hint" android:layout_centerInParent="true" style="@style/TextView.LightGray.Medium" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <EditText android:gravity="center_vertical" android:id="@id/invoice_title_edit" android:background="@null" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/invoice_title_text" style="@style/invoice_item_text" />
+            </RelativeLayout>
+            <ImageView android:id="@id/invoice_txt_content_line" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:id="@id/invoice_content_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_txt_content_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <TextView android:id="@id/invoic_txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/invoice_item_content_margin_left" android:layout_toRightOf="@id/invoice_txt_content_label" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <ImageView android:background="@drawable/common_icn_arrow" android:layout_width="@dimen/invoice_grow_width" android:layout_height="@dimen/invoice_grow_height" android:layout_marginRight="@dimen/invoice_item_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_txt_price_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_cost" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <EditText android:gravity="center_vertical" android:id="@id/invoice_txt_price" android:background="@null" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="4" android:layout_toRightOf="@id/invoice_txt_price_label" android:inputType="numberDecimal" style="@style/invoice_item_text" />
+                <TextView android:id="@id/invoice_max_price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/invoice_item_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.LightGray.Medium" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" />
+            <TextView android:gravity="center" android:id="@id/invoice_txt_tip_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:layout_marginBottom="40.0px" android:text="@string/invoice_tip" style="@style/TextView.LightGray.Medium" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_txt_address_label" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_mail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <EditText android:textColorHint="@color/light_s_gray" android:gravity="center_vertical" android:id="@id/invoice_txt_address_city" android:background="@null" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/invoice_address_city" android:maxLength="32" android:layout_toRightOf="@id/invoice_txt_address_label" style="@style/invoice_item_text" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:src="@color/title_bar_line_bg" />
+            <EditText android:textColorHint="@color/light_s_gray" android:gravity="center_vertical" android:id="@id/invoice_txt_address_detail" android:background="@color/white" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height" android:hint="@string/invoice_address_detail" style="@style/invoice_item_text" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:gravity="center_vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_txt_receiver_label" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_receiver" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <EditText android:gravity="center_vertical" android:id="@id/invoice_txt_receiver" android:background="@null" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/invoice_txt_receiver_label" style="@style/invoice_item_text" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:src="@color/title_bar_line_bg" />
+            <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_item_margin_height">
+                <TextView android:id="@id/invoice_txt_phone_label" android:layout_marginLeft="@dimen/invoice_item_margin_left" android:text="@string/invoice_phone" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/invoice_item_text" />
+                <EditText android:gravity="center_vertical" android:id="@id/invoice_txt_phone" android:background="@null" android:paddingLeft="@dimen/invoice_item_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/invoice_txt_phone_label" android:inputType="phone" style="@style/invoice_item_text" />
+            </RelativeLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" />
+            <x.Button android:id="@id/invoice_btn_submit" android:background="@drawable/common_btn_orange_selector" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_submit_btn_height" android:layout_marginLeft="@dimen/invoice_submit_btn_margin_left_right" android:layout_marginTop="@dimen/invoice_submit_btn_margin_bottom" android:layout_marginRight="@dimen/invoice_submit_btn_margin_left_right" android:layout_marginBottom="@dimen/invoice_submit_btn_margin_bottom" android:text="@string/submit" style="@style/Button.White.SLarge" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

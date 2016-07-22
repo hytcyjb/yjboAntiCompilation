@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/menu_item_selector" android:paddingTop="20.0px" android:paddingBottom="20.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/txt_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" style="@style/TextView.Gray.Small" />
+        <ImageView android:id="@id/arrow_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_icn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/txt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_toLeftOf="@id/arrow_icon" android:layout_centerVertical="true" style="@style/TextView.Gray.Small" />
+    </RelativeLayout>
+</RelativeLayout>

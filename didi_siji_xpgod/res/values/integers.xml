@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="bts_anim_down_slide_out_duration">200</integer>
+    <integer name="bts_anim_up_slide_in_duration">200</integer>
+    <integer name="bts_up_to_down_slide_in_duration">200</integer>
+    <integer name="bts_up_to_down_slide_out_duration">200</integer>
+</resources>

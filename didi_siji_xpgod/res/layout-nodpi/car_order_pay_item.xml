@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/menu_item_selector" android:paddingTop="@dimen/cost_detail_price_item_padding" android:paddingBottom="@dimen/cost_detail_price_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/car_order_pay_item_txt_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextView.Orange.Small" />
+    <TextView android:id="@id/car_order_pay_item_txt_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/car_order_pay_item_arrow" android:layout_alignWithParentIfMissing="true" style="@style/TextView.Orange.Small" />
+    <ImageView android:id="@id/car_order_pay_item_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" android:src="@drawable/car_type_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

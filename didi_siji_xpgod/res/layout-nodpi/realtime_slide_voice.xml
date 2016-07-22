@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_xxx_large" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:id="@id/voice_call_notice_tv" android:layout_width="792.0px" android:layout_height="100.0px" android:layout_marginTop="@dimen/slide_voice_notice_margin_top" android:text="@string/realtime_slidevoice_voice_notice_txt" android:layout_centerHorizontal="true" />
+    <com.didi.frame.realtime.voice.VoiceCallView android:id="@id/record_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/slide_call_record_height" android:layout_centerInParent="true" />
+    <com.didi.frame.realtime.slide.SlideCallView android:id="@id/slide_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/slide_call_view_height" android:layout_marginBottom="@dimen/slide_call_view_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

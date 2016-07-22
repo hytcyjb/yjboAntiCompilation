@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto"
+  xmlns:tab="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <LinearLayout android:orientation="vertical" android:id="@id/shareLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.didi.common.ui.component.TabGroup android:id="@id/tab_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-7.0dip">
+            <com.didi.common.ui.component.TabButton android:gravity="center" android:orientation="vertical" android:id="@id/share_tab_tencent_weixin" android:background="@drawable/remark_txt_bg" android:layout_width="0.0dip" android:layout_height="@dimen/share_tabbutton_height" android:layout_weight="1.0">
+                <x.ImageView android:duplicateParentState="true" android:layout_width="@dimen/share_tabbutton_image_width" android:layout_height="@dimen/share_tabbutton_image_height" android:layout_marginTop="@dimen/share_tabbutton_image_margin_top" x:src="@drawable/share_icn_weixin" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_tabbutton_text_margin_top" android:layout_marginBottom="@dimen/share_tabbutton_text_margin_bottom" android:text="@string/share_tab_tencent_weixin" style="@style/TextView.Gray.Small" />
+            </com.didi.common.ui.component.TabButton>
+            <com.didi.common.ui.component.TabButton android:gravity="center" android:orientation="vertical" android:id="@id/share_tab_sina_weibo" android:background="@drawable/remark_txt_bg" android:layout_width="0.0dip" android:layout_height="@dimen/share_tabbutton_height" android:layout_weight="1.0">
+                <x.ImageView android:duplicateParentState="true" android:layout_width="@dimen/share_tabbutton_image_width" android:layout_height="@dimen/share_tabbutton_image_height" android:layout_marginTop="@dimen/share_tabbutton_image_margin_top" x:src="@drawable/share_icn_sinaweibo" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_tabbutton_text_margin_top" android:layout_marginBottom="@dimen/share_tabbutton_text_margin_bottom" android:text="@string/share_tab_sina_weibo" style="@style/TextView.Gray.Small" />
+            </com.didi.common.ui.component.TabButton>
+            <com.didi.common.ui.component.TabButton android:gravity="center" android:orientation="vertical" android:id="@id/share_tab_tencent_weibo" android:background="@drawable/remark_txt_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/share_tabbutton_height" android:layout_weight="1.0">
+                <x.ImageView android:duplicateParentState="true" android:layout_width="@dimen/share_tabbutton_image_width" android:layout_height="@dimen/share_tabbutton_image_height" android:layout_marginTop="@dimen/share_tabbutton_image_margin_top" x:src="@drawable/share_icn_txweibo" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_tabbutton_text_margin_top" android:layout_marginBottom="@dimen/share_tabbutton_text_margin_bottom" android:text="@string/share_tab_tencent_weibo" style="@style/TextView.Gray.Small" />
+            </com.didi.common.ui.component.TabButton>
+        </com.didi.common.ui.component.TabGroup>
+        <View android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" />
+        <ListView android:id="@id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:divider="@color/menu_item_pressed" android:dividerHeight="1.0px" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bind_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="130.0dip" android:layout_marginRight="50.0dip">
+            <TextView android:gravity="center_horizontal" android:id="@id/share_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_bind_tip_sina_weibo" style="@style/TextView.Gray.Small" />
+            <TextView android:id="@id/bind_btn" android:background="@drawable/common_btn_orange_selector" android:layout_width="fill_parent" android:layout_height="@dimen/share_btn_height" android:layout_marginTop="@dimen/share_bind_btn_margin_top" android:text="@string/share_bind_btn" style="@style/TextView.White.Center.Medium" />
+        </LinearLayout>
+        <com.didi.common.ui.component.MyProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_progress_bar_margin_top" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_progress_bar_margin_top" style="@style/TextView.LightGray.Medium" />
+    </LinearLayout>
+</LinearLayout>

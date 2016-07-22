@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.didi.game.ui.view.DriverReceiveNotifyDrawerView android:id="@id/driver_receiving_notify_drawer" android:background="@color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="275.0px" android:layout_marginTop="@dimen/title_bar_height" x:handle="@id/handle" x:content="@id/content_layout" x:orientations="top_bottom" x:bottomOffset="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.sdu.didi.psnger"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:id="@id/content_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="227.0px">
+        <x.ImageView android:id="@id/driverHead" android:background="@drawable/driver_head_bg" android:layout_width="180.0px" android:layout_height="180.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="28.0px" android:layout_marginRight="28.0px" android:src="@drawable/driver_head_circle" android:layout_alignParentStart="true" />
+        <x.TextView android:textSize="@dimen/font_size_large" android:textColor="@color/dark_gray" android:id="@id/driverCommingTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0px" android:text="@string/driver_comming_note" android:includeFontPadding="false" android:layout_toRightOf="@id/driverHead" />
+        <x.TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/light_gray" android:id="@id/driverDistanceAndTimeTV" android:padding="0.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/driver_distance_note" android:includeFontPadding="false" android:layout_toRightOf="@id/driverHead" android:layout_below="@id/driverCommingTV" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/handle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0px">
+        <x.ImageView android:id="@id/handleImg" android:layout_width="118.0px" android:layout_height="27.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" x:background="@drawable/icon_jiantou" />
+        <View android:background="@color/light_ss_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.didi.game.ui.view.DriverReceiveNotifyDrawerView>

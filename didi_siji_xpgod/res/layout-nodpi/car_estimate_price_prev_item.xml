@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/estimate_price_car_type_layout_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/estimate_price_big_layout_margin_top">
+        <TextView android:id="@id/car_estimate_price_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_txt_sum_value" android:layout_centerHorizontal="true" style="@style/TextView.DarkGray.XXXXXLarge" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_unit" android:layout_toRightOf="@id/car_estimate_price_big" android:layout_alignBaseline="@id/car_estimate_price_big" style="@style/TextView.DarkGray.Large" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/estimate_price_tip_layout_margin_top">
+        <com.didi.common.richtextview.RichTextView android:gravity="center_horizontal" android:id="@id/prev_price_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@style/TextView.Light_s_gray.Small" />
+    </RelativeLayout>
+</LinearLayout>

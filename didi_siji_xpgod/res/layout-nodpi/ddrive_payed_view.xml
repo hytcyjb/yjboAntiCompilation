@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="450.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top">
+        <ImageView android:id="@id/pay_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/pay_type_tip" android:text="@string/detail_cost" android:layout_toRightOf="@id/pay_line_left" style="@style/Line_TipText" />
+        <ImageView android:layout_toRightOf="@id/pay_type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <TextView android:id="@id/paid_txt_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wait_for_arrival_car_paid_txt_cost_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true" style="@style/TextView.DarkGray.XXXXXLarge" />
+    <TextView android:id="@id/paid_txt_cost_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wait_for_arrival_car_paid_txt_yuan_margin_bottom" android:text="@string/pay_yuan" android:layout_toRightOf="@id/paid_txt_cost" android:layout_alignBottom="@id/paid_txt_cost" style="@style/TextView.DarkGray.Small" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/op_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wait_for_arrival_car_op_layout_margin_left" android:layout_marginTop="@dimen/wait_for_arrival_car_op_layout_margin_top" android:layout_marginRight="@dimen/wait_for_arrival_car_op_layout_margin_right" android:baselineAligned="false" android:layout_below="@id/paid_txt_cost">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/paid_layout_cost_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:gravity="center" android:id="@id/paid_txt_cost_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paid_detail" style="@style/TextView.LightGray.Small" />
+            <x.ImageView android:layout_width="@dimen/wait_for_arrival_car_op_arrow_width" android:layout_height="@dimen/wait_for_arrival_car_op_arrow_height" android:layout_marginLeft="@dimen/wait_for_arrival_car_op_arrow_margin" android:src="@drawable/common_icon_arrow" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/paid_tips_layout" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0px" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/pay_tip_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wxagent_pay_wait_first_tip" style="@style/TextView.Gray.Medium" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/pay_tip_sencond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0px" android:text="@string/wxagent_pay_wait_second_tip" style="@style/TextView.Gray.Medium" />
+    </LinearLayout>
+</RelativeLayout>

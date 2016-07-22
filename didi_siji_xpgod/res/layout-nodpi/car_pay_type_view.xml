@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/detail_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/detail_type_tip" android:text="@string/pay_way" android:layout_toRightOf="@id/detail_line_left" style="@style/Line_TipText" />
+        <ImageView android:layout_toRightOf="@id/detail_type_tip" style="@style/Line_LineImage" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/car_pay_type_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0px" android:layout_below="@id/line_layout" />
+</RelativeLayout>

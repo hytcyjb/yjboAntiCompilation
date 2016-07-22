@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/map_bg_bubble_normal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/voice_layout" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_replay" style="@style/TextView.Orange.Large" />
+        <ImageView android:id="@id/replay_speaker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <View android:id="@id/line_division" android:background="@color/light_sss_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/fare_tip_txt" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextView.LightGray.Medium" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fare_layout" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/fare_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextView.LightGray.Medium" />
+        <View android:background="@color/light_sss_gray" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <TextView android:textSize="16.0sp" android:id="@id/time_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextView.LightGray.Medium" />
+    </LinearLayout>
+    <View android:id="@id/line_division_two" android:background="@color/light_sss_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_tag" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

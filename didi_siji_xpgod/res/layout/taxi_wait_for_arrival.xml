@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/taxi_wait_for_root_Layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <com.didi.taxi.ui.component.TaxiWaitForScrollView android:id="@id/common_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.didi.taxi.ui.component.TaxiWaitForArrivalDriverBar android:id="@id/taxi_wait_for_arrival_driver_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.didi.common.ui.component.FlipperView android:id="@id/common_flipper_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/wait_for_arrival_panel_slide_in" android:outAnimation="@anim/wait_for_arrival_panel_slide_out" android:layout_below="@id/taxi_wait_for_arrival_driver_bar">
+                <com.didi.taxi.ui.component.TaxiWaitForArrivalInfoBar android:id="@id/taxi_wait_for_arrival_info_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.didi.taxi.ui.component.TaxiWaitForArrivalFoundWebView android:id="@id/taxi_wait_for_arrival_found_view" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.didi.taxi.ui.component.TaxiCostDetailItemsView android:id="@id/taxi_wait_for_arrival_cost_detail" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" /> />
+<RelativeLayout android:id="@id/taxi_wait_for_arrival_pay_evaluate_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.didi.taxi.ui.component.TaxiWaitForArrivalPayView android:id="@id/taxi_wait_for_arrival_pay_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/pay_layout_height" />
+                    <com.didi.taxi.ui.component.TaxiWaitForArrivalEvaluateView android:id="@id/taxi_wait_for_arrival_evaluate_view" android:background="@color/white" android:paddingBottom="@dimen/evaluate_layout_margin_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/taxi_wait_for_arrival_pay_view" />
+                </RelativeLayout>
+            </com.didi.common.ui.component.FlipperView>
+        </RelativeLayout>
+    </com.didi.taxi.ui.component.TaxiWaitForScrollView>
+    <com.didi.taxi.ui.component.TaxiWaitForArrivalFooterBar android:id="@id/taxi_wait_for_arrival_footer_bar" android:layout_width="fill_parent" android:layout_height="@dimen/wait_for_arrival_footer_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

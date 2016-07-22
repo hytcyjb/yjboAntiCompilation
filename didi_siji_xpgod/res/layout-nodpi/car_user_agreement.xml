@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/menu_bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginTop="@dimen/about_item_margin_top" />
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_speical_tips" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/speical_tips" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/speical_tips" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginRight="@dimen/setting_item_arrow_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_noun_defined" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/tv_noun_defined" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/noun_defined" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginRight="@dimen/setting_item_arrow_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_risk_tips" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/tvRiskTips" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/risk_tips" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_speical_statement" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/tvSpicalStatement" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/speical_statement" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

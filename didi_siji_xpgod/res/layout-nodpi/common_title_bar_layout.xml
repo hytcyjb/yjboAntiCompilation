@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:id="@id/title_bar_layout_above" android:background="@color/title_bar_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_bar_height">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <x.ImageView android:layout_gravity="center_horizontal" android:id="@id/title_bar_img_title" android:visibility="visible" android:layout_width="@dimen/common_title_bar_logo_width" android:layout_height="@dimen/common_title_bar_logo_height" x:src="@drawable/common_title_bar_ic_title" style="@style/ImageView" />
+            <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_bar_txt_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_page_two_title" android:ems="7" android:singleLine="true" style="@style/TitleBar.TitleText" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/title_bar_txt_sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_page_two_title" style="@style/TextView.Gray.XSmall" />
+        </LinearLayout>
+        <Button android:id="@id/title_bar_btn_left" android:background="@null" android:visibility="gone" android:layout_marginLeft="@dimen/commen_title_bar_btn_margin_left" android:text="@string/guide_page_two_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TitleBar.Button" />
+        <Button android:gravity="center_vertical" android:id="@id/title_bar_btn_right" android:background="@null" android:visibility="gone" android:layout_height="fill_parent" android:layout_marginRight="@dimen/commen_title_bar_btn_margin_right" android:text="@string/guide_page_two_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TitleBar.Button" />
+        <Button android:id="@id/title_bar_btn_right_close" android:background="@null" android:visibility="gone" android:layout_marginRight="@dimen/commen_title_bar_btn_margin_right" android:text="@string/guide_page_two_title" android:layout_toLeftOf="@id/title_bar_btn_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TitleBar.Button" />
+        <x.ImageButton android:id="@id/title_bar_img_btn_left" android:visibility="visible" android:layout_marginLeft="@dimen/commen_title_bar_btn_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" x:src="@drawable/common_title_bar_btn_menu_selector" style="@style/TitleBar.ImageButton" />
+        <x.ImageButton android:id="@id/title_bar_img_btn_right" android:visibility="gone" android:layout_marginRight="@dimen/commen_title_bar_right_img_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_title_bar_btn_menu_selector" style="@style/TitleBar.ImageButton" />
+    </RelativeLayout>
+    <ImageView android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_line_height" android:src="@color/title_bar_line_bg" android:layout_below="@id/title_bar_layout_above" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/taxi_fee_detail_list_item_margin_top" android:layout_marginBottom="@dimen/taxi_fee_detail_list_item_margin_bottom" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/light_gray" android:gravity="left" android:id="@id/taxi_cost_detail_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/taxi_fee_detail_item_margin_left" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/light_gray" android:gravity="right" android:layout_gravity="right" android:id="@id/taxi_cost_detail_item_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/taxi_fee_detail_item_margin_right" android:layout_weight="1.0" />
+</LinearLayout>

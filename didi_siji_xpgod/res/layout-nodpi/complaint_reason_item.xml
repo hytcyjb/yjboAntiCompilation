@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.RelativeLayout android:layout_width="@dimen/complaint_reason_item_width" android:layout_height="@dimen/complaint_reason_item_height" x:background="@drawable/common_bg_area_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.ImageView android:id="@id/complaint_item_icon" android:layout_width="@dimen/complaint_reason_item_icon_height" android:layout_height="@dimen/complaint_reason_item_icon_height" android:layout_marginLeft="@dimen/complaint_reason_item_icon_margin_left" android:layout_marginRight="@dimen/complaint_reason_item_icon_margin_right" android:layout_centerVertical="true" x:src="@drawable/complain_icn_fire" />
+    <TextView android:textSize="@dimen/font_size_medium" android:textColor="@color/gray" android:id="@id/complaint_reason_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/complaint_item_icon" android:layout_centerVertical="true" />
+    <x.ImageView android:id="@id/complaint_select_icon" android:visibility="gone" android:layout_width="@dimen/common_check_box_height" android:layout_height="@dimen/common_check_box_height" android:layout_marginRight="@dimen/complaint_reason_check_box_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_checkbox_pressed" />
+</x.RelativeLayout>

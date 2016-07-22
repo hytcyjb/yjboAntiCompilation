@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/map_bg_bubble_normal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/time_down_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_time_down_notice" style="@style/TextView.LightGray" />
+    <TextView android:textSize="20.0sp" android:id="@id/time_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/time_down_notice" style="@style/TextView.Orange" />
+    <TextView android:textSize="20.0sp" android:id="@id/time_hours_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_time_down_hour" android:layout_toRightOf="@id/time_hours" style="@style/TextView.LightGray" />
+    <TextView android:textSize="20.0sp" android:id="@id/time_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/time_hours_unit" style="@style/TextView.Orange" />
+    <TextView android:textSize="20.0sp" android:id="@id/time_minutes_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_time_down_minute" android:layout_toRightOf="@id/time_minutes" style="@style/TextView.LightGray" />
+</RelativeLayout>

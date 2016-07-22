@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.TextView android:layout_width="wrap_content" android:layout_height="@dimen/bts_bottom_bar_two_height" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Center.Large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/orderLayout" android:background="@color/menu_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_count" android:background="@color/menu_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/my_orders_subtitle_height">
+            <TextView android:id="@id/orders_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/my_orders_item_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.LightGray.Small" />
+            <TextView android:id="@id/bad_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/my_orders_item_margin_right" android:layout_alignParentRight="true" style="@style/TextView.LightGray.Small" />
+        </RelativeLayout>
+        <ImageView android:id="@id/img_line" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:src="@color/search_text_color" />
+        <x.ImageView android:layout_gravity="center_horizontal" android:id="@id/no_order_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" x:src="@drawable/no_order_tip" />
+        <FrameLayout android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:scrollbarStyle="insideOverlay" android:id="@id/order_list" android:background="@color/menu_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_list" android:cacheColorHint="@null" android:divider="@color/menu_item_pressed" android:dividerHeight="0.5dip" />
+            <x.RelativeLayout android:gravity="center_vertical" android:id="@id/finish_text" android:background="@color/menu_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/my_orders_subtitle_height">
+                <TextView android:gravity="center_vertical" android:background="@color/menu_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/my_orders_item_margin_left" android:text="@string/finish_text" style="@style/TextView.LightGray.Small" />
+            </x.RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

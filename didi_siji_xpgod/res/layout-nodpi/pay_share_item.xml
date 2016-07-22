@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <x.ImageView android:id="@id/pay_share_item_icon" android:background="@drawable/shape_circle_tool_btn_selector" android:layout_width="155.0px" android:layout_height="155.0px" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/pay_share_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_share_name_margin_top" android:layout_below="@id/pay_share_item_icon" android:layout_centerHorizontal="true" style="@style/Button.Gray.XXSmall" />
+</x.RelativeLayout>

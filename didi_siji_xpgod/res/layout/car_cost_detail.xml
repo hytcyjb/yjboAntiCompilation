@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/cost_detail_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_line_layout_margin_top" android:layout_below="@id/cost_detail_title_bar">
+        <x.ImageView android:id="@id/detail_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/detail_type_tip" android:text="@string/detail_cost" android:layout_toRightOf="@id/detail_line_left" style="@style/Line_TipText" />
+        <x.ImageView android:layout_toRightOf="@id/detail_type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <TextView android:id="@id/cost_detail_paid_txt_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wait_for_arrival_car_paid_txt_cost_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true" style="@style/TextView.DarkGray.XXXXXLarge" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/detail_txt_yuan_margin_bottom" android:text="@string/pay_yuan" android:layout_toRightOf="@id/cost_detail_paid_txt_cost" android:layout_alignBottom="@id/cost_detail_paid_txt_cost" style="@style/TextView.DarkGray.Small" />
+    <com.didi.car.ui.component.CarCostDetailItemsView android:gravity="end" android:id="@id/cost_detail_items_txt" android:layout_width="@dimen/detail_txt_items_width" android:layout_height="wrap_content" android:singleLine="false" android:layout_below="@id/cost_detail_paid_txt_cost" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/detail_txt_items_lint_space" style="@style/TextView.Gray.Small" />
+    <TextView android:id="@id/cost_detail_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-60.0px" android:layout_below="@id/cost_detail_items_txt" android:layout_centerHorizontal="true" style="@style/TextView.LightGray.Small" />
+    <com.didi.car.ui.component.CarCostDetailItemsView android:gravity="end" android:id="@id/cost_detail_coupon_items_txt" android:layout_width="@dimen/detail_txt_items_width" android:layout_height="wrap_content" android:layout_marginTop="30.0px" android:singleLine="false" android:layout_below="@id/cost_detail_tips" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/detail_txt_items_lint_space" style="@style/TextView.Orange.Small" />
+    <RelativeLayout android:id="@id/cost_detail_price_instruction_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cost_detail_price_instruction_layout_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <x.ImageView android:id="@id/cost_detail_price_instruction_img" android:layout_width="@dimen/cost_detail_price_instruction_img_size" android:layout_height="@dimen/cost_detail_price_instruction_img_size" android:layout_centerVertical="true" x:src="@drawable/common_icn_question" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cost_detail_price_instruction_txt_margin_left" android:text="@string/valuation_rule" android:layout_toRightOf="@id/cost_detail_price_instruction_img" android:layout_centerVertical="true" style="@style/TextView.Gray.Small" />
+    </RelativeLayout>
+</RelativeLayout>

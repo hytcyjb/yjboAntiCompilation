@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="186.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.driverinfo.DriverCirclePhoto android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/user_head" android:layout_width="@dimen/menu_icon_head_width" android:layout_height="@dimen/menu_icon_head_height" android:layout_marginLeft="82.0px" style="@style/ImageView" />
+    <ImageView android:id="@id/user_arrow" android:layout_width="36.0px" android:layout_height="36.0px" android:layout_marginLeft="20.0px" android:layout_marginRight="14.0px" android:src="@drawable/user_info_arrow" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/first_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginTop="18.0px" android:layout_toLeftOf="@id/user_arrow" android:layout_toRightOf="@id/user_head">
+        <TextView android:ellipsize="end" android:id="@id/screen_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" style="@style/TextView.DarkGray.Large" />
+        <ImageView android:id="@id/user_level_icon" android:layout_width="78.0px" android:layout_height="54.0px" android:layout_marginLeft="14.0px" />
+        <TextView android:id="@id/user_level_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0px" style="@style/TextView.LightGray.Medium" />
+    </LinearLayout>
+    <TextView android:gravity="left|center" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/user_head" android:layout_below="@id/first_line" style="@style/TextView.Gray.Large" />
+</RelativeLayout>

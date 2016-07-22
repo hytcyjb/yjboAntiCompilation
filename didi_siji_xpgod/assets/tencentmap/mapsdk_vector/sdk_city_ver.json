@@ -1,0 +1,2564 @@
+{
+    "dir": "20130130",
+    "domain1": "down.myapp.com/soso_map/sdk/",
+    "dirNew": "20140616m",
+    "domain": "softfile.3g.qq.com/soso_map/sdk/",
+    "updateData": [
+        {
+            "md5": "959C797D32CB20B4C365E4808F156DC5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hengshuishi",
+            "size": 2024442
+        },
+        {
+            "md5": "2D09E5065B5839607BB153B178F6FB4B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jieyangshi",
+            "size": 1664667
+        },
+        {
+            "md5": "61D43F658CBE6A6E20635C9AB71E3DA9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ningdeshi",
+            "size": 2641583
+        },
+        {
+            "md5": "E6DB306FB8DD27367DF58C6A010DD843",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "heiheshi",
+            "size": 2969702
+        },
+        {
+            "md5": "139B61DE89F6DC545BDE581A62DCEF93",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuzhishanshi",
+            "size": 139305
+        },
+        {
+            "md5": "E4471F432E5F3217AD1027092A9BB6AA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baoshanshi",
+            "size": 2157942
+        },
+        {
+            "md5": "CBE3ED7EA8FEAEEBC5D4813B92D199C9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanpingshi",
+            "size": 3314156
+        },
+        {
+            "md5": "EEB36D4D3B22DBE417000FA3E3FFFFE1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yongzhoushi",
+            "size": 4001955
+        },
+        {
+            "md5": "8E97896965EA5FA35549CF14E9A64D3F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qinzhoushi",
+            "size": 2128485
+        },
+        {
+            "md5": "23D6D6F69A9F64B9F4A57B7CA427BF71",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lianyungangshi",
+            "size": 2634219
+        },
+        {
+            "md5": "6C2B5EA8F2EEC44B51640181B828231F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "benxishi",
+            "size": 1582711
+        },
+        {
+            "md5": "4B3071B064B32D1346D63BDDEFEE7D29",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "handanshi",
+            "size": 2733053
+        },
+        {
+            "md5": "71B7D6DAC087776BF6B50D4A640BC74D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiamenshi",
+            "size": 4420827
+        },
+        {
+            "md5": "C13B9CA0D7B50862E44872B7A91F134F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guoluozangzuzizhizhou",
+            "size": 860737
+        },
+        {
+            "md5": "118111850074043146F41E6652773A8F",
+            "releasedate": "20140616",
+            "ver": 22,
+            "pinyin": "beijingshi",
+            "size": 20772075
+        },
+        {
+            "md5": "39C636542701496901291D3ABE7E850A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huzhoushi",
+            "size": 3542794
+        },
+        {
+            "md5": "C7421B5F10308E945B17577408EB3AFA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhangzhoushi",
+            "size": 3176700
+        },
+        {
+            "md5": "82CD770AAE2817C2A37BB55955BE067C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhuhaishi",
+            "size": 1970437
+        },
+        {
+            "md5": "69CF592B53E1BAE39341F5718A0397B7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "sanshashi",
+            "size": 4379860
+        },
+        {
+            "md5": "61B5D2A9738EFE3B7230FA6D6A545EDE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "alashanmeng",
+            "size": 1244626
+        },
+        {
+            "md5": "151FE166DDBB93E935CD4694987277CA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yangzhoushi",
+            "size": 4127730
+        },
+        {
+            "md5": "38F5A2D38836A648779184B8BF4D55E2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qingdaoshi",
+            "size": 7703022
+        },
+        {
+            "md5": "908A10EA6420EC593DCD8E79F407CA70",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bazhongshi",
+            "size": 2458340
+        },
+        {
+            "md5": "725B9387999E696CF70E9D8228681F1D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chengdushi",
+            "size": 11055526
+        },
+        {
+            "md5": "A828B602E42EBF066A3FE52355D0B1B2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "haiximengguzuzangzuzizhizhou",
+            "size": 2069313
+        },
+        {
+            "md5": "D52DE95818753588ED29E769216A251B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fushunshi",
+            "size": 1859333
+        },
+        {
+            "md5": "6045F36A7FDA7F93392E29ED0204E565",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qiandongnanmiaozudongzuzizhizhou",
+            "size": 4551603
+        },
+        {
+            "md5": "BB7F448913757E333F1D31651E308394",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qionghaishi",
+            "size": 497955
+        },
+        {
+            "md5": "03C5DCE36F29F0E0A4F72875F31A0B97",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yangjiangshi",
+            "size": 1882107
+        },
+        {
+            "md5": "7BC08E141438468C6DD42C6EC584CFD7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yunchengshi",
+            "size": 2897522
+        },
+        {
+            "md5": "36FED9F1BD6D9DBA0C5077F9E04838B4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yueyangshi",
+            "size": 4061938
+        },
+        {
+            "md5": "804E55348E2714B7371A28049E1490F7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "su1zhoushi",
+            "size": 11988968
+        },
+        {
+            "md5": "0FF542A3DBDDE03B4DF2E2605FA3275F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "quzhoushi",
+            "size": 2164043
+        },
+        {
+            "md5": "79E497184C40C2AF69FACFBC43F0864A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "haibeizangzuzizhizhou",
+            "size": 706402
+        },
+        {
+            "md5": "DBF41875B82A32D3996F3E61E3CE0654",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yi1chunshi",
+            "size": 4295521
+        },
+        {
+            "md5": "F68F012AB8BC25060ECC458F5654F1EA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yu2linshi",
+            "size": 6600507
+        },
+        {
+            "md5": "8B73DC6AC819B2DB9620EA6E4EB9F190",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhaotongshi",
+            "size": 2810761
+        },
+        {
+            "md5": "B3968A09867DE08253C66DA48B02746F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lincangshi",
+            "size": 2457783
+        },
+        {
+            "md5": "04BD39972B6FAA964A71CCB6047AEE07",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changzhishi",
+            "size": 2883659
+        },
+        {
+            "md5": "3C87BB79F54AFE7BD12C6BA7EA284FA7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fangchenggangshi",
+            "size": 1095538
+        },
+        {
+            "md5": "5F9342D70F1CB1F9E46785BE41719D48",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "anshunshi",
+            "size": 2220588
+        },
+        {
+            "md5": "53B57AFB7C2E315BD17585BEB79FA8A5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hanzhongshi",
+            "size": 3623700
+        },
+        {
+            "md5": "C56194259CF2123853C0E230C2017CB3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chongzuoshi",
+            "size": 2388421
+        },
+        {
+            "md5": "A81D5305128CFFE5CEF97AB2CAA273F2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "cangzhoushi",
+            "size": 3680875
+        },
+        {
+            "md5": "D109350691308EAF8A0579C9BB626FF9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "pingdingshanshi",
+            "size": 2187674
+        },
+        {
+            "md5": "824B0F01567267A9EDC5BC0EF5979A3F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xianningshi",
+            "size": 2395702
+        },
+        {
+            "md5": "66B7849796F27795A940F31690E6F2C9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wulumuqishi",
+            "size": 2719250
+        },
+        {
+            "md5": "71A4C248ADDAD5844E9A542A0E79CC68",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changzhoushi",
+            "size": 5180062
+        },
+        {
+            "md5": "8EA77F604A9D7AB8058F3679F072E09F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shaoyangshi",
+            "size": 4977976
+        },
+        {
+            "md5": "1C4202D4E28F623CCB0F965AE6483F99",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "loudishi",
+            "size": 2334228
+        },
+        {
+            "md5": "10F0730D54C6FBDA29555680FF47BE28",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinzhongshi",
+            "size": 2923971
+        },
+        {
+            "md5": "8606CDFA2AC31F7BFFA9B1A4E846B2CE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lishuishi",
+            "size": 2466398
+        },
+        {
+            "md5": "8D302C7323EE77481B789D24BF2B10A7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "weihaishi",
+            "size": 2890296
+        },
+        {
+            "md5": "8AC486B7D39EC493540D44104139BCC0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guyuanshi",
+            "size": 2108212
+        },
+        {
+            "md5": "522DF850527B2E8F4A16FAADDF1B9AC4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tongliaoshi",
+            "size": 3103566
+        },
+        {
+            "md5": "F25AFABF4387D4FD43FF5292AD5A15D3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dingxishi",
+            "size": 2211238
+        },
+        {
+            "md5": "C3486EE235397B15E1B0311F0203F996",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "abazangzuqiangzuzizhizhou",
+            "size": 1769248
+        },
+        {
+            "md5": "DE887B20E27CD1FE546739836F18EC4C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xinyangshi",
+            "size": 3619444
+        },
+        {
+            "md5": "F2A172C735033EA6D864A238D1FBF2AB",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "puershi",
+            "size": 3149486
+        },
+        {
+            "md5": "ACAAF9218C59CEF45019EBB3C770A7E4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shenyangshi",
+            "size": 8001456
+        },
+        {
+            "md5": "DCCB2911A626A8AFC40D15C43872EDD5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xuchangshi",
+            "size": 1590684
+        },
+        {
+            "md5": "EE32C41D895849606D4C10ADCC4B7AF6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zaozhuangshi",
+            "size": 1127181
+        },
+        {
+            "md5": "A592965313828D85F14FC93EDEBFE94F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xinyushi",
+            "size": 896502
+        },
+        {
+            "md5": "5A74D0FF2F5CA3911CF6DF885D13FBB2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dinganxian",
+            "size": 299819
+        },
+        {
+            "md5": "9705D0C16A66D01BFA78A12E2EF42EAF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "linzhidiqu",
+            "size": 1032065
+        },
+        {
+            "md5": "21C050A296C31E9A04F928C4FE55D9C5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yanbianchaoxianzuzizhizhou",
+            "size": 2997254
+        },
+        {
+            "md5": "B3C3768D444227C23968A7CCF86455D8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xishuangbannadaizuzizhizhou",
+            "size": 1360185
+        },
+        {
+            "md5": "C51AB2E1AABB2F522082DCEDE553BFBE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "suqianshi",
+            "size": 3096581
+        },
+        {
+            "md5": "5FF0D653EC2DFAF1E1D12FCDA7480ED7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yushuzangzuzizhizhou",
+            "size": 2201545
+        },
+        {
+            "md5": "BD9F8769B62E45A2AA1EF7241120CB57",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tongchuanshi",
+            "size": 850269
+        },
+        {
+            "md5": "2686A7B1A9272B3AFC36826F2CEE0386",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "kashidiqu",
+            "size": 2849074
+        },
+        {
+            "md5": "30E2EE084A2E377A7AF0725F58385FDD",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "alidiqu",
+            "size": 1472607
+        },
+        {
+            "md5": "C6CE15670DD9EB6D20DA0EF30695AC33",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tielingshi",
+            "size": 2131602
+        },
+        {
+            "md5": "19B10921D9D6183E9E726B99035E5E2F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tai3zhoushi",
+            "size": 3167783
+        },
+        {
+            "md5": "C90F5EA3F0FB45EC1586EA3E4ACB9887",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "mianyangshi",
+            "size": 5143093
+        },
+        {
+            "md5": "90C9A477AB0812A21A007F45B39BB130",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "taiyuanshi",
+            "size": 2989744
+        },
+        {
+            "md5": "594FF97F84223D2B796397ECF302FB75",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "haidongshi",
+            "size": 1489793
+        },
+        {
+            "md5": "C5D4C9A44FFB0E59C7847F376F92B223",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bozhoushi",
+            "size": 1692632
+        },
+        {
+            "md5": "F2F419A2B1E8F4B8DC24E66F88CB98B8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nantongshi",
+            "size": 5437176
+        },
+        {
+            "md5": "925C5A897B05BA3587A142EE4A8A9AB6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "weifangshi",
+            "size": 5287687
+        },
+        {
+            "md5": "DD2FE8670B1A228F6E142C504319BA8B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qiannanbuyizumiaozuzizhizhou",
+            "size": 4265933
+        },
+        {
+            "md5": "03FDD854E55D72588688000F32E77CDB",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "eerduosishi",
+            "size": 5638866
+        },
+        {
+            "md5": "EAC39816DAEE5DED52BADEED9574DC64",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wenzhoushi",
+            "size": 6721869
+        },
+        {
+            "md5": "A19AC61A617AFB03617234B96D9B4B53",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jilinshi",
+            "size": 3941949
+        },
+        {
+            "md5": "7E634F1F636E2D422565EDD7D22226B8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yunfushi",
+            "size": 1606099
+        },
+        {
+            "md5": "18E8D14321CAD36C5A0F01AECA415B78",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bayannaoershi",
+            "size": 2803348
+        },
+        {
+            "md5": "864A5846E452E8C7303BAFCFB0A2D71C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "haikoushi",
+            "size": 1849914
+        },
+        {
+            "md5": "F5020E24F57FB1C5BA3FFF937E40F990",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuzhoushi",
+            "size": 1937484
+        },
+        {
+            "md5": "E1012EC112B9996ABA4D699FB16977CF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huanggangshi",
+            "size": 5737151
+        },
+        {
+            "md5": "427A5985022B73EF25A26B4F9B86829D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "longnanshi",
+            "size": 2445935
+        },
+        {
+            "md5": "91472D7521AF810111C53F2829761F2A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hangzhoushi",
+            "size": 11077930
+        },
+        {
+            "md5": "05A1126B00EC8985F21E2EB8455E83B2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hefeishi",
+            "size": 5494490
+        },
+        {
+            "md5": "94B19EB3D22D4438CBED1FD1B72EC838",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changdeshi",
+            "size": 4105843
+        },
+        {
+            "md5": "49DB4590CEC5AC4621699E5F5DD2B08B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lingshuilizuzizhixian",
+            "size": 312964
+        },
+        {
+            "md5": "0482537735420F290C51390BBBC6FA86",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "anshanshi",
+            "size": 2259685
+        },
+        {
+            "md5": "46448E81B81A5AB0A364D2D177C9FD85",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shannandiqu",
+            "size": 1280145
+        },
+        {
+            "md5": "99F709094A531F9164BE61CF4DC6919E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuweishi",
+            "size": 952447
+        },
+        {
+            "md5": "B0572527FDCC97C8A174DCC42FA08A09",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guanganshi",
+            "size": 1225617
+        },
+        {
+            "md5": "CBEBB71B40DDE394247541F2E9065393",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanyangshi",
+            "size": 4992506
+        },
+        {
+            "md5": "5D4FA37E99B8232253DCC14426F1174F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tai2zhoushi",
+            "size": 4700883
+        },
+        {
+            "md5": "ACE812A409729C566D733293F2D8479A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xingtaishi",
+            "size": 2983038
+        },
+        {
+            "md5": "E29EE02E067137A8348DE7C19462BBEC",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "linfenshi",
+            "size": 3345443
+        },
+        {
+            "md5": "A25F7BE91DF2033B38021FD88C06D277",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huludaoshi",
+            "size": 2324799
+        },
+        {
+            "md5": "200778841B1F9595FF5D8E829B5164DC",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huangnanzangzuzizhizhou",
+            "size": 393545
+        },
+        {
+            "md5": "45ADF601F1927C8A100622C10A9E7934",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qujingshi",
+            "size": 3818328
+        },
+        {
+            "md5": "1C812944EE141689C1C48AA56BB3528B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "linxiahuizuzizhizhou",
+            "size": 874281
+        },
+        {
+            "md5": "43CA9F16BDBC4337206D629E5C25D9C7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "foshanshi",
+            "size": 11015572
+        },
+        {
+            "md5": "F9235FE2FDFC2E527AD94B4B9ABD58DE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "sanmingshi",
+            "size": 3003516
+        },
+        {
+            "md5": "C423941C1751247066E981318F6BA4DE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "diqingzangzuzizhizhou",
+            "size": 929588
+        },
+        {
+            "md5": "1233B79DEE2FCC92FD44E7CAE1FF05E8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huizhoushi",
+            "size": 4701933
+        },
+        {
+            "md5": "164F9476A38F1FF6BB1AAD247E03726D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tunchangxian",
+            "size": 228753
+        },
+        {
+            "md5": "560DCE5B773959225503DFDC2B10F942",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baishanshi",
+            "size": 1758075
+        },
+        {
+            "md5": "18BD2ED6F380D7EA148C44D2F1FC3D70",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huaianshi",
+            "size": 3135649
+        },
+        {
+            "md5": "38BC86C3AC5C2C7B5642B7EA6DC88362",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhaoqingshi",
+            "size": 3090876
+        },
+        {
+            "md5": "23B73DF198D6222CD2C5DDFB32723DA2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shaoxingshi",
+            "size": 5148901
+        },
+        {
+            "md5": "F5677B14EB34003F23DACA441A3EDBBE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shangraoshi",
+            "size": 4940799
+        },
+        {
+            "md5": "7B0D68B78B6DF07F69D3554846DFD7B2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liaochengshi",
+            "size": 2447554
+        },
+        {
+            "md5": "8577f9237d1c196aa97befbd0490ccd5",
+            "releasedate": "20150429",
+            "ver": 66,
+            "pinyin": "china",
+            "size": 4855111
+        },
+        {
+            "md5": "5373BC9CAB9E56AE1EFC4B1CF00A4158",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shangluoshi",
+            "size": 2808613
+        },
+        {
+            "md5": "C447FD406213726E42C36BCFF1ADFF37",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "sipingshi",
+            "size": 2180920
+        },
+        {
+            "md5": "C390920FF58F9850DF190238FAF8AF7F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiyuanshi",
+            "size": 677234
+        },
+        {
+            "md5": "805EDDF4BA55C040C24803F211DD955D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bijieshi",
+            "size": 5993036
+        },
+        {
+            "md5": "FBB9320723221CBE9F7E732CB4D3E028",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "taianshi",
+            "size": 2429293
+        },
+        {
+            "md5": "41026BC2AC8D4BE4D92FA28085B4CC51",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lijiangshi",
+            "size": 1708617
+        },
+        {
+            "md5": "D86A55263AF522048ED64C690BF064E5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chaozhoushi",
+            "size": 1039092
+        },
+        {
+            "md5": "D355A5E12141B48021137F0C816F8144",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "suizhoushi",
+            "size": 2589462
+        },
+        {
+            "md5": "02751070E1CE32607A2C4860B5AB28A1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiangxitujiazumiaozuzizhizhou",
+            "size": 2727708
+        },
+        {
+            "md5": "7E936F0BBF53F451A15D5AA8B206A92D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiayuguanshi",
+            "size": 230803
+        },
+        {
+            "md5": "0DE0C16B1CDA1CB3E72C7703BED1063B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "linyishi",
+            "size": 3817718
+        },
+        {
+            "md5": "392BE470F043F5E5C1EB99E831343D0A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "gannanzangzuzizhizhou",
+            "size": 986172
+        },
+        {
+            "md5": "A93F367BBB0707F60223714464C5808D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yu4linshi",
+            "size": 2629425
+        },
+        {
+            "md5": "B613F4422F24CD99961DEF98E2B04624",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xinxiangshi",
+            "size": 2268086
+        },
+        {
+            "md5": "DA8BD38B7EB1579E7AE9BE16F0D01F9E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xinganmeng",
+            "size": 1983832
+        },
+        {
+            "md5": "3E452252D1EA2E15FD81BEBA8B45DA85",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ganzhoushi",
+            "size": 7187967
+        },
+        {
+            "md5": "09912A8DC94EEC18412360F3AE4BF264",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xilinguolemeng",
+            "size": 3328855
+        },
+        {
+            "md5": "52678A330264DF1341BD4A5A4247EB7A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baiyinshi",
+            "size": 1238220
+        },
+        {
+            "md5": "D04A7AE66517596E3BC4F7082C77401F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinanshi",
+            "size": 4852078
+        },
+        {
+            "md5": "3BD5FF660406F2E40E4F5A9F3139EBA0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shijiazhuangshi",
+            "size": 5761004
+        },
+        {
+            "md5": "E2E2544F4B44D275B7675F9302E937E5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hezhoushi",
+            "size": 1351149
+        },
+        {
+            "md5": "013AD53C20FCDDC5738E27A9B560ADD4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "heyuanshi",
+            "size": 3066559
+        },
+        {
+            "md5": "4BFA6CC236AB8E7AA8E750E890EB7905",
+            "releasedate": "20140616",
+            "ver": 22,
+            "pinyin": "wuhanshi",
+            "size": 8046908
+        },
+        {
+            "md5": "AC335D346B5A2C9E77F3538AAEC6E643",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wenshanzhuangzumiaozuzizhizhou",
+            "size": 2434146
+        },
+        {
+            "md5": "D276F36467DF5712330CE635364B34C6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nujianglisuzuzizhizhou",
+            "size": 704079
+        },
+        {
+            "md5": "816281DACFB63DF0BF0F33F4D772A9C0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chaoyangshi",
+            "size": 2559550
+        },
+        {
+            "md5": "A478B42855A75E6F4534934690FAEEA8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qiqihaershi",
+            "size": 3854614
+        },
+        {
+            "md5": "8A736871E435E9297948FF8568E36286",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "anqingshi",
+            "size": 3892914
+        },
+        {
+            "md5": "30556DF1AC1B66069F075572375E027E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dongyingshi",
+            "size": 1726807
+        },
+        {
+            "md5": "FC339B2553F7F1F00D2D65BB919777DD",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "sanmenxiashi",
+            "size": 1886271
+        },
+        {
+            "md5": "A0C3A000A5403AACC49E94A824AC68B9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dezhoushi",
+            "size": 2560781
+        },
+        {
+            "md5": "5BDFBC4A841B976FEA4EC5A043AEAEE3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shangqiushi",
+            "size": 2354056
+        },
+        {
+            "md5": "C8CBAFBA99E33C474769FDD93C9E4770",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "panjinshi",
+            "size": 1071154
+        },
+        {
+            "md5": "B7D9290A5163FC2B313897C850B2607F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liupanshuishi",
+            "size": 2488377
+        },
+        {
+            "md5": "B9DC3A611B78327425674F7DDA153B38",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fuxinshi",
+            "size": 1473218
+        },
+        {
+            "md5": "8B3938A74F36315182E1CD66B8490560",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huainanshi",
+            "size": 734270
+        },
+        {
+            "md5": "38B609D8E69EBB4902F57BD89A6D1518",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lvliangshi",
+            "size": 2624321
+        },
+        {
+            "md5": "F47FA4078C188CE4C95F6F66F5BECC18",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qianxinanbuyizumiaozuzizhizhou",
+            "size": 3459641
+        },
+        {
+            "md5": "6E3A3E8B260E25429038F47901D7BA31",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chuzhoushi",
+            "size": 3032639
+        },
+        {
+            "md5": "A0943DDB68B9BC3D0192AE2C91682B70",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chengmaixian",
+            "size": 458765
+        },
+        {
+            "md5": "E986BB556C9EB9DE512E005BB6DB04BA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiaozuoshi",
+            "size": 1354122
+        },
+        {
+            "md5": "57850C6B21DA7A32EF8D1D3F3440B29E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiamusishi",
+            "size": 2542367
+        },
+        {
+            "md5": "316705ECDD7562282E74055EFCFAF960",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huaibeishi",
+            "size": 725476
+        },
+        {
+            "md5": "A79DC683D530AAA0326A92D84A207CD6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhangjiakoushi",
+            "size": 4581496
+        },
+        {
+            "md5": "D67AA0F24317ED09C756C4F749289BF2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "kezilesukeerkezizizhizhou",
+            "size": 824664
+        },
+        {
+            "md5": "B4A753E31FC7E4298C2761CD15E5D539",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tonghuashi",
+            "size": 2130743
+        },
+        {
+            "md5": "86FA5ADA8FA682BA5B9E3286A05F8B02",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "neijiangshi",
+            "size": 1386628
+        },
+        {
+            "md5": "B29E75BD2B3D6BD3EABAE56BCA5467C0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guigangshi",
+            "size": 2227930
+        },
+        {
+            "md5": "671FD0643F69B81A9E6D5EBA4B8674F9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fuyangshi",
+            "size": 2334107
+        },
+        {
+            "md5": "646BE857B350232C7993F3CB908BA0E6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "songyuanshi",
+            "size": 2396722
+        },
+        {
+            "md5": "F0EB8E8583F29CFFBEB6A4A056A6AA57",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xianyangshi",
+            "size": 2341016
+        },
+        {
+            "md5": "27865DFA1108A2E796052F9D3FD829F3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "meishanshi",
+            "size": 1491238
+        },
+        {
+            "md5": "96879CA4EC905C6B18EDE506F61DECAC",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yichangshi",
+            "size": 5220763
+        },
+        {
+            "md5": "D2F3DB658B0EC6845CF908496DB466D9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanningshi",
+            "size": 5473096
+        },
+        {
+            "md5": "9813C97EF170A481ED703C985767D087",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hainanzangzuzizhizhou",
+            "size": 929052
+        },
+        {
+            "md5": "56D864B8D86E5F76223FC5E225DFBBE1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuxishi",
+            "size": 6642502
+        },
+        {
+            "md5": "E6A277C0BA510719362EBAF2128AC6A1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhangyeshi",
+            "size": 994850
+        },
+        {
+            "md5": "734A68ED36DFF16F176D06D599EA8D1D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qingyangshi",
+            "size": 1764481
+        },
+        {
+            "md5": "405ACC81E83C5DCB42044CDB8CFEA8B7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "leshanshi",
+            "size": 2179781
+        },
+        {
+            "md5": "6E40AC5EA54F06956886C28CACF0867B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "langfangshi",
+            "size": 3092244
+        },
+        {
+            "md5": "E3F1D73D2B12E28997B2F06F20524BC3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhoushanshi",
+            "size": 1466667
+        },
+        {
+            "md5": "4A327357398B2573DEADD2581FFE230B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zunyishi",
+            "size": 6193405
+        },
+        {
+            "md5": "34879F72658E8722565D8A9E7728344D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baiseshi",
+            "size": 5009200
+        },
+        {
+            "md5": "06587B244CFEBDC9E139075AF82F5524",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lanzhoushi",
+            "size": 2366693
+        },
+        {
+            "md5": "5FD95FA1A7B618A312CF4BC8114B9E30",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "boertalamengguzizhizhou",
+            "size": 715973
+        },
+        {
+            "md5": "35CF22AB48A6B8CAD2F07C51BAE1AF73",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dongfangshi",
+            "size": 267596
+        },
+        {
+            "md5": "9A46489CB62C68D904490DF1B83D56A0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shaoguanshi",
+            "size": 3008433
+        },
+        {
+            "md5": "047BA05D5834D67B4645B58C96DD6334",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "naqudiqu",
+            "size": 2701524
+        },
+        {
+            "md5": "41545E08E604793547AF28F722B98319",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dehongdaizujingpozuzizhizhou",
+            "size": 1421401
+        },
+        {
+            "md5": "3234EE26A1FCA38BC5946D9958589493",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "maanshanshi",
+            "size": 1558994
+        },
+        {
+            "md5": "5FABF181683B6E81A02B64BE5576D76A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiningshi",
+            "size": 1598726
+        },
+        {
+            "md5": "1E001993616BC092447E489B2CEAC287",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baichengshi",
+            "size": 2159177
+        },
+        {
+            "md5": "08DC06F6BBD96BBED9E33AC40AC2574E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jixishi",
+            "size": 1629616
+        },
+        {
+            "md5": "7DC0DBBA7DCDDA4253421FDCAB3EEF66",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bengbushi",
+            "size": 1311877
+        },
+        {
+            "md5": "8CACC0EFDD47CD2B46752501E414FD1B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changjihuizuzizhizhou",
+            "size": 2374023
+        },
+        {
+            "md5": "7D060C6FBCEB94A28FB1A996A6885601",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dalianshi",
+            "size": 7767338
+        },
+        {
+            "md5": "DBF9B4CC834A8B074C84B8F1A94CB41B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dongguanshi",
+            "size": 7073510
+        },
+        {
+            "md5": "DF946E8BC3DB78C4B3737485475C494E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chengdeshi",
+            "size": 4786252
+        },
+        {
+            "md5": "BE41B617C8933B1F263C9F2FD818CE36",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yangquanshi",
+            "size": 936342
+        },
+        {
+            "md5": "E12041E530080E882C4463F37D4C1E31",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "mudanjiangshi",
+            "size": 2251284
+        },
+        {
+            "md5": "87229C0B9156BA571A7D459C4B07A78F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "honghehanizuyizuzizhizhou",
+            "size": 3317390
+        },
+        {
+            "md5": "CE7DD0875D237D16267FD62E60FB2A4C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ziyangshi",
+            "size": 1692116
+        },
+        {
+            "md5": "E5FF2C9690184A419862546B0E18F32C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yibinshi",
+            "size": 2253011
+        },
+        {
+            "md5": "2EB1956E93B5E242585E454F07A7D269",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xianshi",
+            "size": 6622374
+        },
+        {
+            "md5": "07326EAAB89C43CBF14F9DD0B6BF03D2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hamidiqu",
+            "size": 1655092
+        },
+        {
+            "md5": "7E016E1304312D48361F32A5D92E50D1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhongshanshi",
+            "size": 3344276
+        },
+        {
+            "md5": "51EAC7869D9A2BEEA31DF0100390EA15",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiuquanshi",
+            "size": 1739835
+        },
+        {
+            "md5": "9DF8492E3A4818EEE87E7B78D99F6DAA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "kelamayishi",
+            "size": 790572
+        },
+        {
+            "md5": "9D23F7229C47F3CAAA855B259F41C69D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "rikazediqu",
+            "size": 2835415
+        },
+        {
+            "md5": "A87F36D2C30D220AC5C1725BD3737165",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qiongzhonglizumiaozuzizhixian",
+            "size": 270860
+        },
+        {
+            "md5": "F3E770DBA9A0C807D39D53182FB55A8A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huhehaoteshi",
+            "size": 3032891
+        },
+        {
+            "md5": "57D576F76291E19102A495759B523F88",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinchangshi",
+            "size": 334623
+        },
+        {
+            "md5": "A4FE30C6F525531EF2452400216D442F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shenzhenshi",
+            "size": 7449769
+        },
+        {
+            "md5": "EFA2CEB1E3E78240E60F2C5583E39510",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "panzhihuashi",
+            "size": 848744
+        },
+        {
+            "md5": "8C95BDDDD16E047774C07603B7E248C4",
+            "releasedate": "20140616",
+            "ver": 22,
+            "pinyin": "kunmingshi",
+            "size": 6241204
+        },
+        {
+            "md5": "30C21BC9A7658795779515C69E3E4FB8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hegangshi",
+            "size": 1002135
+        },
+        {
+            "md5": "85D4D5AB0D13067B9676B1051588DD3A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wenchangshi",
+            "size": 609332
+        },
+        {
+            "md5": "5DFAD6134BE0F1239DB183FA12DEA744",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "danzhoushi",
+            "size": 736882
+        },
+        {
+            "md5": "012EF7CDD879C0C0C2070C5EF946FCEE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guiyangshi",
+            "size": 3666285
+        },
+        {
+            "md5": "6115D286620D09315656F7F64B3541F5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "enshitujiazumiaozuzizhizhou",
+            "size": 4430176
+        },
+        {
+            "md5": "57BB9E0FE9987F8B1579E7A6AE4E405E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "putianshi",
+            "size": 1544865
+        },
+        {
+            "md5": "4A176473A8E1024C9026DF4AAB21B1FA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yaanshi",
+            "size": 1162160
+        },
+        {
+            "md5": "7FE546AA9C0ABE9CF886BDD9E03F0E2C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "luanshi",
+            "size": 4237224
+        },
+        {
+            "md5": "FCEC2A4689F9CEA5EDF33992AFD1E473",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hechishi",
+            "size": 4792175
+        },
+        {
+            "md5": "CCD134A2D9EBD52FAA1131E5B1743211",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liaoyangshi",
+            "size": 1258404
+        },
+        {
+            "md5": "10C1EC7CC4F82950779320BCCDBEEAB8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "akesudiqu",
+            "size": 2750114
+        },
+        {
+            "md5": "61B428738D0D5EBBF3CE359EE22D30A0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baodingshi",
+            "size": 5283554
+        },
+        {
+            "md5": "C1C4A5F9D60E48E0865DEA5DE67BDDEA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "bayinguolengmengguzizhizhou",
+            "size": 3480767
+        },
+        {
+            "md5": "29531AA92B0CE4723E97895F0797E4E0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liaoyuanshi",
+            "size": 1164441
+        },
+        {
+            "md5": "20E003F57DB402610126FFE51A4B613F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fu3zhoushi",
+            "size": 3142486
+        },
+        {
+            "md5": "00912D971298212ED375FE38BD2437E0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tianmenshi",
+            "size": 735013
+        },
+        {
+            "md5": "E400DBC877A9DF6FA48C5049A83CADAD",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ganzizangzuzizhizhou",
+            "size": 2510699
+        },
+        {
+            "md5": "ABEB0A6944D2EC4058E4042EFC1C14C0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chongqingshi",
+            "size": 26396716
+        },
+        {
+            "md5": "731ED5AA7E32D716EB15F0A027CBEFB2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qianjiangshi",
+            "size": 493647
+        },
+        {
+            "md5": "FCE69D9AF758406281416895AB4F6500",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tachengdiqu",
+            "size": 1930203
+        },
+        {
+            "md5": "B027AD8064F5A7654081B7BC75A072BE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tumushukeshi",
+            "size": 140139
+        },
+        {
+            "md5": "1046389E5A01B46337630F7ECF2A2816",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lingaoxian",
+            "size": 302068
+        },
+        {
+            "md5": "14CF796AFE9C4F2016ECFFC3508F6806",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qinhuangdaoshi",
+            "size": 2828930
+        },
+        {
+            "md5": "54CB7AD477B1AA229455399A64BF4998",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hezeshi",
+            "size": 1824481
+        },
+        {
+            "md5": "28B65E8878734D1516E31B787155A8D1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhumadianshi",
+            "size": 2759536
+        },
+        {
+            "md5": "A817712E933B793214F406C54310F338",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yingtanshi",
+            "size": 923965
+        },
+        {
+            "md5": "D51FFB57E7BB62C36BF975D79519B70E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yuxishi",
+            "size": 2720972
+        },
+        {
+            "md5": "07FEE68780EDCD3076C33A574E00766A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changdudiqu",
+            "size": 1967265
+        },
+        {
+            "md5": "B4CD7BEACA0475B9F405E13A11B60F68",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "suihuashi",
+            "size": 3029806
+        },
+        {
+            "md5": "02FD67831DD47A12CEDDC50B20CB7993",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changjianglizuzizhixian",
+            "size": 242765
+        },
+        {
+            "md5": "633DD8FE590BEADB86E538B8AA0113A6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "kaifengshi",
+            "size": 1715727
+        },
+        {
+            "md5": "957A89F4AD685B570115F78EA2432B9B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "aletaidiqu",
+            "size": 2007285
+        },
+        {
+            "md5": "CBAE6593B52BCCADE6FCC6FA44714B78",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "luzhoushi",
+            "size": 2248452
+        },
+        {
+            "md5": "0A5F2E677B25C9FDEDDA7D511173EF6E",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yilihasakezizhizhou",
+            "size": 2163026
+        },
+        {
+            "md5": "8D6A1127922831CA452748D3817CB6C2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinchengshi",
+            "size": 1859415
+        },
+        {
+            "md5": "889077E3C7B55D6DA405DE3202A2F33B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinhuashi",
+            "size": 5321273
+        },
+        {
+            "md5": "D516A0C2BC44F563C9AAC31DF55383ED",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yiyangshi",
+            "size": 2961013
+        },
+        {
+            "md5": "8278144F13D26AD0093962DB90BF0A8F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhuzhoushi",
+            "size": 3335440
+        },
+        {
+            "md5": "3E10EF5612D14EE78295155CD1DA64F6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "datongshi",
+            "size": 2047281
+        },
+        {
+            "md5": "2E62586E567E80D19A511EC794E8B259",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "binzhoushi",
+            "size": 2073490
+        },
+        {
+            "md5": "8BF29FFB7CACB62452D09C496DA244A1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shuozhoushi",
+            "size": 1520784
+        },
+        {
+            "md5": "095FBC00092B74D65E8D8AD86446B24A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "laibinshi",
+            "size": 1674264
+        },
+        {
+            "md5": "D2D21B21CA3E819ACAB0E18473069076",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "beihaishi",
+            "size": 1088062
+        },
+        {
+            "md5": "276A77C12A156641070C4A410D84318B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "luoyangshi",
+            "size": 4183287
+        },
+        {
+            "md5": "EFCB20363CD7826622D139E3765CCF9C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qingyuanshi",
+            "size": 3471778
+        },
+        {
+            "md5": "989E327E8423FD2D081A9F3777ED98CE",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guilinshi",
+            "size": 4269699
+        },
+        {
+            "md5": "50240E2175EA6F7A4AAC6BF2A0E3FD83",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhenjiangshi",
+            "size": 3228094
+        },
+        {
+            "md5": "1E85D59757E83D4973CE3169F6E9BC1D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiujiangshi",
+            "size": 4117311
+        },
+        {
+            "md5": "3F41E7FF2C4405E1F924E9C9F1C3250A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xuzhoushi",
+            "size": 4615516
+        },
+        {
+            "md5": "0EC034E516BCB6EF61E92A33B1D679F4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xuanchengshi",
+            "size": 3150065
+        },
+        {
+            "md5": "37FEC177BACB48B92F445B5A2323FF1F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "pingliangshi",
+            "size": 1150550
+        },
+        {
+            "md5": "093F6F2DDEE4F2AD218A81C01FCBF497",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "daxinganlingdiqu",
+            "size": 1692378
+        },
+        {
+            "md5": "7B378A76CE267332577E1F9448444291",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "sanyashi",
+            "size": 788447
+        },
+        {
+            "md5": "EAB282147EE4929F430B9BAD6052C3E4",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wujiaqushi",
+            "size": 129233
+        },
+        {
+            "md5": "CD0DEC7AB31F76AA5A9A95B6F5D57ACC",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tianshuishi",
+            "size": 2019316
+        },
+        {
+            "md5": "259CF41DAE85FD368C312CB82D71D12B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "daqingshi",
+            "size": 2703533
+        },
+        {
+            "md5": "197DCA3B00850CA1DD1753530B9C845F",
+            "releasedate": "20140616",
+            "ver": 22,
+            "pinyin": "ningboshi",
+            "size": 7993599
+        },
+        {
+            "md5": "01994354D177A81C7A583561E664204A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yananshi",
+            "size": 4315198
+        },
+        {
+            "md5": "1DA14866EBBF79FFA31CD1E3B9BBF51D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "meizhoushi",
+            "size": 3327090
+        },
+        {
+            "md5": "4EF8FDA2EF3DA1419D5B2F3716CAC32F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ankangshi",
+            "size": 3099167
+        },
+        {
+            "md5": "653433156FC1AFF0A63850F58B2058A7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xinzhoushi",
+            "size": 3303857
+        },
+        {
+            "md5": "4BEFFC74951D145AF58AA116E1DD95FB",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hetiandiqu",
+            "size": 1927552
+        },
+        {
+            "md5": "D1C53712C8BE2E7FE496A578D783BFA2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dalibaizuzizhizhou",
+            "size": 3163464
+        },
+        {
+            "md5": "580914D538F9F561D9CAE2F35BD2D1B3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jianshi",
+            "size": 4660880
+        },
+        {
+            "md5": "CE66C5E00065857FD2655AD8C851C7A7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wulanchabushi",
+            "size": 3676199
+        },
+        {
+            "md5": "DD3D0F6C61BC1D7D0E94455E188D8BC9",
+            "releasedate": "20140616",
+            "ver": 22,
+            "pinyin": "changshashi",
+            "size": 7910825
+        },
+        {
+            "md5": "21CFF8CA632C9659310093446CD5AFB0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zigongshi",
+            "size": 1238921
+        },
+        {
+            "md5": "3E80CE7041C77DD1BA5726A45D8E9026",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baojishi",
+            "size": 2923063
+        },
+        {
+            "md5": "21114DE9E2A9469200E1FE2C3E207322",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiningshi",
+            "size": 2404877
+        },
+        {
+            "md5": "704EBB120F9916BCF59AEF972FB17FEF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baishalizuzizhixian",
+            "size": 227623
+        },
+        {
+            "md5": "D5C355AE552A1B1B18CF7FA8355FEE35",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shanghaishi",
+            "size": 22417411
+        },
+        {
+            "md5": "287255C9D12AA12238BDA189610CE6AA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhangjiajieshi",
+            "size": 1881175
+        },
+        {
+            "md5": "D522C425F4D0D18E28044A6F15749A47",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "changchunshi",
+            "size": 6749593
+        },
+        {
+            "md5": "2024409779B8016CF1C49C16D1C81325",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "laiwushi",
+            "size": 829763
+        },
+        {
+            "md5": "0DA3AF29E8D30A54096F99EDD90BBAE9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yantaishi",
+            "size": 5823023
+        },
+        {
+            "md5": "F2BC3B5E8E20C3A57489A7E16786E469",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanchangshi",
+            "size": 3485108
+        },
+        {
+            "md5": "B68F6380D5C57392DCA05173FD9B1021",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chifengshi",
+            "size": 4561194
+        },
+        {
+            "md5": "4EF5B33A379C2464D4959D6491D3FAEA",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "qitaiheshi",
+            "size": 524156
+        },
+        {
+            "md5": "75338DB7ED713A1F817B34551513CF47",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shizuishanshi",
+            "size": 872218
+        },
+        {
+            "md5": "BA6CD3B0A4117348127DF7A179E896FB",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tianjinshi",
+            "size": 11964928
+        },
+        {
+            "md5": "7B78BA6CF13490AF85538A3D3B96A4F6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiantaoshi",
+            "size": 689031
+        },
+        {
+            "md5": "A458E2B83650F0BD168E871B10DE6E7C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiangyangshi",
+            "size": 4991385
+        },
+        {
+            "md5": "B6DCA16E61E2575E00439DDDB8401083",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "luoheshi",
+            "size": 854940
+        },
+        {
+            "md5": "5D73C9610367ED1D99649E66D8891274",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wanningshi",
+            "size": 412753
+        },
+        {
+            "md5": "CC9AE4311FD3423AB7883537802800F7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "maomingshi",
+            "size": 2496551
+        },
+        {
+            "md5": "F135F5D1B939D65E5B8975A0D1B894E1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tangshanshi",
+            "size": 4931377
+        },
+        {
+            "md5": "A5256F4CC9EC1CCD3532E98893FA9F3A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhoukoushi",
+            "size": 1981683
+        },
+        {
+            "md5": "B4C51BF24143BE126F058475DE3A4ED1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "pingxiangshi",
+            "size": 936339
+        },
+        {
+            "md5": "4B99A5C1C407E4AC93B7E6B604AC07AF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tongrenshi",
+            "size": 3286154
+        },
+        {
+            "md5": "CBC5A29938BD5976CD6A189FA72ADC22",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "longyanshi",
+            "size": 2982993
+        },
+        {
+            "md5": "24DC5D5A9A754C1EFB01748EA63A9C16",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yi2chunshi",
+            "size": 1239378
+        },
+        {
+            "md5": "6B25A9E9A8C51DA8D5A368E7AD9D7F81",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chizhoushi",
+            "size": 1611088
+        },
+        {
+            "md5": "F825882064E309366F5C2301823B91E9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "weinanshi",
+            "size": 2739397
+        },
+        {
+            "md5": "52F48A146CD2BFEEF705D5A3AB6240F8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dandongshi",
+            "size": 2587912
+        },
+        {
+            "md5": "D0330CFAFA1599568C67EF86717A2CFF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhongweishi",
+            "size": 1606378
+        },
+        {
+            "md5": "F1E04F742391897677970C0A82B4F384",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hengyangshi",
+            "size": 4659009
+        },
+        {
+            "md5": "55F5D803C8765BCBAA53F4174ECAA8E7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanchongshi",
+            "size": 2370310
+        },
+        {
+            "md5": "48908EAA6AD9D181A90BBFD1444B8B77",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiaxingshi",
+            "size": 4568732
+        },
+        {
+            "md5": "AB41759AE5DF034DB5788D3FF8EA9941",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "puyangshi",
+            "size": 1141382
+        },
+        {
+            "md5": "E6FCEC48078899FBE2878B2A3FB179B7",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "deyangshi",
+            "size": 2445670
+        },
+        {
+            "md5": "B335050C7BE48F7335FF93472334392B",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "fu2zhoushi",
+            "size": 5180635
+        },
+        {
+            "md5": "20F2CF8AE493124E1344ADA7F1081054",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shihezishi",
+            "size": 240762
+        },
+        {
+            "md5": "39C3A31DDAB837E82B60294DDA54D199",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yanchengshi",
+            "size": 5458978
+        },
+        {
+            "md5": "21536A44A6C829A77BE5B021AE5495E8",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "haerbinshi",
+            "size": 7540874
+        },
+        {
+            "md5": "6DEBBA9C6C4F508464598D580083BB34",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiangtanshi",
+            "size": 2132039
+        },
+        {
+            "md5": "8F316AD8C2ED92C8527D7795C88D6026",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ziboshi",
+            "size": 2474378
+        },
+        {
+            "md5": "B4523755DB228BF5D822F8AA42210EF2",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tonglingshi",
+            "size": 498311
+        },
+        {
+            "md5": "46D309AE92ACF173A500D1D001ED127A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chuxiongyizuzizhizhou",
+            "size": 3144049
+        },
+        {
+            "md5": "1032BDAFD4CB945CAC30508E9FED3C61",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "chenzhoushi",
+            "size": 3549179
+        },
+        {
+            "md5": "17DF12054CA75EEEB03D05687E0C5B54",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shuangyashanshi",
+            "size": 1193928
+        },
+        {
+            "md5": "B259DADF49374B92D13C5CD152E7C762",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huangshishi",
+            "size": 1599582
+        },
+        {
+            "md5": "8BF9A775EBE0F5D2A056F804196F78DC",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "su4zhoushi",
+            "size": 1867550
+        },
+        {
+            "md5": "FDA6779BEC5EEF7E067F319910E157C6",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shennongjialinqu",
+            "size": 225917
+        },
+        {
+            "md5": "65921E35174B6CE227082C7355D5AF0D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "aomentebiexingzhengqu",
+            "size": 188369
+        },
+        {
+            "md5": "C19CF00B27F83494EBF27A7C9CC4C8D1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuhaishi",
+            "size": 396673
+        },
+        {
+            "md5": "BDC6476BD6E7FE460B2B86BF6308C4ED",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "suiningshi",
+            "size": 1382670
+        },
+        {
+            "md5": "055CBF906F9B3292EF2AD1E5B2DB6B89",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huaihuashi",
+            "size": 4749361
+        },
+        {
+            "md5": "04586F6FD6EC6624A957890E1742B71C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuhushi",
+            "size": 2718926
+        },
+        {
+            "md5": "B29334C20ACD7AE935F2EABF5A6357BF",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liangshanyizuzizhizhou",
+            "size": 3079103
+        },
+        {
+            "md5": "0790AE2D1620E9B51634787BB96A9C34",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shanweishi",
+            "size": 1289610
+        },
+        {
+            "md5": "0E4E3956813C290FC897F490A8E69AF9",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ledonglizuzizhixian",
+            "size": 383098
+        },
+        {
+            "md5": "DF2F3CC0BE4792339FB600AA3535F55D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jingmenshi",
+            "size": 2738896
+        },
+        {
+            "md5": "957099852DAA9B152F3BF800CBB75491",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "anyangshi",
+            "size": 2013973
+        },
+        {
+            "md5": "783229FA4088C88B7A00EA77181F7D63",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xianggangtebiexingzhengqu",
+            "size": 3449960
+        },
+        {
+            "md5": "3251FE0EFF3456DDF2E64777F37FE790",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "wuzhongshi",
+            "size": 2010066
+        },
+        {
+            "md5": "FF01BBD6466192415E961912057A340F",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baotinglizumiaozuzizhixian",
+            "size": 197291
+        },
+        {
+            "md5": "3E0283C696BB7392EA7E4D3E6226E7D1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jinzhoushi",
+            "size": 1971491
+        },
+        {
+            "md5": "CE3DA0EDC1A5340070F957A8CA9AB31C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "liuzhoushi",
+            "size": 3040005
+        },
+        {
+            "md5": "0E4D2F9CF653C9712397C1964BD97204",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "ezhoushi",
+            "size": 724673
+        },
+        {
+            "md5": "509B87AF3A52F6E5849C757D339D9944",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "tulufandiqu",
+            "size": 1176374
+        },
+        {
+            "md5": "C4AEEC7528D0D042CDDE0B601C5EE106",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "huangshanshi",
+            "size": 1912823
+        },
+        {
+            "md5": "CB2A926B585A52A71848BF3D09B2A3F5",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "lasashi",
+            "size": 972545
+        },
+        {
+            "md5": "315389DDB418EEB7591CDF140DBA5760",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guangzhoushi",
+            "size": 14103411
+        },
+        {
+            "md5": "B243B98C38EB8990519CAD1E03A17262",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "baotoushi",
+            "size": 2557759
+        },
+        {
+            "md5": "EB988741B586F8740C4C9D64D2DA4552",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "xiaoganshi",
+            "size": 2987271
+        },
+        {
+            "md5": "9344592CDAF6EFD6F4FFABF685A41003",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "quanzhoushi",
+            "size": 4991788
+        },
+        {
+            "md5": "9F12772C351316F55ED6345586CB679D",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "dazhoushi",
+            "size": 2487256
+        },
+        {
+            "md5": "2774448E5D8CB575F15C0D0E01DC11A0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yingkoushi",
+            "size": 1735972
+        },
+        {
+            "md5": "D0FF343D287458D75B35018CF3E4715C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shiyanshi",
+            "size": 4842477
+        },
+        {
+            "md5": "7F060F74ACDC4C6DEA08AA2F970AC945",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "shantoushi",
+            "size": 1948705
+        },
+        {
+            "md5": "03769092C98F8FB6E85D9F9D6C8C8282",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jingdezhenshi",
+            "size": 1175920
+        },
+        {
+            "md5": "02422DC823110630C3765632544740E0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "yinchuanshi",
+            "size": 2450077
+        },
+        {
+            "md5": "369EECDD1A8DA30671B60B1075F221D1",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhanjiangshi",
+            "size": 3623079
+        },
+        {
+            "md5": "BBB9EFEDD7A36BC33AFF313F07EB9608",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hulunbeiershi",
+            "size": 5348653
+        },
+        {
+            "md5": "D0EE22501AAD27A050A9ADCDE71E3B3C",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "guangyuanshi",
+            "size": 2651809
+        },
+        {
+            "md5": "C7F42A0530BB3114AE1A7849703CD500",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "rizhaoshi",
+            "size": 1748625
+        },
+        {
+            "md5": "24DA561E5EA6D72C8A2D3607DDF49191",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "hebishi",
+            "size": 697225
+        },
+        {
+            "md5": "996E1EC98D808B5FA564156639FF54D0",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jiangmenshi",
+            "size": 3968116
+        },
+        {
+            "md5": "A25CE038EB5058E4BD6F74FEC7B63198",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "jingzhoushi",
+            "size": 3357631
+        },
+        {
+            "md5": "925DB37E54A29D581093D4B810AF119A",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "nanjingshi",
+            "size": 8220620
+        },
+        {
+            "md5": "7E5437EC5A16F9513C90F597DB72FEA3",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "zhengzhoushi",
+            "size": 6346698
+        },
+        {
+            "md5": "8A2A7C3D6CA12EC5CD3A051D43754209",
+            "releasedate": "20140616",
+            "ver": 20,
+            "pinyin": "alaershi",
+            "size": 258695
+        }
+    ],
+    "fileversion": "1"
+}

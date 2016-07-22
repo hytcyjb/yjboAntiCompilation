@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.RelativeLayout android:background="@drawable/im_voice_record_bg" android:layout_width="@dimen/im_voice_record_dialog_width" android:layout_height="@dimen/im_voice_record_dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <x.ImageView android:id="@id/im_voice_record_img" android:layout_width="@dimen/im_voice_record_dialog_img_width" android:layout_height="@dimen/im_voice_record_dialog_img_height" android:layout_marginTop="@dimen/im_voice_record_dialog_img_margin_top" android:layout_centerHorizontal="true" x:background="@drawable/speech_replay_icon1" />
+    <TextView android:gravity="center" android:id="@id/im_voice_record_tv" android:layout_width="@dimen/im_voice_record_dialog_tip_width" android:layout_height="@dimen/im_voice_record_dialog_tip_height" android:layout_marginTop="@dimen/im_voice_record_dialog_tip_margin_top" android:text="@string/im_record_dialog_tip_cancel" android:layout_below="@id/im_voice_record_img" android:layout_centerHorizontal="true" style="@style/TextView.LightGray.Small" />
+</x.RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/realtime_slide_voice_call_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textSize="@dimen/font_size_medium" android:textColor="@color/dark_gray" android:textColorHint="@color/light_s_gray" android:gravity="top|left|center" android:id="@id/description_edit" android:background="@drawable/edit_rect_bg" android:paddingLeft="@dimen/description_et_padding" android:paddingTop="@dimen/description_et_padding" android:paddingRight="@dimen/description_et_padding" android:layout_width="fill_parent" android:layout_height="@dimen/description_et_height" android:layout_marginTop="@dimen/setting_item_margin_top" android:hint="@string/description_edit_hint" android:minLines="3" android:maxLength="40" android:layout_below="@id/title_bar" />
+    <TextView android:layout_gravity="bottom|right|center" android:id="@id/word_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0px" android:layout_marginBottom="20.0px" android:layout_alignRight="@id/description_edit" android:layout_alignBottom="@id/description_edit" style="@style/TextView.LightGray.Medium" />
+</RelativeLayout>

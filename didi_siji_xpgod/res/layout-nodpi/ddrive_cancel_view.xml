@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cancel_trip_tip_margin_top">
+        <x.ImageView android:id="@id/pay_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/pay_type_tip" android:text="@string/ddrive_cancel_title" android:layout_toRightOf="@id/pay_line_left" style="@style/Line_TipText" />
+        <x.ImageView android:layout_toRightOf="@id/pay_type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <x.ImageView android:id="@id/cancel_trip_icon_image" android:layout_width="@dimen/cancel_trip_icon_size" android:layout_height="@dimen/cancel_trip_icon_size" android:layout_marginTop="@dimen/cancel_trit_icon_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true" x:src="@drawable/ddrive_cancel_trip_icon" />
+    <TextView android:id="@id/cancel_trip_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cancel_trip_text_margin_top" android:layout_marginTop="@dimen/cancel_trip_text_margin_top" android:layout_marginRight="@dimen/cancel_trip_text_margin_top" android:text="@string/cancel_trip_confirmed" android:layout_below="@id/cancel_trip_icon_image" android:layout_centerHorizontal="true" style="@style/TextView.Gray.Medium" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cancel_trip_item_margin" android:layout_marginTop="@dimen/cancel_trip_text_margin_top" android:layout_marginRight="@dimen/cancel_trip_item_margin" android:layout_below="@id/cancel_trip_title" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/line_content_passenger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <RelativeLayout android:id="@id/view_tip_passenger" android:layout_width="@dimen/cancel_trip_icon_dot_width" android:layout_height="fill_parent" android:layout_alignBottom="@id/cancel_trip_text">
+                <View android:id="@id/view_dot_passenger" android:background="@drawable/shape_bg_dot" android:visibility="gone" android:layout_width="@dimen/cancel_trip_icon_dot_width" android:layout_height="@dimen/cancel_trip_icon_dot_width" android:layout_marginTop="@dimen/cancel_trip_down_line_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <View android:id="@id/view_line_passenger" android:background="@color/light_s_gray" android:layout_width="@dimen/canel_trip_line_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cancel_trip_icon_dot_bottom_margin" android:layout_below="@id/view_dot_passenger" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:gravity="center_horizontal" android:id="@id/cancel_trip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/TextView.LightGray.Small" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/line_content_driver" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/line_content_passenger">
+            <RelativeLayout android:id="@id/view_tip_driver" android:layout_width="@dimen/cancel_trip_icon_dot_width" android:layout_height="fill_parent" android:layout_alignBottom="@id/driver_feedback_text">
+                <View android:id="@id/view_line_driver" android:background="@color/light_s_gray" android:layout_width="@dimen/canel_trip_line_width" android:layout_height="@dimen/cancel_trip_up_line_height" android:layout_marginBottom="@dimen/cancel_trip_icon_dot_bottom_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <View android:id="@id/view_dot_driver" android:background="@drawable/shape_bg_dot" android:layout_width="@dimen/cancel_trip_icon_dot_width" android:layout_height="@dimen/cancel_trip_icon_dot_width" android:layout_below="@id/view_line_driver" />
+            </RelativeLayout>
+            <TextView android:gravity="top|left|center" android:id="@id/cancel_trip_title_driver" android:paddingTop="@dimen/cancel_trip_car_tv_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cancel_trip_icon_dot_margin" android:text="@string/cancel_trip_driver_reason" android:layout_toRightOf="@id/view_tip_driver" android:layout_alignParentTop="true" style="@style/TextView.LightGray.Small" />
+            <TextView android:gravity="top|left|center" android:id="@id/driver_feedback_text" android:paddingTop="@dimen/cancel_trip_car_tv_top_margin" android:paddingBottom="@dimen/cancel_trip_car_tv_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cancel_trip_icon_dot_margin" android:singleLine="false" android:layout_toRightOf="@id/cancel_trip_title_driver" android:layout_alignTop="@id/cancel_trip_title_driver" style="@style/TextView.LightGray.Small" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

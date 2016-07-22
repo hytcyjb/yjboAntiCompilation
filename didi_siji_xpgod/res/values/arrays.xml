@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>90后</item>
+        <item>80后</item>
+        <item>70后</item>
+        <item>60后</item>
+        <item>50后</item>
+    </string-array>
+    <string-array name="avatar_menu">
+        <item>拍照</item>
+        <item>从手机相册选择</item>
+    </string-array>
+    <string-array name="business_field">
+        <item>互联网，游戏，软件</item>
+        <item>电子，通信，硬件</item>
+        <item>房地产，建筑，物业</item>
+        <item>广告，传媒，娱乐，文化</item>
+        <item>金融，银行，会计，保险</item>
+        <item>消费品</item>
+        <item>汽车，机械，生产，制造</item>
+        <item>教育，培训，翻译</item>
+        <item>贸易，交通，物流</item>
+        <item>制药，医疗，生物，护理</item>
+        <item>能源，化工，环保</item>
+        <item>政府，机构</item>
+        <item>服务，外包，中介</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="date">
+        <item></item>
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+        <item></item>
+    </string-array>
+    <string-array name="minute">
+        <item></item>
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item></item>
+    </string-array>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="tag_for_man">
+        <item>阳光男孩</item>
+        <item>迷一样的美男子</item>
+        <item>直男</item>
+        <item>二环十三郎</item>
+        <item>各种虚伪各种装</item>
+        <item>京东飘逸</item>
+        <item>duang~duang~duang</item>
+        <item>帅哥</item>
+        <item>死鬼晚上约吗</item>
+        <item>神雕大侠</item>
+    </string-array>
+    <string-array name="tag_for_woman">
+        <item>成熟性感</item>
+        <item>这个美女不一般</item>
+        <item>美女</item>
+        <item>皇上我想你</item>
+        <item>武媚娘各种被剪</item>
+        <item>摄影达人</item>
+        <item>duang~duang~duang</item>
+        <item>话唠</item>
+        <item>美女晚上约吗</item>
+        <item>运动健将</item>
+    </string-array>
+</resources>

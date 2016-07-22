@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bts_real_guide_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="53.0dip" android:layout_marginBottom="127.0dip">
+        <ImageView android:id="@id/bts_guide_img" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bts_ad_content" android:background="@drawable/bts_ad_area_bg" android:paddingLeft="11.0dip" android:paddingTop="9.0dip" android:paddingRight="11.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="33.0dip" android:layout_marginTop="83.0dip" android:layout_marginRight="33.0dip" android:layout_marginBottom="150.0dip">
+        <ImageView android:id="@id/bts_ad_img1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="3.0" />
+        <ImageView android:id="@id/bts_ad_img2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" android:layout_weight="3.0" />
+        <ImageView android:id="@id/bts_ad_img3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="3.0" />
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/bts_font_size_xx_small" android:textColor="@color/orange" android:ellipsize="none" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bts_more" android:background="@drawable/bts_ad_more_btn_selector" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="26.0dip" android:text="查看更多活动" android:maxLines="1" android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bts_wind_parent" android:background="@drawable/bts_ad_more_nor" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67.0dip" android:layout_marginRight="17.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/bts_font_size_xx_small" android:textColor="@color/orange" android:ellipsize="none" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/bts_wind_text" android:paddingLeft="12.0dip" android:paddingRight="0.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="新消息提醒" android:maxLines="1" android:singleLine="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bts_wind_img" android:padding="0.5dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/bts_home_page_windmill_selector" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/bts_red_point" android:background="@drawable/bts_redpoint_selector" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignTop="@id/bts_wind_parent" android:layout_alignRight="@id/bts_wind_parent" />
+    <com.didi.beatles.ui.fragment.view.BtsBottomBar android:id="@id/bts_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/realtime_bottom_bar_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

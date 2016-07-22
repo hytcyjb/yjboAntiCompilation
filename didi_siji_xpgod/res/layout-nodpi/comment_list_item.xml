@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/driver_info_item_padiing_left" android:paddingRight="@dimen/driver_info_item_padiing_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/driver_info_text_call_margin_top">
+        <TextView android:id="@id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextView.LightGray.XSmall" />
+        <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/driver_info_text_time_margin_left" android:layout_toRightOf="@id/phone" style="@style/TextView.LightGray.XSmall" />
+        <com.didi.common.ui.component.FiveStar android:id="@id/fiveStar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:id="@id/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/driver_info_text_comment_margin_top" android:layout_marginBottom="@dimen/driver_info_text_comment_margin_bottom" android:maxLines="3" android:singleLine="false" style="@style/TextView.DarkGray.Medium" />
+</LinearLayout>

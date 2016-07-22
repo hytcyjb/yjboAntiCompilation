@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout_catalog" android:background="@color/picker_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bar_top_line" android:background="#ffc5c5c5" android:layout_width="wrap_content" android:layout_height="1.0px" />
+    <TextView android:gravity="center" android:id="@id/bar_btn_cancel" android:layout_width="263.0px" android:layout_height="120.0px" android:text="@string/cancel_txt" android:layout_below="@id/bar_top_line" android:layout_alignParentLeft="true" style="@style/TextView.LightGray.Medium" />
+    <TextView android:id="@id/bar_btn_confirm" android:layout_width="263.0px" android:layout_height="120.0px" android:text="@string/confirm" android:layout_below="@id/bar_top_line" android:layout_alignParentRight="true" style="@style/TextView.Orange.Center.Medium" />
+    <View android:id="@id/bar_bottom_line" android:background="#ffc5c5c5" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_below="@id/bar_btn_confirm" />
+    <com.didi.beatles.ui.component.BtsTimePicker android:id="@id/bar_time_picker" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="550.0px" android:layout_below="@id/bar_bottom_line" />
+</RelativeLayout>

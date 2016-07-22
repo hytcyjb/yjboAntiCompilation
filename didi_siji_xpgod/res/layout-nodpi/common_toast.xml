@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRoot" android:background="@drawable/common_toast_bg" android:layout_width="@dimen/common_toast_root_layout_wdith" android:layout_height="@dimen/common_toast_root_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgViewIcon" android:background="@drawable/common_toast_icon_info" android:layout_width="@dimen/common_toast_icon_img_wdith" android:layout_height="@dimen/common_toast_icon_img_height" android:layout_marginTop="@dimen/common_toast_icon_img_margin_top" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/txtViewContent" android:layout_width="@dimen/common_toast_content_textview_wdith" android:layout_height="@dimen/common_toast_content_textview_height" android:layout_marginLeft="@dimen/common_toast_content_textview_margin_60" android:layout_marginTop="@dimen/common_toast_content_textview_margin_60" android:layout_marginRight="@dimen/common_toast_content_textview_margin_60" android:layout_below="@id/imgViewIcon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

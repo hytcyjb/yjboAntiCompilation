@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bts_bottom_bar_text">#ffff8903</color>
+    <color name="bts_guide_transparent_background">#1a000000</color>
+    <color name="background_tab_pressed">#8833b5e5</color>
+    <color name="bts_circle_color_1">#fffcf0e3</color>
+    <color name="bts_circle_color_2">#ffffbd66</color>
+    <color name="bts_common_line_color">#ffe5e5e5</color>
+    <color name="bts_detail_user_rate_btn">#33ff8903</color>
+    <color name="bts_detail_user_rate_btn_text_normal">#ff878787</color>
+    <color name="bts_detail_user_rate_btn_text_selected">#ffffffff</color>
+    <color name="bts_driver_profile_content_bg">#ffffffff</color>
+    <color name="bts_passenger_profile_content_bg">#ffffffff</color>
+    <color name="bts_transparent">#00000000</color>
+    <color name="button_gray_box_nor">#ff666666</color>
+    <color name="button_gray_box_press">#ff515151</color>
+    <color name="button_orange_box_nor">#ffff8903</color>
+    <color name="button_orange_box_press">#ffcc6d03</color>
+    <color name="button_orange_disable">#ffe0e0e0</color>
+    <color name="button_orange_nor">#ffff8c03</color>
+    <color name="button_orange_press">#ffef7703</color>
+    <color name="map_user_market_bg">#e0000000</color>
+</resources>

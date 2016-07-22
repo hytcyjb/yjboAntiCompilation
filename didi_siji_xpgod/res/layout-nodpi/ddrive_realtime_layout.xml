@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.ddrive.ui.component.DDriveBottomBar android:id="@id/ddrive_bottom_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/realtime_bottom_bar_height" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/ddrive_real_guide_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="170.0px" android:layout_marginBottom="180.0px" android:layout_above="@id/ddrive_bottom_bar">
+        <ImageView android:id="@id/ddrive_guide_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0px" android:layout_marginTop="20.0px" android:layout_marginRight="50.0px" android:layout_marginBottom="20.0px" android:src="@drawable/ddrive_recruit_img" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

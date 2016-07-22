@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <LinearLayout android:orientation="vertical" android:id="@id/wait_for_arrival_foot_bar_op_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/car_wait_for_arrival_footer_layout_margin" android:layout_marginRight="@dimen/car_wait_for_arrival_footer_layout_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/car_wait_for_arrival_footer_layout_margin_top" android:layout_marginRight="@dimen/car_wait_for_arrival_footer_layout_margin_top">
+            <RelativeLayout android:id="@id/wait_for_arrival_foot_bar_food_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/wait_for_arrival_foot_bar_img_food" android:background="@drawable/common_bg_circle_selector" android:layout_width="220.0px" android:layout_height="220.0px" android:layout_centerInParent="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wait_for_arrival_foot_bar_icon_food_wrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <x.ImageView android:id="@id/wait_for_arrival_foot_bar_icon_food" android:layout_width="90.0px" android:layout_height="90.0px" x:background="@drawable/car_wait_for_arrival_footer_food" />
+                    <TextView android:textSize="35.0px" android:textColor="@color/common_pin_below_text_color_selector" android:id="@id/wait_for_arrival_foot_bar_text_food" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <x.TextView android:textSize="28.0px" android:textColor="@color/white" android:gravity="center" android:id="@id/wait_for_arrival_foot_bar_img_food_hint" android:layout_width="120.0px" android:layout_height="58.0px" android:layout_marginLeft="-30.0px" android:singleLine="true" android:layout_toRightOf="@id/wait_for_arrival_foot_bar_icon_food_wrap" x:background="@drawable/car_arrival_remind_bj" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/wait_for_arrival_foot_bar_found_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.ImageView android:id="@id/wait_for_arrival_foot_bar_img_found" android:layout_width="220.0px" android:layout_height="220.0px" android:layout_centerInParent="true" x:background="@drawable/common_bg_circle_selector" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wait_for_arrival_foot_bar_icon_found_wrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <x.ImageView android:id="@id/wait_for_arrival_foot_bar_icon_found" android:layout_width="90.0px" android:layout_height="90.0px" x:background="@drawable/car_wait_for_arrival_footer_game" />
+                    <TextView android:textSize="35.0px" android:textColor="@color/common_pin_below_text_color_selector" android:id="@id/wait_for_arrival_foot_bar_text_found" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <x.TextView android:textSize="28.0px" android:textColor="@color/white" android:gravity="center" android:id="@id/wait_for_arrival_foot_bar_img_found_hint" android:layout_width="120.0px" android:layout_height="58.0px" android:layout_marginLeft="-30.0px" android:singleLine="true" android:layout_toRightOf="@id/wait_for_arrival_foot_bar_icon_found_wrap" x:background="@drawable/car_arrival_remind_bj" />
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.RelativeLayout android:id="@id/wait_for_arrival_foot_bar_img_arrival" style="@style/WaitForResponseFootBar.ImageButton">
+                    <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_arrival" x:src="@drawable/wait_for_arrival_footer_bar_ic_arrival_selector" style="@style/WaitForResponseFootBar.IconImage" />
+                    <TextView android:text="@string/arrival" android:layout_below="@id/wait_for_arrival_foot_bar_icon_arrival" style="@style/WaitForResponseFootBar.Label" />
+                </x.RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.RelativeLayout android:id="@id/wait_for_arrival_foot_bar_img_op" style="@style/WaitForResponseFootBar.ImageButton">
+                    <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_op" x:src="@drawable/wait_for_arrival_footer_bar_ic_share_selector" style="@style/WaitForResponseFootBar.IconImage" />
+                    <TextView android:id="@id/wait_for_arrival_foot_bar_op_txt" android:text="@string/share" android:layout_below="@id/wait_for_arrival_foot_bar_icon_op" style="@style/WaitForResponseFootBar.Label" />
+                </x.RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.RelativeLayout android:id="@id/wait_for_arrival_foot_bar_share_coupon_op" style="@style/WaitForResponseFootBar.ImageButton">
+                    <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_share_coupon_op" x:src="@drawable/wait_for_arrival_footer_bar_ic_share_coupon_selector" style="@style/WaitForResponseFootBar.IconImage" />
+                    <TextView android:id="@id/wait_for_arrival_foot_bar_share_coupon_op_txt" android:text="@string/footer_car_coupon_share_text" android:layout_below="@id/wait_for_arrival_foot_bar_icon_share_coupon_op" style="@style/WaitForResponseFootBar.Label" />
+                </x.RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.RelativeLayout android:id="@id/wait_for_arrival_foot_bar_img_question" style="@style/WaitForResponseFootBar.ImageButton">
+                    <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_question" x:src="@drawable/wait_for_arrival_footer_bar_ic_question_selector" style="@style/WaitForResponseFootBar.IconImage" />
+                    <TextView android:text="@string/question" android:layout_below="@id/wait_for_arrival_foot_bar_icon_question" style="@style/WaitForResponseFootBar.Label" />
+                </x.RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <x.RelativeLayout android:id="@id/wait_for_arrival_foot_bar_img_home" style="@style/WaitForResponseFootBar.ImageButton">
+                    <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_home" x:src="@drawable/wait_for_arrival_footer_bar_ic_home_selector" style="@style/WaitForResponseFootBar.IconImage" />
+                    <TextView android:text="@string/home" android:layout_below="@id/wait_for_arrival_foot_bar_icon_home" style="@style/WaitForResponseFootBar.Label" />
+                </x.RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wait_for_arrival_foot_bar_op_newtxt_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <x.ImageView android:id="@id/img_wait_for_arrival_tip" android:layout_width="@dimen/complaint_reason_item_icon_height" android:layout_height="@dimen/complaint_reason_item_icon_height" android:layout_marginTop="@dimen/car_wait_for_arrival_footer_layout_margin_top" android:scaleType="fitXY" x:src="@drawable/public_good_icon" />
+            <TextView android:textColor="@color/red_light" android:id="@id/txt_wait_for_arrival_tip" android:layout_marginLeft="@dimen/detail_txt_donate_margin_left" android:singleLine="true" style="@style/WaitForResponseFootBar.Label" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_img_close" android:visibility="invisible" android:layout_width="@dimen/wait_for_arrival_footer_bar_close_size" android:layout_height="@dimen/wait_for_arrival_footer_bar_img_size" x:src="@drawable/wait_for_arrival_footer_bar_ic_close_selector" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/light_ss_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/layout_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/car_estimate_up_part_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/layout_bar">
+        <LinearLayout android:orientation="vertical" android:id="@id/car_estimate_up_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/startAddressLayout" android:layout_width="fill_parent" android:layout_height="@dimen/estimate_price_address_height">
+                <x.ImageView android:id="@id/car_estimate_image_start_address" android:layout_width="@dimen/estimate_price_address_image_width" android:layout_height="@dimen/estimate_price_address_image_height" android:layout_marginLeft="@dimen/estimate_price_address_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" x:background="@drawable/common_icn_startpoint" />
+                <TextView android:textColor="@color/gray" android:textColorHint="@color/light_s_gray" android:gravity="center_vertical" android:id="@id/car_estimate_btn_start_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/estimate_price_address_text_margin_left" android:hint="@string/estimate_price_start_address_text" android:layout_toRightOf="@id/car_estimate_image_start_address" android:layout_centerVertical="true" style="@style/TextView.Gray.Medium" />
+            </RelativeLayout>
+            <View android:layout_gravity="fill_horizontal" android:id="@id/divide_line1" android:background="@color/light_sss_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="17.0dip" android:layout_below="@id/startAddressLayout" />
+            <RelativeLayout android:id="@id/endAddressLayout" android:layout_width="fill_parent" android:layout_height="@dimen/estimate_price_address_height" android:layout_below="@id/divide_line1">
+                <x.ImageView android:id="@id/car_estimate_image_end_address" android:layout_width="@dimen/estimate_price_address_image_width" android:layout_height="@dimen/estimate_price_address_image_height" android:layout_marginLeft="@dimen/estimate_price_address_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" x:background="@drawable/common_icn_endpoint" />
+                <TextView android:textColor="@color/gray" android:textColorHint="@color/light_s_gray" android:gravity="center_vertical" android:id="@id/car_estimate_btn_end_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/estimate_price_address_text_margin_left" android:hint="@string/estimate_price_end_address_text" android:layout_toRightOf="@id/car_estimate_image_end_address" android:layout_centerVertical="true" style="@style/TextView.Gray.Medium" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/car_estimate_third_part" android:background="@drawable/car_estimate_down_part_bg" android:layout_width="fill_parent" android:layout_height="@dimen/estimate_price_address_height" android:layout_marginLeft="10.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/car_estimate_txt_distance_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:id="@id/car_estimate_txt_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" style="@style/TextView.Gray.Small" />
+        </LinearLayout>
+        <View android:layout_gravity="center" android:background="@color/light_s_gray" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/startAddressLayout" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:background="@drawable/car_estimate_txt_time_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:id="@id/car_estimate_txt_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" style="@style/TextView.Gray.Small" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/car_estimate_web_bg" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_below="@id/car_estimate_up_area">
+        <com.didi.common.ui.webview.CommonWebViewEx android:id="@id/car_estimate_webview" android:background="@drawable/car_estimate_up_part_bg" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/errorView" android:background="@color/white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imgError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+            <TextView android:textSize="@dimen/font_size_xxx_large" android:textColor="@color/gray" android:gravity="center" android:id="@id/txtError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/car_estimate_web_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@anim/loading_set" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="35.0px" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip" android:text="@string/car_es_tips" android:layout_below="@id/car_estimate_up_area" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <x.ImageView android:layout_gravity="bottom" android:id="@id/estimate_price_info_img" android:layout_width="@dimen/estimate_price_info_img_width" android:layout_height="@dimen/estimate_price_info_img_height" x:background="@drawable/common_icn_information" />
+        <TextView android:layout_gravity="bottom" android:id="@id/estimate_price_valuation_rules" android:layout_marginLeft="@dimen/estimate_price_valuation_rules_drawable_padding" android:text="@string/desc_price_and_cartype" style="@style/TextView.LinkGray.Small" />
+    </LinearLayout>
+</LinearLayout>

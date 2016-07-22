@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/light_ss_gray" android:layout_width="fill_parent" android:layout_height="@dimen/im_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.TextView android:gravity="center" android:id="@id/im_titlebar_tv_title" android:clickable="true" android:layout_centerInParent="true" style="@style/TextView.DarkGray.XLarge" />
+    <x.ImageButton android:gravity="center" android:id="@id/im_titlebar_ib_close" android:clickable="true" android:layout_width="@dimen/im_titlebar_ib_close_width" android:layout_height="@dimen/im_titlebar_ib_close_height" android:layout_marginTop="@dimen/im_titlebar_ib_close_margin_top" android:layout_marginRight="@dimen/im_titlebar_ib_close_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/im_titlebar_close_selector" />
+    <ImageView android:background="@color/light_sss_gray" android:layout_width="fill_parent" android:layout_height="@dimen/im_titlebar_line_height" android:layout_marginLeft="@dimen/im_titlebar_margin_left" android:layout_marginRight="@dimen/im_titlebar_margin_right" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+</merge>

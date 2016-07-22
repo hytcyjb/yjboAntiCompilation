@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/pay_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/pay_type_tip" android:text="@string/pay_detail" android:layout_toRightOf="@id/pay_line_left" style="@style/Line_TipText" />
+        <ImageView android:id="@id/pay_line_right" android:layout_toRightOf="@id/pay_type_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <x.RelativeLayout android:id="@id/pay_icon" android:background="@drawable/common_bg_circle_selector" android:visibility="invisible" android:layout_width="@dimen/wait_for_arrival_footer_bar_img_size" android:layout_height="@dimen/wait_for_arrival_footer_bar_img_size" android:layout_marginTop="@dimen/pay_icon_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true">
+        <x.ImageButton android:id="@id/wait_for_arrival_foot_bar_icon_center" x:src="@drawable/wait_for_arrival_footer_bar_ic_pay_selector" style="@style/WaitForResponseFootBar.IconImage" />
+        <TextView android:text="@string/pay" android:layout_below="@id/wait_for_arrival_foot_bar_icon_center" style="@style/WaitForResponseFootBar.Label" />
+    </x.RelativeLayout>
+    <x.RelativeLayout android:id="@id/pay_price_layout" android:layout_width="@dimen/common_input_edit_width" android:layout_height="@dimen/common_input_edit_height" android:layout_marginTop="@dimen/pay_price_layout_margin_top" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true">
+        <TextView android:id="@id/list_price_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_list_price_txt" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+        <TextView android:id="@id/input_price_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_price_notice_txt" android:layout_centerInParent="true" style="@style/TextView.Light_s_gray.Large" />
+        <TextView android:id="@id/list_price_yuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_yuan" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+        <x.RelativeLayout android:gravity="center_vertical" android:id="@id/list_price_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_input_margin" android:layout_centerVertical="true">
+            <EditText android:gravity="center" android:id="@id/list_price_edit" android:background="@null" android:paddingBottom="5.0sp" android:layout_width="390.0px" android:layout_height="fill_parent" android:maxLength="6" android:layout_centerInParent="true" android:inputType="numberDecimal" style="@style/TextView.DarkGray.XXXXLarge" />
+        </x.RelativeLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/pay_sale_layout" android:layout_width="@dimen/common_input_edit_width" android:layout_height="wrap_content" android:layout_below="@id/pay_price_layout" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/pay_balance_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pay_item_height">
+            <TextView android:id="@id/pay_balance_tip_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_balance_tip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.Gray.Medium" />
+            <TextView android:id="@id/pay_balance_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.Orange.Medium" />
+            <ImageView android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/Line_LineImage" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pay_ticket_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pay_item_height" android:layout_below="@id/pay_balance_layout">
+            <TextView android:id="@id/pay_ticket_tip_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_ticket_tip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.Gray.Medium" />
+            <TextView android:id="@id/pay_ticket_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView.Orange.Medium" />
+            <ImageView android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/Line_LineImage" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <x.RelativeLayout android:gravity="center" android:id="@id/pay_way_line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top" android:layout_below="@id/pay_sale_layout" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/pay_way_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/pay_way_tip" android:text="@string/pay_way" android:layout_toRightOf="@id/pay_way_line_left" style="@style/Line_TipText" />
+        <ImageView android:id="@id/pay_way_line_right" android:layout_toRightOf="@id/pay_way_tip" style="@style/Line_LineImage" />
+    </x.RelativeLayout>
+    <com.didi.taxi.ui.component.TaxiWaitForArrivalPayWayView android:id="@id/pay_way_layout" android:visibility="gone" android:layout_width="@dimen/common_input_edit_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_way_layout_margin_top" android:layout_below="@id/pay_way_line_layout" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/pay_sale_layout2" android:layout_width="@dimen/common_input_edit_width" android:layout_height="wrap_content" android:layout_below="@id/pay_way_layout" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/pay_enterprise_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/pay_item_enterprise_height" android:layout_centerHorizontal="true">
+            <CheckBox android:id="@id/wait_for_arrival_enterprise_checkbox" android:layout_centerVertical="true" style="@style/car_evaluate_comment_items_checkbox" />
+            <TextView android:id="@id/wait_for_arrival_enterprise_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0px" android:layout_toRightOf="@id/wait_for_arrival_enterprise_checkbox" android:layout_centerVertical="true" style="@style/TextView.Gray.Medium" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <x.Button android:id="@id/pay_confirm_btn" android:visibility="visible" android:layout_width="@dimen/pay_confirm_btn_width" android:layout_height="@dimen/pay_confirm_btn_height" android:layout_marginTop="@dimen/pay_confirm_btn_margin_top" android:text="@string/pay_confirm_txt" android:layout_below="@id/pay_sale_layout2" android:layout_centerHorizontal="true" x:background="@drawable/common_bg_area_pressed" style="@style/Button.White.XLarge" />
+    <TextView android:id="@id/pay_activity_tip_txt" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_action_label_margin_top" android:layout_below="@id/pay_confirm_btn" android:layout_centerHorizontal="true" style="@style/TextView.Gray.Small" />
+    <x.RelativeLayout android:orientation="vertical" android:id="@id/paid_layout" android:visibility="invisible" android:layout_width="@dimen/paid_layout_width" android:layout_height="@dimen/paid_layout_height" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:id="@id/paid_price_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_success_price_margin_top" android:includeFontPadding="false" android:layout_centerHorizontal="true" style="@style/TextView.DarkGray.XXXXXLarge" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pay_success_yuan_margin_bottom" android:text="@string/pay_yuan" android:layout_toRightOf="@id/paid_price_txt" android:layout_alignBottom="@id/paid_price_txt" style="@style/TextView.DarkGray.Large" />
+        <TextView android:gravity="center_horizontal" android:id="@id/paid_sale_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_success_tip_margin_top" android:layout_marginBottom="@dimen/paid_summary_margin_bottom" android:maxLines="2" android:singleLine="false" android:layout_below="@id/paid_price_txt" android:layout_centerHorizontal="true" style="@style/TextView.LightGray.Small" />
+    </x.RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/pay_outtime_tip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paid_layout_margin_top" android:layout_below="@id/line_layout" style="@style/TextView.Gray.XXLarge" />
+    <TextView android:gravity="center_horizontal" android:id="@id/pay_outtime_summary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/paid_layout_margin_bottom" android:singleLine="false" android:layout_below="@id/pay_outtime_tip" android:lineSpacingExtra="@dimen/pay_outtime_tip_line_space" style="@style/TextView.Gray.Small" />
+    <x.RelativeLayout android:orientation="vertical" android:id="@id/pay_close_layout" android:visibility="invisible" android:layout_width="@dimen/paid_layout_width" android:layout_height="@dimen/paid_layout_height" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true">
+        <x.ImageView android:id="@id/pay_close_icon" android:layout_width="@dimen/pay_close_icon_size" android:layout_height="@dimen/pay_close_icon_size" android:layout_marginTop="@dimen/pay_close_icon_margin_top" android:layout_centerHorizontal="true" x:src="@drawable/dialog_icn_pay_close" />
+        <TextView android:id="@id/pay_close_tip_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_close_text_margin_top" android:text="@string/pay_closed_now" android:layout_below="@id/pay_close_icon" android:layout_centerHorizontal="true" style="@style/TextView.LightGray.Small" />
+    </x.RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/paid_op_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="230.0px" android:layout_marginTop="320.0px" android:layout_marginRight="230.0px" android:layout_below="@id/line_layout">
+        <RelativeLayout android:id="@id/paid_carpool_layout" android:visibility="gone" android:layout_width="@dimen/paid_layout_item_width" android:layout_height="@dimen/paid_layout_item_height" android:layout_weight="1.0">
+            <TextView android:id="@id/paid_carpool_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paid_detail" android:singleLine="true" android:layout_centerInParent="true" style="@style/TextView.LightGray.Small" />
+            <ImageView android:id="@id/paid_carpool_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0px" android:src="@drawable/pay_icon_paid_arrow" android:layout_toRightOf="@id/paid_carpool_tip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/paid_enterprise_layout" android:visibility="gone" android:layout_width="@dimen/paid_layout_item_width" android:layout_height="@dimen/paid_layout_item_height" android:layout_weight="1.0">
+            <TextView android:id="@id/paid_enterprise_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" style="@style/TextView.LightGray.Small" />
+            <ImageView android:id="@id/paid_enterprise_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0px" android:src="@drawable/common_select_normal" android:layout_toRightOf="@id/paid_enterprise_tip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/paid_integral_layout" android:visibility="gone" android:layout_width="@dimen/paid_layout_item_width" android:layout_height="@dimen/paid_layout_item_height" android:layout_weight="1.0">
+            <TextView android:id="@id/paid_integral_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paid_integral" android:singleLine="true" android:layout_centerInParent="true" style="@style/TextView.Orange.Small" />
+            <ImageView android:id="@id/paid_integral_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0px" android:src="@drawable/pay_icon_paid_arrow_pressed" android:layout_toRightOf="@id/paid_integral_tip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

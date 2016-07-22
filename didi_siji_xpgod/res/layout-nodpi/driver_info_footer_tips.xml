@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/invoice_history_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.ImageView android:gravity="center" android:id="@id/tvTip" android:layout_width="@dimen/driver_info_listview_footer_width" android:layout_height="@dimen/driver_info_listview_footer_height" android:layout_marginTop="@dimen/driver_info_listview_footer_margin_top" android:layout_marginBottom="@dimen/driver_info_listview_footer_margin_bottom" android:layout_below="@id/ivHeart" android:layout_centerInParent="true" x:background="@drawable/common_img_page_bottom" style="@style/TextView.LightGray.Small" />
+</RelativeLayout>

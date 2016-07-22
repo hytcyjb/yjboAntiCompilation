@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/title_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/realtime_slide_voice_call_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginTop="@dimen/setting_item_margin_top" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_version_introduction" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/tv_version_introduction" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/version_introduction" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginRight="@dimen/setting_item_arrow_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+                <ImageView android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+                <RelativeLayout android:id="@id/layout_contact_us" android:background="@drawable/menu_item_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height">
+                    <TextView android:id="@id/tvContactUs" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/setting_item_txt_margin_left" android:text="@string/contact_us" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextView.DarkGray.Medium" />
+                    <x.ImageView android:layout_width="@dimen/setting_item_arrow_width" android:layout_height="@dimen/setting_item_arrow_height" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" x:src="@drawable/common_icn_arrow" />
+                </RelativeLayout>
+                <View android:background="@color/menu_item_pressed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_divide_line_height" android:layout_marginLeft="@dimen/setting_divide_line_margin_left" android:layout_marginRight="@dimen/setting_divide_line_margin_right" />
+            </LinearLayout>
+        </ScrollView>
+        <x.ImageView android:id="@id/ic_slogan" android:layout_width="@dimen/about_slogan_logon_margin_width" android:layout_height="@dimen/about_slogan_logon_margin_height" android:layout_marginBottom="@dimen/about_slogan_logon_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" x:src="@drawable/setting_about_didilogo" />
+    </RelativeLayout>
+</RelativeLayout>

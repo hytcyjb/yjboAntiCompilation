@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.beatles.map.BtsMapView android:id="@id/bts_map_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/location_change" android:background="@drawable/home_map_btn_path" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+    <include android:id="@id/bts_driver_profile_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/bts_driver_profile_content_height" android:layout_marginTop="53.0dip" layout="@layout/bts_driver_profile_bar" />
+    <View android:id="@id/line1" android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/bts_driver_profile_layout" />
+    <include android:id="@id/btsXingchengLayout" android:layout_width="fill_parent" android:layout_height="@dimen/bts_xingcheng_layout_height" android:layout_below="@id/line1" layout="@layout/bts_order_info" />
+    <View android:id="@id/line2" android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/btsXingchengLayout" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/cancelLayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/line2">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" layout="@layout/bts_common_order_cancel" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/bottomLayout" android:background="@color/white" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@id/shareButton" android:visibility="gone" style="@style/btsBottomLayout.shareBtn">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageButton android:id="@id/shareBtnImg" android:src="@drawable/wait_for_arrival_footer_bar_ic_share_selector" style="@style/btsBottomLayout.shareBtn.img" />
+                    <TextView android:id="@id/shareBtnTxt" android:text="@string/share" style="@style/btsBottomLayout.shareBtn.txt" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/hongbaoButton" android:visibility="gone" style="@style/btsBottomLayout.shareBtn">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageButton android:id="@id/hongbaoBtnImg" android:src="@drawable/bts_hongbao_share_selector" style="@style/btsBottomLayout.shareBtn.img" />
+                    <TextView android:id="@id/hongbaoBtnTxt" android:text="@string/bts_quan" style="@style/btsBottomLayout.shareBtn.txt" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.didi.beatles.ui.component.BtsScrollView android:id="@id/mainScrollView" android:background="@color/white" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/bts_driver_profile_layout" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bts_common_left_right_medium_margin" android:layout_marginRight="@dimen/bts_common_left_right_medium_margin">
+            <RelativeLayout android:id="@id/btsPayLayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bts_commen_detail_title_margin_top">
+                <include android:id="@id/detailTitleLayout" layout="@layout/bts_title_block_layout" />
+                <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="17.329987dip" android:layout_below="@id/detailTitleLayout" layout="@layout/bts_passenger_fee_detail" />
+            </RelativeLayout>
+            <include layout="@layout/bts_passenger_comment_layout" />
+            <include layout="@layout/bts_passenger_order_over_layout" />
+        </LinearLayout>
+    </com.didi.beatles.ui.component.BtsScrollView>
+    <com.didi.beatles.ui.component.BtsTitleBar android:id="@id/bts_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <Button android:textSize="@dimen/bts_font_size_medium" android:textColor="@color/white" android:id="@id/btsPassengerPayBtn" android:background="@drawable/bts_btn_orange_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bts_common_btn_height" android:layout_marginLeft="@dimen/bts_common_left_right_medium_margin" android:layout_marginRight="@dimen/bts_common_left_right_medium_margin" android:layout_marginBottom="20.0dip" android:text="@string/bts_passenger_confirm_pay" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/loadingLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bts_title_bar" layout="@layout/bts_loading_page" />
+</RelativeLayout>

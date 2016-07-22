@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Account_Line_LineImage">
+        <item name="android:layout_width">@dimen/account_line_tip_image_line_width</item>
+        <item name="android:layout_height">@dimen/line_tip_image_line_height</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.Activity.Didi" parent="@*android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_back_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_back_out</item>
+    </style>
+    <style name="Button">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Button.DeepGray" parent="@style/Button">
+        <item name="android:textColor">@color/deep_gray</item>
+    </style>
+    <style name="Button.DeepGray.Small" parent="@style/Button.DeepGray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="Button.DeepGray.Small1" parent="@style/Button.DeepGray">
+        <item name="android:textSize">@dimen/font_size_small1</item>
+    </style>
+    <style name="Button.DeepGray.Small1.Guide" parent="@style/Button.DeepGray.Small1">
+        <item name="android:typeface">serif</item>
+    </style>
+    <style name="Button.Gray" parent="@style/Button">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="Button.Gray.Small" parent="@style/Button.Gray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="Button.Gray.XXSmall" parent="@style/Button.Gray">
+        <item name="android:textSize">@dimen/font_size_xx_small</item>
+    </style>
+    <style name="Button.LightGray" parent="@style/Button">
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    <style name="Button.LightGray.XLarge" parent="@style/Button.LightGray">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="Button.Orange" parent="@style/Button">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="Button.Orange.Large" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="Button.Orange.SLarge" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="Button.Orange.Small" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="Button.Orange.XLarge" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="Button.Orange.XLarge1" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_x_large1</item>
+    </style>
+    <style name="Button.Orange.XLarge1.Bold" parent="@style/Button.Orange.XLarge1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.Orange.XXLarge" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="Button.Orange.XXXXLarge" parent="@style/Button.Orange">
+        <item name="android:textSize">@dimen/font_size_xxxxx_large</item>
+    </style>
+    <style name="Button.White" parent="@style/Button">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Button.White.Bold" parent="@style/Button.White">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button.White.Large" parent="@style/Button.White">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="Button.White.SLarge" parent="@style/Button.White">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="Button.White.Small" parent="@style/Button.White">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="Button.White.XLarge" parent="@style/Button.White">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="Button.White.XXLarge" parent="@style/Button.White">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="Button.Yellow" parent="@style/Button">
+        <item name="android:textColor">@color/text_color_yellow</item>
+    </style>
+    <style name="CommonDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CommonPopupAnimation" parent="@*android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/common_message_popup_enter</item>
+    </style>
+    <style name="ControlPannel" />
+    <style name="Dialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="EditText">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="EditText.DarkGray" parent="@style/EditText">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:layout_centerHorizontal">false</item>
+    </style>
+    <style name="Found_SubMenu_TextView_NormalColor">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="Found_SubMenu_TextView_PressedColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="GuideView" />
+    <style name="GuideView.Page" parent="@style/GuideView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/guide_view_page_width</item>
+        <item name="android:layout_height">@dimen/guide_view_page_height</item>
+        <item name="android:layout_marginTop">@dimen/guide_view_page_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="IM.LittleProgressBar" parent="@*android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_round</item>
+    </style>
+    <style name="IMRightTextView">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="ImageView">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="ImageView.CommentStar" parent="@style/ImageView">
+        <item name="android:layout_width">@dimen/comment_start_width</item>
+        <item name="android:layout_height">@dimen/comment_start_height</item>
+        <item name="android:layout_marginLeft">@dimen/comment_start_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/comment_start_margin_right</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ImageView.DriverGradeStar" parent="@style/ImageView">
+        <item name="android:layout_width">@dimen/driver_profile_grade_star_size</item>
+        <item name="android:layout_height">@dimen/driver_profile_grade_star_size</item>
+    </style>
+    <style name="ImageView.DriverStar" parent="@style/ImageView">
+        <item name="android:layout_width">@dimen/driver_start_width</item>
+        <item name="android:layout_height">@dimen/driver_start_height</item>
+        <item name="android:layout_marginLeft">@dimen/driver_start_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/driver_start_margin_right</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Line_Fill_LineImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:src">@color/light_sss_gray</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Line_Fill_LineImage_Predict">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:src">@color/light_sss_gray</item>
+    </style>
+    <style name="Line_LineImage">
+        <item name="android:layout_width">@dimen/line_tip_image_line_width</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:src">@color/light_sss_gray</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Line_TipText">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/light_s_gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/line_tip_txt_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/line_tip_txt_margin_right</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Pay_Way_Activity_Text" parent="@style/TextView.Orange.Center.XSmall">
+        <item name="android:background">@drawable/shape_txt_rect</item>
+        <item name="android:paddingLeft">@dimen/pay_way_activity_text_padding_leftright</item>
+        <item name="android:paddingRight">@dimen/pay_way_activity_text_padding_leftright</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pay_way_name_margin_left</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="PopupAnimation" parent="@*android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="SearchBar">
+        <item name="android:background">@color/title_bar_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">160.0px</item>
+    </style>
+    <style name="TextView">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextView.Center" parent="@style/TextView">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.Center.Orange" parent="@style/TextView.Center">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="TextView.Center.Orange.SLarge" parent="@style/TextView.Center.Orange">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="TextView.Center.Orange.XLarge" parent="@style/TextView.Center.Orange">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.DarkGray" parent="@style/TextView">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextView.DarkGray.Large" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.DarkGray.Medium" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.DarkGray.Small" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.DarkGray.XLarge" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.DarkGray.XXLarge" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="TextView.DarkGray.XXXLarge" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_xxx_large</item>
+    </style>
+    <style name="TextView.DarkGray.XXXXLarge" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_xxxx_large</item>
+    </style>
+    <style name="TextView.DarkGray.XXXXXLarge" parent="@style/TextView.DarkGray">
+        <item name="android:textSize">@dimen/font_size_xxxxx_large</item>
+    </style>
+    <style name="TextView.DeepGray" parent="@style/TextView">
+        <item name="android:textColor">@color/deep_gray</item>
+    </style>
+    <style name="TextView.Deep_s_gray" parent="@style/TextView">
+        <item name="android:textColor">@color/deep_s_gray</item>
+    </style>
+    <style name="TextView.Deep_s_gray.XXXLarge" parent="@style/TextView.Deep_s_gray">
+        <item name="android:textSize">@dimen/font_size_xxx_large</item>
+    </style>
+    <style name="TextView.Gray" parent="@style/TextView">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="TextView.Gray.Large" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.Gray.Medium" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextView.Gray.Medium.Center" parent="@style/TextView.Gray.Medium">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.Gray.Small" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.Gray.Small.Center" parent="@style/TextView.Gray.Small">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.Gray.Small1" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_small1</item>
+    </style>
+    <style name="TextView.Gray.Small1.Bold" parent="@style/TextView.Gray.Small1">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.Gray.XLarge" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.Gray.XLarge.MultiLine" parent="@style/TextView.Gray.XLarge">
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="TextView.Gray.XSmall" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_x_small</item>
+    </style>
+    <style name="TextView.Gray.XSmall.Center" parent="@style/TextView.Gray.XSmall">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.Gray.XXLarge" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="TextView.Gray.XXSmall" parent="@style/TextView.Gray">
+        <item name="android:textSize">@dimen/font_size_xx_small</item>
+    </style>
+    <style name="TextView.Gray.XXSmall.Center" parent="@style/TextView.Gray.XXSmall">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.LightGray" parent="@style/TextView">
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    <style name="TextView.LightGray.Large" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.LightGray.Medium" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.LightGray.SLarge" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="TextView.LightGray.Small" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.LightGray.XLarge" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.LightGray.XSmall" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_x_small</item>
+    </style>
+    <style name="TextView.LightGray.XXSmall" parent="@style/TextView.LightGray">
+        <item name="android:textSize">@dimen/font_size_xx_small</item>
+    </style>
+    <style name="TextView.Light_s_gray" parent="@style/TextView">
+        <item name="android:textColor">@color/light_s_gray</item>
+    </style>
+    <style name="TextView.Light_s_gray.Large" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.Light_s_gray.Medium" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.Light_s_gray.Small" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.Light_s_gray.XLarge" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.Light_s_gray.XSmall" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_x_small</item>
+    </style>
+    <style name="TextView.Light_s_gray.XXLarge" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="TextView.Light_s_gray.XXXLarge" parent="@style/TextView.Light_s_gray">
+        <item name="android:textSize">@dimen/font_size_xxx_large</item>
+    </style>
+    <style name="TextView.LinkGray" parent="@style/TextView">
+        <item name="android:textColor">@color/link_gray</item>
+    </style>
+    <style name="TextView.LinkGray.Small" parent="@style/TextView.LinkGray">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.Orange" parent="@style/TextView">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <style name="TextView.Orange.Center" parent="@style/TextView.Orange">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.Orange.Center.Medium" parent="@style/TextView.Orange.Center">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.Orange.Center.SLarge" parent="@style/TextView.Orange.Center">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="TextView.Orange.Center.Small" parent="@style/TextView.Orange.Center">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.Orange.Center.XSmall" parent="@style/TextView.Orange.Center">
+        <item name="android:textSize">@dimen/font_size_x_small</item>
+    </style>
+    <style name="TextView.Orange.Large" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.Orange.Medium" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.Orange.Midium" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.Orange.Small" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.Orange.XLarge1" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_x_large1</item>
+    </style>
+    <style name="TextView.Orange.XXLarge" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="TextView.Orange.XXXLarge" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_xxx_large</item>
+    </style>
+    <style name="TextView.Orange.XXXXLarge" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_xxxx_large</item>
+    </style>
+    <style name="TextView.Orange.XXXXXXLarge" parent="@style/TextView.Orange">
+        <item name="android:textSize">@dimen/font_size_xxxxxx_large</item>
+    </style>
+    <style name="TextView.White" parent="@style/TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="TextView.White.Center" parent="@style/TextView.White">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.White.Center.Large" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.White.Center.Medium" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+    <style name="TextView.White.Center.Medium_50" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_medium_50</item>
+    </style>
+    <style name="TextView.White.Center.Small" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.White.Center.Small_40" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_small_40</item>
+    </style>
+    <style name="TextView.White.Center.Small_44" parent="@style/TextView.White.Center">
+        <item name="android:textSize">@dimen/font_size_small_44</item>
+    </style>
+    <style name="TextView.White.Large" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <style name="TextView.White.SLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_s_large</item>
+    </style>
+    <style name="TextView.White.Small" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextView.White.XLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+    </style>
+    <style name="TextView.White.XLarge.Center" parent="@style/TextView.White.XLarge">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextView.White.XSmall" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_x_small</item>
+    </style>
+    <style name="TextView.White.XXLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_xx_large</item>
+    </style>
+    <style name="TextView.White.XXXLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_xxx_large</item>
+    </style>
+    <style name="TextView.White.XXXXLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_xxxx_large</item>
+    </style>
+    <style name="TextView.White.XXXXXLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_xxxxx_large</item>
+    </style>
+    <style name="TextView.White.XXXXXXLarge" parent="@style/TextView.White">
+        <item name="android:textSize">@dimen/font_size_xxxxxx_large</item>
+    </style>
+    <style name="Theme" />
+    <style name="Theme.ImNoTitle" parent="@style/Theme">
+        <item name="android:windowBackground">@color/translunt_light_ss_gray</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Light" parent="@*android:style/Theme.Light" />
+    <style name="Theme.NoTitle" parent="@style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Didi</item>
+    </style>
+    <style name="TitleBar" />
+    <style name="TitleBar.Button" parent="@style/TitleBar">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/link_gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TitleBar.ImageButton" parent="@style/ImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/common_title_bar_img_width</item>
+        <item name="android:layout_height">@dimen/common_title_bar_img_height</item>
+    </style>
+    <style name="TitleBar.TitleText" parent="@style/TitleBar">
+        <item name="android:textSize">@dimen/font_size_x_large</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="VoiceDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="WaitForResponseFootBar.IconImage" parent="@style/ImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/wait_for_arrival_footer_bar_icon_size</item>
+        <item name="android:layout_height">@dimen/wait_for_arrival_footer_bar_icon_size</item>
+        <item name="android:layout_marginTop">@dimen/wait_for_arrival_footer_bar_icon_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="WaitForResponseFootBar.ImageButton" parent="@style/ImageView">
+        <item name="android:background">@drawable/common_bg_circle_selector</item>
+        <item name="android:layout_width">@dimen/wait_for_arrival_footer_bar_img_size</item>
+        <item name="android:layout_height">@dimen/wait_for_arrival_footer_bar_img_size</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="WaitForResponseFootBar.Label" parent="@style/TextView.Gray.Small">
+        <item name="android:textColor">@color/common_pin_below_text_color_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="car_evaluate_comment_items_checkbox">
+        <item name="android:background">@drawable/common_checkbox_selector</item>
+        <item name="android:layout_width">@dimen/evaluate_car_comment_item_checkbox_size</item>
+        <item name="android:layout_height">@dimen/evaluate_car_comment_item_checkbox_size</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="car_evaluate_comment_items_text" parent="@style/TextView.Gray.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/evaluate_car_comment_item_text_margin_left</item>
+    </style>
+    <style name="car_pay_type_view_checkbox" parent="@style/taxi_pay_way_items_checkbox">
+        <item name="android:layout_width">48.0px</item>
+        <item name="android:layout_height">48.0px</item>
+    </style>
+    <style name="car_type_ext" parent="@style/Pay_Way_Activity_Text">
+        <item name="android:background">@drawable/shape_pay_type_ext</item>
+    </style>
+    <style name="ddrive_evaluate_comment_items_text" parent="@style/TextView.Gray.Medium">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/evaluate_car_comment_item_text_margin_left</item>
+    </style>
+    <style name="dot_style">
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_width">@dimen/announcement_popup_dot_width</item>
+        <item name="android:layout_height">@dimen/announcement_popup_dot_height</item>
+        <item name="android:layout_marginLeft">@dimen/announcement_popup_dot_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/announcement_popup_dot_margin_right</item>
+    </style>
+    <style name="invoice_item_text" parent="@style/TextView.Gray.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="popupwindow_down_slide">
+        <item name="android:windowEnterAnimation">@anim/down_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/down_slide_out</item>
+    </style>
+    <style name="taxi_pay_way_items_checkbox">
+        <item name="android:background">@drawable/common_pay_checkbox_selector</item>
+        <item name="android:layout_width">@dimen/evaluate_car_comment_item_checkbox_size</item>
+        <item name="android:layout_height">@dimen/evaluate_car_comment_item_checkbox_size</item>
+        <item name="android:button">@null</item>
+    </style>
+</resources>

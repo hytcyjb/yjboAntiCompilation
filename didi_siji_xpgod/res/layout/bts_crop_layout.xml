@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.didi.beatles.upload.BtsCropImageView android:id="@id/src_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.didi.beatles.upload.BtsCropView android:id="@id/crop_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.didi.beatles.ui.component.BtsTitleBar android:id="@id/login_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

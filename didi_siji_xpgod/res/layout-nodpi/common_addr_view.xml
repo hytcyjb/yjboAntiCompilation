@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="178.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="176.0px">
+        <com.didi.frame.search.CommonAddrItem android:id="@id/common_home_item" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.didi.frame.search.CommonAddrItem android:id="@id/common_company_item" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/discountFeeLayout" android:layout_width="fill_parent" android:layout_height="39.329987dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/btsLabelTV" android:text="@string/bts_fee_detail_pin_quan1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/btsFeeDetailTextViewStyle" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/orange" android:id="@id/btsValueTV" android:text="0" style="@style/btsFeeDetailTextViewStyle" />
+        <ImageView android:id="@id/rightArrowIV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.669983dip" android:layout_marginRight="2.669983dip" android:src="@drawable/common_icn_arrow" />
+    </LinearLayout>
+    <View android:id="@id/bottomLine" android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

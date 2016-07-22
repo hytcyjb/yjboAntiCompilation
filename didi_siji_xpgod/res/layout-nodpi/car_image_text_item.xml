@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:paddingBottom="30.0px" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/car_item_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0px" style="@style/TextView.Gray.Small" />
+    <TextView android:id="@id/car_item_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="false" android:layout_toRightOf="@id/car_item_image" android:layout_alignBaseline="@id/car_item_image" android:lineSpacingExtra="12.0px" style="@style/TextView.LightGray.Medium" />
+</RelativeLayout>

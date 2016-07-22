@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:id="@id/pay_way_item1" android:layout_width="fill_parent" android:layout_height="@dimen/pay_way_item_height">
+        <ImageView android:id="@id/pay_way_icon1" android:background="@drawable/common_checkbox_pressed" android:layout_width="@dimen/pay_way_item_icon_size" android:layout_height="@dimen/pay_way_item_icon_size" android:layout_centerVertical="true" />
+        <TextView android:id="@id/pay_way_name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_way_name_margin_left" android:text="@string/pay_by_enterprise" android:layout_toRightOf="@id/pay_way_icon1" android:layout_centerVertical="true" style="@style/TextView.Light_s_gray.Small" />
+        <TextView android:id="@id/pay_way_activity_text1" android:visibility="gone" android:layout_toRightOf="@id/pay_way_name1" style="@style/Pay_Way_Activity_Text" />
+        <CheckBox android:id="@id/pay_way_cb1" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/taxi_pay_way_items_checkbox" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pay_way_item2" android:layout_width="fill_parent" android:layout_height="@dimen/pay_way_item_height" android:layout_below="@id/pay_way_item1">
+        <ImageView android:id="@id/pay_way_icon2" android:background="@drawable/common_checkbox_pressed" android:layout_width="@dimen/pay_way_item_icon_size" android:layout_height="@dimen/pay_way_item_icon_size" android:layout_centerVertical="true" />
+        <TextView android:id="@id/pay_way_name2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_way_name_margin_left" android:text="@string/pay_by_weixin" android:layout_toRightOf="@id/pay_way_icon2" android:layout_centerVertical="true" style="@style/TextView.Light_s_gray.Small" />
+        <TextView android:id="@id/pay_way_activity_text2" android:visibility="gone" android:layout_toRightOf="@id/pay_way_name2" style="@style/Pay_Way_Activity_Text" />
+        <CheckBox android:id="@id/pay_way_cb2" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/taxi_pay_way_items_checkbox" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pay_way_item3" android:layout_width="fill_parent" android:layout_height="@dimen/pay_way_item_height" android:layout_below="@id/pay_way_item2">
+        <ImageView android:id="@id/pay_way_icon3" android:background="@drawable/common_checkbox_pressed" android:layout_width="@dimen/pay_way_item_icon_size" android:layout_height="@dimen/pay_way_item_icon_size" android:layout_centerVertical="true" />
+        <TextView android:id="@id/pay_way_name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_way_name_margin_left" android:text="@string/pay_by_zhifubao" android:layout_toRightOf="@id/pay_way_icon3" android:layout_centerVertical="true" style="@style/TextView.Light_s_gray.Small" />
+        <TextView android:id="@id/pay_way_activity_text3" android:visibility="gone" android:layout_toRightOf="@id/pay_way_name3" style="@style/Pay_Way_Activity_Text" />
+        <CheckBox android:id="@id/pay_way_cb3" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/taxi_pay_way_items_checkbox" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pay_way_item4" android:layout_width="fill_parent" android:layout_height="@dimen/pay_way_item_height" android:layout_below="@id/pay_way_item3">
+        <ImageView android:id="@id/pay_way_icon4" android:background="@drawable/common_checkbox_pressed" android:layout_width="@dimen/pay_way_item_icon_size" android:layout_height="@dimen/pay_way_item_icon_size" android:layout_centerVertical="true" />
+        <TextView android:id="@id/pay_way_name4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_way_name_margin_left" android:text="@string/pay_by_qq" android:layout_toRightOf="@id/pay_way_icon4" android:layout_centerVertical="true" style="@style/TextView.Light_s_gray.Small" />
+        <TextView android:id="@id/pay_way_activity_text4" android:visibility="gone" android:layout_toRightOf="@id/pay_way_name4" style="@style/Pay_Way_Activity_Text" />
+        <CheckBox android:id="@id/pay_way_cb4" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/taxi_pay_way_items_checkbox" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pay_way_extend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/pay_way_item_height" android:layout_below="@id/pay_way_item4" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/pay_way_dropdown" android:background="@drawable/common_pay_dropdown" android:layout_width="@dimen/pay_way_item_icon_dropdown_width" android:layout_height="@dimen/pay_way_item_icon_dropdown_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/pay_way_item_icon_dropdown_margin_right" android:text="@string/pay_by_other" android:layout_toLeftOf="@id/pay_way_dropdown" android:layout_centerVertical="true" style="@style/TextView.Light_s_gray.Small" />
+    </RelativeLayout>
+</merge>

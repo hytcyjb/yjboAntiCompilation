@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/version_intro_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.Button android:textSize="64.0px" android:textColor="@color/white" android:id="@id/btn_enter" android:visibility="visible" android:layout_width="@dimen/guide_pay_btn_width" android:layout_height="@dimen/pay_confirm_btn_height" android:layout_marginBottom="@dimen/guide_pay_margin_bottom" android:text="@string/pay_enter_btn_txt" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" x:background="@drawable/common_btn_orange_selector" style="@style/Button.LightGray.XLarge" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.controlpanel.OperationArea android:id="@id/operation_area" android:layout_width="fill_parent" android:layout_height="@dimen/operation_area_height" />
+    <x.TextView android:id="@id/confirm" android:layout_width="@dimen/price_reamrk_btn_confirm_width" android:layout_height="@dimen/price_reamrk_btn_confirm_height" android:layout_marginTop="@dimen/price_reamrk_btn_confirm_margin_top" android:text="@string/confirm_send" android:layout_centerHorizontal="true" x:background="@drawable/common_btn_orange_selector" style="@style/TextView.White.Center.Large" />
+</merge>

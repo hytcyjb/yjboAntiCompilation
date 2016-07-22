@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <ImageView android:id="@id/taxi_wait_for_arrival_found_img_icon" android:background="@drawable/wait_for_arrival_footer_bar_ic_found_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:id="@id/taxi_wait_for_arrival_found_txt_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Item123" android:layout_below="@id/taxi_wait_for_arrival_found_img_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

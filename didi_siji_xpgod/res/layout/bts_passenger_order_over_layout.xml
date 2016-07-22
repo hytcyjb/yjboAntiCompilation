@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/btsPassengerOrderOverlayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/detailTitleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bts_commen_detail_title_margin_top">
+            <View android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_common_pay_success" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/realPriceLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/detailTitleLayout" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@id/containerPsngerRealPrice" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bts_font_size_xxxx_x_large" android:textColor="@color/dark_gray" android:id="@id/btsRealPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="@color/dark_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_common_yuan" android:layout_toRightOf="@id/btsRealPrice" android:layout_alignBaseline="@id/btsRealPrice" />
+            </RelativeLayout>
+            <ImageView android:id="@id/btsFreeStampPsngerOrderOver" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bts_psnger_wait_pay_free_stamp" android:layout_centerInParent="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/mingxiBtnLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" android:layout_below="@id/realPriceLayout" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/btsDetailImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bts_price_detail" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="@color/light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_common_see_detail" android:layout_toRightOf="@id/btsDetailImg" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/meToOtherTitleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mingxiBtnLayout">
+            <View android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:id="@id/meToOtherTitleTV" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_common_tag_me_to_other" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/btsHaveTagsLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/meToOtherTitleLayout">
+            <com.didi.beatles.ui.component.BtsFlowLayout android:id="@id/meToOtherTagsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <RelativeLayout android:id="@id/otherToMeTitleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <View android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_common_tag_other_to_me" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <com.didi.beatles.ui.component.BtsFlowLayout android:id="@id/otherToMeTagsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/btsNoTagsLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/meToOtherTitleLayout">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btsAddTagBtn" android:background="@drawable/bts_add_tag_bg" android:paddingLeft="9.0dip" android:paddingTop="5.0dip" android:paddingRight="9.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bts_add_tag" />
+                <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="@color/light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/bts_common_add_tag" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_gray" android:id="@id/btsOtherToTaTags" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="90%的人对他的评价是：安静的美男子" android:layout_below="@id/btsAddTagBtn" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

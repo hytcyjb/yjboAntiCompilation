@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:x="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:background="@drawable/common_dialog_bg" android:layout_width="@dimen/pay_share_layout_width" android:layout_height="@dimen/pay_share_layout_height" android:layout_centerInParent="true">
+        <x.RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_share_line_layout_margin_top">
+            <x.ImageView android:id="@id/pay_line_left" android:layout_width="@dimen/pay_share_line_img_width" style="@style/Line_LineImage" />
+            <TextView android:id="@id/pay_type_tip" android:text="@string/share_line_tip" android:layout_toRightOf="@id/pay_line_left" style="@style/Line_TipText" />
+            <x.ImageView android:layout_width="@dimen/pay_share_line_img_width" android:layout_toRightOf="@id/pay_type_tip" style="@style/Line_LineImage" />
+        </x.RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/pay_share_btn_layout_height" android:layout_marginTop="@dimen/pay_share_btn_layout_margin_top" android:layout_below="@id/line_layout">
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_weixin_circle" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_weixin" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_sina" android:visibility="visible" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_qzone" android:visibility="gone" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_qq" android:visibility="gone" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.didi.common.ui.component.PayShareItemView android:id="@id/share_by_tencent" android:visibility="gone" android:layout_width="@dimen/pay_share_btn_size" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <x.Button android:gravity="center" android:id="@id/share_btn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_share_cancel_btn_margin" android:layout_marginRight="@dimen/pay_share_cancel_btn_margin" android:layout_marginBottom="@dimen/pay_share_cancel_btn_margin" android:text="@string/cancel" android:layout_alignParentBottom="true" x:background="@drawable/common_bg_area_selector" style="@style/TextView.Gray.Large" />
+    </RelativeLayout>
+</RelativeLayout>

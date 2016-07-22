@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/realtime_slide_call_item_bg_normal" android:layout_width="@dimen/slide_call_item_width_normal" android:layout_height="@dimen/slide_call_item_width_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <x.ImageView android:id="@id/slide_call_item_normal_icon" android:layout_width="@dimen/slide_call_item_icon_normal" android:layout_height="@dimen/slide_call_item_icon_normal" android:layout_centerHorizontal="true" x:src="@drawable/realtime_slide_call_item_home_normal" />
+    <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/gray" android:id="@id/slide_call_item_normal_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/realtime_slide_call_home_name" android:layout_below="@id/slide_call_item_normal_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

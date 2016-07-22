@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/commentLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bts_commen_detail_title_margin_top">
+        <RelativeLayout android:id="@id/commentLayoutTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+            <View android:background="@color/bts_common_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bts_comment_detail_title" android:includeFontPadding="false" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <com.didi.beatles.ui.userrate.BtsUserRateContainerView android:id="@id/user_rate_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="20.0dip" />
+        <com.didi.beatles.ui.component.BtsFlowLayout android:id="@id/tagsForComment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+            <com.didi.beatles.ui.component.BtsFlowLayout android:id="@id/btsTagEditLayout" android:background="@drawable/bts_common_edit_bg_selector" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/bts_tag_edit_layout_height">
+                <EditText android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:gravity="left|center" android:id="@id/tagEditText" android:background="@drawable/bts_edit_tag_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/bts_tag_height" android:cursorVisible="true" android:singleLine="true" android:inputType="text" android:imeOptions="actionDone" />
+            </com.didi.beatles.ui.component.BtsFlowLayout>
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_s_gray" android:id="@id/leftTagTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_marginBottom="8.0dip" android:text="@string/bts_common_left_tags" android:layout_alignRight="@id/btsTagEditLayout" android:layout_alignBottom="@id/btsTagEditLayout" />
+            <TextView android:textSize="@dimen/bts_font_size_x_small" android:textColor="@color/light_gray" android:id="@id/leftTextTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_marginBottom="8.0dip" android:text="@string/bts_common_left_text" android:layout_alignRight="@id/btsTagEditLayout" android:layout_alignBottom="@id/btsTagEditLayout" />
+        </RelativeLayout>
+        <Button android:textSize="@dimen/bts_font_size_medium" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btsSubmitCommentBtn" android:background="@drawable/bts_btn_orange_selector" android:layout_width="fill_parent" android:layout_height="@dimen/bts_common_btn_height" android:layout_marginTop="10.0dip" android:text="@string/bts_common_text_submit" />
+    </LinearLayout>
+</merge>

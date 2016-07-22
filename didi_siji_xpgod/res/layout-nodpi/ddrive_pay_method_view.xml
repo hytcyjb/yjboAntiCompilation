@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pay_tip_margin_top">
+        <ImageView android:id="@id/detail_line_left" style="@style/Line_LineImage" />
+        <TextView android:id="@id/detail_type_tip" android:text="@string/pay_method" android:layout_toRightOf="@id/detail_line_left" style="@style/Line_TipText" />
+        <ImageView android:layout_toRightOf="@id/detail_type_tip" style="@style/Line_LineImage" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</x.LinearLayout>

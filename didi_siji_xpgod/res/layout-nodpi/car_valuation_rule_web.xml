@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.titlebar.TitleBar android:id="@id/layout_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.didi.common.ui.webview.CommonWebViewEx android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_bar" />
+    <View android:id="@id/errorView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_bar" />
+</RelativeLayout>

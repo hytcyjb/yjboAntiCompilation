@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Light" />
+    <style name="AppTheme" parent="@*android:style/Theme.Light" />
+    <style name="ChannelMoreDlgStyle" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:cacheColorHint">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="DialogStyle" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MyDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="NotificationContent">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="NotificationTitle">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="PriceRaseHighlight">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/text_color_yellow</item>
+    </style>
+    <style name="PriceRaseNomal">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/text_color_light_gray</item>
+    </style>
+    <style name="TransparentActivity" parent="@style/Theme.NoTitle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="TransparentWindow">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Didi</item>
+    </style>
+    <style name="btsBottomLayout.shareBtn" parent="@style/ImageView">
+        <item name="android:background">@drawable/common_bg_circle_selector</item>
+        <item name="android:layout_width">@dimen/bts_common_bottom_share_btn_size</item>
+        <item name="android:layout_height">@dimen/bts_common_bottom_share_btn_size</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="btsBottomLayout.shareBtn.img" parent="@style/ImageView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">@dimen/bts_bottom_layout_share_img_width</item>
+        <item name="android:layout_height">@dimen/bts_bottom_layout_share_img_width</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btsBottomLayout.shareBtn.txt" parent="@style/TextView.Gray.Small">
+        <item name="android:textSize">@dimen/bts_font_size_x_small</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/bts_bottom_layout_share_txt_margin_top</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="btsFeeDetailTextViewStyle">
+        <item name="android:textSize">@dimen/bts_font_size_small</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="btsPushNotifyBgActivityTheme" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Translucent</item>
+    </style>
+    <style name="btsStyleCommonMiddleSizeBtn">
+        <item name="android:background">@drawable/bts_home_page_button_selector</item>
+        <item name="android:layout_width">239.0dip</item>
+        <item name="android:layout_height">33.0dip</item>
+    </style>
+    <style name="btsTextTag">
+        <item name="android:textSize">@dimen/bts_font_size_x_small</item>
+        <item name="android:textColor">@color/bts_tag_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bts_tag_bg_selector</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bts_tag_height</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="dialog_animation_trans">
+        <item name="android:windowEnterAnimation">@anim/anim_trans_from_bottom</item>
+    </style>
+    <style name="roomRatingBar">
+        <item name="android:maxHeight">50.0px</item>
+        <item name="android:progressDrawable">@drawable/big_rating_bar_starts</item>
+        <item name="android:minHeight">50.0px</item>
+    </style>
+</resources>

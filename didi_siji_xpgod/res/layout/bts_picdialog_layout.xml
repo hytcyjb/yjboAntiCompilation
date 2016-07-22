@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wheel="http://schemas.android.com/apk/res/com.sdu.didi.psnger">
+    <RelativeLayout android:id="@id/bts_upload_rela" android:background="@color/menu_bg_half_transparent" android:padding="@dimen/bottom_list_menu_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/dark_gray" android:gravity="center" android:id="@id/cancel_text" android:background="@drawable/round_edittext" android:layout_width="fill_parent" android:layout_height="@dimen/pic_crop_bottom_bar_height" android:text="@string/cancel" android:layout_alignParentBottom="true" />
+        <ListView android:id="@id/pic_menu_list" android:background="@drawable/round_edittext" android:paddingTop="@dimen/bottom_list_menu_padding" android:paddingBottom="@dimen/bottom_list_menu_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_list_menu_margin_cancel" android:cacheColorHint="#ff000000" android:divider="@color/common_list_divider" android:dividerHeight="@dimen/common_list_divider_height" android:layout_above="@id/cancel_text" />
+    </RelativeLayout>
+</RelativeLayout>

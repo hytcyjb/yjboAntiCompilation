@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bts_time_picker_date">
+        <item>今天</item>
+        <item>明天</item>
+    </string-array>
+    <string-array name="comment_bad_array">
+        <item>司机迟到</item>
+        <item>态度恶劣</item>
+        <item>车有异味</item>
+        <item>行驶不稳</item>
+    </string-array>
+    <string-array name="comment_good_array">
+        <item>彬彬有礼</item>
+        <item>为我开车门</item>
+        <item>准时到达</item>
+        <item>态度较好</item>
+    </string-array>
+    <string-array name="time_picker_date">
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+    </string-array>
+</resources>

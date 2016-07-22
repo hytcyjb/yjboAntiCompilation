@@ -1,0 +1,122 @@
+.class public abstract Lcom/didi/frame/price/PriceAdapter;
+.super Ljava/lang/Object;
+.source "PriceAdapter.java"
+
+
+# static fields
+.field private static adapterMap:Ljava/util/HashMap;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/HashMap",
+            "<",
+            "Lcom/didi/frame/business/Business;",
+            "Lcom/didi/frame/price/PriceAdapter;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 16
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    sput-object v0, Lcom/didi/frame/price/PriceAdapter;->adapterMap:Ljava/util/HashMap;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 19
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 20
+    return-void
+.end method
+
+.method protected constructor <init>(Lcom/didi/frame/business/Business;)V
+    .locals 1
+    .parameter "business"
+
+    .prologue
+    .line 22
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 23
+    sget-object v0, Lcom/didi/frame/price/PriceAdapter;->adapterMap:Ljava/util/HashMap;
+
+    invoke-virtual {v0, p1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 24
+    return-void
+.end method
+
+.method public static getCurrentAdapter()Lcom/didi/frame/price/PriceAdapter;
+    .locals 2
+
+    .prologue
+    .line 27
+    invoke-static {}, Lcom/didi/frame/business/OrderHelper;->getBusiness()Lcom/didi/frame/business/Business;
+
+    move-result-object v0
+
+    .line 28
+    .local v0, busi:Lcom/didi/frame/business/Business;
+    if-nez v0, :cond_0
+
+    .line 29
+    const/4 v1, 0x0
+
+    .line 33
+    :goto_0
+    return-object v1
+
+    .line 30
+    :cond_0
+    sget-object v1, Lcom/didi/frame/business/Business;->Flier:Lcom/didi/frame/business/Business;
+
+    if-ne v0, v1, :cond_1
+
+    .line 31
+    sget-object v0, Lcom/didi/frame/business/Business;->Car:Lcom/didi/frame/business/Business;
+
+    .line 33
+    :cond_1
+    sget-object v1, Lcom/didi/frame/price/PriceAdapter;->adapterMap:Ljava/util/HashMap;
+
+    invoke-virtual {v1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/didi/frame/price/PriceAdapter;
+
+    goto :goto_0
+.end method
+
+
+# virtual methods
+.method public abstract getPriceList(Ljava/lang/String;)Ljava/util/ArrayList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Ljava/util/ArrayList",
+            "<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getPriceTriggerText(Ljava/lang/String;)Ljava/lang/String;
+.end method

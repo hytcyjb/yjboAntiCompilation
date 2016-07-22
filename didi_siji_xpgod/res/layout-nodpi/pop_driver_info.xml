@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/map_bg_bubble_normal" android:paddingLeft="14.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <com.didi.frame.driverinfo.DriverCirclePhoto android:id="@id/driver_portrait" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/driver_head" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/driver_circle_frame" android:background="@drawable/driver_head_wreath" android:visibility="gone" android:layout_width="62.0dip" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+    <RelativeLayout android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/driver_portrait">
+        <TextView android:textSize="18.0sp" android:id="@id/driver_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextView.Gray.Medium" />
+        <TextView android:textSize="13.0sp" android:id="@id/car_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_below="@id/driver_name" style="@style/TextView.Gray.Small" />
+        <ImageView android:id="@id/arrow" android:paddingRight="5.0dip" android:layout_width="12.0dip" android:layout_height="15.0dip" android:layout_marginTop="3.0px" android:src="@drawable/common_icn_arrow" android:layout_toRightOf="@id/car_info" android:layout_alignTop="@id/car_info" />
+        <com.didi.common.ui.component.FiveStar android:gravity="bottom" android:id="@id/five_star" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/car_info" />
+        <TextView android:textSize="13.0sp" android:id="@id/driver_order_cnt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_toRightOf="@id/five_star" android:layout_below="@id/car_info" style="@style/TextView.Gray.Small" />
+    </RelativeLayout>
+</RelativeLayout>

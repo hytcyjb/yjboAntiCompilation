@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/translunt_light_ss_gray" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image_tips" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="78.0dip" android:layout_marginBottom="73.0dip" android:src="@drawable/bts_xexception_nowifi" android:layout_centerHorizontal="true" />
+        <Button android:textSize="@dimen/bts_font_size_medium" android:textColor="@color/common_login_btn_text_color" android:gravity="center" android:id="@id/submit" android:background="@drawable/bts_btn_orange_selector" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/bts_common_btn_height" android:layout_marginLeft="52.0dip" android:layout_marginRight="52.0dip" android:text="@string/bts_route_add_button_title" android:layout_below="@id/image_tips" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/bts_font_size_small" android:textColor="@color/light_gray" android:gravity="center" android:id="@id/tips_tv_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/bts_common_no_net_error_tips2" android:layout_above="@id/submit" />
+        <TextView android:textSize="@dimen/bts_font_size_medium" android:textColor="@color/dark_gray" android:gravity="center" android:id="@id/tips_tv_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="@string/bts_common_no_net_error_tips1" android:layout_above="@id/tips_tv_2" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@*android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:x="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_header_area" android:background="@drawable/image_dialog_head_area_bg" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="wrap_content" android:layout_marginTop="59.0px" android:layout_centerHorizontal="true">
+        <TextView android:textSize="80.0px" android:textColor="@*android:color/white" android:id="@id/dialog_img_title" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="100.0px" android:layout_marginTop="80.0px" android:text="打不到车 试试专车" android:maxEms="10" android:singleLine="true" android:layout_below="@id/dialog_img" android:layout_centerHorizontal="true" style="@style/TextView.Orange.Center.SLarge" />
+        <LinearLayout android:orientation="vertical" android:id="@id/car_image_dialog_common_area" android:paddingTop="60.0px" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="wrap_content" android:layout_marginBottom="50.0px" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/car_image_dialog_price_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <x.ImageView android:id="@id/car_image_dialog_price_img" android:layout_width="54.0px" android:layout_height="54.0px" android:layout_marginTop="23.0px" />
+                <x.TextView android:textColor="@*android:color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/car_image_dialog_price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:singleLine="true" android:drawablePadding="10.0dip" style="@style/TextView.Gray.Medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/car_image_dialog_coupon_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0px">
+                <x.ImageView android:id="@id/car_image_dialog_coupon_img" android:layout_width="54.0px" android:layout_height="54.0px" android:layout_marginTop="23.0px" />
+                <TextView android:textColor="@*android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/car_image_dialog_coupon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:singleLine="true" style="@style/TextView.Gray.Medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/car_image_dialog_drivers_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0px">
+                <x.ImageView android:id="@id/car_image_dialog_drivers_img" android:layout_width="54.0px" android:layout_height="54.0px" android:layout_marginTop="23.0px" />
+                <TextView android:textColor="@*android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/car_image_dialog_drivers_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:singleLine="true" style="@style/TextView.Gray.Medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <x.ImageView android:id="@id/dialog_dismiss_icon" android:layout_width="80.0px" android:layout_height="80.0px" android:layout_marginTop="20.0px" android:src="@drawable/close_btn_normal" android:scaleType="centerInside" android:layout_toRightOf="@id/dialog_header_area" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:id="@id/image_dialog2_flag" android:background="@*android:color/white" android:paddingTop="50.0px" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="wrap_content" android:layout_below="@id/dialog_header_area" android:layout_centerHorizontal="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_dialog_receipt2" android:layout_width="168.0px" android:layout_height="168.0px" />
+            <TextView android:textSize="45.0px" android:textColor="@color/orange" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:text="有发票" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_dialog_safety2" android:layout_width="168.0px" android:layout_height="168.0px" />
+            <TextView android:textSize="45.0px" android:textColor="@color/orange" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:text="更安全" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/image_dialog_profession2" android:layout_width="168.0px" android:layout_height="168.0px" />
+            <TextView android:textSize="45.0px" android:textColor="@color/orange" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0px" android:text="最专业" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <x.LinearLayout android:orientation="vertical" android:id="@id/layoutThreeBtn" android:background="@drawable/image_dialog_bottom_bg" android:paddingTop="53.0px" android:layout_width="@dimen/common_dialog_root_layout_wdith" android:layout_height="wrap_content" android:layout_below="@id/image_dialog2_flag" android:layout_centerHorizontal="true">
+        <x.Button android:textSize="@dimen/font_size_large" android:textColor="@color/white" android:gravity="center" android:id="@id/confirm" android:layout_width="fill_parent" android:layout_height="@dimen/common_dialog_cancel_btn_height" android:layout_marginLeft="60.0px" android:layout_marginRight="60.0px" x:background="@drawable/common_btn_orange_selector" />
+        <x.Button android:textSize="@dimen/font_size_large" android:textColor="@color/gray" android:gravity="center" android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="@dimen/common_dialog_cancel_btn_height" android:layout_marginLeft="60.0px" android:layout_marginTop="24.0px" android:layout_marginRight="60.0px" android:layout_marginBottom="80.0px" x:background="@drawable/common_btn_white_selector" />
+    </x.LinearLayout>
+</RelativeLayout>
