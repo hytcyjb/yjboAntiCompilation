@@ -1,0 +1,4030 @@
+Manifest-Version: 1.0
+Built-By: 1.0.0-rc4
+Created-By: Android Gradle 1.0.0-rc4
+
+Name: res/anim/anim_trans_from_bottom.xml
+SHA1-Digest: o8UD00AjdTl2BEG8nWh+BWR+iSc=
+
+Name: res/anim/slide_out.xml
+SHA1-Digest: RvEG7NrX0o6b8IzZdyR2WdaOpVk=
+
+Name: res/drawable-hdpi-v4/taxi_map_waterdrop_light.png
+SHA1-Digest: I1M/HvZDJzDOgvRw5q2SGG/+cTo=
+
+Name: res/drawable/bts_ad_more_white.xml
+SHA1-Digest: ChRCW0JWq4ZB71Tkhinlum9Isds=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_share_coupon_selecto
+ r.xml
+SHA1-Digest: 3Q4jUn1aecdxbGBF/eyx5lmyXZo=
+
+Name: res/anim/bts_up_to_down_slide_out.xml
+SHA1-Digest: 8AMTQjnWACAV+xwDqUO8KqhjXz8=
+
+Name: res/drawable-xxhdpi-v4/ic_splash_logo.png
+SHA1-Digest: bfFdF9TNUtYHxYn19zxHhj0kHEI=
+
+Name: res/layout-nodpi-v4/share_item.xml
+SHA1-Digest: ESbustyWfuLJ1aH4n3QhhZVKIQY=
+
+Name: res/drawable-nodpi-v4/bts_stroke_label_ride_driver.png
+SHA1-Digest: hSruXtE6lbJFgUOVrYhyY35pYXg=
+
+Name: res/drawable-nodpi-v4/ddrive_recruit_img.png
+SHA1-Digest: 6YZdoa42wLkLqTYxCJF9pyYxtMg=
+
+Name: res/drawable-nodpi-v4/speech_replay_icon1.png
+SHA1-Digest: h8er0VuEtF0GfvzmoB5DNeDXGCg=
+
+Name: res/anim/bts_background_alpha_in.xml
+SHA1-Digest: kymBJSIzSc1VmDKnE6mL5QxLvtU=
+
+Name: res/drawable-nodpi-v4/l11.png
+SHA1-Digest: eb1/sBVs9k3j6AU2EypQI2tCako=
+
+Name: res/drawable-xhdpi-v4/logo_foursquare.png
+SHA1-Digest: 1msiiXR5Ge8gSSM9YTaNYXyeX5E=
+
+Name: res/layout-nodpi-v4/feedback.xml
+SHA1-Digest: rr1zx0B5cvnBh0zGy5h+fn7/QZo=
+
+Name: res/drawable/common_bottom_bar_selector.xml
+SHA1-Digest: yF6S2wCrPCjcgd9/6ndYtWDrfuE=
+
+Name: res/drawable-hdpi-v4/common_title_bar_back_normal.png
+SHA1-Digest: c4kEpGN4DrAjzWrPXxKY0Qc6adA=
+
+Name: res/drawable-nodpi-v4/common_ic_car.png
+SHA1-Digest: pq6fXHl8NtAirOeNS2ZAGwmhl1M=
+
+Name: res/layout-nodpi-v4/binding.xml
+SHA1-Digest: EIRAZhXF9Y1Lis44YZXlcWnyK8Q=
+
+Name: res/drawable/ddrive_payment_promotion_bg.xml
+SHA1-Digest: nds4u5SQGxCz1umBPkTWFU2y1ns=
+
+Name: res/layout-nodpi-v4/platform_sdk_login_activity.xml
+SHA1-Digest: m8GRYHNACR0GlXfWXTM3nnzOBwg=
+
+Name: res/drawable-nodpi-v4/im_remind_icon.png
+SHA1-Digest: yTCLV+FtGMOHEJuKvUalzdRVWsw=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_gps_error.png
+SHA1-Digest: KLUjV4E15zPXl1ASi4KhgxBn4Z8=
+
+Name: res/drawable-nodpi-v4/tianyu_share.png
+SHA1-Digest: sfjW+we1/RLHqhh8ExdxvWBcSoI=
+
+Name: res/layout/car_wait_for_response.xml
+SHA1-Digest: Kh2BFuhHZtxF4+czUWQpuUqePZw=
+
+Name: miui_push_version
+SHA1-Digest: 6UzzYriDZRyuE/IsBpHbaI/tZJw=
+
+Name: assets/inc_icon_close.png
+SHA1-Digest: XIJEXNQL+eOxk1m/ucC455SqXCE=
+
+Name: res/drawable-nodpi-v4/car_arrival_remind_bj.png
+SHA1-Digest: fu+/09CrIXSqvl4LbJcWT5X3kSo=
+
+Name: res/drawable-nodpi-v4/icon_add_price.png
+SHA1-Digest: aWuPtEfW/UNqAVwpwEZ5PI90W9Y=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_info_bar.xml
+SHA1-Digest: eUBfW/e6qLoaIiHzT5P26e3NJrU=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_normal_type_b.9.png
+SHA1-Digest: m4DYBintLnYvDv5NtaKtlswOk9k=
+
+Name: res/drawable-hdpi-v4/bts_home_page_owner.png
+SHA1-Digest: lF7GBzBcEH5DRY7FfXwxa2o9SK4=
+
+Name: assets/tencentmap/mapsdk_vector/VIOLET.png
+SHA1-Digest: oHS4Kw+ceQOHcyxRLKTcX14MJUM=
+
+Name: res/drawable-nodpi-v4/common_toast_icon_complete.png
+SHA1-Digest: zmjm0ij3N4yID8k3ejrQ76wnAp4=
+
+Name: res/layout-nodpi-v4/ddrive_order_pay_item.xml
+SHA1-Digest: OheFRwdSMU1W1WDGq0KEeYzGVI0=
+
+Name: res/drawable-nodpi-v4/common_icn_homeback_normal.png
+SHA1-Digest: 3N5JsrNpRkjlMB1Ws1ktgymmVGE=
+
+Name: res/layout-nodpi-v4/contact_invite.xml
+SHA1-Digest: CYmTy2FxTWyxUBdix8oLD3o+VdA=
+
+Name: res/layout/bts_common_order_cancel.xml
+SHA1-Digest: +MugMf13Y0rJ3EKut8ckG2pOdTM=
+
+Name: res/drawable/dot_focused.xml
+SHA1-Digest: D1PlZt4F8I4stiQ8YFBHQzKoASQ=
+
+Name: res/drawable/realtime_bottom_bar_channel_voice_selector.xml
+SHA1-Digest: h0X3jTRMqjgOyaT3lFbVYH9FC+s=
+
+Name: res/drawable-xxhdpi-v4/common_pay_checkbox_normal.png
+SHA1-Digest: 17cQds80wOLqCP9gYWqLLFXiPkU=
+
+Name: res/drawable-nodpi-v4/menu_sub_icn_game.png
+SHA1-Digest: XLtopzY4qd4NweHcO4+Vu+rSxqE=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_button_p.9.png
+SHA1-Digest: 0u3lvf4NitOq1DCEUB+zCEi/grY=
+
+Name: lib/armeabi/libBugly.so
+SHA1-Digest: QY6lNfi/MPUdl1lt0+ZtFR85rco=
+
+Name: res/drawable-nodpi-v4/im_micro_icon_down.png
+SHA1-Digest: usCweXKrdMl9Mlzgokj8ku1O1Z8=
+
+Name: res/drawable/bts_btn_gray_box_press.xml
+SHA1-Digest: VGg6DsYFB0OqCYpA/nAOhAmImM8=
+
+Name: res/drawable/common_title_bar_btn_back_selector.xml
+SHA1-Digest: kBI3Jr+uFFbP4zh+eufXWfIxhgw=
+
+Name: res/drawable-nodpi-v4/common_btn_orange_normal.9.png
+SHA1-Digest: QkxtstTH7hiy6iqcTxgn++uWues=
+
+Name: res/layout/increment_popup_dialog.xml
+SHA1-Digest: WRqIjDWVHqYfaOV49UB0RkEwdQo=
+
+Name: res/drawable-nodpi-v4/common_checkbox_normal.png
+SHA1-Digest: d/vB0LJX4F3kkWL4a8+J5BWxVto=
+
+Name: res/drawable-nodpi-v4/realtime_voice_call_speaker_normal.png
+SHA1-Digest: P58tvFSImumm0wTpPzZDAkRL130=
+
+Name: res/layout-nodpi-v4/im_conversation.xml
+SHA1-Digest: ypf946ufxikpfULLuI00rAX/uHI=
+
+Name: res/drawable/bts_comment_text_gb.xml
+SHA1-Digest: FCTJYurMFhZ4buM0gueJ2UeoCh8=
+
+Name: assets/tencentmap/mapsdk_vector/color_texture
+SHA1-Digest: CgEQJMKzUE2115PEXh1d8gQHXpM=
+
+Name: res/layout-nodpi-v4/driver_receiving_notify_bar.xml
+SHA1-Digest: UYl3M90XqortdIgngfhh3tOFsQU=
+
+Name: res/drawable-xxhdpi-v4/bts_map_copy_tip_pressed.9.png
+SHA1-Digest: zsoPFYfzLgBJ8a/8SfqK1b6/PSI=
+
+Name: res/drawable-xhdpi-v4/logo_kakaotalk.png
+SHA1-Digest: i48mB1h7wlYjV4n2IAPjJ84fRAk=
+
+Name: res/drawable-xhdpi-v4/logo_bluetooth.png
+SHA1-Digest: cnZJ7vg+t4P/O78FN6L108saBMw=
+
+Name: res/drawable/common_btn_response_cancel_selector.xml
+SHA1-Digest: 3BoT9nTrA0PVzLntpgzHktRKx+o=
+
+Name: res/drawable/taxi_cost_pay_checkbox_selector.xml
+SHA1-Digest: 7f9EGNWFgl8lzvfk2vh5Mt6ZH08=
+
+Name: res/drawable/shape_btn_rect_2.xml
+SHA1-Digest: 6F5dyBPMAXX1CWi+OndjaRyQmE4=
+
+Name: res/drawable-nodpi-v4/icon_arrow.png
+SHA1-Digest: d71+W0i+nmXsDj1kbnTa5wpLw38=
+
+Name: res/drawable-nodpi-v4/menu_order_icon_special_flier.png
+SHA1-Digest: KRrWF98QvcM0nD0Ifs65gtih15Q=
+
+Name: res/layout-nodpi-v4/switcher_panel_layout.xml
+SHA1-Digest: apaKxMhxZfM5XsnUT/IRU91NXqs=
+
+Name: res/drawable-xxhdpi-v4/car_type_arrow.png
+SHA1-Digest: iL+kfyDcyadsBdahI8DXmBkgnxs=
+
+Name: res/drawable-xhdpi-v4/logo_vkontakte.png
+SHA1-Digest: lKCWzOIM84ZYQgpZSY9OfncLR4g=
+
+Name: res/drawable/bts_appointment_message.xml
+SHA1-Digest: +fyNF/eW0XrMpROup2t7dS00ssw=
+
+Name: res/drawable-xxhdpi-v4/bts_attestation_identityicon_n.png
+SHA1-Digest: OEhs4uqv9vB3+pwnGosz7qQQrdU=
+
+Name: res/drawable/bts_ad_more_2_nor.xml
+SHA1-Digest: pvFzGABNj5zUVY8QJamthrPn9hw=
+
+Name: res/drawable-nodpi-v4/icon_webview_error_connectfail.png
+SHA1-Digest: BsSI9UaN6frEjwntdJ1ybyrroUs=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_end.png
+SHA1-Digest: IdmgKJyUl8eWwuWgyZ7JfnA0uzY=
+
+Name: res/drawable/shape_btn_rect_1_selector.xml
+SHA1-Digest: ejhZyUOeSOQQw63B5cSH8xXuOBc=
+
+Name: res/raw-nodpi-v4/sfx_star_1.wav
+SHA1-Digest: b+obrX9kbSqkAMm0dgbnqGf/Nj4=
+
+Name: res/drawable-xhdpi-v4/logo_tumblr.png
+SHA1-Digest: 81D66rccnwKlK7IMes/clu78MpY=
+
+Name: res/drawable-xhdpi-v4/logo_instagram.png
+SHA1-Digest: yc4JRpAeBPtGSiNPB8yDNZ1/ffs=
+
+Name: res/drawable-nodpi-v4/common_icon_arrow.png
+SHA1-Digest: rEbvQNi/cPFeWOf7PCtuX5H/S24=
+
+Name: res/drawable-nodpi-v4/select_icon_multi.png
+SHA1-Digest: 1roWeXxCXCohAmszzJdJkbrSZuM=
+
+Name: res/layout-xhdpi-v4/push_pop.xml
+SHA1-Digest: vA9jOX2KgD1ml/s6Du9eyfAAE0c=
+
+Name: res/drawable-xhdpi-v4/ic_search_type_end.png
+SHA1-Digest: 4wyuC42IKU8zRGBaFHurBGom8bM=
+
+Name: res/layout/bts_tag_item.xml
+SHA1-Digest: +Q7vaBTmBHI250C/YihQl8wRZN4=
+
+Name: res/drawable-nodpi-v4/s6_share.png
+SHA1-Digest: pF5BNQm/TQnpxdu2d8H1W5EYzFA=
+
+Name: assets/tencentmap/mapsdk_vector/ORANGE.png
+SHA1-Digest: 5KDReiwyAsZYch+nlwi8DZeS4nI=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_wifi.png
+SHA1-Digest: 17jivluQRjSH4Vdu+4GgWSxLgcA=
+
+Name: res/drawable-hdpi-v4/bts_img_newstart.png
+SHA1-Digest: UM8Pdxh1/v2umV06z86PQE+Fsnw=
+
+Name: res/drawable-xxhdpi-v4/bts_img_open_guide.png
+SHA1-Digest: ZSuxXyDKqnqsnyd1Bu6IyzBdOek=
+
+Name: res/layout/bts_driver_comment_layout.xml
+SHA1-Digest: VTfO15YONaha/FelQSz6n8KyG+U=
+
+Name: res/drawable/common_title_bar_btn_menu_selector.xml
+SHA1-Digest: gKcBmh1bOqOEvah7OjCpyfGNy4Y=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_girl.png
+SHA1-Digest: 0voTkFiwzKESFzKNNuSwAZ+UTYQ=
+
+Name: res/drawable/share_btn_selector.xml
+SHA1-Digest: oNEbYJBg17gKzlg/1qwcmgZBg1E=
+
+Name: res/anim/cycle.xml
+SHA1-Digest: 2NECrrvXYhfiiurMPWtlUha59QM=
+
+Name: res/drawable-nodpi-v4/common_icn_email.png
+SHA1-Digest: kK9lnSJsDnS8c2GlnDmL6Wgt7UM=
+
+Name: assets/tencentmap/mapsdk_vector/mapconfig.dat
+SHA1-Digest: xwmjzhy2S0rFMDR2en85hjYu3Ss=
+
+Name: res/drawable-nodpi-v4/realtime_voice_call_speaker_cancel.png
+SHA1-Digest: 8bxwYUEZ+LT3gXkZoB+7/lti5rE=
+
+Name: res/drawable-nodpi-v4/common_icn_share_normal.png
+SHA1-Digest: //SGt4tW2wC1SnabRYZ/hd1zpY4=
+
+Name: res/drawable-xhdpi-v4/logo_tencentweibo.png
+SHA1-Digest: INax6xj0nqlTjnPJ6cyZ2yhJSTg=
+
+Name: res/drawable-xxhdpi-v4/bts_psnger_wait_pay_free_stamp.png
+SHA1-Digest: rAz+bQWRzkbxjjC2eGDB1Xs+qy0=
+
+Name: res/drawable-nodpi-v4/common_icn_searchbox_close.png
+SHA1-Digest: rnxh0O2qK/aWuQsv966elUZ9z/A=
+
+Name: res/drawable-xhdpi-v4/logo_youdao.png
+SHA1-Digest: v5MCtFsKm2EpHdKKUZxJ7e1JLHk=
+
+Name: res/drawable/common_btn_selector.xml
+SHA1-Digest: WFMtrb3E/Nt4UsWU4hB0ZZ+v3Oo=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_switch_n.png
+SHA1-Digest: 7/q98WIqyXEPpKZgZnNL0c7q90Y=
+
+Name: res/drawable-nodpi-v4/version_intro_bg.png
+SHA1-Digest: NLaQyKyY/WM1T1TCtcQmmESZ4m4=
+
+Name: res/raw-nodpi-v4/sfx_error.wav
+SHA1-Digest: /gKlXJPpJ5TIo+olYII0iv2aWys=
+
+Name: res/drawable-nodpi-v4/anzhi_share.png
+SHA1-Digest: K4IXBihZbnLEg8qI3lv3TFc4jFw=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_meizu.png
+SHA1-Digest: kAKzqp39GsS9xU+KyqOU+aT8oQ4=
+
+Name: res/drawable/bts_btn_white_selector.xml
+SHA1-Digest: OKogM4Ewk0IZt2vTLIeQDRdljEY=
+
+Name: res/drawable-xhdpi-v4/ddrive_driver_icon_fxp.png
+SHA1-Digest: ejAN3k2toqPuXFziGn7rvEY6Kas=
+
+Name: res/drawable-nodpi-v4/common_title_bar_ic_title.png
+SHA1-Digest: KdX9fcWNOwmRuMrbkMrDrJeoyss=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_baiduzhushou.png
+SHA1-Digest: rbW87myfuTg54LvKdEQ5rXNDBCc=
+
+Name: res/drawable/shape_pay_type_ext.xml
+SHA1-Digest: S25fuGugjYIWc2lg5PvuBESSY3c=
+
+Name: res/drawable/login_check_captcha_color.xml
+SHA1-Digest: 6qThRIstxV3icJAFLFmTXOOmhOY=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_owner.png
+SHA1-Digest: h8k13+RuSwkOm8y9ZJKMNqgtdPw=
+
+Name: res/drawable/common_title_btn_back_selector.xml
+SHA1-Digest: NcGR/UTOeqkDQVnBGvERGHXOBls=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_channel_text_pressed.p
+ ng
+SHA1-Digest: 58fmh2riopccjHNsbDzGBTo1N94=
+
+Name: res/drawable/bts_detail_user_rate_btn_bg.xml
+SHA1-Digest: EZ7sm6bZ6tbQaeeZhC8f2wB3CsU=
+
+Name: res/drawable-nodpi-v4/common_ic_wait_close_normal.png
+SHA1-Digest: O8Vw21HsVKgqwntQwC75ADZj9Jc=
+
+Name: res/drawable-nodpi-v4/driver_head_circle.png
+SHA1-Digest: 3XxlgP3vsmZF7F1xosdnot/rd3Y=
+
+Name: res/drawable-nodpi-v4/share_icn_weixin.png
+SHA1-Digest: xBKgOrzlTTF8hESAC/0NGbG/HeY=
+
+Name: res/drawable-xhdpi-v4/im_message_left_bg.9.png
+SHA1-Digest: TrT5+imt8H2d80VW28vJc55oEV8=
+
+Name: res/layout-nodpi-v4/share_layout.xml
+SHA1-Digest: +2eJDif2WXbNEfaCVuIjLz0d+1o=
+
+Name: res/drawable-nodpi-v4/arrival_remind_bj.9.png
+SHA1-Digest: 1NhIh1av3RJzrN+a5WCCSiSMbmA=
+
+Name: res/drawable-nodpi-v4/menu_line.png
+SHA1-Digest: NI5dEuky/4KyHGFu9LZWKfTAdmw=
+
+Name: res/layout-nodpi-v4/picker.xml
+SHA1-Digest: rUenmhlChmxBqFK0EBwbznfjP84=
+
+Name: res/drawable-xxhdpi-v4/bts_mark_passengers.png
+SHA1-Digest: xL5sJlS3cMF6dcR3Nm/mZGEtRYw=
+
+Name: res/drawable-nodpi-v4/menu_icon_choice.png
+SHA1-Digest: up2KtRxlqnKIlNze7ZtwvoDj7ZA=
+
+Name: res/drawable-xxhdpi-v4/bts_general_im_failure.png
+SHA1-Digest: eQksHIDox4XOxcwB1wS02pU8llc=
+
+Name: res/color/remark_tag_text_color_selector.xml
+SHA1-Digest: wxCMVUqg8WCIEAwT1NRlPlXcoCI=
+
+Name: res/layout-nodpi-v4/ad_car_view.xml
+SHA1-Digest: ccYZ1Mu2R1OMbia/aItY1H9meHc=
+
+Name: res/drawable-nodpi-v4/menu_icn_message.png
+SHA1-Digest: RrUgB4qm0Dh6rCjpb8iOQMkD9t0=
+
+Name: res/drawable-xxhdpi-v4/game_share.png
+SHA1-Digest: jfWlpWOaRhk8A5dL5Gmpb1wii3A=
+
+Name: res/drawable-nodpi-v4/common_btn_white_normal.9.png
+SHA1-Digest: 9/wGmgybTVdzeq0PKCvFH0es+8M=
+
+Name: res/layout/bts_title_bar_layout.xml
+SHA1-Digest: eA56Y4f+5wcNT/9x4hiygA8qzoE=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_unhappy_p.png
+SHA1-Digest: zCzgqCmQqx1H0u3KChNdsfFOJfk=
+
+Name: res/drawable-nodpi-v4/im_icon_close.png
+SHA1-Digest: xVeGl4nNMCkLApt9gCIr5/zQW+s=
+
+Name: res/drawable-xxhdpi-v4/bts_common_icn_information.png
+SHA1-Digest: c6SD+pgCEQwN1skID0eVC2VQ+l0=
+
+Name: res/layout/taxi_wait_for_arrival.xml
+SHA1-Digest: /pZpq71W0swK3xPGm7zFtPha0B8=
+
+Name: res/drawable-nodpi-v4/common_btn_bottom_white_normal.9.png
+SHA1-Digest: eVIGdhxbP+gokKQOW7eyNUhVxJ4=
+
+Name: res/layout-nodpi-v4/car_first_tip_dialog.xml
+SHA1-Digest: S7eNCAKOqskuAiMnJB4/yxe6G9I=
+
+Name: res/layout/bts_order_fragment.xml
+SHA1-Digest: 862ZWmW81dZce2TwDl5YZH2znxA=
+
+Name: res/drawable-nodpi-v4/comment_star_btn_pressed.png
+SHA1-Digest: ZwOemX6unnuOdB53FBg3SVa5Jsk=
+
+Name: res/layout-nodpi-v4/map_text_simple_fare.xml
+SHA1-Digest: Z6RDoZlzRX0eQvk+GUW2fBlUr1I=
+
+Name: res/drawable-xhdpi-v4/im_message_right_bg.9.png
+SHA1-Digest: O7xN6ROYd2RPhfVkZhQDGuc7VNU=
+
+Name: assets/tencentmap/mapsdk_vector/BLUE.png
+SHA1-Digest: 48pxvOeYGxMU6v1DPSvopC8wKNs=
+
+Name: res/drawable-nodpi-v4/common_icn_question_normal.png
+SHA1-Digest: rf7D3GSXYPG1epiVlX1julHsgqc=
+
+Name: res/layout-nodpi-v4/fragment_modify_jobinfo.xml
+SHA1-Digest: SWbKic0YCTD31TM0zHIMwm8XLck=
+
+Name: res/drawable-xxhdpi-v4/bts_login_small_button_p.9.png
+SHA1-Digest: sfGeN7iVWXvHzlImwU6me8Gr58Y=
+
+Name: res/layout/taxi_carpoolprice_layout.xml
+SHA1-Digest: JxvZ/yeekr+AWLdsmLBNGYVmQhk=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_micro_error.png
+SHA1-Digest: 332Gp/BtTtaaKuOvvXlqjR8tFfk=
+
+Name: res/layout-nodpi-v4/car_driver_info_star_selector.xml
+SHA1-Digest: NRUu+Ignt5fISOancA900TgXnK8=
+
+Name: res/drawable-nodpi-v4/message_icon_weixinpay.png
+SHA1-Digest: Z1L76YT4CIwhEjwg4VFIiDfPpPs=
+
+Name: res/drawable/bts_im_message_icon_selector.xml
+SHA1-Digest: TA3yGVYfRNqSm1oZ9E4ykvp2SD0=
+
+Name: res/layout-nodpi-v4/login.xml
+SHA1-Digest: zHZQMQ1+zkY7Fgletp3GMyENb00=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: 8iG9tkgxs5XXsyT3m6WoBZSF6Y8=
+
+Name: res/layout/bts_passenger_order_over_layout.xml
+SHA1-Digest: 7Je1eDuQ8bj60L8kvr597Jc5mfc=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_pay_selector.xml
+SHA1-Digest: cxIY+s/l1clI2rI9kYTRaAz31cA=
+
+Name: res/layout-nodpi-v4/car_pay_basicfee_item.xml
+SHA1-Digest: ZeOTSStf5Biob1FN8+sxWh9zOdg=
+
+Name: res/drawable-nodpi-v4/redpoint_icon.png
+SHA1-Digest: MziLttOA9IazlZ7mx/PMYY6end8=
+
+Name: res/drawable-nodpi-v4/user_info_arrow.png
+SHA1-Digest: curxRdXlMF0pCVj/a6qDQ1hBybc=
+
+Name: res/layout/bts_tab_item.xml
+SHA1-Digest: vHHfDFUsBOY/u1urGO8TpDQNLTM=
+
+Name: res/drawable-hdpi-v4/bts_home_page_switch.png
+SHA1-Digest: +cDFSj4WEpQoqI7eUXq01LQXG1c=
+
+Name: res/drawable/common_pin_ic_carpool_selector.xml
+SHA1-Digest: ezFJLYft/PgehqJzcc1+gznjH/c=
+
+Name: lib/armeabi-v7/libBugly.so
+SHA1-Digest: l+Lu9edWdZRgQSFha3FPKc2KssA=
+
+Name: res/layout-nodpi-v4/im_conversation_list_left_item.xml
+SHA1-Digest: twWDNrr6rcqOoGzHEQNdlOBDKMQ=
+
+Name: res/drawable-nodpi-v4/booking_btn_select_city_normal.9.png
+SHA1-Digest: 442Tzio8wVAve9mN5RyUl5FGhj0=
+
+Name: res/drawable-nodpi-v4/paid_icn_receipt.png
+SHA1-Digest: Zql6pigxxyakypaXT/MGr834Qxg=
+
+Name: res/drawable-nodpi-v4/comment_star_btn_normal.png
+SHA1-Digest: hFIVCenTT1MAbm533Uo2cCVyfpE=
+
+Name: res/layout-nodpi-v4/taxi_cost_detail_list_item.xml
+SHA1-Digest: xcLrvf6OSC5arIKLYitYgTDu/Ro=
+
+Name: res/layout-nodpi-v4/comment_list_item.xml
+SHA1-Digest: d5eZtZTZW8Ked3LMfLU79PzW+w8=
+
+Name: res/drawable-nodpi-v4/close_btn_normal.png
+SHA1-Digest: WSUrTEs7PTVGNPkdCFLCsVTHRVo=
+
+Name: res/drawable-nodpi-v4/reminder_text_giveup_btn_normal.9.png
+SHA1-Digest: Q7lk1VCaHEZ0V3ZNS+cxUwhD6YU=
+
+Name: res/layout-nodpi-v4/announcement_popup.xml
+SHA1-Digest: J8jAh9iuKLN8t8oFpfmZVs1WOqU=
+
+Name: res/layout/taxi_wait_for_response.xml
+SHA1-Digest: jzpkR5g+yoNcYBxnGSLvipPA1u0=
+
+Name: res/drawable-nodpi-v4/complain_icn_door.png
+SHA1-Digest: 6jccUW5IIq8mjNYeE0IQEbfW+uA=
+
+Name: res/drawable-nodpi-v4/select_icon_comfort.png
+SHA1-Digest: GQ+MZHvp8rw3BNdJiMrntsRIEbU=
+
+Name: res/drawable-nodpi-v4/arrival_icn_bj_pressed.png
+SHA1-Digest: vfMu7ryG77Hk2KrXqBS/JOID8t0=
+
+Name: res/drawable-nodpi-v4/l09.png
+SHA1-Digest: 8V6/2oAeiFxd7AxQpqxYDZDDLqA=
+
+Name: res/drawable/common_btn_bottom_white_selector.xml
+SHA1-Digest: EoendnkGfobsEbGSaPj4EZyMNio=
+
+Name: assets/inc_open.png
+SHA1-Digest: d6B0nBjiBBcBEakxTIfee4BCL4E=
+
+Name: res/raw-nodpi-v4/call_for_home.wav
+SHA1-Digest: dy06vG/de3+s+HREz4rB40l/cuk=
+
+Name: res/drawable-nodpi-v4/common_bottom_bar_p.9.png
+SHA1-Digest: sPVIrEs9eSAxQ92J1yzAxisQvMo=
+
+Name: res/drawable-xhdpi-v4/specialcar_map_waterdrop.png
+SHA1-Digest: ucfh8Z91+buPlerAyVtriqaq/NE=
+
+Name: res/layout-nodpi-v4/im_common_msg_popup_listview_item.xml
+SHA1-Digest: uwb5lfyIaWFsaDfRfWFCldfXbwQ=
+
+Name: res/drawable-xxhdpi-v4/bts_general_bubble.9.png
+SHA1-Digest: sseZJuJqhjfgNzK8qyjm1MOp6o0=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_only_normal.png
+SHA1-Digest: S5IzPVKQukFRHLFK6crvM7Hj//E=
+
+Name: res/drawable-xhdpi-v4/logo_dropbox.png
+SHA1-Digest: ZeCQ4H7H5aSv+lD8MqhF/NkUyhM=
+
+Name: res/layout/bts_weixin_login.xml
+SHA1-Digest: niic4boZ/9gpoj8VqJTziBOybdo=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_no_disable.png
+SHA1-Digest: tSkHXlaSXcxt0e1whcb+SpxR06U=
+
+Name: res/layout-nodpi-v4/map_text_fare.xml
+SHA1-Digest: sD17SCH+v/3kfzfnKogD8vlNCeI=
+
+Name: res/drawable-hdpi-v4/bts_order_pay_p.9.png
+SHA1-Digest: uduVnSqh0vZWY6gb6zpZApdzyxA=
+
+Name: res/drawable-hdpi-v4/trip_friend_bubble_startpoint.png
+SHA1-Digest: XbuyJtuVGjiJITpB/v9+3kBCJAM=
+
+Name: res/layout/car_confirm_layout.xml
+SHA1-Digest: Kh2BFuhHZtxF4+czUWQpuUqePZw=
+
+Name: res/drawable-nodpi-v4/icn_work_actived.png
+SHA1-Digest: Oi8uXquxPQbjuBq+ozoUsNKT7nM=
+
+Name: res/drawable-nodpi-v4/samsung_share.png
+SHA1-Digest: I2LkjNc8Ismwq+ZCdnZI5JNZs1A=
+
+Name: res/drawable-xxhdpi-v4/map_point_on.png
+SHA1-Digest: QMZciQsOoX1y5Jx8DwmHbB0IEF4=
+
+Name: res/layout/layout_webview_progress.xml
+SHA1-Digest: f4IO9bRzesOJAgy27Vnk76k3aK0=
+
+Name: res/drawable-nodpi-v4/common_ic_taxi.png
+SHA1-Digest: Ygc4WpkRHnQCcLsgLpMYP4vLQs8=
+
+Name: res/drawable/shape_circle_linkgray.xml
+SHA1-Digest: SepO6wqd436VB0n8x395JusKRUw=
+
+Name: res/drawable-xhdpi-v4/confirm_icn_speechsound2.png
+SHA1-Digest: 2YzPDFZ3/6gtc2OYPqG7bsZdXPM=
+
+Name: res/anim/intercome_right_play_audio_anim.xml
+SHA1-Digest: YQZpN8u/AErdZ3QQE39nE6V3YNM=
+
+Name: res/drawable-nodpi-v4/l08.png
+SHA1-Digest: XsIVGBvQoZXTrJCrc3HpFzODc/w=
+
+Name: res/drawable-nodpi-v4/im_btn_normol.9.png
+SHA1-Digest: ny9wBwFRyJaRpxgNEAr1BudG2oY=
+
+Name: res/raw-nodpi-v4/guide_record.m4a
+SHA1-Digest: cVZ3wD0C89d4XxRQPSUXDw5Ev+E=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_free_ride.png
+SHA1-Digest: +1Ks96Z0FddxxyqLpJh6G/WtCes=
+
+Name: res/layout-nodpi-v4/app_download_notification.xml
+SHA1-Digest: PpESKQYnO+mQWtIK9mAAcnLhfG8=
+
+Name: res/layout-nodpi-v4/fragment_userinfo.xml
+SHA1-Digest: cNXqnx4hGZOEwFrT5MaErBa+xDg=
+
+Name: res/drawable-xxhdpi-v4/home_map_btn_path.png
+SHA1-Digest: s2AGl5rKX7WOIU23GJ4qqFXP/Oo=
+
+Name: res/drawable-nodpi-v4/reminder_text_ok_btn_presssed.9.png
+SHA1-Digest: 5g6SsHzB8Yad9ZJs6b/IxQ2OT2I=
+
+Name: res/layout/carpool_marker_content.xml
+SHA1-Digest: aPeBDXKT+WKB4LCDxi/G+LqaOQY=
+
+Name: res/drawable-nodpi-v4/progress_rotate.png
+SHA1-Digest: eEtBDPTMprfKKQ8QF+R1fFaJyTU=
+
+Name: res/layout-nodpi-v4/depart_search_title.xml
+SHA1-Digest: IKfFlU1lLP0WzTta30f52Ach79c=
+
+Name: assets/ShareSDK.xml
+SHA1-Digest: Ql/JY4BSfu5cTJ573Omt+Ll6ipk=
+
+Name: assets/market
+SHA1-Digest: tlifxqsNyCzxIJnRwtQKuZToQQw=
+
+Name: res/drawable-xhdpi-v4/ssdk_oks_yaoyiyao.png
+SHA1-Digest: dqUGQ19sqlrOmEx9v50fZTnajpI=
+
+Name: res/drawable-xxhdpi-v4/map_departure_icon.png
+SHA1-Digest: lpwRlxDSRYNzfzTk/lcRzq/PvzM=
+
+Name: res/drawable-nodpi-v4/cancel_trip_confirm.png
+SHA1-Digest: CVO3Ibjoohg2p1LmUutixQgIZg4=
+
+Name: res/raw-nodpi-v4/car_arrived.wav
+SHA1-Digest: Hh4jJeDThdRYolCmW0ZEgRGx+LI=
+
+Name: res/drawable-hdpi-v4/taxi_map_waterdrop_trip.png
+SHA1-Digest: 5Om9Pz1O8WZsxlqh8jtidM81ce8=
+
+Name: res/layout-nodpi-v4/cancel_trip_view.xml
+SHA1-Digest: VV2BT4cPFMtzKPGBq6Wa5oodpsM=
+
+Name: res/drawable-nodpi-v4/voice_icon_gray_left.png
+SHA1-Digest: 1wfew2d6PZCs8p35qSib79Pg1R8=
+
+Name: res/anim/slide_back_in.xml
+SHA1-Digest: hjHv4ROmHtx/St0PC/csqt+YMUA=
+
+Name: res/drawable-nodpi-v4/icon_activity_discount.png
+SHA1-Digest: cys2lY0xNv2xfPddQ1vi3033fuc=
+
+Name: res/drawable-nodpi-v4/red_icon.png
+SHA1-Digest: OvQlpjoU5wlXdcosL1tCvNTRmYY=
+
+Name: res/layout-nodpi-v4/driver_fragment_driver_info.xml
+SHA1-Digest: g4LlDiZkNBanMP92AlmhdqZnoJ4=
+
+Name: res/drawable-nodpi-v4/specialcar_home_btn_close.png
+SHA1-Digest: XmcSTJlzwNUNHRu59RbDrorqVHA=
+
+Name: res/color/common_timely_btn_text_color.xml
+SHA1-Digest: 6gMf63Ku2Yt7+ZFDCbYZlRexBQY=
+
+Name: res/drawable-xxhdpi-v4/game_collect.png
+SHA1-Digest: n0iS9qUadeEtX14gkYyJUACWAuw=
+
+Name: res/drawable-hdpi-v4/specialcar_map_waterdrop_light.png
+SHA1-Digest: NihxbQU8i+gEQC16NoKDHA5RLdc=
+
+Name: res/drawable-xhdpi-v4/car_frame_4.png
+SHA1-Digest: pbsbll2eiPcGNCl89Da4zaDC9Rk=
+
+Name: res/drawable-nodpi-v4/icon_gif.png
+SHA1-Digest: f+Br5tVfc4UIe3EEKezbimctbJ8=
+
+Name: res/drawable-xxhdpi-v4/booking_btn_input_time.png
+SHA1-Digest: UoWf17aodYz9C9Jwx1ZRypjqnIE=
+
+Name: res/drawable/car_estimate_up_part_bg.xml
+SHA1-Digest: ePAE8Vr0V1L48QzDDS74sQ+kRUc=
+
+Name: res/drawable-nodpi-v4/car_comfort_small.png
+SHA1-Digest: ZDMTigy6H3T1suLELhsC4lMu/Yo=
+
+Name: res/drawable-hdpi-v4/icon_webview_refresh.png
+SHA1-Digest: 4unfHguS97zPglJ18tXHtO/lzh0=
+
+Name: res/drawable-xxhdpi-v4/bts_general_im_n.png
+SHA1-Digest: X2JEyIHg/eCEVfzOqycHamgtNeg=
+
+Name: res/drawable-nodpi-v4/share_icn_txweibo.png
+SHA1-Digest: MFvr4P9Cz1Sr+MoexcQkz34OwXU=
+
+Name: res/drawable-xxhdpi-v4/bts_login_didi.png
+SHA1-Digest: I+XOvkh9gD+gyaBTPDEWfpngAHE=
+
+Name: res/drawable-xhdpi-v4/car_frame_3.png
+SHA1-Digest: kuefymGxtV9J43UUz1XHeHG0mJM=
+
+Name: res/layout-nodpi-v4/driver_info_footer_tips.xml
+SHA1-Digest: zgIYQGL01i6UH0SUjyEkHG4zdZo=
+
+Name: res/drawable-hdpi-v4/trip_self_bubble_endpoint.png
+SHA1-Digest: fE49EimWtWZXv+v7GGpki53AJp4=
+
+Name: res/drawable-xhdpi-v4/logo_evernote.png
+SHA1-Digest: EwTUViZv8qSiKFicZyjYBbS/7ic=
+
+Name: assets/tencentmap/mapsdk_vector/province_sat.png
+SHA1-Digest: dJK9aF4DYEXBylRmpCZnizLh98k=
+
+Name: assets/tencentmap/mapsdk_vector/location_state_selected.png
+SHA1-Digest: /YHHRSiN22cJC9PxTrMuIYqKO/U=
+
+Name: res/drawable-xxhdpi-v4/common_title_bar_back_normal.png
+SHA1-Digest: lHcxXt6pkFUy5S7rhGzV1r+cwmM=
+
+Name: res/color/common_pin_below_text_color_selector.xml
+SHA1-Digest: A4lc1nyG/hwAeYxVmUP1Ll/gfZs=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_button_n.9.png
+SHA1-Digest: ec+Cr3hTnS/34AsO2CBSFES2vbY=
+
+Name: res/drawable-nodpi-v4/dialog_first_icon_time.png
+SHA1-Digest: USiDr9BeJlu8WN7BQzmtWR7Swao=
+
+Name: res/drawable-nodpi-v4/arrival_icn_arrive_pressed.png
+SHA1-Digest: btsRKhhsKtuX7nHK/N9pEoDCbdM=
+
+Name: assets/inc_click_up.png
+SHA1-Digest: AxkE96KfnHVU6y5wrgjXHtWRsKY=
+
+Name: res/drawable/check_captcha_selector.xml
+SHA1-Digest: jNbIKIMDaBfcSxiARoTuAcShy7s=
+
+Name: res/drawable/common_btn_response_confirm_selector.xml
+SHA1-Digest: aXsMRvInAUQ2Wml2JeWE4j/HH1w=
+
+Name: res/layout-nodpi-v4/common_addr_item.xml
+SHA1-Digest: UTBiv28SYsp6Rsi1CHpB0cqUZGM=
+
+Name: res/drawable-xhdpi-v4/car_driverpage_bg.png
+SHA1-Digest: op+rgL7dFMKWwFJhX+WQXZAUpl4=
+
+Name: res/drawable-hdpi-v4/ddrive_driver_icon_fxp.png
+SHA1-Digest: dbQeFtAZu+UWll+KeaGf6gLUlaY=
+
+Name: res/layout-nodpi-v4/ddrive_confirm_layout.xml
+SHA1-Digest: 9l6bE9z0HV1PfNii1YEZDbeSjTQ=
+
+Name: res/drawable-nodpi-v4/select_icon_gray_comfort.png
+SHA1-Digest: U3YM3BC7fDQe3sabmtJhedMGQUI=
+
+Name: res/anim/alpha_in.xml
+SHA1-Digest: tUv9ddBAzzfvDYAiEeaY66ZcKnc=
+
+Name: res/drawable-nodpi-v4/dialog_icn_time.png
+SHA1-Digest: vyA0AHLJ/yo3gKk36oKrO2U0RQs=
+
+Name: res/drawable-nodpi-v4/l03.png
+SHA1-Digest: YPqn83rBddealW3DE29luY83W8Y=
+
+Name: res/drawable-hdpi-v4/bts_xexception_nowifi.png
+SHA1-Digest: Ih6CdLjCJ6EcVmMcm0kx+gNVe28=
+
+Name: res/drawable/common_btn_booking_select_from_selector.xml
+SHA1-Digest: dh/dszjX/yEbvjGJRuKbrsLSTtI=
+
+Name: res/layout/bts_driver_fee_detail.xml
+SHA1-Digest: 8H73qmYbYK4BjrTdFWZPkeRTkms=
+
+Name: res/drawable/round_edittext.xml
+SHA1-Digest: EhhnWR5HKAe6Jcpk9sUNlOxNUOg=
+
+Name: res/drawable-hdpi-v4/im_message_right_bg.9.png
+SHA1-Digest: sSc4AMdimCp/y/f63zePggAd8OI=
+
+Name: res/drawable-nodpi-v4/arrival_icn_discover_normal.png
+SHA1-Digest: 2uo4bTq2SlyhiLXafDzqDwKsmBc=
+
+Name: res/drawable-nodpi-v4/menu_icn_order_redpoint.png
+SHA1-Digest: bS81lF3TIt8xpXixoXvYHgusaPU=
+
+Name: res/drawable-nodpi-v4/driverpage_star_light_gray.png
+SHA1-Digest: WAkGm68NP400ggTWogLlcnPUufQ=
+
+Name: res/drawable-xxhdpi-v4/bts_img_notopen_guide.png
+SHA1-Digest: iNC5lWY12CnD4AKDGt6dF9/+TOc=
+
+Name: res/layout/bts_pull_order_setting.xml
+SHA1-Digest: VLlGgEQAJkxXWnvFhnTR1swQ3dQ=
+
+Name: res/drawable-nodpi-v4/huawei_share.png
+SHA1-Digest: 9e/Ke8uKRizK1+IS+ju1ZW2/x1A=
+
+Name: res/layout/bts_add_route.xml
+SHA1-Digest: NBPsGpIv/A91QJXFD5iXTzqm2/0=
+
+Name: res/drawable-nodpi-v4/im_headimage7.png
+SHA1-Digest: O55hcv+vjKlFKgZapQn3QRiK8F8=
+
+Name: res/layout-nodpi-v4/ddrive_ar_wait_for_arrival_driver_bar.xml
+SHA1-Digest: SVw7HIno2JcqvUc2R8Sars7MUm4=
+
+Name: res/drawable-nodpi-v4/loading.png
+SHA1-Digest: HjhiEUOoKNTkx+W1lgR5JLtlq1c=
+
+Name: res/layout/bts_passenger_fee_detail.xml
+SHA1-Digest: UXFGSfs8ezW+hLx4+f/LwSOrBsg=
+
+Name: res/layout-nodpi-v4/car_image_text_item.xml
+SHA1-Digest: J4oy+WnMqMF3Lm+cs1EE1s6e9Y8=
+
+Name: res/drawable-nodpi-v4/menu_icn_setting.png
+SHA1-Digest: yE+FWJmMT2LjCd/oD5RtpmR3dc0=
+
+Name: res/layout-nodpi-v4/im_conversation_list_right_item.xml
+SHA1-Digest: xpcEKPzr16SDt4KmA8Zfxn4P4zs=
+
+Name: res/drawable/im_bottombar_bt_voice_selector.xml
+SHA1-Digest: RuxDtjjy54yiDYGZ9cqOiMkXkUQ=
+
+Name: res/drawable/app_list_corner_round_bottom.xml
+SHA1-Digest: XFL5NE3q79+3nz4BGFRwOei0KL8=
+
+Name: res/layout-nodpi-v4/image_dialog2.xml
+SHA1-Digest: FJY8O3c6p6h9FltYAy0+/mN00KM=
+
+Name: res/layout/activity_web.xml
+SHA1-Digest: /qwt0sPmEohHiBYseE8EROYfs7o=
+
+Name: res/layout/old_activity_web.xml
+SHA1-Digest: 47j01SFpuFywTras5bSo7qjYCoA=
+
+Name: res/drawable-xxhdpi-v4/bts_setting_add_n.png
+SHA1-Digest: xXC9GET832ZxqjsKsDEF6ESOcGo=
+
+Name: res/drawable/bts_button_white_nor.xml
+SHA1-Digest: PR4fPo1Pi+BV3iYbygfftdFwhcY=
+
+Name: res/drawable-nodpi-v4/common_bottom_bar_n.9.png
+SHA1-Digest: XjnCcxhlgkJiUwlsLXSOxiyThKk=
+
+Name: res/layout-nodpi-v4/userinfo_itemview.xml
+SHA1-Digest: jLQo+t5WHQsyju+wOndwQWPZhHM=
+
+Name: res/raw-nodpi-v4/im.m4a
+SHA1-Digest: usSFLqNZTOpGNaou8lJzPyPxkYQ=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_red_selector.xml
+SHA1-Digest: O43dMyhe8txbbvDIs+I0Go1Q6zE=
+
+Name: res/drawable/bts_map_copy_tip_selector.xml
+SHA1-Digest: got/b0ayYF0BJCJDTDQORMwwW+w=
+
+Name: res/drawable-nodpi-v4/complain_icn_message.png
+SHA1-Digest: CmBWMqSEfo80gkI7Mq5IjG9VKiQ=
+
+Name: res/drawable-xxhdpi-v4/bts_general_phone_failure.png
+SHA1-Digest: jaKmTAY3WaEekmooIV+6x3hKhkU=
+
+Name: lib/armeabi/libvi_voslib.so
+SHA1-Digest: sxfnlWfKIttH0lMeSC3DjLH55cI=
+
+Name: res/layout-nodpi-v4/pull_down_refresh_head_view.xml
+SHA1-Digest: JUIFp6MedIgEwzGT1oL/l9XifrE=
+
+Name: res/drawable/map_bg_bubble_selector.xml
+SHA1-Digest: vnfOLH+55cIOcot083/tBCnamCw=
+
+Name: res/drawable-xxhdpi-v4/ic_map_location_compass.png
+SHA1-Digest: 1WTWx1Te3hx/IMki80U/ri31UVI=
+
+Name: res/layout-nodpi-v4/pay_result.xml
+SHA1-Digest: iGXHUcv7xJhBRnKLklQnFDOs/hg=
+
+Name: res/drawable-xxhdpi-v4/share_btn_weibo_normal.png
+SHA1-Digest: CtvaCq2b9PFbXY52Go6GLd0yJrI=
+
+Name: res/drawable-nodpi-v4/common_btn_pull_normal.png
+SHA1-Digest: CLGpxDdOFESN4eUJI9QY8U8AVYQ=
+
+Name: res/drawable-nodpi-v4/coolpad_share.png
+SHA1-Digest: pDB+lUruy6JmYv7tV0t0ew/CrEM=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_normal.png
+SHA1-Digest: T0DgK8esRUZiev4Mh1bnmxp0AeY=
+
+Name: res/drawable/common_btn_orange_selector.xml
+SHA1-Digest: qW3sBG6YIGq323Ux62VK73xSysw=
+
+Name: res/drawable-xxhdpi-v4/common_icn_pay_zhifubao.png
+SHA1-Digest: RvZz0X6GD0xoCIebtuhkwcKS+gI=
+
+Name: assets/tencentmap/mapsdk_vector/province_highway.png
+SHA1-Digest: ecO9dw6QErLOJUQCrdzmVZ/25pA=
+
+Name: META-INF/LICENSE.txt
+SHA1-Digest: cjsBwLFJRMkRscIm4oB9gkzQ4Tc=
+
+Name: res/layout/bts_xingcheng_view.xml
+SHA1-Digest: Vub9nyS7Utu8rqnNv0NTkA9C8L8=
+
+Name: res/layout/bts_passenger_comment_layout.xml
+SHA1-Digest: AVHNyyHijnRaa3Fk2GTkwAm6niw=
+
+Name: res/layout/bts_map_copy_tip.xml
+SHA1-Digest: zpC9s1kI00uSGit2ns4tZ8qBMV0=
+
+Name: res/drawable-nodpi-v4/l04.png
+SHA1-Digest: 5YM1KIxvPY8rG569lEh3pqHctYg=
+
+Name: res/drawable-nodpi-v4/common_icn_pay_balance.png
+SHA1-Digest: t4mmV2tgku/XQKOeFeSU6FKoNqc=
+
+Name: res/layout-nodpi-v4/fragment_select_business_field.xml
+SHA1-Digest: SYB2zMvvv7ksMdSfMtK2hgfkg94=
+
+Name: res/drawable-xxhdpi-v4/bts_xexception_no_order.png
+SHA1-Digest: 9XQw0Y6h8Ir/Gw6LEM1JEK6ZTs0=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_btn_normal.png
+SHA1-Digest: xFkTIyMEmBFDM8oF+dRTinwxzQA=
+
+Name: res/layout-nodpi-v4/bts_main_bottom_layout.xml
+SHA1-Digest: v4iKfRJyA9UlA9Py6Aj/mAxAY4o=
+
+Name: res/drawable-nodpi-v4/car_estimate_txt_time_icon.png
+SHA1-Digest: /DlGGOYWfa8RGC/ZvW0t3zOwmaM=
+
+Name: res/drawable-hdpi-v4/comment_star_light_icon.png
+SHA1-Digest: uyJ3AERHMyYY+ln6fhIixDr7x4Q=
+
+Name: assets/inc_btn_emphasize_pressed.png
+SHA1-Digest: eT4oY0cJHQJaZjEQ7YvA7d7P1TU=
+
+Name: assets/tencentmap/mapsdk_vector/route_arrow_texture.png
+SHA1-Digest: prc0EZVmdSgsFw2unz8rKVvgW8M=
+
+Name: assets/tencentmap/mapsdk_vector/national_satellite
+SHA1-Digest: 1pW2dQ4pZaSWUTCpyyCC/8bLPW0=
+
+Name: res/drawable/common_btn_del_selector.xml
+SHA1-Digest: zFiyv3bJGGB1ZVoWmqYd/GQN6ro=
+
+Name: res/drawable-xxhdpi-v4/bts_general_im_p.png
+SHA1-Digest: Lr8SmjNYqVnwqOX3doDrlMrlEP0=
+
+Name: res/layout-nodpi-v4/im_conversation_bottom_bar.xml
+SHA1-Digest: SOjBiZCvMfC08fOvx/roQXroXAY=
+
+Name: res/layout-nodpi-v4/bottom_list_menu_item.xml
+SHA1-Digest: Nm82iHdfr8XqU6bnwtR7Ogp8z/s=
+
+Name: res/drawable-nodpi-v4/pay_icon_paid_arrow.png
+SHA1-Digest: GgpdStcSvq+RMpU0w5G70eMVbtI=
+
+Name: res/layout-nodpi-v4/endedorder_view.xml
+SHA1-Digest: ypzqkNcn6nHABLqT6Ydgl4hNOwU=
+
+Name: res/drawable/im_titlebar_close_selector.xml
+SHA1-Digest: 2lNJWYMD90quYhNzS/f1vvDyIns=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_happy_n.png
+SHA1-Digest: 2/5hHVXXDzLX/anKQ9hdULtkgw8=
+
+Name: res/drawable-hdpi-v4/bts_img_open_guide.png
+SHA1-Digest: N3Ows2MbIRezAZq+02AqwvW18SU=
+
+Name: res/layout-nodpi-v4/end_slide_view.xml
+SHA1-Digest: m+gepE4m7LTPPPvDNl7uV8Mun/Q=
+
+Name: res/drawable/bts_red_point.xml
+SHA1-Digest: 08EgHgzQUfzjKcgRLJh88oL9cA4=
+
+Name: res/drawable-nodpi-v4/pay_icon_paid_arrow_pressed.png
+SHA1-Digest: 7x9V+WY3MbDpXSM1v8ID8sxRPz8=
+
+Name: res/layout-nodpi-v4/game_plugin_layout.xml
+SHA1-Digest: AEbTd2siQYFlqwJSw5kRAY76OQ0=
+
+Name: res/drawable-nodpi-v4/zhifu_zhifubao.png
+SHA1-Digest: RvZz0X6GD0xoCIebtuhkwcKS+gI=
+
+Name: res/drawable-nodpi-v4/arrival_remind_bj2.9.png
+SHA1-Digest: TxBoukhfUY2iv2BeHdwIGF7sIuA=
+
+Name: res/drawable/big_rating_bar_starts.xml
+SHA1-Digest: nbia0FhRR5JG8LUYlEzPj9GWgX4=
+
+Name: assets/tencentmap/mapsdk_vector/poi_icon_file_sat.png
+SHA1-Digest: wes4luysnb1fJYlLwZZFZFNcJS8=
+
+Name: res/layout-nodpi-v4/realtime_slide_call_item_normal.xml
+SHA1-Digest: o/imhXDvlbA01p4zJusAhwdmFPY=
+
+Name: res/drawable-nodpi-v4/l07.png
+SHA1-Digest: cykpMeM9Z3ArAFxCM+GDo4fhWRc=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_lenovo.png
+SHA1-Digest: y/pq0gbuh7iPRAaEptSOEXKwz7A=
+
+Name: res/raw-nodpi-v4/sfx_star_2.wav
+SHA1-Digest: 7HsMsqeOQ/2AVzHaB+IRbtUlyv0=
+
+Name: res/layout-hdpi-v4/push_pop.xml
+SHA1-Digest: PBppWgj/Ekp0b7zrY3GIqdSsnw4=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_smartisan.png
+SHA1-Digest: KX1l77qtHW9UG3qJLm2Lhsr925E=
+
+Name: res/drawable-xxhdpi-v4/map_point_rec.9.png
+SHA1-Digest: PGqk75pbclxrXKe65CpxdEZHmnI=
+
+Name: res/raw-nodpi-v4/car_share_image.jpg
+SHA1-Digest: YII1e7PSZ/ouxA8dnOMFQ7wiIiQ=
+
+Name: res/layout/bts_passenger_book_layout.xml
+SHA1-Digest: LvtJvPv/6xC3hdd15qCEnK+PkoQ=
+
+Name: res/drawable/shape_game_menu_background.xml
+SHA1-Digest: fS2gG6rPOhfgiRFnEmvExoNebA0=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_hongbao.png
+SHA1-Digest: mPOeHGzghwK/0SYES/UgAZGJ1uA=
+
+Name: res/drawable-xxhdpi-v4/common_pay_checkbox_pressed.png
+SHA1-Digest: 1jGntU2wLulGS4i/zw3pnB53USc=
+
+Name: res/layout-nodpi-v4/menu.xml
+SHA1-Digest: YZWvXZhX7D6EEuyqZYN91RrdttY=
+
+Name: res/drawable/progressbar_drawable.xml
+SHA1-Digest: 3YXu21Zsi2xuKCUV+tqW7diEdfU=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_message_p.png
+SHA1-Digest: IEZ1Daaw+QF/HuFVGuwIUcxM9aU=
+
+Name: res/drawable-xhdpi-v4/cancel_route_background_3.png
+SHA1-Digest: yeecFEXJZFWB5ckAMvdakWykjCo=
+
+Name: res/color/common_login_btn_text_color.xml
+SHA1-Digest: TI6ODHO2WG3T7CX3IfT2nMo+dHY=
+
+Name: res/drawable-nodpi-v4/driverpage_star_gray.png
+SHA1-Digest: ek6C1u8Z7vId98AaEtFKx6d0s5k=
+
+Name: res/layout-nodpi-v4/loading_pop.xml
+SHA1-Digest: N0w/ggvjBT4MWqDgcEL5hGoZbBU=
+
+Name: res/drawable-nodpi-v4/im_message_icon.png
+SHA1-Digest: bx48K0LTVNgFApCkucqE45hQ6lI=
+
+Name: res/layout-nodpi-v4/five_star.xml
+SHA1-Digest: T7XvC4FeBoVoeMU/j0LVAPRCDKY=
+
+Name: res/drawable-nodpi-v4/txshoujiguanjia_share.png
+SHA1-Digest: rki8U/umyTRZK3+vY+zaS554lKA=
+
+Name: res/drawable-nodpi-v4/no_order_tip.png
+SHA1-Digest: BpP2X9dT/9JuONjCRkF4qR9sYYs=
+
+Name: res/drawable-nodpi-v4/smartisan_share.png
+SHA1-Digest: DMOR+8lCnVpdSC0wBlzxWWHQdfg=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_driver_2.png
+SHA1-Digest: patZmed760fx7kmbDh9xiur8y/U=
+
+Name: res/drawable-xxhdpi-v4/carpool_price_line.png
+SHA1-Digest: ZY8xD517gm7Q4miYCDEDiccrREY=
+
+Name: res/drawable-nodpi-v4/common_btn_bottom_white_pressed.9.png
+SHA1-Digest: fYLtoQmUeQg5Ow6GmZOFTq0V6MY=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: sSWpCcd46t80EuRAEQhywBeXUSA=
+
+Name: res/layout/bts_route_item.xml
+SHA1-Digest: 7GCSsWJhFPTWqF2esT/ExeQMmM0=
+
+Name: res/layout/car_invoice.xml
+SHA1-Digest: 4cUZhD5zjyKcbCtuaQ94TFAlHcE=
+
+Name: assets/tencentmap/mapsdk_vector/sdk_city_ver.json
+SHA1-Digest: CQhuyq+KeW5ORIu7/YC3jARy1F0=
+
+Name: res/drawable-xxhdpi-v4/bts_tag_bg_p.9.png
+SHA1-Digest: 3zUCh3trj+va50OtY4gesWCGhcE=
+
+Name: assets/tencentmap/mapsdk_vector/MAGENTAV.png
+SHA1-Digest: 2QdM9B6+fCrmUe2izuabzV8CCkk=
+
+Name: res/anim/slide_back_out.xml
+SHA1-Digest: yqSCH2OCd852koogTe+zAAnMGhg=
+
+Name: res/drawable-xxhdpi-v4/game_menu_arrow.png
+SHA1-Digest: kBkXzBzQWaskysC0AhsK3G+rbt4=
+
+Name: assets/tencentmap/mapsdk_vector/compass.png
+SHA1-Digest: MDeh3ayuUvNhkkyIq38mtpH98XU=
+
+Name: res/drawable-nodpi-v4/bts_home_page_button_unable.9.png
+SHA1-Digest: BG0xIMqRXfCYGv1teVgZkEvRF5E=
+
+Name: res/layout-nodpi-v4/pop_drive_driver_info.xml
+SHA1-Digest: pa6l4AD6b4XYd2Jtc7hI9FBW4rI=
+
+Name: res/layout-nodpi-v4/notification_view.xml
+SHA1-Digest: eBL6vCYYBuR9EuYWnMql2oDEg04=
+
+Name: res/drawable-xhdpi-v4/departure_map_icon.png
+SHA1-Digest: ADouOsO86sSYloICCy4FZmcSbYM=
+
+Name: res/drawable-nodpi-v4/tuxing_share.png
+SHA1-Digest: 3FDhPjlzfEtINzLMAt/80QjqOOQ=
+
+Name: res/layout/car_current_cost.xml
+SHA1-Digest: jx9FMsWYevayIqyKBgSclde9ZPg=
+
+Name: res/drawable-xxhdpi-v4/common_title_bar_back_pressed.png
+SHA1-Digest: mhYTuMlTINGdaAp0Cuiedff0EWM=
+
+Name: res/drawable-hdpi-v4/ic_splash_logo.png
+SHA1-Digest: 5ybt2a+2cW6h2BXHwE7AHNK//B8=
+
+Name: res/layout-nodpi-v4/ddrive_payed_view.xml
+SHA1-Digest: KqfnX1WNksU/mKNmjI4KwJL+HTE=
+
+Name: res/layout/map_overlay_start_end_address_layout.xml
+SHA1-Digest: LsWmBFN9aJPV/S2u/8Lb1FqcpzQ=
+
+Name: res/drawable-xhdpi-v4/ic_notification.png
+SHA1-Digest: 9VLIVw3nfmErFR4lKSQ+hGByWyU=
+
+Name: res/drawable-nodpi-v4/pull_listview_arrow_reverse.png
+SHA1-Digest: OL0TlIVOSrOpWy5qezwYRx+FIHs=
+
+Name: res/drawable-xxhdpi-v4/common_pay_dropdown.png
+SHA1-Digest: l9utDRieviHcMSRfNxMVSLUuxrE=
+
+Name: assets/tencentmap/mapsdk_vector/province
+SHA1-Digest: +ClpYRk/XxasymXCk5TM7GzJtws=
+
+Name: res/drawable-hdpi-v4/common_icn_arrow.png
+SHA1-Digest: giA7WEjEbDpXFYglYhgIdgQ8io8=
+
+Name: res/drawable-xhdpi-v4/logo_twitter.png
+SHA1-Digest: 0qkPk+Aeyi/OUzjXr1dHWDJMZ1A=
+
+Name: res/drawable-nodpi-v4/switcher_ic_point.png
+SHA1-Digest: Jl8GuS+2swetawaGrLebVFK2DmE=
+
+Name: res/drawable-nodpi-v4/common_ic_wait_close_disable.png
+SHA1-Digest: VRbQwrdtX6TRbxt+KJBpH0NNjEw=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_only_disable.png
+SHA1-Digest: SijVQ0LJ7pk+vag9m/q5qwP6Pgg=
+
+Name: res/drawable-xhdpi-v4/logo_douban.png
+SHA1-Digest: I7WMkBzyAA6I9ksX0DrCPYGmCrI=
+
+Name: res/drawable-xhdpi-v4/logo_pocket.png
+SHA1-Digest: DhxOmAU0WHszniqYLS60YdOHZwI=
+
+Name: res/drawable-nodpi-v4/setting_btn_switch_close.png
+SHA1-Digest: Y+QFGDmD/bGMxpoOQiIbFQTUbDI=
+
+Name: res/drawable-nodpi-v4/select_icon_gray_luxury.png
+SHA1-Digest: dbhGbZBVWkseOI5cFGfdXW4Nwyo=
+
+Name: res/drawable/shape_btn_rect_1.xml
+SHA1-Digest: ngd+SUkSIeYARs4PSo2s7rz6hss=
+
+Name: res/drawable-xhdpi-v4/bts_general_end.png
+SHA1-Digest: BoLlgfdvPbNFdSSfU6Sd6VYkGJI=
+
+Name: res/layout-nodpi-v4/map_fare_tag.xml
+SHA1-Digest: RkDZzK27owbaLICUbmPGNsU+VNw=
+
+Name: res/drawable-xxhdpi-v4/bts_psnger_order_over_free_stamp.png
+SHA1-Digest: cRnxPJTF3P0MYd8/okjwZLEuTQM=
+
+Name: res/drawable-nodpi-v4/title_bar_menu_pressed_redpoint.png
+SHA1-Digest: rDETveN+m6bRerid9FvPW95lsu0=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_happy_p.png
+SHA1-Digest: zK6o72vTRopcLcpf2pzMJ/EoKbs=
+
+Name: res/layout-nodpi-v4/common_title_bar_layout.xml
+SHA1-Digest: N7zIivz4nA90Yed6U85AsnXVy2E=
+
+Name: res/drawable/image_dialog_up_bg.xml
+SHA1-Digest: u2alPXDsp5mFCEewz49d21mAx6I=
+
+Name: res/drawable-nodpi-v4/setting_btn_switch.png
+SHA1-Digest: Tuu59/BZt1LSFtmg1bamxEBlZYw=
+
+Name: res/drawable-hdpi-v4/booking_btn_select_to_normal.9.png
+SHA1-Digest: s2H/OiV1aFlIKP37AICxutAfExU=
+
+Name: res/drawable-xxhdpi-v4/bts_xexception_release_route.png
+SHA1-Digest: kROv3MkvZrYByczZZifisdktT2Y=
+
+Name: res/layout-nodpi-v4/endorder_view.xml
+SHA1-Digest: T9DLvVocb2MLScT/Z0RQOshnxyg=
+
+Name: res/drawable/app_list_corner_round_top.xml
+SHA1-Digest: JeTxJvLK7HMCbQAF+XLsEAP/zwU=
+
+Name: lib/armeabi/libsecurity.so
+SHA1-Digest: O3nAZtvadu81peOTcmx6yimDtwY=
+
+Name: res/drawable/car_estimate_web_bg.xml
+SHA1-Digest: St0/OArUe4EHjPvKf1jlQwuC6sA=
+
+Name: res/raw-nodpi-v4/sfx_slide_down.wav
+SHA1-Digest: KZz9OpFMO3he0PEuOhTbmfvSBFA=
+
+Name: res/drawable/common_checkbox_selector.xml
+SHA1-Digest: 9V2b5FhWDjNGa9qS4Q/pcVsuNaQ=
+
+Name: res/drawable/common_input_show_time_picker_selector.xml
+SHA1-Digest: o5VSkufid6XNBaHUvLLNek9eFOw=
+
+Name: res/layout/getui_notification.xml
+SHA1-Digest: du8B77Rw2+EPKht1o22SYhn64IQ=
+
+Name: res/drawable-nodpi-v4/common_bg_input_pressed.9.png
+SHA1-Digest: dTSJAAmiQ67XmAk/grpsmaANp1o=
+
+Name: res/drawable-xxhdpi-v4/bts_common_bg_input_normal.9.png
+SHA1-Digest: b+lJGQFCKA5qGAntqyJfvaM+Tvw=
+
+Name: res/layout/layout_hotmarker.xml
+SHA1-Digest: f99p4dBPGcAm8UvG2yw88SDcpyw=
+
+Name: res/layout-nodpi-v4/search_bar_layout.xml
+SHA1-Digest: rXisSLWVPbknBv3hVtoBJFU6zvE=
+
+Name: res/drawable-hdpi-v4/fast_light_icon.png
+SHA1-Digest: i7DqR15buBBZp/Z7gJA+GSETw5Y=
+
+Name: res/layout-nodpi-v4/time_picker_layout.xml
+SHA1-Digest: Iu2EyVZqlvWh7iFRhdbk7i2/O9Q=
+
+Name: res/layout-nodpi-v4/list_picker_window.xml
+SHA1-Digest: CPWiQNP/MAWni6OAvBanwCL1z1w=
+
+Name: res/layout-nodpi-v4/ddrive_fee_item_view.xml
+SHA1-Digest: c8v35Z0Mlpa0zYgmB4IanZ73Dzc=
+
+Name: res/layout-nodpi-v4/driver_star_selector.xml
+SHA1-Digest: YHp6PyqlyL3rP4whdn1/KzTLnhk=
+
+Name: res/anim/shake.xml
+SHA1-Digest: aibTjXCUhngRGPPrV3c0lRrdmjg=
+
+Name: res/drawable-xxhdpi-v4/bts_setting_add_p.png
+SHA1-Digest: 537/HioAyC5VNlGhlZMmZTZeOfQ=
+
+Name: assets/tencentmap/mapsdk_vector/RED.png
+SHA1-Digest: 797jnNCCs1Fb0F9A8jgqujeZU5w=
+
+Name: res/drawable-hdpi-v4/ic_notification.png
+SHA1-Digest: ry7P0nLbdcHNrk8eOP1ePGqHZdQ=
+
+Name: res/anim/car_travelling.xml
+SHA1-Digest: cfpTyTXpoWnrM2uZzGmmWZrvjDM=
+
+Name: res/drawable-nodpi-v4/booking_icn_selectcity_star.png
+SHA1-Digest: L+2dA2U4TDWjE5z73jMBipoUAaY=
+
+Name: assets/tencentmap/mapsdk_vector/national_highway.png
+SHA1-Digest: zAP61Tw1/IVZrBiASSp9CKB5rMs=
+
+Name: res/anim/bts_guideimg_alpha_in.xml
+SHA1-Digest: ZGuZSNzGbhOMUnXz/5XgI0LJSew=
+
+Name: res/layout/car_wait_for_arrival.xml
+SHA1-Digest: H9oRYXUfLMCLDwPvC0+cNSKJuJo=
+
+Name: res/layout-nodpi-v4/bts_login_activity.xml
+SHA1-Digest: 76Pf9KIcG9KVR8LAHk1u7khhS4A=
+
+Name: res/drawable-nodpi-v4/carpool_guide_center.png
+SHA1-Digest: IIgeDAU2KgvFXDUKInQxNEDmfn0=
+
+Name: res/drawable-xxhdpi-v4/driver_bg.png
+SHA1-Digest: CPL0WY/pfcm22A5DLyDY3NuXSRo=
+
+Name: res/drawable-xhdpi-v4/ic_map_location_compass.png
+SHA1-Digest: VUnu+31A+quBLKMVJVK2Wgjwy5w=
+
+Name: res/layout/bts_passenger_pending_order.xml
+SHA1-Digest: WFpvD47h2do4wfOaZtEbOpzw5ts=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_boy.png
+SHA1-Digest: KQhch5Ni6jsoVEyXSSDvEWpTVmE=
+
+Name: res/drawable-hdpi-v4/drive_img_guide.png
+SHA1-Digest: 6YZdoa42wLkLqTYxCJF9pyYxtMg=
+
+Name: res/drawable-nodpi-v4/realtime_voice_call_bg_cancel.png
+SHA1-Digest: w+qEPsaG13HThT958+gayGuWTxc=
+
+Name: res/layout/share_dialog_layout.xml
+SHA1-Digest: 91i8PpyUg0iI/y5MJgMewHIBYug=
+
+Name: res/drawable-xhdpi-v4/logo_wechatfavorite.png
+SHA1-Digest: tqStDfQXwcSmMlSINCu4VgmkRJQ=
+
+Name: res/drawable-nodpi-v4/complain_icn_fire.png
+SHA1-Digest: ytX1bHhv8d/99PDtfYw4uG5fGq8=
+
+Name: res/drawable-xxhdpi-v4/share_btn_qzone_normal.png
+SHA1-Digest: ds3OmwxbmjQyM8p94xVQ9x+B8f4=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_work_normal.png
+SHA1-Digest: NNQ/agBjsrNGLVEr3X1Zb1jkpns=
+
+Name: res/layout-nodpi-v4/historyorder_list_footer.xml
+SHA1-Digest: uKrxzcEj+i5vnOPlzUxiCiAsGZo=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_question_selector.xm
+ l
+SHA1-Digest: 4PgfXsCUFAdG6D4IzFIJ2fJTYUY=
+
+Name: res/drawable-xxhdpi-v4/common_title_close_normal.png
+SHA1-Digest: ByeTCsRZhbjdRoY1EsQJf5mgmxw=
+
+Name: res/drawable-nodpi-v4/driver_head_bg.png
+SHA1-Digest: QnC0bZQXrrR5A+GdAq6mxk4Bpnk=
+
+Name: res/layout-nodpi-v4/search_sug_view.xml
+SHA1-Digest: iZx2whqiNuPuEAo1dE/QUlD7gmM=
+
+Name: assets/color_texture_didi.png
+SHA1-Digest: JBXblnoRS2+ft91A05wAYYTTgX0=
+
+Name: res/drawable-nodpi-v4/common_title_bar_ic_back_normal.png
+SHA1-Digest: lHcxXt6pkFUy5S7rhGzV1r+cwmM=
+
+Name: res/drawable-nodpi-v4/menu_icn_head.png
+SHA1-Digest: DLnb8wuTYTXg/VuDr47G3lBmqRc=
+
+Name: res/raw-nodpi-v4/sfx_success.wav
+SHA1-Digest: CZm+vaAq5327Ep1f320p1sK7rj4=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_baidu.png
+SHA1-Digest: K71yWudDYsxnfpQWdRJcZ1kYh/g=
+
+Name: res/layout-nodpi-v4/ddrive_cancel_trip_reason.xml
+SHA1-Digest: ZUVDAC8tNkrszIX0POJXq+PgAdI=
+
+Name: res/drawable-nodpi-v4/l02.png
+SHA1-Digest: nozFnd3IxXfPSRi1ZyQV3mAyQAw=
+
+Name: res/drawable-xhdpi-v4/car_frame_1.png
+SHA1-Digest: rDdYUFJfsAfA9kwRpDcf40YJsag=
+
+Name: res/layout-nodpi-v4/common_dialog.xml
+SHA1-Digest: NMfi5J2kipMVWWyyPXOkrUPv118=
+
+Name: res/layout/car_count_notification_xiaomi.xml
+SHA1-Digest: Nf0bwl3CFxkvNg34XSLxNOY4SGc=
+
+Name: res/drawable-nodpi-v4/im_message_remind_bj2.png
+SHA1-Digest: 1wqLzey9cfjJThV8MFnlZim6I+I=
+
+Name: res/drawable-xxhdpi-v4/common_icn_pay_qqwallet.png
+SHA1-Digest: lK3PjHbabOM83Fsou3gJreJ0uYg=
+
+Name: res/drawable-xxhdpi-v4/common_icn_pay_company.png
+SHA1-Digest: WWJ8Qh+t7uI5CMYPAzmk5zylLB0=
+
+Name: res/layout-nodpi-v4/map_fragment.xml
+SHA1-Digest: w0iC56SN6riFKAdv11NwGM1RJA8=
+
+Name: res/layout-nodpi-v4/car_estimate_price.xml
+SHA1-Digest: bwQJC1OsTTkrZ1hP/Wc7C6ucWDI=
+
+Name: res/drawable-hdpi-v4/bts_home_page_button_p.9.png
+SHA1-Digest: 1ci91O9rNR493psoF/HoeFhaO/I=
+
+Name: res/layout-nodpi-v4/car_invoice_history_item.xml
+SHA1-Digest: 846JJKCAKKs3SbwObFGPwsu9WK0=
+
+Name: res/color/bts_detail_user_rate_btn_text.xml
+SHA1-Digest: cXpuvacSO3f9PkFb4MiqMzC/4Jo=
+
+Name: res/drawable/common_drawer_btn_pull_selector.xml
+SHA1-Digest: pP57kF/peuGXeDM0oDk4J4UBe48=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_general_p.png
+SHA1-Digest: siH3M3rLdSD8FO2AMACZPEj46oI=
+
+Name: res/drawable-xxhdpi-v4/bts_driver_order_over_free_stamp.png
+SHA1-Digest: GPF+ZORuHLDA+BZCSMYvv8/1mo4=
+
+Name: res/drawable-xxhdpi-v4/game_exit.png
+SHA1-Digest: 4rrGYugHRefaSkJZrYXSh1SP4v4=
+
+Name: res/drawable/bts_hongbao_share_selector.xml
+SHA1-Digest: 3Q4jUn1aecdxbGBF/eyx5lmyXZo=
+
+Name: res/drawable-nodpi-v4/dialog_first_icon_love.png
+SHA1-Digest: hLfEpUtlOAwP5niHEyNAKoA8/Sw=
+
+Name: res/drawable-nodpi-v4/im_message_remind_bj.png
+SHA1-Digest: jEtm8RPvl2j2Cu2t/YKaj1o/tXo=
+
+Name: res/raw-nodpi-v4/sfx_star_5.wav
+SHA1-Digest: yAdD6+IzEmHKToP2ShZn6kuSjb8=
+
+Name: res/drawable-xhdpi-v4/logo_renren.png
+SHA1-Digest: dtoBvyTk+xEbQ7DHiEo+MgC/wds=
+
+Name: res/drawable/esgame_download_progressbar_enable.xml
+SHA1-Digest: T0qoSa1Z2l32G91Pp2Wb9Y2JePI=
+
+Name: lib/armeabi/libdidipsgpush.so
+SHA1-Digest: p84KYTB+U/TzNb3j6qXEAFqCTxU=
+
+Name: assets/connect_error.html
+SHA1-Digest: mg+C5q3KaQg7b8jx3XNWwqNvAcs=
+
+Name: res/drawable-nodpi-v4/arrival_icn_redpocket_normal.png
+SHA1-Digest: SFjy//dpWNqTv9tqL8Q0aeWb9V8=
+
+Name: res/drawable/common_btn_suspended_selector.xml
+SHA1-Digest: H6SZ0dWTeB0a+BODfA021NaVnV8=
+
+Name: res/drawable-xxhdpi-v4/bts_mark_boy.png
+SHA1-Digest: 9N0PwfSXPeqcpdrryb9sLHdutqw=
+
+Name: res/layout-nodpi-v4/complaint_reason_item.xml
+SHA1-Digest: PA3uYZNZB0nPtg4idxoXqy3AahQ=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_bg_select.png
+SHA1-Digest: 5em8CHHni/+sIJ08x53jRnNjhCk=
+
+Name: res/drawable-nodpi-v4/im_micro_icon_normal.png
+SHA1-Digest: 6H0fBpBo8w5S2zHyrnDm+X+Znes=
+
+Name: res/layout-nodpi-v4/car_driver_bar_star_selector.xml
+SHA1-Digest: 4AOVP0wqD4jkmBrJKbguG7vgYUw=
+
+Name: res/drawable-xhdpi-v4/logo_googleplus.png
+SHA1-Digest: yIcQzYjDGFE30/obeYyuxXokcfU=
+
+Name: res/anim/slide_in.xml
+SHA1-Digest: fGyyYU3LelQEyNfmXgSdnAYTkzE=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_huawei.png
+SHA1-Digest: 69hhZ9OKbGmEgtqkq6IYZPXg/w0=
+
+Name: res/drawable/shape_circle_webtoolitem_btn_selector.xml
+SHA1-Digest: QBY5A+aQPy9IpPS4q1BKeUf+8ig=
+
+Name: res/drawable-nodpi-v4/user_level_silver.png
+SHA1-Digest: bCWA7nwe3h4cgHgnIxuo+WlE4Bs=
+
+Name: res/drawable-xhdpi-v4/logo_whatsapp.png
+SHA1-Digest: 2i3QuMmwTysY42uYxYZq5SFGIF4=
+
+Name: res/drawable-xxhdpi-v4/taxi_bearing.png
+SHA1-Digest: CZLYq0Y1QXwtm8x1J48h6tUd47g=
+
+Name: res/drawable-xhdpi-v4/bts_general_start.png
+SHA1-Digest: ZpQmNOj1OXxRT39sJQti2ufrchA=
+
+Name: res/anim/down_slide_in.xml
+SHA1-Digest: L31PfFw3/Vq3O0PwPrwfiBnWiFE=
+
+Name: res/drawable-nodpi-v4/menu_icn_game.png
+SHA1-Digest: 18f8gGOyWyzeWJIGBo7lpwpd++c=
+
+Name: res/drawable-xxhdpi-v4/bts_login_small_button_n.9.png
+SHA1-Digest: n0aUXSh/pE8I6l2Khzg8PTp5XHQ=
+
+Name: res/drawable-nodpi-v4/common_bg_circle_normal.png
+SHA1-Digest: 6I8pp2hdFu1Kv4tK+5N0y3ZNDwo=
+
+Name: res/drawable-nodpi-v4/common_icn_waittime_pressed.png
+SHA1-Digest: Ck0DkW89Lw6Vfpkmr+s78TzhUZc=
+
+Name: res/drawable-hdpi-v4/bts_home_page_passenger.png
+SHA1-Digest: DR3iCE6dGGxYoOncpfgI34lD41I=
+
+Name: res/drawable-nodpi-v4/icn_home_normal.png
+SHA1-Digest: /KtexVuNWhMIqa3pzzS40DDyh0o=
+
+Name: res/drawable-nodpi-v4/reminder_text_giveup_btn_presssed.9.png
+SHA1-Digest: d0REaX1QSe4KToHT9xyLHjgx648=
+
+Name: res/drawable/bts_ad_more_press.xml
+SHA1-Digest: VCmQFn9YNQp4W95lBmIC2J7xMCI=
+
+Name: res/drawable-nodpi-v4/complain_icn_door_gray.png
+SHA1-Digest: 1nzwaOdxqHa4dr4xSzKo8mC1Fws=
+
+Name: res/layout-nodpi-v4/ddrive_car_cancel_trip_reason_item.xml
+SHA1-Digest: orudM7XSZHGsT4lxkADuJFqDLXY=
+
+Name: res/drawable-nodpi-v4/comment_star_light_icon.png
+SHA1-Digest: 1SL67tsDcoa0/be4vmTsLaMak5E=
+
+Name: assets/tencentmap/mapsdk_vector/national_highway_satellite
+SHA1-Digest: jMDQsXMPDLPrN1hb745a9RbTSgg=
+
+Name: res/drawable/share_btn_txweibo_selector.xml
+SHA1-Digest: f+829l913sETPblH40if163F3eM=
+
+Name: res/drawable/bts_ad_more_btn_selector.xml
+SHA1-Digest: lURCcJxlcZKHX+jt2s9T5tbk6cM=
+
+Name: assets/tencentmap/mapsdk_vector/location_state_normal.png
+SHA1-Digest: 5k1q302kKncoUkM6MXUbjEIpCiA=
+
+Name: res/layout-nodpi-v4/switcher_item_layout.xml
+SHA1-Digest: bfBQYDwMb+BxEmQp9RXu5/MPBiE=
+
+Name: res/drawable/menu_item_selector.xml
+SHA1-Digest: C5v9G3y8boezPSAVgkaRnQL+Wzg=
+
+Name: res/drawable-nodpi-v4/dialog_ad_pic_ticket.png
+SHA1-Digest: nyDO750+L66hQ5efz7wDhzHQN6c=
+
+Name: res/drawable/shape_circle_tool_btn_selector.xml
+SHA1-Digest: PJb8RCISwkq6cIlZJiTeTa0QX9A=
+
+Name: res/layout-nodpi-v4/ddrive_main_bottom_layout.xml
+SHA1-Digest: HqazR4ifm/aTMQq0cQlSm4oB3qk=
+
+Name: res/layout/bts_loading_page.xml
+SHA1-Digest: ueh1INWZf9mJBDDaOIlkICWwcOY=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_txshoujiguanjia.png
+SHA1-Digest: S5bYg8gMkUAZ6LNQQmIzQyIV9fA=
+
+Name: res/layout-nodpi-v4/activity_main.xml
+SHA1-Digest: 6l7gW++jSDVArx6qBi1npRhPtHU=
+
+Name: res/drawable-nodpi-v4/search_ic.png
+SHA1-Digest: 3qrLKi7MD10TM/8C6BCAXBqN5aU=
+
+Name: res/raw-nodpi-v4/sfx_click.wav
+SHA1-Digest: tzjnRvINxkxqB1ZUciOlAcErI4Y=
+
+Name: res/layout-nodpi-v4/ddrive_cost_detail.xml
+SHA1-Digest: IqRQZ+0ixB4zGaiFxIrrhOdm6+Q=
+
+Name: res/raw-nodpi-v4/sfx_taxi_popup.wav
+SHA1-Digest: X2ewFfTx0DYhnoazdm4NzRnGzzY=
+
+Name: res/drawable-nodpi-v4/l01.png
+SHA1-Digest: +wJZ2+OAKZenUAwFVH1OSYwuBJg=
+
+Name: res/drawable-hdpi-v4/bts_homepage_owner.png
+SHA1-Digest: /eZg77de25UNLtRdyIwZbqMRQDo=
+
+Name: res/drawable-xhdpi-v4/car_bearing.png
+SHA1-Digest: 05sHWDaCMf/NZaz4z9Ak1TB/6wQ=
+
+Name: res/layout-nodpi-v4/account_webview.xml
+SHA1-Digest: DxGrzcd3CeE1jnkTllsIv/Rwa3I=
+
+Name: res/drawable/bts_evaluate_unhappy.xml
+SHA1-Digest: ul4ApZ5McZwdDpzRXRIsjPICxMQ=
+
+Name: assets/passport.diditaxi.com.cn.crt
+SHA1-Digest: BqGTceatf+iL4kBayGD63cCygXQ=
+
+Name: res/layout-nodpi-v4/ddrive_estimate_price.xml
+SHA1-Digest: LpjM47tJ/1pk7u+oF3ZmRrG7we4=
+
+Name: res/drawable-nodpi-v4/menu_icn_message_red.png
+SHA1-Digest: yCaaaSVpph7pcqw7lqgnke16CZU=
+
+Name: res/drawable/common_bg_circle_selector.xml
+SHA1-Digest: l3CSuWoqLtjWBgDTsRJoJx1cps8=
+
+Name: res/anim/fade_out.xml
+SHA1-Digest: RSHSuXbVxxF5nGwfeDvVe0K2q20=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_passenger_3.png
+SHA1-Digest: patZmed760fx7kmbDh9xiur8y/U=
+
+Name: res/layout/ddrive_cost_detail.xml
+SHA1-Digest: 6GAcHMtVvRIDTTVGtvCDqWoXj2I=
+
+Name: res/drawable-nodpi-v4/realtime_voice_call_ready.png
+SHA1-Digest: Z0hDWEgnOPDG+RmcSwplosjmUsU=
+
+Name: res/drawable-nodpi-v4/comment_star_light_gray_icon.png
+SHA1-Digest: Dr6kXBICm86edmA+D969LIlwvqI=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_cancel_trip.xml
+SHA1-Digest: OvBDsgvcljBQi3YyPdvIaEQkFck=
+
+Name: res/drawable-hdpi-v4/share_btn_qzone_normal.png
+SHA1-Digest: I5jAcSyAYJSkvsTkuI23HQhDMEo=
+
+Name: res/drawable-nodpi-v4/im_headimage1.png
+SHA1-Digest: 4vn1b7RHjlNmsCO4m1zpVf8y1U4=
+
+Name: res/drawable/fare_txt_bg.xml
+SHA1-Digest: QIePne+q7RtPGJbgUgyP/AVhq2M=
+
+Name: res/drawable/bts_btn_orange_box_press.xml
+SHA1-Digest: WrUuFMPyXGjpXwLrZiW74c4y5QQ=
+
+Name: res/drawable-nodpi-v4/arrival_img_carpool.png
+SHA1-Digest: 2W5iUnLqrj0wpdgCwqPPd19aFDU=
+
+Name: res/drawable/bts_gray_btn_selector.xml
+SHA1-Digest: D2ep97eJkgHyXgQKNhC0q//MoEc=
+
+Name: res/drawable-nodpi-v4/car_estimate_txt_distance_icon.png
+SHA1-Digest: r3b7AEe9NFTrU/9stWG3IzOIvgg=
+
+Name: res/layout-nodpi-v4/car_valuation_rule_web.xml
+SHA1-Digest: coe+ED9GN5bdCENyRl29qG3P4uc=
+
+Name: res/drawable-nodpi-v4/icon_activity_coupons.png
+SHA1-Digest: s6ttdjLEDq/JshS3nBk4vlffDb4=
+
+Name: res/drawable/shape_circle_black.xml
+SHA1-Digest: 7W48NUp7akwQZqlijTQL7UlcDqg=
+
+Name: res/drawable/app_list_corner_round.xml
+SHA1-Digest: LMNCrag6JpIEWq9jLIHbvCjT/K8=
+
+Name: res/drawable-nodpi-v4/phone_btn_protect.png
+SHA1-Digest: jhRgHLOGP8GBK0umuPJxDRAnbXQ=
+
+Name: assets/tencentmap/mapsdk_vector/national
+SHA1-Digest: IYnOsXBBdpJoYH3gBpSPx8m+Sys=
+
+Name: res/layout-nodpi-v4/ddrive_wait_for_arrival.xml
+SHA1-Digest: 2xsjOhHtqjnZZnqyp79UJUqNszg=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_share_selector.xml
+SHA1-Digest: OuVD7FDEiy7wOyMTzkFQqdWrWp0=
+
+Name: res/drawable-hdpi-v4/common_icon_close.png
+SHA1-Digest: Z8xA8ZXL4QF6GQDsN9UZk+aFDKo=
+
+Name: res/drawable-hdpi-v4/common_title_close_normal.png
+SHA1-Digest: CFmnk9PN5k2o7jl98aLCuNoeLZw=
+
+Name: res/drawable-xxhdpi-v4/bts_tag_bg_n.9.png
+SHA1-Digest: 43My04cnXfpIVeS4inyM4ksBNSg=
+
+Name: res/drawable/common_btn_download_selector.xml
+SHA1-Digest: v8FhWiPD/GIx2d3W2NlKoTkXPRo=
+
+Name: res/drawable-nodpi-v4/arrival_icn_found_normal.png
+SHA1-Digest: 7ntJ9skU/2FlEcQBpCIM2O/xjHE=
+
+Name: res/drawable-nodpi-v4/common_bg_area_normal.9.png
+SHA1-Digest: Wh0sfAzbOzEEbhKehcRI7pD+FZs=
+
+Name: res/drawable-xxhdpi-v4/booking_btn_select_to_pressed.9.png
+SHA1-Digest: 2mXWmxpfUntA7gCgNC0lweSadC4=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_evaluate_bar.xml
+SHA1-Digest: /4liUGRzdWs0NXP7gj2wxGIfD9U=
+
+Name: res/drawable-nodpi-v4/guide_to_car_img.png
+SHA1-Digest: l2FDJOQTGuGkZ8Ob3FxrBSclooc=
+
+Name: res/drawable-xhdpi-v4/specialcar_map_waterdrop_light.png
+SHA1-Digest: pKVzbhpgZW2qdBawEesq135gfo0=
+
+Name: res/drawable-hdpi-v4/bts_price_detail.png
+SHA1-Digest: Ujj7L1IwwIhQLiwy5C5DHKy8ofs=
+
+Name: res/drawable-xhdpi-v4/logo_sohumicroblog.png
+SHA1-Digest: nTaCCrb4Mc3ZzBKZvWQ9WSlHuEQ=
+
+Name: res/drawable-hdpi-v4/bts_appointment_switch_n.png
+SHA1-Digest: NjlZn8I0KLAkWifaVw6thDy1jbM=
+
+Name: res/anim/wait_for_arrival_panel_slide_out.xml
+SHA1-Digest: 2hkdWvswBK1iY+U7LvINfWUhA9s=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_info_bar.xml
+SHA1-Digest: gNtXHoHI2vGTpDEVi4Kff4rq08Q=
+
+Name: res/layout/item_layout_webview_tool_gridview.xml
+SHA1-Digest: ydwMNVinrIUno7hU8aM1qPXoDN4=
+
+Name: res/drawable-nodpi-v4/fast_icon.png
+SHA1-Digest: LPIFe55Qladk/owEBfuiDaZopyM=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_home_select.png
+SHA1-Digest: yiOfHY1fd8JkCsWfeUpHADTLnwo=
+
+Name: res/drawable-nodpi-v4/button_suspended_normol.9.png
+SHA1-Digest: KY60t+GkBd/tL83KtNvG+XavBFQ=
+
+Name: res/drawable/bts_background_tab.xml
+SHA1-Digest: 35TSpvZ0zGui9NyuOdP/zP8FqYM=
+
+Name: res/drawable-nodpi-v4/lenovo_share.png
+SHA1-Digest: slWhTdWsIZ7KEBioEtWiCAA/hEo=
+
+Name: res/drawable-xxhdpi-v4/booking_btn_select_to_normal.9.png
+SHA1-Digest: rFgFgFmaThu/BCChIFumtGMb078=
+
+Name: res/drawable/bts_add_route_selector.xml
+SHA1-Digest: yGpaUDXyRC9ZN89bFEpLJmdeAfQ=
+
+Name: res/drawable/esgame_download_progressbar_selector.xml
+SHA1-Digest: eazMGOm1Sf4jaEZ5ONIpgkcQG3Q=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_samsung.png
+SHA1-Digest: 93qWJkP66dwv7/cXCKvSW1QeFbM=
+
+Name: res/drawable-nodpi-v4/image_dialog_receipt2.png
+SHA1-Digest: 6ctje2l0vV7zLuUPQawdYkYhkv8=
+
+Name: res/drawable/bts_button_orange_press.xml
+SHA1-Digest: K0KENn6Jn1BA21kEwoa6C191bDQ=
+
+Name: res/drawable-nodpi-v4/paid_icn_detailed.png
+SHA1-Digest: vgP1xZWZUFNalHeiYN5wYtT+GOA=
+
+Name: res/drawable-xxhdpi-v4/booking_btn_select_from_pressed.9.png
+SHA1-Digest: i4xGDEQh17WUvHc9Rztu4hXUKVQ=
+
+Name: res/layout/bts_title_block_layout.xml
+SHA1-Digest: LWf+wD1MuWTAXUG500VsZvmULjc=
+
+Name: res/drawable-nodpi-v4/common_bg_top_pressed.9.png
+SHA1-Digest: O1PRS4cQD7VeNpd8IUyq1xjjNTA=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_may_disable.png
+SHA1-Digest: CzXp2svYRpNO5SXJd+nbiYKgsYA=
+
+Name: res/drawable-nodpi-v4/im_message_left_bg.9.png
+SHA1-Digest: YGoudUOas4UPBYKvWBfqWcO2b1Q=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_samsung_s6.png
+SHA1-Digest: WgR77mkgbHuS+kW3zscRd0TK8i4=
+
+Name: res/drawable-xxhdpi-v4/ic_map_location.png
+SHA1-Digest: pwmGBP4kAczVvTy2NhB1UGE9oUY=
+
+Name: res/drawable-hdpi-v4/bts_appointment_message_n.png
+SHA1-Digest: /R9l4N7rWtZCbzRFckLmTkgPbOE=
+
+Name: res/drawable-nodpi-v4/arrival_icn_game_normal.png
+SHA1-Digest: XcPhXkLr77gNv4duMvWLhM36Bqs=
+
+Name: res/drawable-nodpi-v4/menu_icn_wallet.png
+SHA1-Digest: rlVwTEd1CjGnG3gPA0M3AJRcNWA=
+
+Name: res/drawable-xxhdpi-v4/bts_driver_wait_pay_free_stamp.png
+SHA1-Digest: MolStoTZWwIGULyVQF7ctHv8FQw=
+
+Name: res/drawable-nodpi-v4/button_download_pressed.9.png
+SHA1-Digest: RpifEgo8P/6gJ3YZonsV8md1wi4=
+
+Name: res/drawable/realtime_bottom_bar_textcall_bg_selector.xml
+SHA1-Digest: oR53+yonL0zSJrvZFE6KgLJU9qg=
+
+Name: res/drawable/bts_appointment_switch.xml
+SHA1-Digest: aJuaNBq5cu4o4oFohjcPGAP6gMg=
+
+Name: res/drawable-xhdpi-v4/ssdk_logo.png
+SHA1-Digest: p+Hp01KsxZ1pK7mS7zG8mKkkbBU=
+
+Name: res/drawable-xhdpi-v4/logo_linkedin.png
+SHA1-Digest: FfErbhpBO3vzzvdmb2NfERuakYk=
+
+Name: res/drawable/bts_btn_orange_box_nor.xml
+SHA1-Digest: QPlMSO1VuHvpqjsblYSef+aRn4M=
+
+Name: res/drawable-hdpi-v4/bts_appointment_start.png
+SHA1-Digest: EyV1jd3pJ2g9S0ocw0egJ3+36rA=
+
+Name: res/drawable-hdpi-v4/share_dialog_bg.9.png
+SHA1-Digest: kGTF4meR/PtFsJvb8TalGhJuRug=
+
+Name: res/drawable-nodpi-v4/car_user_item.png
+SHA1-Digest: ghdejKIu5yNB5nwWFOLIb1v0vjA=
+
+Name: res/layout-nodpi-v4/common_pin_layout.xml
+SHA1-Digest: xPcqzRHDon/1I3Rkg+QlwBqxG/M=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_switch.png
+SHA1-Digest: 07v0GfN+bS2aEvZVfwo7nuuQv9Y=
+
+Name: res/raw-nodpi-v4/sfx_tips_1_1.wav
+SHA1-Digest: VkauFIS8HiFCUAZrFXsk0q57iPM=
+
+Name: res/drawable-hdpi-v4/share_btn_weixin_normal.png
+SHA1-Digest: NfptD+PKOI3iZxqtmKMV4sf9Mkk=
+
+Name: assets/refresh.png
+SHA1-Digest: zHLSHkaBWkZ2ebOG1zFywnB1tcY=
+
+Name: res/drawable-xxhdpi-v4/bts_attestation_noclick.png
+SHA1-Digest: 5G1fpn15MRQQAMoOUenPrfM+ZDI=
+
+Name: res/drawable-nodpi-v4/im_headimage_driver.png
+SHA1-Digest: 76bjKV0Gcbmahj9cu0mXY8wc6+8=
+
+Name: res/drawable-nodpi-v4/common_selectbox_on.png
+SHA1-Digest: VARI62Dc7DfDx0R0IJgXUMeqKjA=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_response_carpool_friend_info.x
+ ml
+SHA1-Digest: KGX/jp7lczZfUY4bnA70KvEMASU=
+
+Name: res/drawable/share_btn_qq_selector.xml
+SHA1-Digest: ISnnSNFVc62K2sZdBIFo049gLn4=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_pay.png
+SHA1-Digest: YXsb08dS43CRTatSinmq2I+/rhY=
+
+Name: res/anim/wait_for_arrival_panel_slide_in.xml
+SHA1-Digest: e3beHOnME7Unoaxz+qAH9LfWm3o=
+
+Name: res/layout-nodpi-v4/city_item.xml
+SHA1-Digest: 1KPgWNi+XWeHUWydQcFDofjvvEM=
+
+Name: res/drawable/common_pin_ic_price_selector.xml
+SHA1-Digest: Smk3ITG8dP9UhU4PsMmMX2oJEF0=
+
+Name: res/drawable-nodpi-v4/check_captcha_btn_pressed.png
+SHA1-Digest: n/0G8IcfjsuiWosx9A3UwWbM9OM=
+
+Name: res/drawable-nodpi-v4/common_btn_orange_pressed.9.png
+SHA1-Digest: MUr78EHr42XQH7Po3UZDQ70G/2w=
+
+Name: res/drawable-nodpi-v4/zhongdian_icon.png
+SHA1-Digest: dZIToVK89CmN14PdTO6Ppf+IMSI=
+
+Name: res/anim/wait_for_arrival_footer_slide_in.xml
+SHA1-Digest: KfVAKHKENeP2q+PyLhpii4kS174=
+
+Name: res/layout-nodpi-v4/sug_item.xml
+SHA1-Digest: jp3hOrn27LH/M8klw+j+x2s11FA=
+
+Name: res/drawable-nodpi-v4/phone_btn_gray.png
+SHA1-Digest: zTN1sooO3q9KqaOclm5e2Yw+h3w=
+
+Name: res/drawable-xhdpi-v4/ic_search_type_start.png
+SHA1-Digest: IjrGnXQhqzw/fttalkePNy0d8ko=
+
+Name: res/drawable-nodpi-v4/common_btn_white_pressed.9.png
+SHA1-Digest: BG0xIMqRXfCYGv1teVgZkEvRF5E=
+
+Name: res/drawable-xhdpi-v4/logo_kakaostory.png
+SHA1-Digest: MtmFHu+fR5YH5cFdg2NQS+EcDoA=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: 8iG9tkgxs5XXsyT3m6WoBZSF6Y8=
+
+Name: res/drawable-xhdpi-v4/input_press.9.png
+SHA1-Digest: y5r8wL5TqbojQq0ljRGw37SvXUk=
+
+Name: res/drawable-nodpi-v4/edit_rect_bg.9.png
+SHA1-Digest: AQ39mCIjUbJSt3A7JE154HXbf54=
+
+Name: res/drawable/bts_loading_anim.xml
+SHA1-Digest: wi0v6ASyXNxEyvlZPurrKsQunAo=
+
+Name: res/drawable/common_btn_booking_select_city_selector.xml
+SHA1-Digest: ivM8BSmy6wi1WWWH9oJLcbVA2Xo=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_playgame_selector.xm
+ l
+SHA1-Digest: ilfO8IshXHf7oPrPOPFldGdPz/8=
+
+Name: res/layout-nodpi-v4/car_order_pay_item.xml
+SHA1-Digest: 3myGZeCloq0NlAt4gb0mA+epmY0=
+
+Name: res/drawable-nodpi-v4/qidian_icon.png
+SHA1-Digest: DXLwQz5WqUXxImJ+pfCnfDRNcts=
+
+Name: res/drawable-nodpi-v4/departure_icon_shadow.png
+SHA1-Digest: Ppzkak6aIE4MdMmq5rHxEBdEoZQ=
+
+Name: res/drawable-hdpi-v4/taxi_map_waterdrop.png
+SHA1-Digest: wHIJHhKtFq74aHpy9EzetIEr6dw=
+
+Name: res/drawable-nodpi-v4/select_icon_gray_business.png
+SHA1-Digest: ZWIT7LPdLLFY4vB0MF2zGIpBe/k=
+
+Name: res/layout-nodpi-v4/activity_pay_nopwd.xml
+SHA1-Digest: NHPdRFV+aQ+zvWDvIJpR15WIHTk=
+
+Name: res/drawable-nodpi-v4/l05.png
+SHA1-Digest: zI/KF1utadeQxXoJBlSzelXYr3o=
+
+Name: assets/tencentmap/mapsdk_vector/poi_icon.png
+SHA1-Digest: rrgdaMWKyGyqeuo/ucOIgIdEQv8=
+
+Name: res/drawable-xhdpi-v4/title_back.png
+SHA1-Digest: 8EcpaCKgMqZtOt/JhCiOEs6yIKI=
+
+Name: res/drawable-hdpi-v4/bts_homepage_switch.png
+SHA1-Digest: S04RlvqkGKJ0c6ArbrTJ4X63YSo=
+
+Name: res/layout-nodpi-v4/replay_popup.xml
+SHA1-Digest: oobV6/GJIbwIOm9or63slXlunSE=
+
+Name: res/layout-nodpi-v4/activity_city_pick.xml
+SHA1-Digest: WL9EyrR7n1+MUW4NQp2e21W913I=
+
+Name: res/drawable-xhdpi-v4/cancel_route_background_2.png
+SHA1-Digest: 6AQVGcjApafwsynpPPb5Izrkorg=
+
+Name: res/drawable/bts_evaluate_general.xml
+SHA1-Digest: I4hKSYCOxNTi0touPxCzhN8Fcqk=
+
+Name: res/drawable-xxhdpi-v4/icon_webview_refresh.png
+SHA1-Digest: Q256Z4U3aPVigYClQORABUE7Bzc=
+
+Name: res/drawable-nodpi-v4/image_dialog_safety2.png
+SHA1-Digest: 0YsZfmIJCcNvgsIPWVXeCmT5t5k=
+
+Name: res/drawable-nodpi-v4/menu_icn_food_normal.png
+SHA1-Digest: LZNgFnbOBElF0ErMOR55eDnSd90=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_driver_3.png
+SHA1-Digest: GJAwd+oFFlAbkx4d9SKV3pLHqiA=
+
+Name: res/drawable-xxhdpi-v4/share_btn_weixincircle_normal.png
+SHA1-Digest: Xw0knDQl6A6jHruGY2GFnKqYthI=
+
+Name: res/drawable-nodpi-v4/common_icn_invoice.png
+SHA1-Digest: nO/S9WSHL7pFoJIfnCIlojzAxm8=
+
+Name: res/layout/bts_net_error_tips.xml
+SHA1-Digest: gcw5+L0cajkKcay922fMwes9UFs=
+
+Name: res/drawable/share_btn_qzone_selector.xml
+SHA1-Digest: 8+hQ9ZswiXKGITO87UNmJNKVkVI=
+
+Name: res/drawable-xxhdpi-v4/car_bearing.png
+SHA1-Digest: LP8xKKvktJ6H8xuKKbgSX+AyLtY=
+
+Name: res/drawable-xxhdpi-v4/bts_general_phone_p.png
+SHA1-Digest: qh9TwGjzKH3TFMBDOHewZkt1WJ8=
+
+Name: res/layout-nodpi-v4/ddrive_realtime_layout.xml
+SHA1-Digest: KqGbk2KRAt13LWTxTe0X4Yp3Jjo=
+
+Name: res/drawable-nodpi-v4/title_bar_bell_redpoint.png
+SHA1-Digest: aGYZBASCzITzH3bDBzOs5LOyHkM=
+
+Name: res/drawable/bts_wind_bg_selector.xml
+SHA1-Digest: O8Rmjf6jL41r1yLoyR71LRA3R6E=
+
+Name: assets/tencentmap/mapsdk_vector/national_highway_sat.png
+SHA1-Digest: zAP61Tw1/IVZrBiASSp9CKB5rMs=
+
+Name: res/drawable-hdpi-v4/common_title_bar_back_pressed.png
+SHA1-Digest: /31eIii76x1qRTS5NSq+hX7E7yU=
+
+Name: res/layout-nodpi-v4/car_estimate_price_prev_item.xml
+SHA1-Digest: a2HbSkEPGhj3D/jcgrsUsn2rxug=
+
+Name: res/drawable-xxhdpi-v4/bts_general_default_avatar.png
+SHA1-Digest: BJaqXbyQoaUyfLCsxCJcYO9+n4E=
+
+Name: res/drawable-xhdpi-v4/taxi_map_waterdrop.png
+SHA1-Digest: 6uOORdRLwZoVpHSq83G9fSiXa30=
+
+Name: res/drawable-nodpi-v4/cancel_trip_unconfirm.png
+SHA1-Digest: XuWomX0W2acHNXfnrWhEGqVhA5k=
+
+Name: res/drawable/selector_list.xml
+SHA1-Digest: 2aMc720Uk9HX3qDqFPd8x4yY0bA=
+
+Name: assets/tencentmap/mapsdk_vector/color_texture_cap.png
+SHA1-Digest: jhCtxFGaZMUbe8l5nrzLDVABc1s=
+
+Name: res/drawable-nodpi-v4/button_download_normal.9.png
+SHA1-Digest: VQZFF66UgG7RzesZf9/UhA4Qajo=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_yingyongbao.png
+SHA1-Digest: 3R0RwZghsjvXhh9ptE82uWCP248=
+
+Name: res/drawable-nodpi-v4/peitu_sanxing.png
+SHA1-Digest: 93qWJkP66dwv7/cXCKvSW1QeFbM=
+
+Name: res/drawable-xhdpi-v4/logo_yixinmoments.png
+SHA1-Digest: ZBGvpxXitm5+K/IgV5Q60iT0qzU=
+
+Name: res/drawable-nodpi-v4/voice_icon_gray_left2.png
+SHA1-Digest: +sJGrBCg2dcZ+iUAZ6zMpYgTASA=
+
+Name: res/drawable-xxhdpi-v4/bts_mark_girl.png
+SHA1-Digest: 1BUjehuRO9zhYSLWBLha943z6A4=
+
+Name: res/layout-nodpi-v4/taxi_pay_way.xml
+SHA1-Digest: 4HWpboB6jNaCAXx1W7c17u05Y+U=
+
+Name: res/layout/bts_passenger_pending_order_item.xml
+SHA1-Digest: YKlAqZM2RjdQAWTy61gpAkvyE00=
+
+Name: res/layout-nodpi-v4/realtime_call.xml
+SHA1-Digest: xcyMvZ81/MAmD192bzLAgF7dwz8=
+
+Name: res/drawable/progress_round.xml
+SHA1-Digest: KdNl6J7d53r3vzg+naqul/E24Zo=
+
+Name: res/drawable-nodpi-v4/reminder_text_ok_btn_narmol.9.png
+SHA1-Digest: 99wPX5NjI9CiGN4X6XteynqP3wA=
+
+Name: assets/tencentmap/mapsdk_vector/national.png
+SHA1-Digest: 6LOrwyyU+ZRoUgedw8SPTaryJgk=
+
+Name: res/drawable/common_title_bar_btn_menu_red_selector.xml
+SHA1-Digest: 0jEjXe0oVRAqiiZuuqOP2IbN+7s=
+
+Name: res/drawable-nodpi-v4/common_pay_dropdown.png
+SHA1-Digest: l9utDRieviHcMSRfNxMVSLUuxrE=
+
+Name: res/anim/bts_up_to_down_slide_in.xml
+SHA1-Digest: 2kL5F4bh4oFOLDQhyleZHkpr9q8=
+
+Name: res/drawable-nodpi-v4/common_icon_magnifier.png
+SHA1-Digest: UF4B8jMibv+TFYgHsg+lRA5qeSw=
+
+Name: assets/inc_more.9.png
+SHA1-Digest: nEjAZVSYwH0ZuTBZPW3LibxN+5Q=
+
+Name: res/drawable-nodpi-v4/user_level_blackgold.png
+SHA1-Digest: Nld3aNYmAo7+NwGlQimf8oN45gA=
+
+Name: res/layout/bts_driver_free_travel_check.xml
+SHA1-Digest: 8NUv0X0hJxstQHGinnGPj0w9IFc=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_evaluate_bar.xml
+SHA1-Digest: qo9U9/DLrvLN/IgPZCpBlYup+A0=
+
+Name: res/drawable-nodpi-v4/bts_home_page_free_ride.png
+SHA1-Digest: +1Ks96Z0FddxxyqLpJh6G/WtCes=
+
+Name: res/drawable-nodpi-v4/drive_service_icon.png
+SHA1-Digest: 1iEgmzYke4gOiEMxzszijsnLyk0=
+
+Name: res/drawable-nodpi-v4/share_icn_addresslist.png
+SHA1-Digest: 8Uf4Re/rW+GlG8aJTNTqyWOA5HQ=
+
+Name: res/drawable-xhdpi-v4/img_cancel.png
+SHA1-Digest: NsZVk5t/jVR+MDbSD8IrRZ2uWkM=
+
+Name: res/layout-nodpi-v4/car_pay_type_item.xml
+SHA1-Digest: nc3OFM47o06NWxXYArHY41jvzws=
+
+Name: res/drawable-nodpi-v4/common_icn_startpoint.png
+SHA1-Digest: +/jfoKAZ9XRS9jOWQ7q4Kpl0sbA=
+
+Name: res/layout-nodpi-v4/share_edit_dialog.xml
+SHA1-Digest: zasObjwpSc7Kxg/v8LQfblmLVe0=
+
+Name: res/drawable-nodpi-v4/toast_icn_exclamation_mark.png
+SHA1-Digest: mJPsiWf+7m0X+tJHHb6a8n/PeDQ=
+
+Name: res/drawable-nodpi-v4/ad_bg_bubble.9.png
+SHA1-Digest: 04DJHg4g4e7WlhORlI2LP8oklOk=
+
+Name: res/drawable-nodpi-v4/select_pay_business_normal.png
+SHA1-Digest: yGfi9U/9MkohmnagmVj651qe12E=
+
+Name: res/drawable-nodpi-v4/icon_jiantou.png
+SHA1-Digest: 7AXerEgqsbDeY29OIREvAb8RnN0=
+
+Name: res/drawable-nodpi-v4/check_captcha_btn_normal.png
+SHA1-Digest: EPQ/jN7zo8icHdLDxzZmv90Xkjk=
+
+Name: res/drawable-nodpi-v4/im_message_icon_pressed.png
+SHA1-Digest: H1a0WUzB2muZSI5S/LrfZzP81uE=
+
+Name: assets/inc_start.png
+SHA1-Digest: YGF3y/3UbhFtJ9+Hj3cm63crvr4=
+
+Name: res/drawable-xhdpi-v4/pin.png
+SHA1-Digest: tkJyNZCYIH5408q/BJl7FHhCnrc=
+
+Name: res/drawable-nodpi-v4/ddrive_cancel_trip_icon.png
+SHA1-Digest: uD8zBikSEHcjtzIsDlzOE6Kws90=
+
+Name: res/raw-nodpi-v4/sfx_record_start.wav
+SHA1-Digest: WGIf23pXWmoTwJBMrSKk9ZvJ/2Y=
+
+Name: res/drawable-nodpi-v4/common_checkbox_pressed.png
+SHA1-Digest: GaO/IsbFYQHm3T44hkaGfsiIZYk=
+
+Name: res/drawable-nodpi-v4/baidu_share.png
+SHA1-Digest: Oq9+C/JqESEbgYNgGqQoWF5SsDI=
+
+Name: res/drawable-nodpi-v4/arrival_icn_game_pressed.png
+SHA1-Digest: EdYuZYorbMtPDStHvkvOn2e6C0g=
+
+Name: res/drawable-nodpi-v4/comment_star_gray_icon.png
+SHA1-Digest: Inbe53spmQ6fGOvdbigWlZ3GpTQ=
+
+Name: res/drawable-xxhdpi-v4/trip_friend_bubble_startpoint.png
+SHA1-Digest: W0XLBCiRIYuwU21WWqgBi2MzBk8=
+
+Name: res/layout-nodpi-v4/wxagent_dialog.xml
+SHA1-Digest: AQqYpitIHN+qk3M41VFW9bgew/w=
+
+Name: res/drawable/dot_normal.xml
+SHA1-Digest: xus5haxUKGg8uJ4VyUARuIiyHNY=
+
+Name: res/drawable-xxhdpi-v4/bts_attestation_import_p.png
+SHA1-Digest: wjpRCGpWpAxhNX1qaf3hs9/bCQQ=
+
+Name: res/layout/map_overlay_current_address_layout.xml
+SHA1-Digest: PG81YpyPfbPJ/Gs7PsJdSx8/wME=
+
+Name: res/drawable-xhdpi-v4/auth_title_back.png
+SHA1-Digest: 8EcpaCKgMqZtOt/JhCiOEs6yIKI=
+
+Name: res/drawable-nodpi-v4/select_icon_gray_luxur.png
+SHA1-Digest: UuAL0t4AH23MRQXo2Ei/wL6tdvc=
+
+Name: res/drawable-nodpi-v4/booking_btn_select_city_press.9.png
+SHA1-Digest: 2x73DcNBEiQ3nS775CSwVcOtnHQ=
+
+Name: res/layout-nodpi-v4/ddrive_bottom_module.xml
+SHA1-Digest: 345sVq/ByRXevUc7Dp8KB6zJUUg=
+
+Name: res/layout/bts_driver_hold_order_activity.xml
+SHA1-Digest: SLE45AThcC12oLXBsxZPx6TaDkU=
+
+Name: res/drawable-nodpi-v4/common_select_normal.png
+SHA1-Digest: yGfi9U/9MkohmnagmVj651qe12E=
+
+Name: res/drawable/shape_bg_dot.xml
+SHA1-Digest: qA5NaOJXYZoZh67T6JxerJN/isI=
+
+Name: res/drawable-hdpi-v4/trip_self_bubble_startpoint.png
+SHA1-Digest: +nqXWFgg4dDkvkRHWl+td/QwshU=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_nowcall_icon.png
+SHA1-Digest: hO1nR+81R1Pz8XHeUnrg9T2cU5g=
+
+Name: res/anim/bts_down_to_up_slide_in.xml
+SHA1-Digest: L1LFjfBkPb5IVR6DrVH6Yn13DLA=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_heart.png
+SHA1-Digest: Wm33g885czm82RWk0EGxs54q5L4=
+
+Name: res/drawable-nodpi-v4/speech_replay_icon2.png
+SHA1-Digest: TD69QwzrJT+BgAGJVmlb6CtzR3Y=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_button.png
+SHA1-Digest: vZYfdCrJgFm8YHETYMZO3wTN+kk=
+
+Name: res/layout-nodpi-v4/splash_fragment.xml
+SHA1-Digest: sFFmUX/QFlSNLtNEkSoG5b30FNw=
+
+Name: res/drawable-xhdpi-v4/logo_email.png
+SHA1-Digest: QKRX2T5MIFk+31iwJ+AeZ596CUs=
+
+Name: res/drawable/car_wxagent_dialog_bg.xml
+SHA1-Digest: pQWGA1J0w5mYZYPVHfT6FBtqiwE=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_work_select.png
+SHA1-Digest: OJDZUlV6bXMlgsIWiAC9bWcLLpQ=
+
+Name: res/layout/layout_webview_tool.xml
+SHA1-Digest: Pp4E3IWky0D9Ge9KdUzOuutLOCE=
+
+Name: res/drawable-hdpi-v4/bts_img_notopen_guide.png
+SHA1-Digest: fdbvd4MsDiiLS+c7ED8v7AYWLjQ=
+
+Name: res/drawable-nodpi-v4/common_icn_price_normal.png
+SHA1-Digest: kcP5gZjFIjJrGAjBrnIWAnAkLjo=
+
+Name: res/layout-nodpi-v4/car_count_notification.xml
+SHA1-Digest: SnH6BmQ3p+Sec8PpkmGr03D9iwA=
+
+Name: res/drawable-nodpi-v4/speech_replay_icon3.png
+SHA1-Digest: 8523CT0kaLhS6Y1k23Qs0eU1cnA=
+
+Name: res/layout/bts_hour_minute_picker.xml
+SHA1-Digest: xL2rbfmDVnzqxAAZWCc5RHgBczM=
+
+Name: res/drawable-xxhdpi-v4/bts_xexception_nowifi.png
+SHA1-Digest: TBdvm9uzi6XzYJr2e7AGMkUkNYs=
+
+Name: res/layout/bts_picdialog_layout.xml
+SHA1-Digest: sHF0/YuL0ZWOMGx58VuGiKiMCf4=
+
+Name: META-INF/NOTICE.txt
+SHA1-Digest: d0VENSBjqVZb4oOfEvagGODOr78=
+
+Name: res/layout/bts_order_info.xml
+SHA1-Digest: bn20coR2ptmtMkM8PWDkuK8H2SQ=
+
+Name: res/drawable-nodpi-v4/review_btn_select_normal.png
+SHA1-Digest: s0bNov3/EGM8jM9A5n2Tpbz5/R8=
+
+Name: res/drawable-nodpi-v4/common_selectbox_off.png
+SHA1-Digest: ybCWqgCWyzA4UITJT02QRdSotys=
+
+Name: res/drawable/bts_ad_area_bg.xml
+SHA1-Digest: i/EvQKxXmNAld6+fzo1AiwEEWkw=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_arrival_selector.xml
+SHA1-Digest: SP1xzyHrhrZTLSVQiXLNoRHuikM=
+
+Name: res/drawable-nodpi-v4/map_departure_icon_small.png
+SHA1-Digest: wlkyMeVKNvHfSJGmlscMj9+Hhro=
+
+Name: res/drawable-nodpi-v4/menu_icn_food_pressed.png
+SHA1-Digest: vNg3HjzwF3CfZc0HGVDxSl6wUPw=
+
+Name: res/drawable-nodpi-v4/common_dialog_bg.9.png
+SHA1-Digest: kGTF4meR/PtFsJvb8TalGhJuRug=
+
+Name: res/anim/cycle_interpolator.xml
+SHA1-Digest: wKBQiep+0ABlsvyzu/AUEYIFxno=
+
+Name: res/drawable-nodpi-v4/arrival_icn_found_pressed.png
+SHA1-Digest: pT9j6bEU1qR6I0dVcn4CZR1K9sM=
+
+Name: res/drawable/common_btn_booking_select_to_selector.xml
+SHA1-Digest: 2xlmdI0rUp0YQ/rA0NBhxXE6qwE=
+
+Name: res/drawable-nodpi-v4/icon_activity_add_price.png
+SHA1-Digest: K7qiPhF+DDdMa9diuzroRij5qg8=
+
+Name: res/drawable-nodpi-v4/menu_icn_mall.png
+SHA1-Digest: ltHEvXA2AYsxUsyN/Hg0URTM9Qk=
+
+Name: assets/tencentmap/mapsdk_vector/location_enable.png
+SHA1-Digest: eFJ4iORRHp1ojIulHH/6qBPUMII=
+
+Name: res/drawable-nodpi-v4/l10.png
+SHA1-Digest: X1DY8Qwywt41ja4iqXZJphPllIw=
+
+Name: META-INF/rxjava.properties
+SHA1-Digest: wir5EFEz44Vr4TN5aMFC66WE0Qk=
+
+Name: res/drawable/bts_ad_more_nor.xml
+SHA1-Digest: oEoSjjR9s6mKothJhJdOOy+BLEo=
+
+Name: res/drawable-nodpi-v4/im_bottom_text_input.9.png
+SHA1-Digest: YQ1gl0RvxmWHQ5YWEWPpJjJmVw8=
+
+Name: assets/tencentmap/mapsdk_vector/national_highway
+SHA1-Digest: VvKPUq9+N2XYF1njPJ41LnZnRc8=
+
+Name: res/layout-nodpi-v4/game_progressbar_layout.xml
+SHA1-Digest: Y65LqzaS93nkpKtTeozCUW1gdyA=
+
+Name: res/layout-nodpi-v4/layout_driver_runing_bubble.xml
+SHA1-Digest: Q2UCrIYvLsDDd/t+kT5H3nJuL6g=
+
+Name: res/drawable-nodpi-v4/phone_btn_gray_unprotect.png
+SHA1-Digest: 9VgrxvoBs08x8YDu5fGgKxWjH5M=
+
+Name: res/drawable-xhdpi-v4/logo_wechatmoments.png
+SHA1-Digest: x6DqoCd+9e0aW6cO4KMqFl0f9ZM=
+
+Name: res/drawable/realtime_bottom_bar_channel_text_selector.xml
+SHA1-Digest: OTUeB7Dl4fujAR1u8Ye362dba7k=
+
+Name: res/drawable-xhdpi-v4/driverpage_bg_star.png
+SHA1-Digest: 3eO4W1Lo4hobkPYUdL212VpM2i0=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_cost_detail.xml
+SHA1-Digest: mgYydzeKSOfIxZI7721y7YPzrkk=
+
+Name: res/layout-nodpi-v4/pop_driver_info.xml
+SHA1-Digest: rIGh3inXfsMsT8TcnVAVuYIjnX8=
+
+Name: res/drawable-hdpi-v4/share_btn_qq_normal.png
+SHA1-Digest: YMUUDmbeoA1e7HoSL5jTmWgf5LU=
+
+Name: res/layout/push_pop.xml
+SHA1-Digest: PBppWgj/Ekp0b7zrY3GIqdSsnw4=
+
+Name: res/layout/layout_web_progress.xml
+SHA1-Digest: Jrc7fiF0Qm6eRP4Y7blk04uRKdE=
+
+Name: res/drawable/shape_txt_rect.xml
+SHA1-Digest: CE15SKwUmZaYQysE29E00WWgN9w=
+
+Name: res/drawable/car_notification_count_bg.xml
+SHA1-Digest: lent2kCAhR5/EeOyyi+4cSz7cG4=
+
+Name: res/layout-nodpi-v4/common_addr_fragment.xml
+SHA1-Digest: 1xqdwZ3OAuDepFoiEH/oRK+0V+k=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_foot_bar.xml
+SHA1-Digest: 5EisrnTYSFzBKoy4YPMLgoUXqps=
+
+Name: res/layout-nodpi-v4/image_dialog.xml
+SHA1-Digest: r0tT8vU4KKAAqOiam2K/v+TiDsg=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_channel_voice_pressed.
+ png
+SHA1-Digest: U/Ys0qIQjYA5x6l46DCf0r3HTjY=
+
+Name: res/drawable-xhdpi-v4/input_normal.9.png
+SHA1-Digest: zEj4DajOQNksK7nWz1dVY6hlbs0=
+
+Name: res/layout-nodpi-v4/taxi_cost_detail_list_title_item.xml
+SHA1-Digest: /q9ozrvLgSJNPNJzfWEOaSz6gCE=
+
+Name: res/drawable-nodpi-v4/menu_icn_order.png
+SHA1-Digest: oRoGk200MxRS7KTcWtJpGmPkyWw=
+
+Name: res/drawable-xxhdpi-v4/bts_add_tag.png
+SHA1-Digest: Ws0PLpCIsSHlS8QoYgi29WnqYZc=
+
+Name: res/drawable-xhdpi-v4/logo_yixin.png
+SHA1-Digest: 6oMwvGiRThYkWam/OfHNT+QmPbI=
+
+Name: res/layout-nodpi-v4/car_pay_basicfee_view.xml
+SHA1-Digest: 2JIY0xUP2cdz8fSGC9BEBDPdJ7c=
+
+Name: res/drawable-nodpi-v4/search_bar_btn_clear.png
+SHA1-Digest: txbBkYq0G+nnTU0iE7ee3KGXGRM=
+
+Name: res/layout-nodpi-v4/car_user_agreement.xml
+SHA1-Digest: K5WjiFRaHUuhkFOdCDoeiLfIFhc=
+
+Name: res/drawable-nodpi-v4/addnotes_icn_plus.png
+SHA1-Digest: zliUrc9y1Hs5NOFzoMvrCSU5xyg=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_coolpad.png
+SHA1-Digest: RQUum+9NEq1rsFB1EUMlEg1RAMs=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_time_consult.xml
+SHA1-Digest: dj+1682YhgfbEJI9XJkvrr29c80=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_sp_progress.9.png
+SHA1-Digest: 1l2wZ8yHq9BI0D3Pu21oV3Rrxq8=
+
+Name: res/drawable-nodpi-v4/l06.png
+SHA1-Digest: WpRJo6Q302dMFvo7LQS15zv+PUY=
+
+Name: res/drawable-nodpi-v4/realtime_btn_trigger_normal.9.png
+SHA1-Digest: /0MPu5ZBy+KoLFOnGnBj3NLbfSA=
+
+Name: res/anim/common_message_popup_enter.xml
+SHA1-Digest: dVkJZL0tVZsotGOE9YAvMfORyR4=
+
+Name: res/drawable-hdpi-v4/bts_order_pay_n.9.png
+SHA1-Digest: LAysQto7cQRwJIkzEFgOaOpONAA=
+
+Name: assets/tencentmap/mapsdk_vector/ver.cfg
+SHA1-Digest: tVCsR1W2JiHavHPW9VSf7iINXZI=
+
+Name: res/layout-nodpi-v4/map_live_valuate_pop.xml
+SHA1-Digest: pJCfIlzqGrn3cRcRV3KiLLgGBH8=
+
+Name: res/layout-nodpi-v4/switcher_view_layout.xml
+SHA1-Digest: mFhkyuONq/+SwbFS9WvYC/dr8ec=
+
+Name: res/drawable/esgame_download_progressbar_unenable.xml
+SHA1-Digest: T0qoSa1Z2l32G91Pp2Wb9Y2JePI=
+
+Name: res/drawable-hdpi-v4/icon_webview_more.png
+SHA1-Digest: GzlWLm6xjzDZDT+uhWXgtEoZfMw=
+
+Name: push_version
+SHA1-Digest: mYA3UvHia7TpvtLl8QLmOSPbUMw=
+
+Name: res/layout-nodpi-v4/realltime_slide_call_item_select.xml
+SHA1-Digest: oA5OtjkVKG3SeCYZg5y/AOwNMHk=
+
+Name: res/layout/notification_inc.xml
+SHA1-Digest: v6LPeQ+axjbAkXhy++s1fTaGUbU=
+
+Name: res/layout-nodpi-v4/taxi_cost_detail.xml
+SHA1-Digest: dO5LV7Cv0MlxQSEeVFU9bejDbfI=
+
+Name: res/drawable-nodpi-v4/menu_icon_game_pressed.png
+SHA1-Digest: Ci6eOWcg95MImh7O9dK+j+CukLE=
+
+Name: res/drawable/common_pin_ic_wait_selector.xml
+SHA1-Digest: 2NtlD5nG/ClxTpoHhx5xQ+xUjcE=
+
+Name: assets/tencentmap/mapsdk_vector/GREEN.png
+SHA1-Digest: E5Kx0EQK6ZzGdJU7s3yp2cmBG48=
+
+Name: res/layout-nodpi-v4/common_virtualmobile_fragment.xml
+SHA1-Digest: t+PZ0vBr5+DQrDL/GImZ2Q3hPfQ=
+
+Name: res/drawable-nodpi-v4/baiduzhushou_share.png
+SHA1-Digest: JuVC6Aefwt4iKka5PwJDl0aOJoc=
+
+Name: res/drawable-nodpi-v4/im_headimage6.png
+SHA1-Digest: tFuUwGYS//Kc1+BvOeuilvaPnY8=
+
+Name: res/layout-nodpi-v4/notification_temple_base.xml
+SHA1-Digest: x7CovzumkPFZ5cd1R0BMBEM2wWk=
+
+Name: res/drawable-nodpi-v4/arrival_icn_arrive_normal.png
+SHA1-Digest: PKanIAZCAQVEL1NowC0LxJex4Ag=
+
+Name: res/layout-nodpi-v4/float_menu.xml
+SHA1-Digest: XQ/xaZ2U4wRfjqOMqVyXndZxG1M=
+
+Name: assets/color_map.png
+SHA1-Digest: JBXblnoRS2+ft91A05wAYYTTgX0=
+
+Name: res/drawable-nodpi-v4/share_meizu.jpg
+SHA1-Digest: 2HlLp5AE7jbjQw9m+0QRwPeN0D0=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_rongyao.png
+SHA1-Digest: zDnM75cLKK67yOxF7FsRlD/Vnrw=
+
+Name: res/drawable-nodpi-v4/im_voice_record_bg.9.png
+SHA1-Digest: vkh4QVLYEzJ7c2oTc4pzDoyoD/I=
+
+Name: res/drawable-hdpi-v4/icon_webviewtool_default.png
+SHA1-Digest: z+1MP1vDmMh8AIXaST0gcUJ9ni8=
+
+Name: assets/tencentmap/mapsdk_vector/location_disable.png
+SHA1-Digest: uMLneKwlLGYIB3jQT5K3vk6nOPg=
+
+Name: res/drawable-xxhdpi-v4/bts_login_arrows_icon.png
+SHA1-Digest: 5JQZkMxgruZe7vFQpYp2G1c5/L4=
+
+Name: res/layout-nodpi-v4/esgame_bottom_download_layout.xml
+SHA1-Digest: QR+umZvM+XMoOy6LkgI3bBj1qTU=
+
+Name: res/drawable-nodpi-v4/menu_icon_choice_pressed.png
+SHA1-Digest: YpjgZvw2/s9zXdYj/4LlFIRTta4=
+
+Name: res/drawable-hdpi-v4/bts_homepage_man.9.png
+SHA1-Digest: H+RkTRMgB+l54E13OhdXijRTiss=
+
+Name: res/layout-nodpi-v4/image_dialog1.xml
+SHA1-Digest: v9n0RdSeAeUhqGpud0rjWSpewjk=
+
+Name: assets/tencentmap/mapsdk_vector/city.json
+SHA1-Digest: xVmqI7GbxAQk2YBLPvJn5N6eImM=
+
+Name: res/drawable-nodpi-v4/im_btn_press.9.png
+SHA1-Digest: DGmD4bTLizGgNh9fm6K7yz+OAdY=
+
+Name: res/drawable-nodpi-v4/arrival_icn_game_down.png
+SHA1-Digest: HVXbnDk60he+jLk8bvegThMUtPM=
+
+Name: res/drawable/game_menu_right_arrow.xml
+SHA1-Digest: Um5B5ulZCFiXOijm6UkSgebCVoU=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_may_normal.png
+SHA1-Digest: FxxGl13bb5yG5lQ7Djclg0DfbmM=
+
+Name: assets/tencentmap/mapsdk_vector/route_arrow_texture
+SHA1-Digest: prc0EZVmdSgsFw2unz8rKVvgW8M=
+
+Name: res/drawable/bts_common_edit_bg_unfocus.xml
+SHA1-Digest: /YY4d2xydLQBW0y5niEqmnTZ4f4=
+
+Name: res/drawable-xhdpi-v4/logo_mingdao.png
+SHA1-Digest: 5GcCLPWXrgbUE+NpsiD401FPxqI=
+
+Name: assets/inc_btn_emphasize_normal.png
+SHA1-Digest: E/xaOz/cAWHN86DcjGye2tD9J4c=
+
+Name: res/drawable/menu_sub_item_selector.xml
+SHA1-Digest: XawERYM/IAzIOt1cFxLWLeJg78g=
+
+Name: res/drawable-nodpi-v4/menu_icn_invitation_red.png
+SHA1-Digest: Ntz4dfNILb4TIwzKWflGXRIa4po=
+
+Name: res/drawable-nodpi-v4/image_dialog_receipt.png
+SHA1-Digest: +w4Rxs1UNqaSITuWWmTnRMWoydQ=
+
+Name: res/drawable-hdpi-v4/bts_wait_pay_icon.png
+SHA1-Digest: uXxjTy6Qmg9T/YmxdJdgxZ9e2VI=
+
+Name: res/drawable/bts_common_bg_input.xml
+SHA1-Digest: M9lIIX3tjwDfMY0QIZwrKObKLK8=
+
+Name: res/drawable-nodpi-v4/car_wait_for_arrival_footer_game.png
+SHA1-Digest: XcPhXkLr77gNv4duMvWLhM36Bqs=
+
+Name: res/drawable-nodpi-v4/carpool_guide_circle.png
+SHA1-Digest: 3F/UKs0QQBERxIxkkKid+eoP9yw=
+
+Name: res/drawable-nodpi-v4/title_bar_menu_pressed.png
+SHA1-Digest: /1oIET+30w8cY3e75azrYkllHKs=
+
+Name: res/drawable-nodpi-v4/im_phrase_icon_pressed.png
+SHA1-Digest: hbPfcg28YFS5RoNrK8Hus7G//AU=
+
+Name: res/drawable-xxhdpi-v4/bts_waiquan.png
+SHA1-Digest: OUzNvrHaHabOxkkBtJtIHTid10A=
+
+Name: res/drawable-xhdpi-v4/gray_point.png
+SHA1-Digest: 3XeBPchcvfrxzttgsZmobGOHEQE=
+
+Name: res/raw-nodpi-v4/found_carpool_friend.m4a
+SHA1-Digest: G08wS2EUgi7AEQhYxKMKFbDHWMc=
+
+Name: res/drawable-nodpi-v4/car_cancel_trip_option_default_icon.png
+SHA1-Digest: 3RYRJVgWcfel8nnfuicvrBoqlq0=
+
+Name: res/drawable-nodpi-v4/common_icn_carpool_no_normal.png
+SHA1-Digest: xXVhucUNy7+pUWL3IgtRvTG8EzI=
+
+Name: res/raw-nodpi-v4/taxi_driver_coming.wav
+SHA1-Digest: 7D9R61fCXEhI2jJPbW8/I1hC0KI=
+
+Name: res/drawable/image_dialog_bottom_bg.xml
+SHA1-Digest: eq8h0ruxDj/QSS75Pzf64vRZCCk=
+
+Name: res/layout/bts_driver_order_over_layout.xml
+SHA1-Digest: 9V4fahL7pJ6/URX7ge9VqAGvUuE=
+
+Name: res/drawable-nodpi-v4/car_wait_for_arrival_footer_food.png
+SHA1-Digest: R6HeTHENGCdEgjuaCrNydrT5i04=
+
+Name: res/drawable-nodpi-v4/ic_history_empty.png
+SHA1-Digest: 5+iXgZ+01Z5S60bKqKDdpbB69WQ=
+
+Name: res/drawable-nodpi-v4/title_bar_menu_normal_redpoint.png
+SHA1-Digest: glefgOLyf9TB6TSCYjtnteyMsLc=
+
+Name: res/drawable/im_unread_dot.xml
+SHA1-Digest: V8SzGn0XqlwfVU7PmQh0tkQ6jfc=
+
+Name: res/layout-nodpi-v4/my_orders_fragment.xml
+SHA1-Digest: /49mFHQFVTW4MYHuBvWNy7gOPCg=
+
+Name: res/drawable-hdpi-v4/bts_appointment_switch_p.png
+SHA1-Digest: nqFyN/rzO0GjmXIqtR+kLrx+vE8=
+
+Name: res/layout-nodpi-v4/car_estimate_price_error.xml
+SHA1-Digest: uUrEP7+B4yJ++gMO4lme2WtlcZs=
+
+Name: res/drawable-hdpi-v4/bts_homepage_car.9.png
+SHA1-Digest: ydNIPXULQEh6YFHVTkl+LkdlWU4=
+
+Name: res/drawable-nodpi-v4/common_bg_input_normal.9.png
+SHA1-Digest: b+lJGQFCKA5qGAntqyJfvaM+Tvw=
+
+Name: res/drawable-nodpi-v4/im_message_icon_gray.png
+SHA1-Digest: yN/LMZ3KoLZaIZox443g8x4SQlM=
+
+Name: res/drawable-hdpi-v4/car_driverpage_bg.png
+SHA1-Digest: sGv4C6cmV4XA8++JDsf8kaWpMLI=
+
+Name: res/drawable/pay_channel_selector.xml
+SHA1-Digest: lY6WviMIAyiupOHghgXeFPpT3NE=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_foot_bar.xml
+SHA1-Digest: EtVWKKzIc9UqRU8MzN6b8ydpDYc=
+
+Name: res/layout-nodpi-v4/realtime_voice_call.xml
+SHA1-Digest: 8j1Z36QsT/IPknpoJg8vfH9csGw=
+
+Name: res/drawable-hdpi-v4/car_bearing.png
+SHA1-Digest: jFaeYbpMjiOdj8jlYGDnnTPH17E=
+
+Name: res/layout-nodpi-v4/about.xml
+SHA1-Digest: smeazpH0WDlemubIVd8M2Zegf5Q=
+
+Name: res/drawable-xhdpi-v4/fast_icon.png
+SHA1-Digest: mneY6AWNiYAY09bS0xkZkzqlJWI=
+
+Name: res/layout-nodpi-v4/ddrive_evaluate_view.xml
+SHA1-Digest: H0GXuLIq+mnaZh8IaNhJMUDySNM=
+
+Name: res/drawable/common_pin_ic_carmodel_selector.xml
+SHA1-Digest: koNsZ8md3xDfy7AaK09KDOJ0f6A=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_channel.png
+SHA1-Digest: II+mYpRjx0BYvj55Gr6V5sa+5nw=
+
+Name: res/drawable-xhdpi-v4/logo_wechat.png
+SHA1-Digest: bNbQ9/75U+74JFWu18fziBjLekc=
+
+Name: assets/tencentmap/mapsdk_vector/AZURE.png
+SHA1-Digest: 1cbV0PUldzpxDYiaXn5ePQDihB0=
+
+Name: res/layout-nodpi-v4/star_selector.xml
+SHA1-Digest: whTWVOPVN5CqdpyoCL4sbJ0rFnI=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_anzhi.png
+SHA1-Digest: dY+iQ4aMH5nf5wnBnbEdC2FtvYk=
+
+Name: res/raw-nodpi-v4/christmas_arival.m4a
+SHA1-Digest: rxxUgvoBToZ6c/8GCFp8i1ULQ7A=
+
+Name: assets/tencentmap/mapsdk_vector/rttcfg.dat
+SHA1-Digest: eiSWfDf6ZSDhnjxB5urhbv3EUmk=
+
+Name: res/drawable-nodpi-v4/common_icn_note_normal.png
+SHA1-Digest: T0DgK8esRUZiev4Mh1bnmxp0AeY=
+
+Name: res/layout-nodpi-v4/map_time_down_poup.xml
+SHA1-Digest: L7BjED9N+plEqGNjy8uHDJj7NUY=
+
+Name: res/drawable-nodpi-v4/common_icn_information.png
+SHA1-Digest: 9G75jvbk9efi+b2zUjuYBVnQ/qk=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_found_selector.xml
+SHA1-Digest: YB42r69hj54Iwj/o+eYhV8Tmmwc=
+
+Name: res/drawable-nodpi-v4/menu_order_icon_special_car.png
+SHA1-Digest: rCIu+dM0Q1Wa9bNqqticIkyjFEQ=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_button_unable.9.png
+SHA1-Digest: BG0xIMqRXfCYGv1teVgZkEvRF5E=
+
+Name: res/layout-nodpi-v4/car_cancel_trip_reason_item.xml
+SHA1-Digest: sJt1GruLJkk8LLO7yconPfdYVK0=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_found_item_view.xml
+SHA1-Digest: EelEfm884jEVV8e8F0vU1pToQXc=
+
+Name: res/drawable-hdpi-v4/share_btn_weixincircle_normal.png
+SHA1-Digest: zVbQo88DmowHb1tlwpE6+SmEHJ0=
+
+Name: res/drawable-nodpi-v4/common_icn_question.png
+SHA1-Digest: QtqqfXJ/eNDJ/Rom2ht2DhAyJpM=
+
+Name: res/layout-nodpi-v4/fragment_modify_description.xml
+SHA1-Digest: zuNH4pSq1Lpe385Asymg07pwMfw=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_sp_normal.9.png
+SHA1-Digest: LCTW5xiyKkHhCCnj3UFkE2uTvQI=
+
+Name: res/layout/bts_passenger_no_driver_rob.xml
+SHA1-Digest: 41yUa+isV+HAqAME0y+OlKPCfZI=
+
+Name: res/layout-nodpi-v4/complainted_view.xml
+SHA1-Digest: Y+oya72A838+e0624NyPgqtcVCU=
+
+Name: res/drawable/webview_tool_btn_cancel_selector.xml
+SHA1-Digest: IM3+xmPnmV/IEB/gDUzAwNH6OXY=
+
+Name: res/layout-nodpi-v4/complaint_view.xml
+SHA1-Digest: o2auPmPQO7zJEYQm/SSJ6kozhZw=
+
+Name: res/color/bts_tag_text_color.xml
+SHA1-Digest: WRbQ9beJteh4TwpZ5+Njv2I+ijw=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_home_normal.png
+SHA1-Digest: +nVxmdoGsnGklZcC+yHNfuBC5so=
+
+Name: res/raw-nodpi-v4/sfx_slide_up.wav
+SHA1-Digest: Eo/C259kBdUwkej42fieFp8ihY0=
+
+Name: res/layout-nodpi-v4/realtime_slide_voice.xml
+SHA1-Digest: vW6okXW20UZ0g1WgzeHWXejb+mg=
+
+Name: assets/inc-default.png
+SHA1-Digest: 0SDVf/hZZwBJcqx7Y9P/5oR92lM=
+
+Name: res/drawable-nodpi-v4/share_wx_icon.png
+SHA1-Digest: hCno8wzGc3/8gf57+Xx6BvAOk7o=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_switch_p.png
+SHA1-Digest: GQBB0v6qfD3SwR1a57Ove+PdsuE=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_start.png
+SHA1-Digest: 7MT/fvG1zzqu0ISOj5rFwDsgDAY=
+
+Name: res/raw-nodpi-v4/sfx_tips_1_3.wav
+SHA1-Digest: ENT8eGs6G2WtFpok5Akw/UzXHUY=
+
+Name: res/layout-nodpi-v4/orders_adapter.xml
+SHA1-Digest: Ku6uJfbXvN+HTFNBhvi6tN86Ugo=
+
+Name: res/drawable-xhdpi-v4/fastcar_bearing.png
+SHA1-Digest: a52ngbIQAo7/ycX6IrK6h/qZQQQ=
+
+Name: res/drawable-nodpi-v4/phone_btn_normal.png
+SHA1-Digest: 5f10Iq3JgAvbxP4yrcfho2rqX0w=
+
+Name: AndroidManifest.xml
+SHA1-Digest: hM2X3ACYv2umfT7UH0IvDOWQtLM=
+
+Name: res/drawable-hdpi-v4/comment_star_gray_icon.png
+SHA1-Digest: fVgsbKkPj+ymCfCKiK9zmhlpDWg=
+
+Name: res/drawable-xxhdpi-v4/booking_btn_select_from_normal.9.png
+SHA1-Digest: AwSdXCjy1KRDdLNliElTiHNXr+g=
+
+Name: res/drawable-xhdpi-v4/driver_bg.png
+SHA1-Digest: E4BwKhtJ1VT9XCW7ZGBbwhA3dgQ=
+
+Name: res/drawable-xhdpi-v4/white_point.png
+SHA1-Digest: hhh57YxsPTytJ6tu9DBgqN39ovs=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_pressed.9.png
+SHA1-Digest: ignqoV9PIGcnUa5vEE2/IsPRU0Q=
+
+Name: res/drawable/bts_button_orange_disable.xml
+SHA1-Digest: JZMYOBf6AUqu/JWHelxwEoPDmFE=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_car.png
+SHA1-Digest: M5VmUdEeNVcZUaqT5dbKzA+e8uc=
+
+Name: res/drawable-nodpi-v4/menu_icn_found.png
+SHA1-Digest: FVEd/bdapxE7kUiHF2rHHeA3ct8=
+
+Name: res/drawable-nodpi-v4/honor_share.png
+SHA1-Digest: F/xN4HkbuBOlmmyd8f+kTka7Nrw=
+
+Name: res/raw-nodpi-v4/sfx_star_4.wav
+SHA1-Digest: +qLzW7jyKHihCbX3JcQ0N8oTBWI=
+
+Name: res/layout-nodpi-v4/car_confirm_popup.xml
+SHA1-Digest: n0dtyDmxqsa1fTVPXkHpH79iOX4=
+
+Name: res/layout/bts_modify_route.xml
+SHA1-Digest: isRNOTz8wPfIXh9467oKKUrzQaI=
+
+Name: res/drawable-nodpi-v4/common_toast_icon_error.png
+SHA1-Digest: fvcKQ2C9OsO5Rlp8yAUdAZ7Lm+w=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_info.png
+SHA1-Digest: r+gwyUNAcPeQBmH4b7jOC0Yp7pA=
+
+Name: res/layout/common_webview_title.xml
+SHA1-Digest: 1ZR/u6LZRBkSpaT2Sa+L/SYPoZc=
+
+Name: res/layout/car_invoice_history.xml
+SHA1-Digest: STbjpQNQvdtbxB0YdWngaXZFmbU=
+
+Name: res/drawable/bts_common_edit_bg_focus.xml
+SHA1-Digest: mV+Flxw51EZoThzeF198Mk+Pms4=
+
+Name: classes.dex
+SHA1-Digest: ebhk6P5xwT+xxw/nvLAIkqyh4RU=
+
+Name: res/drawable-nodpi-v4/common_icn_homeback_pressed.png
+SHA1-Digest: JKER3LbZJocgLX+gD6k/u7pprCs=
+
+Name: res/drawable-nodpi-v4/icon_delete_press.png
+SHA1-Digest: VJEsSA93OiZoanWyXnwRhh4nQDM=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_tuxing.png
+SHA1-Digest: frNqZQ739S8pDvtExYP8EqV75X4=
+
+Name: res/layout/ddrive_cost_detail_activity.xml
+SHA1-Digest: dplJqdOjVGi3aVf14spBhXvZyS0=
+
+Name: res/layout-nodpi-v4/remark_tag_layout.xml
+SHA1-Digest: 20az1cPROiKDRDeMy+JIYs2+ESQ=
+
+Name: res/drawable/common_bg_area_selector.xml
+SHA1-Digest: 0opW63z7oMUo1UgwTh3auEhjtsQ=
+
+Name: res/drawable-nodpi-v4/common_title_bar_ic_back_pressed.png
+SHA1-Digest: mhYTuMlTINGdaAp0Cuiedff0EWM=
+
+Name: res/drawable-nodpi-v4/image_dialog_safety.png
+SHA1-Digest: MB2KyOzvprX7lSY3BJ2bMCTAQj8=
+
+Name: res/layout-nodpi-v4/bts_verify_driver_identity.xml
+SHA1-Digest: ek18Smr+vnqwz1qEYKqbwkAfTMI=
+
+Name: res/drawable-hdpi-v4/booking_btn_select_to_pressed.9.png
+SHA1-Digest: 5nDVn2bdUhoEBVfRG9D12MUec7Q=
+
+Name: res/drawable-hdpi-v4/bts_appointment_message_p.png
+SHA1-Digest: AsORSHT9XCUmK057n8lU+Jzxj3k=
+
+Name: res/drawable-xxhdpi-v4/bts_homepage_windmil_p.png
+SHA1-Digest: nDw4nsL0S4t/7kzkltkFeFalyjA=
+
+Name: res/anim/bts_down_to_up_slide_out.xml
+SHA1-Digest: SLkYdR5Clvf5FnclIJF9XiB8Kr0=
+
+Name: assets/tencentmap/mapsdk_vector/color_arrow_texture
+SHA1-Digest: ql4l5vNBxEMH1BmXhZ3khM71tI0=
+
+Name: res/drawable-hdpi-v4/specialcar_map_waterdrop.png
+SHA1-Digest: SD6Q7Gi2lNPe/PME57he+7HJDc8=
+
+Name: res/drawable-nodpi-v4/im_icon_close_down.png
+SHA1-Digest: HicoSLDIn9KN/vCNxEkgg7yv/Ec=
+
+Name: assets/tencentmap/mapsdk_vector/mark_location.png
+SHA1-Digest: ZSMYgF2fgaQqH4dgqFz5bbx8xCA=
+
+Name: res/drawable/share_btn_weibo_selector.xml
+SHA1-Digest: 78e5OWiaa3dYRrBB9Nrz3TgMgPM=
+
+Name: assets/inc_btn_normal.png
+SHA1-Digest: psN1sKYQ4P+13zpLlxMDPoK2t1U=
+
+Name: res/layout-nodpi-v4/realtime_bottom_bar.xml
+SHA1-Digest: qzqtxTmOZQ1ckIU8M38PJG+QZRY=
+
+Name: res/layout-nodpi-v4/ddrive_cost_detail_view.xml
+SHA1-Digest: 36D8jqnq1pSp0X+s9CBGgISvgTQ=
+
+Name: res/layout-nodpi-v4/bts_time_picker_layout.xml
+SHA1-Digest: +pzTPMAYPlrkRDxE3QxwHziZLG8=
+
+Name: res/drawable/common_btn_white_selector.xml
+SHA1-Digest: FsVdgZERl2Dz94uG52R8pzt4NeM=
+
+Name: res/drawable-nodpi-v4/arrival_icn_pay_pressed.png
+SHA1-Digest: KqJuP4jnfie6GmbD5ZpHEOJwsR0=
+
+Name: res/drawable-nodpi-v4/share_samsung_s6.png
+SHA1-Digest: pF5BNQm/TQnpxdu2d8H1W5EYzFA=
+
+Name: res/layout-nodpi-v4/ddrive_car_cancel_end_slide_view.xml
+SHA1-Digest: w193GhF/G3K6Y+DxEG/xp/Qqt0U=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_driver_bar.xml
+SHA1-Digest: 3HL0raGallDoCHESQPiEtL/SoEY=
+
+Name: assets/tencentmap/mapsdk_vector/logo_satelite.png
+SHA1-Digest: ct6HcbS5EZFbu6pP2y+hZ0W/kqA=
+
+Name: res/layout-nodpi-v4/im_voice_record_dialog.xml
+SHA1-Digest: HkGgyHu1MijZ6lp+OEvqfqLQ+oU=
+
+Name: res/drawable-nodpi-v4/setting_icn_work.png
+SHA1-Digest: O5sPnOJXcYKxVg7X5Zf1+rkdSuo=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_normal_type_a.9.png
+SHA1-Digest: ap+j3p7nLRrLAPaYG2ZqgBOm6jc=
+
+Name: res/drawable-nodpi-v4/home_map_btn_crosshair.png
+SHA1-Digest: 4vsZGuB34rnpHuycC2FS5ZEVp3w=
+
+Name: res/drawable-hdpi-v4/im_message_left_bg.9.png
+SHA1-Digest: lc2n0YcQPXY3gENAYQ8n1iW9xb0=
+
+Name: res/drawable-xhdpi-v4/logo_kaixin.png
+SHA1-Digest: bn6qEnUf2QPPp+bRJemhZG3SJBo=
+
+Name: res/layout-nodpi-v4/business_field_itemview.xml
+SHA1-Digest: dBTQy/rCEB/GA7hrCSEQHmJ2oZo=
+
+Name: res/drawable-xhdpi-v4/fast_light_icon.png
+SHA1-Digest: 86nmPV+cGJG7TuOii3H4X3otmno=
+
+Name: assets/tencentmap/mapsdk_vector/province_rd.9.png
+SHA1-Digest: 2BmLwoqDljuFdJP52niHa+VttFs=
+
+Name: res/drawable-xhdpi-v4/logo_facebook.png
+SHA1-Digest: gp8goicvbnz+M/o2LWHiCz06zsc=
+
+Name: res/drawable-nodpi-v4/common_dialog_cancel_guide_icon.png
+SHA1-Digest: cb3Sd3/DcMOOD03sUVlUScPhgh4=
+
+Name: res/drawable-nodpi-v4/common_ic_flier.png
+SHA1-Digest: kLjbFh33Y0Alc/ZdWyKhy6Lm1fo=
+
+Name: res/drawable-nodpi-v4/common_bg_orange_circle.png
+SHA1-Digest: i56qpx+1Soxm/TLwRWbrKUQCv/I=
+
+Name: res/drawable-xxhdpi-v4/bts_wait_pay_icon.png
+SHA1-Digest: h18zLDnykaCzQffP4cYWowAYCCw=
+
+Name: res/drawable-xxhdpi-v4/share_btn_qq_normal.png
+SHA1-Digest: dN2kRrd/TxQ8g3ysEHytAg9bS6I=
+
+Name: res/drawable/bts_tag_bg_selector.xml
+SHA1-Digest: FH03Km0aCACOmEYpM7j76aYcB70=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_tianyu.png
+SHA1-Digest: ggQeWzkBy5z/QKj/EgMhrDN8hNc=
+
+Name: res/drawable-nodpi-v4/icn_work_normal.png
+SHA1-Digest: qJcpzbN+1vPcouQDAktWnXoPrpw=
+
+Name: assets/tencentmap/mapsdk_vector/color_point_texture
+SHA1-Digest: 4hESaSgw2iAYKdY0riCHJJIzTME=
+
+Name: res/anim/wait_for_arrival_footer_slide_out.xml
+SHA1-Digest: dhbDd81T+gLAlByAvM4w0BLqW70=
+
+Name: assets/tencentmap/mapsdk_vector/province_satellite
+SHA1-Digest: fvqJBo4n6x6y06EQ0xj3KGgyKQk=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_channel_voice_normal.p
+ ng
+SHA1-Digest: hBWZtP/icd2awJ4i3jeVnd03zX0=
+
+Name: res/drawable-nodpi-v4/voice_icon_white_right1.png
+SHA1-Digest: kwtSnCqk1c5U1jPFME+QysR+Gxc=
+
+Name: res/drawable-nodpi-v4/voice_icon_white_right.png
+SHA1-Digest: 70VAfmKjexK3vrEWiJiDM4L1TAM=
+
+Name: res/layout-nodpi-v4/car_complaint_view.xml
+SHA1-Digest: QpejLs60oh7/7ZcSBBadeY/aLTc=
+
+Name: res/drawable/bts_tag_edit_bg.xml
+SHA1-Digest: 8CrCvcW1s/J1YZSTqKsdgmb7CNc=
+
+Name: res/layout/bts_picker.xml
+SHA1-Digest: ZeBAzPFlxdLgViB/J3mcnLvbYaA=
+
+Name: res/drawable-nodpi-v4/order_btn_delete_normal.png
+SHA1-Digest: HrwbScXF/QcdC4nGt8Fnn5eq/OA=
+
+Name: res/drawable-nodpi-v4/car_business_small.png
+SHA1-Digest: 51Ph8UKxRfOlQsKRXOMMwjonyIk=
+
+Name: res/drawable-xxhdpi-v4/bts_xexception_noorder.png
+SHA1-Digest: dKsyD2WHdhIRqUkx/+iuBdveAuM=
+
+Name: res/drawable-xxhdpi-v4/trip_self_bubble_endpoint.png
+SHA1-Digest: Ekrqv9Ez0ryqcT4VdZSn923kNCI=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_driver_bar.xml
+SHA1-Digest: hC6zcLXD5SNVZOgj5xXaBiTtOp4=
+
+Name: res/drawable-nodpi-v4/title_bar_menu_normal.png
+SHA1-Digest: j6+FmXMZy0RpP71Q9OomCZhNjl8=
+
+Name: res/color/common_pin_above_text_color_selector.xml
+SHA1-Digest: lvVA/kwnidGbXttAq2+0ozRsJw0=
+
+Name: assets/tencentmap/mapsdk_vector/province_highway
+SHA1-Digest: 4kY2tpIzb1vNK7ToNDqsA4fp/FE=
+
+Name: res/drawable-xhdpi-v4/ssdk_back_arr.png
+SHA1-Digest: Rxbe81v2AIEM7XxW8FOEQrQfDqA=
+
+Name: res/layout-nodpi-v4/car_invoice_content_picker.xml
+SHA1-Digest: Wu6IaWFcB+07XxYjgvLCZhBydIw=
+
+Name: assets/channel.txt
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/drawable-nodpi-v4/network_error.png
+SHA1-Digest: p5OrM3M/Z0fVgTw5cHga3MGrnuQ=
+
+Name: res/drawable-xxhdpi-v4/bts_appointment_message_n.png
+SHA1-Digest: YGXLEIfsrSQFAK/eH4bLtCbL+V8=
+
+Name: res/drawable/bts_weixin_use_rand_name_selector.xml
+SHA1-Digest: 4CH0NHhyWJg2TYXvtKI1Skf/Lps=
+
+Name: res/raw-nodpi-v4/christmas_didi.m4a
+SHA1-Digest: NQF93AhxPgRUU3Ru2oPGROd4/34=
+
+Name: res/drawable-nodpi-v4/icon_taxi.png
+SHA1-Digest: fTW87sU3U10wYZ2cGenyZum6vT8=
+
+Name: res/drawable-nodpi-v4/dialog_first_icon_mail.png
+SHA1-Digest: C9JXLhES+DkC/W2+eOj7HoFmios=
+
+Name: assets/tencentmap/mapsdk_vector/marker_infowindow.9.png
+SHA1-Digest: D1GjlnnYSMp9GwLRFOgrVmgWnUw=
+
+Name: res/drawable-nodpi-v4/arrival_btn_bubble_normal.9.png
+SHA1-Digest: vmO7R18GAb22+HARcDF+xOuJMYU=
+
+Name: res/anim/common_message_popup_exit.xml
+SHA1-Digest: Jxkz/jm++Vs+YED2dgBT3cP2FLE=
+
+Name: res/drawable-nodpi-v4/im_headimage3.png
+SHA1-Digest: etP3zEwBIGnUQpZ3cM0C2t7VN7U=
+
+Name: assets/tencentmap/mapsdk_vector/ROSE.png
+SHA1-Digest: umJmpZxDvZkOg5Pdey5M+2iEXCc=
+
+Name: res/layout/bts_discount_fee_with_arrow_item.xml
+SHA1-Digest: 9444HZcb2yZ72A40bjdvmGDs2k4=
+
+Name: res/drawable-nodpi-v4/car_luxury_small.png
+SHA1-Digest: 0kueiJXvmaNpgAVarieQDMhqKMA=
+
+Name: res/drawable-nodpi-v4/driver_head.png
+SHA1-Digest: XJ95csL06KkpbDxMfFhAQmApKXM=
+
+Name: res/layout-nodpi-v4/wxagent_check_dialog.xml
+SHA1-Digest: b/Q1PRtbNLjgSWUJYE9m/uqQXRI=
+
+Name: res/layout-nodpi-v4/car_single_item.xml
+SHA1-Digest: 2RMfvrc82zCzNxt2TbTVl7vBS50=
+
+Name: res/layout-nodpi-v4/pay_share_item.xml
+SHA1-Digest: FxljVyfG/Jn8hbiXsFTmyZapkJU=
+
+Name: res/drawable-nodpi-v4/arrival_icn_bj_normal.png
+SHA1-Digest: IubnjgTfgwHw7d1Qw79nP52cxx8=
+
+Name: res/drawable-nodpi-v4/didi_daijia.png
+SHA1-Digest: BJ05/hfJHyNI1GSDgVXfBv0zIIE=
+
+Name: res/layout/bts_order_task_fragment.xml
+SHA1-Digest: rKs02JgTYndou97zdvSVXyNIEfM=
+
+Name: res/drawable/im_common_msg_selector.xml
+SHA1-Digest: ynbOGEaxkBe6vIqq0+qSoNVoflA=
+
+Name: res/drawable-nodpi-v4/button_suspended_pressed.9.png
+SHA1-Digest: WTDx83Ies18OEpuAM0HZZb6zSeU=
+
+Name: res/drawable/driver_info_bar_grade_value.xml
+SHA1-Digest: /7K6JIwsHKVxUBmuadcQFrbKn6E=
+
+Name: res/layout-nodpi-v4/bottom_list_menu.xml
+SHA1-Digest: m+yJMzaNDTfiUJrmyfgMYNLQKRo=
+
+Name: res/drawable-xhdpi-v4/ssdk_title_div.png
+SHA1-Digest: DloK2NAixcsnyoNpzHoN1vuEAzU=
+
+Name: assets/tencentmap/mapsdk_vector/drivepic.cfg
+SHA1-Digest: oIRZeuqsc1qY49hI/Cgy41N3tmQ=
+
+Name: res/drawable-nodpi-v4/common_toast_bg.9.png
+SHA1-Digest: +FdWzdc/UgcfXaTdJRpcN+6uMio=
+
+Name: res/drawable/arrival_icn_bj_selector.xml
+SHA1-Digest: +xC7qWhuqQId3D9COXhED8Blerk=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_passenger.png
+SHA1-Digest: w+KRxyHrCo1Q0SxdoyQ4KOXdLpA=
+
+Name: res/drawable-xxhdpi-v4/bts_login_weixin.png
+SHA1-Digest: 0rVPh7MC82/Vg5+vKEEfEbaPZTQ=
+
+Name: res/layout-nodpi-v4/setup.xml
+SHA1-Digest: JwNQcrzG3CTI8llJZhlvuyfYyyM=
+
+Name: res/layout/bts_booking_layout.xml
+SHA1-Digest: VmvYaTNNPZmuB0aC3QrP+qOUWRQ=
+
+Name: res/drawable-nodpi-v4/im_headimage2.png
+SHA1-Digest: ye4A8zFSaf2J7MeKn3jozHGvTxw=
+
+Name: res/drawable-nodpi-v4/zhifu_weixin.png
+SHA1-Digest: TxRVUfAxw7j+BTzJJ38xKRn7u0g=
+
+Name: res/layout-nodpi-v4/car_estimate_price_item.xml
+SHA1-Digest: jOjeIPOLixsvK5WA5eEIUqtYaFw=
+
+Name: res/drawable-nodpi-v4/menu_icn_food.png
+SHA1-Digest: aQ84Gip0vjfRkoBDulBQC+svrLA=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_share_pink_selector.
+ xml
+SHA1-Digest: 3Q4jUn1aecdxbGBF/eyx5lmyXZo=
+
+Name: res/drawable-nodpi-v4/arrival_icn_pay_normal.png
+SHA1-Digest: hJtN/fl7s0NyXECJsLOTJJ8Twzw=
+
+Name: res/drawable-nodpi-v4/order_btn_delete_pressed.png
+SHA1-Digest: 0UNWJTYCNc0hXhiu3Jb9kTsSn8s=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: dAdSV+h3wK7lNp0A1V/VEG9ndoo=
+
+Name: res/layout/bts_crop_layout.xml
+SHA1-Digest: gr4AtdG8LGEAHAMCM/a86w93/eY=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_driver_1.png
+SHA1-Digest: 92yOyxQkeIFt8TN3B7yVDgq2dLM=
+
+Name: res/drawable/bts_add_tag_bg.xml
+SHA1-Digest: CHC5OWjEEppNcUhZkhO0A4mWSYQ=
+
+Name: res/raw-nodpi-v4/share_image.jpg
+SHA1-Digest: Uc7wBNwI++gOQ3zEzcsDIC/OcmU=
+
+Name: res/drawable/bts_button_orange_nor.xml
+SHA1-Digest: rPYADEJytsw4HrElxfuIvND+9nI=
+
+Name: res/drawable-nodpi-v4/icon_webview_error_notfound.png
+SHA1-Digest: LKKGnomHhu+fiqPuXrH2UniHHZQ=
+
+Name: res/drawable-nodpi-v4/menu_icn_wallet_red.png
+SHA1-Digest: i4cdYDE9S2LMctjSkKOuwpMven0=
+
+Name: assets/inc_click_down.png
+SHA1-Digest: rJBvqYzhvpAOiXfGJP1+Ex1DO9U=
+
+Name: res/drawable/shape_circle_red.xml
+SHA1-Digest: ZGBvPOipp0jphbxcefc049nQ8ck=
+
+Name: res/drawable-nodpi-v4/select_icon_luxury.png
+SHA1-Digest: 9VS2l0nNMp+ob9fZ39Or3xbqT4M=
+
+Name: res/drawable-nodpi-v4/complain_icn_fire_gray.png
+SHA1-Digest: 67+KSc8LIq+13nw5yFGQ95QQoOA=
+
+Name: res/drawable-xhdpi-v4/logo_shortmessage.png
+SHA1-Digest: ANDFkTFKAW9KFTmg7Gp/oNkKIOY=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_normal_type_c.9.png
+SHA1-Digest: g0qh0Fo7hYDt52bJt/EjQiyVnZM=
+
+Name: res/drawable/bts_button_white_press.xml
+SHA1-Digest: OXE8zbpUzCm+bB8C9tZNGk+oKWk=
+
+Name: res/drawable-hdpi-v4/driver_bg.png
+SHA1-Digest: uvQcTA0UO0kwGT/1WmOpw9O9fYE=
+
+Name: res/layout/bts_listview_footer.xml
+SHA1-Digest: cupkfdgwu/qj2P2jn5l1MzwJBjY=
+
+Name: res/drawable-xxhdpi-v4/bts_order_cancel_icon.png
+SHA1-Digest: lRi5ikEKCsFv3YVqnygmAXyN0mE=
+
+Name: res/drawable/bts_btn_gray_box_nor.xml
+SHA1-Digest: N7tETOwprttlLmUbxr1dHXcVTmE=
+
+Name: res/layout-nodpi-v4/im_common_msg_popup.xml
+SHA1-Digest: Hawq7gdTVfWWPwzeyNmjIaou5Yk=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_found_web_view.xml
+SHA1-Digest: pUa+FGbZ2uyDVoGywzVTMROXF6I=
+
+Name: res/drawable-xhdpi-v4/auth_follow_cb_unc.png
+SHA1-Digest: Du78zAJA6b0nLhl6JhpMJyA3Qwo=
+
+Name: res/drawable-hdpi-v4/taxi_bearing.png
+SHA1-Digest: Y0GCZZGG2vzNt883g6udsk18bDY=
+
+Name: res/drawable/bts_phone_btn_selector.xml
+SHA1-Digest: 11X/2xuh/WzWL48paCUj6Yqhziw=
+
+Name: res/drawable/bts_edit_tag_bg_no_border.xml
+SHA1-Digest: tr3G25YbNO3Nwvp6a7dPQ+lnjxw=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_btn_pressed.png
+SHA1-Digest: MRC23iyzT7UxRwLI/6stmwchS0E=
+
+Name: res/drawable-xxhdpi-v4/share_btn_weixin_normal.png
+SHA1-Digest: HMFiYix7OXbsOsUDpI8hfdLVJc4=
+
+Name: res/drawable-nodpi-v4/icn_home_actived.png
+SHA1-Digest: w9nKpaI2yw9l0BiJVh+AL/HRF5Q=
+
+Name: res/drawable/map_mark_progress_bg.xml
+SHA1-Digest: yftYXZMteS8h21HbPyK1rrwc3jo=
+
+Name: res/anim/popup_exit.xml
+SHA1-Digest: 0VPJpEeXmsvmh7VnoS1vkERM9wk=
+
+Name: res/drawable-nodpi-v4/im_voice_red.png
+SHA1-Digest: MHtT9ObDMRH2mURCYe/0D59Qz+E=
+
+Name: res/layout-nodpi-v4/ddrive_pay_method_view.xml
+SHA1-Digest: qtxKt0CRfK/tNxDMEi19s+y80Jk=
+
+Name: res/drawable/image_dialog_head_area_bg.xml
+SHA1-Digest: UZk8vnQbhWhmHLtSNLwjg/WKXvY=
+
+Name: res/layout-nodpi-v4/taxi_wait_for_arrival_pay_bar.xml
+SHA1-Digest: 26oA3NbsDxwSRI33mp9p1+e0UZs=
+
+Name: res/drawable-nodpi-v4/icon_add_price_far.png
+SHA1-Digest: WPpfz0i3ePkjWMumc7yvoeAgHmc=
+
+Name: res/drawable-nodpi-v4/wandoujia_share.png
+SHA1-Digest: Z5ZhO2PTk5kzn2MzczQ+onglzus=
+
+Name: assets/tencentmap/mapsdk_vector/province_highway_sat.png
+SHA1-Digest: ecO9dw6QErLOJUQCrdzmVZ/25pA=
+
+Name: res/layout-nodpi-v4/version_instro_layout.xml
+SHA1-Digest: naAiV9qp6l4LMdtpiOpCgy/ezis=
+
+Name: res/anim/bts_down_anim.xml
+SHA1-Digest: deRRKrzig3QJ1vd/gdNZsmhdt1Q=
+
+Name: assets/tencentmap/mapsdk_vector/mark_location_big.png
+SHA1-Digest: FKhhlzVIfMEu7M8+emYCt+f2ocg=
+
+Name: res/layout-nodpi-v4/share_fragment.xml
+SHA1-Digest: XIz2YtnySj7Mpw5kdlTZwG49wNw=
+
+Name: res/drawable-hdpi-v4/bts_home_page_button_n.9.png
+SHA1-Digest: 8Qt16voSqkN8vsNM3fJ6FNUUg10=
+
+Name: res/layout-nodpi-v4/ddrive_pay_channel_item.xml
+SHA1-Digest: IYRyi06w76rOQ4/zTvLq0zf4z+E=
+
+Name: res/drawable-nodpi-v4/jinli_share.png
+SHA1-Digest: 3/cJQmOOGYQThTqdPWWasa9gU/c=
+
+Name: res/drawable-xhdpi-v4/confirm_icn_speechsound3.png
+SHA1-Digest: Ta0VJ1mvT6DNBwPe0wMKAecy8/8=
+
+Name: res/drawable-nodpi-v4/common_foot_logo.png
+SHA1-Digest: pLiuL985kl3hoSMAo+ET4v2Y110=
+
+Name: res/drawable-nodpi-v4/im_headimage5.png
+SHA1-Digest: MW+yAgGNHVxxX3Uts/ndb+myNqk=
+
+Name: res/drawable-nodpi-v4/ic_contact_avatar.png
+SHA1-Digest: 4pC+yznWLIgFTv4JZDuxUWsQ9B4=
+
+Name: res/drawable-nodpi-v4/select_icon_business.png
+SHA1-Digest: CuKCTe+8xxgeH/TEo6HDLMyQ3tk=
+
+Name: assets/tencentmap/mapsdk_vector/subway_station.png
+SHA1-Digest: U5n+x+3I5hJpcE1Eieu4yB3qHaQ=
+
+Name: assets/inc_setup_bg.png
+SHA1-Digest: cUrBLUK8AMshgLJWgFxmWSYiCWQ=
+
+Name: res/drawable-xxhdpi-v4/common_icn_pay_weixin.png
+SHA1-Digest: tmg3ulAVankAg3RUCIuS6Cu8xQE=
+
+Name: res/drawable/bts_btn_orange_selector.xml
+SHA1-Digest: N6Pda0Jd5ei6oE7mbWO/EU4yVp0=
+
+Name: res/drawable-nodpi-v4/menu_icn_game_new.png
+SHA1-Digest: Qai/ab3A4/trgFmwjO6zw43SB0Q=
+
+Name: res/drawable-nodpi-v4/arrival_icn_ticket_normal.png
+SHA1-Digest: Jqv5x4hW1pDNEoiDvceceH1Ezyk=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_jinli.png
+SHA1-Digest: dJtOhOIfVfxFqMfQaRgKxzhW9XA=
+
+Name: res/drawable/bts_home_page_button_selector.xml
+SHA1-Digest: sleUZZQC7/oUk6ytFMsG3vmWWeE=
+
+Name: res/drawable/bts_remark_bg_n_selector.xml
+SHA1-Digest: JzQC4+E2cakWWKhjInUme7HHRE0=
+
+Name: res/layout-nodpi-v4/bts_realtime_layout.xml
+SHA1-Digest: J6YsHFgnZAM+604ZUsx5do5/rrE=
+
+Name: res/anim/popup_enter.xml
+SHA1-Digest: ioU6zhgep5fMjiybQk1WL1Z6Pvo=
+
+Name: res/drawable-nodpi-v4/im_headimage8.png
+SHA1-Digest: W8jhQcw9xg0JU/pGifMuPUxcCD0=
+
+Name: res/drawable-xhdpi-v4/taxi_map_waterdrop_light.png
+SHA1-Digest: 27p8UbxCkXLmVR4HWZyiGBD20Vg=
+
+Name: res/drawable/im_sending_progress.xml
+SHA1-Digest: KE2+Vmf1ofWdykTZskf4yr9SlFE=
+
+Name: res/drawable-nodpi-v4/dialog_icon_weixinpay.png
+SHA1-Digest: zW9vdVx8qO/Ya8THiFglPzzqynM=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_home_selector.xml
+SHA1-Digest: W6kgG659ilAD/7uz7xrq696R+Mc=
+
+Name: res/drawable/common_pin_ic_remark_selector.xml
+SHA1-Digest: /zu7o6Lah8lTN8Vrks9oUYTxShI=
+
+Name: res/drawable-nodpi-v4/common_checkbox_unpressed.png
+SHA1-Digest: MQi8vcxiw7vxw5Iu84Ctg46Ym7Q=
+
+Name: res/drawable-xxhdpi-v4/trip_friend_bubble_endpoint.png
+SHA1-Digest: PbKD+rAo3PHDL3cCQMGxiENmFwQ=
+
+Name: res/drawable-nodpi-v4/l12.png
+SHA1-Digest: YP31grINWfO3eoP2H4DV75PCls8=
+
+Name: res/drawable-nodpi-v4/setting_about_didilogo.png
+SHA1-Digest: 5i8HWef3CuJdOGA0trxR4j/koRE=
+
+Name: res/drawable-xhdpi-v4/btn_cancel_back.9.png
+SHA1-Digest: Ex24ZC+U0vnb0fzyZZd6z134NIs=
+
+Name: res/drawable/my_order_popup_bg_selector.xml
+SHA1-Digest: YY0wuS2Se6w1QQ4WUNan0kyzgBM=
+
+Name: res/drawable-nodpi-v4/close_btn_normal1.png
+SHA1-Digest: OsWArCfdZCYxRIPxgqD6G4ZikY8=
+
+Name: res/drawable-xxhdpi-v4/icon_webview_more.png
+SHA1-Digest: 9QE0aOZpIqGfo/hpeEPLAn4MGIg=
+
+Name: res/drawable/app_list_corner_shape.xml
+SHA1-Digest: QD4QJHtjHPhaBqsFsY1MHgHSHao=
+
+Name: res/layout-nodpi-v4/my_progress_bar.xml
+SHA1-Digest: F8BPKyIZx5TReaBzpNF+QFg5p9o=
+
+Name: res/layout-nodpi-v4/car_cancel_end_slide_view.xml
+SHA1-Digest: JH0akGjomBoVCeJVggeEBHAF2hc=
+
+Name: res/drawable-nodpi-v4/dialog_icon_correct.png
+SHA1-Digest: Gx4YMaWbqcofVTkWTRZ+Z5tsmSA=
+
+Name: res/layout-nodpi-v4/user_view.xml
+SHA1-Digest: e2yrEYhJ+hB5/NwmW0gRIA/7KqM=
+
+Name: res/layout-nodpi-v4/bts_passenger_wait_for_car_activity.xml
+SHA1-Digest: RDLRAHdHmRdFqAElx0a5y4hE6H0=
+
+Name: res/drawable/bts_detail_user_rate_choice_bg.xml
+SHA1-Digest: dBkCuQyfstl39wfrcYxvx8JFEQA=
+
+Name: res/drawable-nodpi-v4/setting_btn_switch_open.png
+SHA1-Digest: n7cWxT7cuYI2DWB4YBNuZSquE0w=
+
+Name: lib/armeabi/libtxmapengine.so
+SHA1-Digest: Y/bNCF5ah8jo5WNNdf3WGvBbVHM=
+
+Name: res/anim/webview_tool_footer_slide_in.xml
+SHA1-Digest: KfVAKHKENeP2q+PyLhpii4kS174=
+
+Name: res/drawable-hdpi-v4/booking_btn_select_from_pressed.9.png
+SHA1-Digest: APfxFN1g9x7LOiSvqNE1RTWN1H0=
+
+Name: res/drawable-hdpi-v4/booking_btn_select_from_normal.9.png
+SHA1-Digest: VljjMVbRpqsBPBpAmTGgkN6oWQY=
+
+Name: res/drawable-nodpi-v4/icon_webview_error_busy.png
+SHA1-Digest: hhStQpGnHP1hxA9W8bsduOCRVlA=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_progress.9.png
+SHA1-Digest: RKWhhCG3J8oPq/cdEgB568pNLSA=
+
+Name: res/drawable-xhdpi-v4/logo_flickr.png
+SHA1-Digest: m7BvRqzxlmOsOULU/1RshWarLBk=
+
+Name: res/layout/car_cost_detail.xml
+SHA1-Digest: GySg17ht/GGdmO/GWgOZjSQr1I8=
+
+Name: assets/inc_province.png
+SHA1-Digest: OAmIMM5ywH78Miq34OmshEFrZMk=
+
+Name: res/layout-nodpi-v4/map_voice_fare_poup.xml
+SHA1-Digest: RaP52NyfZpuBiFtk7JEHBOHuWXk=
+
+Name: res/drawable-xxhdpi-v4/fastcar_bearing.png
+SHA1-Digest: K21UVChEnC3G8LLt7XHTjAMYr3Q=
+
+Name: assets/tencentmap/mapsdk_vector/offline_ver.cfg
+SHA1-Digest: 13y/0GUf3lwK0EF+pLWVQOqcSVU=
+
+Name: assets/tencentmap/mapsdk_vector/national_rd.9.png
+SHA1-Digest: snmgek1R7/Ilc8RMYsbYEiLGQ4E=
+
+Name: res/layout-nodpi-v4/hot_city_item.xml
+SHA1-Digest: RT9WrF/iY+okBrEA7GXL3N9/dSc=
+
+Name: res/layout/bts_horizontal_light_gray_line.xml
+SHA1-Digest: wswtJaecUWE7NIy7mn5z76mU8d0=
+
+Name: res/drawable-hdpi-v4/fastcar_bearing.png
+SHA1-Digest: RsHpmiUp9o7xhAYjRI7AnnE4tn0=
+
+Name: org/apache/http/entity/mime/version.properties
+SHA1-Digest: bid50ZgMS/gQ5ZecVJVZXdGpiMI=
+
+Name: res/anim/alpha_out.xml
+SHA1-Digest: vUAIn+Ixd52PYmXajTOpY+3r+Ew=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_s6.png
+SHA1-Digest: WgR77mkgbHuS+kW3zscRd0TK8i4=
+
+Name: res/drawable-xhdpi-v4/ssdk_oks_shake_to_share_back.xml
+SHA1-Digest: uHJhgi1FfQrlh5OkNincSfjxQno=
+
+Name: res/drawable/shape_bg_listview.xml
+SHA1-Digest: hRNTeQLJlH40g3QMwaBi/jdu8t0=
+
+Name: res/drawable/remark_txt_bg.xml
+SHA1-Digest: H7zZz5vBDUV7zPsolhjxV+pRppk=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_passenger_1.png
+SHA1-Digest: 92yOyxQkeIFt8TN3B7yVDgq2dLM=
+
+Name: res/drawable-xhdpi-v4/share_vp_back.9.png
+SHA1-Digest: nwXQPmiIQvlx68Un3l+t7C+zuqM=
+
+Name: lib/armeabi/libgetuiext.so
+SHA1-Digest: uz4K52ZotpahSsFpqNful7ej1cY=
+
+Name: res/layout-nodpi-v4/car_wait_for_arrival_paid_bar.xml
+SHA1-Digest: Q0SsXCGFZbX2BzVBKocs2+v/Kqk=
+
+Name: res/drawable-nodpi-v4/icon_dynamic_bg.png
+SHA1-Digest: wxgpu+3V1Sc3/BliroAG+iVb2i0=
+
+Name: assets/inc_setup.png
+SHA1-Digest: orkRefpmQEkLa+ar/kc9cL556+g=
+
+Name: res/drawable-nodpi-v4/public_good_icon.png
+SHA1-Digest: jZ3TO6ePPvuev2o+E+oERUaFprQ=
+
+Name: res/drawable-nodpi-v4/realtime_bottom_bar_channel_text_normal.pn
+ g
+SHA1-Digest: 3yTsEADWp2LGWnEVLDbGEFz0wH0=
+
+Name: lib/armeabi/libtencentloc.so
+SHA1-Digest: VaTttvEgbltIVXbuxbh4TlpuC9s=
+
+Name: res/drawable/bts_selector_start_adress.xml
+SHA1-Digest: yqPohBHm0fYgVBlHq+OAvbOJoDc=
+
+Name: res/drawable-nodpi-v4/search_ic_searching.png
+SHA1-Digest: 8Z6wg88zAzQzo/5MsGS5szBkRbQ=
+
+Name: res/drawable/common_input_address_selector.xml
+SHA1-Digest: pZ7viMEyQ1kG0IS9bIpoiqh5MSg=
+
+Name: res/drawable-xhdpi-v4/title_shadow.png
+SHA1-Digest: LALhXzWajUQxP3OEPz9GPgH0DTc=
+
+Name: res/layout-nodpi-v4/map_drive_wait_pop.xml
+SHA1-Digest: c7t9E9ONYAxZzGGNjw626YEcJBc=
+
+Name: res/drawable-xhdpi-v4/logo_pinterest.png
+SHA1-Digest: MRUM4Nr1AVQ8N2JuiwNSkVanmu8=
+
+Name: res/drawable-nodpi-v4/common_icn_carmodel_disabled.png
+SHA1-Digest: 4YRE6DRLtqkWV7YvnKIdD/O3S1Q=
+
+Name: res/drawable-xxhdpi-v4/bts_mark_the_owner.png
+SHA1-Digest: pEnI0tb7OhZ9LByqafofSeZdqSY=
+
+Name: res/layout-nodpi-v4/car_driver_fragment_driver_info.xml
+SHA1-Digest: jvrdwA9nou16fyxq8/qhfP4LUys=
+
+Name: assets/inc_btn_pressed.png
+SHA1-Digest: PEQzPDzFXkWcrXL3C2wyddCvw1U=
+
+Name: res/drawable-xhdpi-v4/ic_splash_logo.png
+SHA1-Digest: rMJkp6WDhKuVOsQAOrXRwoUy610=
+
+Name: res/drawable/bts_btn_gray_box_selector.xml
+SHA1-Digest: yb3RaMUEnwM51I+wgtqK4U7hF/A=
+
+Name: res/drawable-hdpi-v4/bts_order_cancel_icon.png
+SHA1-Digest: N2WuMJpwqFRxzUBYmUintd6KCKc=
+
+Name: res/drawable-xhdpi-v4/logo_line.png
+SHA1-Digest: IBVlaL3CPk3AyrmjLwLnD7kGOho=
+
+Name: res/layout-nodpi-v4/activity_common_container.xml
+SHA1-Digest: ilXjVTF1Gs0TWtBsZ1Tg6IZLIbM=
+
+Name: res/drawable/bts_edit_tag_bg.xml
+SHA1-Digest: fWMT7rkhQ/imIHPL3Tpr37Eiw+U=
+
+Name: res/drawable-xhdpi-v4/logo_sinaweibo.png
+SHA1-Digest: glzb02DOEZNNGd+GnVUPRrKNyxE=
+
+Name: res/drawable-xhdpi-v4/ic_map_location.png
+SHA1-Digest: wrRs16YkZAVy54rNa0DDxgx2suM=
+
+Name: res/drawable-nodpi-v4/common_bg_circle_disable.png
+SHA1-Digest: Z9WZhJ5XJ1kV1bClAvR/7Fcd2f0=
+
+Name: res/drawable-xxhdpi-v4/game_float_menu.png
+SHA1-Digest: d7MI7JE+U5XaUaeWgp7XMDRUs5Y=
+
+Name: res/drawable-nodpi-v4/arrival_btn_close_pressed.png
+SHA1-Digest: h24WbEZ30IAhIxDSTTVNEWVGrO0=
+
+Name: res/anim/down_slide_out.xml
+SHA1-Digest: LBm5oK4A0xnUwRwiDGFvR0+2SAg=
+
+Name: res/drawable/bts_redpoint_selector.xml
+SHA1-Digest: 08EgHgzQUfzjKcgRLJh88oL9cA4=
+
+Name: assets/tencentmap/mapsdk_vector/YELLOW.png
+SHA1-Digest: xrrdWW3TcCuahJ0ajs2ewdxscQY=
+
+Name: res/drawable-xhdpi-v4/confirm_icn_speechsound1.png
+SHA1-Digest: 5xv5yt/fTAvhJr/MZTYM/fpyoPg=
+
+Name: res/drawable/bts_btn_back_selector.xml
+SHA1-Digest: JYqe0/wTl9szBwQ3jvxaUenyp9Y=
+
+Name: res/drawable/bts_order_pay.xml
+SHA1-Digest: prgbF2EsJfaSSXwfUnzGui6y3BM=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_address.png
+SHA1-Digest: 7xyu4wrHhGqDYvrohoLjhn5XwOQ=
+
+Name: res/drawable-xxhdpi-v4/bts_map_copy_tip_normal.9.png
+SHA1-Digest: endyBhcGNwYX/KX/Nt+nIoWf4Ic=
+
+Name: res/layout-nodpi-v4/common_toast.xml
+SHA1-Digest: nv6t+6WNClgpTWMAjkwy1HlGee4=
+
+Name: res/drawable-hdpi-v4/trip_friend_bubble_endpoint.png
+SHA1-Digest: 9lh0k0dj+YUFP3mQpJBjO9jSW6w=
+
+Name: assets/libtencentloc
+SHA1-Digest: VaTttvEgbltIVXbuxbh4TlpuC9s=
+
+Name: res/drawable-nodpi-v4/arrival_img_diditaxi.png
+SHA1-Digest: E2b4hRcIIjgLJMt+tvmAIlVhIp8=
+
+Name: res/drawable-nodpi-v4/im_phrase_icon_normal.png
+SHA1-Digest: cV8YUf1RxufgMkJNOLW6RMJs1p8=
+
+Name: res/drawable-nodpi-v4/bts_stroke_label_ride_passenger.png
+SHA1-Digest: S6hj1a1hzKbesW2QaJ48tqFmgS8=
+
+Name: assets/tencentmap/mapsdk_vector/national_sat.png
+SHA1-Digest: 1rSOE446XPbhUNP7BexyrcO43co=
+
+Name: res/layout/bts_liuyan_view.xml
+SHA1-Digest: CcwwlmkveK6iW6QDoCh4ynEhtFM=
+
+Name: res/layout/bts_map_route_tip.xml
+SHA1-Digest: yBEsjfZF7xfKx4QOL9C4I96vASI=
+
+Name: res/drawable-xxhdpi-v4/share_btn_contacts_normal.png
+SHA1-Digest: exWoJKtvX7zB4zDlWEugmawRzF0=
+
+Name: res/drawable/im_bottombar_bt_keyboard_selector.xml
+SHA1-Digest: cuYF23jHM58HN8nQbGDgCwd3miY=
+
+Name: res/anim/webview_tool_footer_slide_out.xml
+SHA1-Digest: dhbDd81T+gLAlByAvM4w0BLqW70=
+
+Name: res/layout/bts_no_content_layout.xml
+SHA1-Digest: nT2iU9VDJJajd4GvL+dlwNyhIMI=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_crash.png
+SHA1-Digest: zsw8cK7YthiU/Caqx4A4wrZvHKU=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_wandoujia.png
+SHA1-Digest: yKrLS1Ih5OeHtCJpjr/z82v8Qp0=
+
+Name: res/drawable-xxhdpi-v4/bts_general_phone_n.png
+SHA1-Digest: MkmQZF/KwyxAs1LgBzMv0bkev2Q=
+
+Name: res/drawable-nodpi-v4/ddrive_stroke_label_ride.png
+SHA1-Digest: eeuDx/wsYUP+AY2Rd5JUQkuLU/0=
+
+Name: res/drawable-nodpi-v4/menu_icn_invitation.png
+SHA1-Digest: V9GmprxUhriu+sXgD0TE84ThOIY=
+
+Name: res/drawable/im_message_icon_selector.xml
+SHA1-Digest: W9VsUWhmWfhjonlUGJ//Tmdgo20=
+
+Name: res/drawable-nodpi-v4/setting_icn_home.png
+SHA1-Digest: NrcIJ2roVrkntL0uT2l0RQfA7JM=
+
+Name: assets/inc_update.png
+SHA1-Digest: PzPUuphJPJ+ijRdG1YwmZDDlvI8=
+
+Name: res/drawable/bts_home_page_windmill_selector.xml
+SHA1-Digest: sIGhiODPZEsuqjpWtokaPj/LtKM=
+
+Name: res/drawable-nodpi-v4/yingyongbao_share.png
+SHA1-Digest: LjhTAcT4CEK6uWljrck+cY+P0ZQ=
+
+Name: res/layout/bts_route_match_degree_setting.xml
+SHA1-Digest: sYJA1H9x28QooGtogx6EPb1SBJA=
+
+Name: res/layout-nodpi-v4/ddrive_cancel_view.xml
+SHA1-Digest: tTDanX8dl2+iq0yziEKaqCOImfg=
+
+Name: res/drawable-hdpi-v4/bts_home_page_button.png
+SHA1-Digest: t+Mpp3KLYTMi5C9Pm00LsW1V5/M=
+
+Name: res/drawable-nodpi-v4/common_dialog_icon_price_rising.png
+SHA1-Digest: UaviaRfWwwne5x1UsICBi13l9Cw=
+
+Name: res/drawable-xxhdpi-v4/bts_common_bg_input_pressed.9.png
+SHA1-Digest: dTSJAAmiQ67XmAk/grpsmaANp1o=
+
+Name: res/drawable-nodpi-v4/departure_map_icon.png
+SHA1-Digest: ADouOsO86sSYloICCy4FZmcSbYM=
+
+Name: res/drawable-nodpi-v4/common_img_page_bottom.png
+SHA1-Digest: KTVMdIdiq5I4sjnn6fW+Qlg70KQ=
+
+Name: res/drawable/share_btn_weixin_selector.xml
+SHA1-Digest: nqcPuFv/LaRbTsX02qNQyDCx8co=
+
+Name: res/layout-nodpi-v4/activity_departure.xml
+SHA1-Digest: jJW4tMK28Swa4x1TV19CAvX5F0o=
+
+Name: res/drawable-xhdpi-v4/car_frame_2.png
+SHA1-Digest: Rr7X+XvgGusDQj6NcxWsq9KXkdc=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_normal_type_d.9.png
+SHA1-Digest: QImNXGVJ/Ohzxh633GT6u8TmGzs=
+
+Name: res/drawable-xhdpi-v4/ssdk_auth_title_back.png
+SHA1-Digest: KcOU9zRA4LnWnGrzTb4Jvm+VpMQ=
+
+Name: assets/getui_popup_bg.9.png
+SHA1-Digest: 0i2ug9zD61+mUJM+VRU0su+rZBA=
+
+Name: res/layout/bts_driver_profile_bar.xml
+SHA1-Digest: XR7cssCIsZrnkJenJO5BZMTtYI4=
+
+Name: assets/getui_popup_close.png
+SHA1-Digest: 3PxcPZ1vRVg/shO9Q8m4kCl+++0=
+
+Name: assets/tencentmap/mapsdk_vector/curve_texture.png
+SHA1-Digest: C6r8B3+2yUZ3c/MmUpfHUmil+O8=
+
+Name: res/layout-nodpi-v4/fragment_modify_nickname.xml
+SHA1-Digest: N98dxGvV+hLjTjxD4155djzrNsM=
+
+Name: res/drawable-xxhdpi-v4/bts_attestation_import_n.png
+SHA1-Digest: mIR8bERgz5klrRJPghpZHKW3KxU=
+
+Name: res/drawable-nodpi-v4/im_keyboard_icon_pressed.png
+SHA1-Digest: 5Dn1pIg8kaLe4jcQ1LlxysZWVqg=
+
+Name: res/drawable-hdpi-v4/bts_homepage_passenger.png
+SHA1-Digest: ums4YWPVQyOdoEq6Tdew9H/4SQg=
+
+Name: assets/tencentmap/mapsdk_vector/poi_icon_file_nav.png
+SHA1-Digest: d03qt9RGBvFjj2KxXQU0UNjVMSE=
+
+Name: res/layout-nodpi-v4/car_cancel_trip_reason.xml
+SHA1-Digest: P6zJUiDOZSu6Mg4Lb95Je3aZnX0=
+
+Name: assets/tencentmap/mapsdk_vector/province_highway_satellite
+SHA1-Digest: Yeexwp2Bohmleye+xIrGzR05pYU=
+
+Name: res/drawable-hdpi-v4/fast_icon.png
+SHA1-Digest: MNAVlf0AHQEwl3XzgzepWT5ckp4=
+
+Name: res/drawable/im_bottombar_btn_selector.xml
+SHA1-Digest: ScPkTpRVQdlqDSSWKOuEy/701fw=
+
+Name: res/drawable/realtime_btn_trigger_selector.xml
+SHA1-Digest: 9MfCOmDdGFr4tIz9FkXv4S4pxxE=
+
+Name: res/layout-nodpi-v4/im_conversation_bottom_title_bar.xml
+SHA1-Digest: JNx7Ch6EjoV4EKWEDz0JE06Sun0=
+
+Name: res/drawable-xhdpi-v4/car_type_arrow.png
+SHA1-Digest: giA7WEjEbDpXFYglYhgIdgQ8io8=
+
+Name: res/drawable/wait_for_arrival_footer_bar_ic_close_selector.xml
+SHA1-Digest: tr+wCL47y5emaWhKeME3TVtQYsQ=
+
+Name: res/drawable/bts_remark_bg_p_selector.xml
+SHA1-Digest: akWEfDAL4uemPkbK1CKt5vmMIBg=
+
+Name: res/drawable/bts_tag_edittext_gb.xml
+SHA1-Digest: FCTJYurMFhZ4buM0gueJ2UeoCh8=
+
+Name: res/drawable-nodpi-v4/im_headimage4.png
+SHA1-Digest: aDYQmQlWvQGqn1Zr+MxKne+glLw=
+
+Name: lib/armeabi/libdiffjni.so
+SHA1-Digest: jTpjQSghedoxBNhqsNlZPoqImuM=
+
+Name: res/raw-nodpi-v4/beatles_sound.m4a
+SHA1-Digest: soesYlXgGL9+hHP8rXEmJw4a4Ks=
+
+Name: res/layout/bts_passenger_wait_driver_arrive_activity.xml
+SHA1-Digest: slTX3/hohbQ7zP3OPiosqkWGlBE=
+
+Name: res/drawable-nodpi-v4/icon_game.png
+SHA1-Digest: TvjGqZdz876qG8J6+J5RDHE5u9c=
+
+Name: res/layout-nodpi-v4/common_addr_view.xml
+SHA1-Digest: Z65PchoUG1Ce5OOBROmVcAjFAUI=
+
+Name: resources.arsc
+SHA1-Digest: JmFI7bsxV09R1x/gNBnW6uLN+A8=
+
+Name: res/layout/bts_driver_order_item.xml
+SHA1-Digest: Lhz81Z9fCEjaFjRk3cGodmr9Il4=
+
+Name: res/drawable-nodpi-v4/common_ic_wait_close_pressed.png
+SHA1-Digest: hSggeUOOms7bwo8+vCCaqu6IWxs=
+
+Name: res/drawable-nodpi-v4/common_search_loading.png
+SHA1-Digest: HjhiEUOoKNTkx+W1lgR5JLtlq1c=
+
+Name: res/drawable-xxhdpi-v4/bts_home_page_windmill.png
+SHA1-Digest: 81qN12NGF3XXzNUAMrFzolFElhQ=
+
+Name: res/layout/bts_add_route_layout.xml
+SHA1-Digest: XoBcQ5KIe1HXgKv9yJEb+mgBb34=
+
+Name: res/drawable/bts_common_edit_bg_selector.xml
+SHA1-Digest: 1wstBHubN04i7D/L+keTQxEYDxY=
+
+Name: res/drawable-nodpi-v4/dialog_icn_pay_close.png
+SHA1-Digest: kkqxorsuWPl10N7+eaq1qaNcNY0=
+
+Name: res/drawable-nodpi-v4/dialog_bg_weixinpay.png
+SHA1-Digest: K5EzmwGa+jktzFn2+fjqN585vXs=
+
+Name: res/drawable/share_btn_weixincircle_selector.xml
+SHA1-Digest: NZxcVjUqxB7GqXIZdvjZ9WGQlt4=
+
+Name: assets/tencentmap/mapsdk_vector/marker_default.png
+SHA1-Digest: NFc/8mNsMMPAtGojWcBTE5K5lCI=
+
+Name: res/layout-nodpi-v4/push_pop_orignal.xml
+SHA1-Digest: pYobL5S9F254uMENp80UoDbMlbA=
+
+Name: res/drawable/common_pin_ic_wait_cancel_selector.xml
+SHA1-Digest: z808uaaenSOHZzIMk+zOCUtiniU=
+
+Name: assets/tencentmap/mapsdk_vector/preview_arrow_forward.png
+SHA1-Digest: YdqOXGuQGzIQts2q+QNQA5weed0=
+
+Name: assets/tencentmap/mapsdk_vector/province.png
+SHA1-Digest: gn5TosI87ek7z3rR+19RBVXSVTk=
+
+Name: assets/tencentmap/mapsdk_vector/logo.png
+SHA1-Digest: xDwqW+OsK37JczLCCxO5t3WzOto=
+
+Name: res/anim/loading_set.xml
+SHA1-Digest: 9sN+c1KwtRvU6j6WjB2MvIq6KCw=
+
+Name: res/drawable-xhdpi-v4/auth_follow_cb_chd.png
+SHA1-Digest: XRvmpZADzcwYRVQhbiXBiVbiwvw=
+
+Name: assets/inc_bg.9.png
+SHA1-Digest: lK3VpHtMjjYf8U1b0PhprGnUze8=
+
+Name: res/drawable-xhdpi-v4/logo_neteasemicroblog.png
+SHA1-Digest: LDoFEQ6Xcqlm+dPfDcOnTP90KGw=
+
+Name: res/layout-nodpi-v4/control_panel_layout.xml
+SHA1-Digest: 93y6N+QjDmnTaHPRpJJEPAoZ82E=
+
+Name: res/drawable-xhdpi-v4/btn_back_nor.9.png
+SHA1-Digest: PkrrhzSS4LlDlm1qP6Q22ss9iqk=
+
+Name: res/layout-nodpi-v4/realtime_slide_call.xml
+SHA1-Digest: WhmITiNuJjgPQDu6uL7E8fxX340=
+
+Name: res/drawable-nodpi-v4/common_bg_area_pressed.9.png
+SHA1-Digest: C+bAu24AUrllLnGvJyvBNE0LLP4=
+
+Name: res/drawable-xhdpi-v4/logo_sohusuishenkan.png
+SHA1-Digest: KJclO71+VQkeuNv2avgR5vDdoDY=
+
+Name: res/drawable-hdpi-v4/bts_appointment_end.png
+SHA1-Digest: 6L/RCSSqpdNB1Xpwstsmf0o657s=
+
+Name: res/raw-nodpi-v4/car_driver_coming.wav
+SHA1-Digest: 3gBOj9aDFS2CGtmEuaftMPoM/TM=
+
+Name: res/drawable-xhdpi-v4/logo_qq.png
+SHA1-Digest: PnKP+VU7vsqNnuIlvle9QL70ILY=
+
+Name: res/drawable/bts_selector_end_adress.xml
+SHA1-Digest: Lx0W/nzeFKe3dgWBi4As6gNMHnY=
+
+Name: res/drawable-nodpi-v4/share_icn_sinaweibo.png
+SHA1-Digest: KeBZSQIdSTAB29AA0USUrnmvbVQ=
+
+Name: assets/tencentmap/mapsdk_vector/CYAN.png
+SHA1-Digest: DOGgZDZe38eYauGGNAoeYd+tdrk=
+
+Name: res/drawable-nodpi-v4/pinyou_icn_head.png
+SHA1-Digest: LW50DaIfPiOJNB9SoHJ9kBITzME=
+
+Name: res/drawable-nodpi-v4/im_keyboard_icon_normal.png
+SHA1-Digest: F191Km+fghSjIy99XibA2poYxmo=
+
+Name: res/drawable-nodpi-v4/common_icn_endpoint.png
+SHA1-Digest: dbN4Qcw3UqCeq95JEwXVL1W1uKU=
+
+Name: res/drawable-nodpi-v4/icon_activity_common_tip.png
+SHA1-Digest: mhoLmy+ezH0B63zmL8l1EQgIVMc=
+
+Name: res/drawable-hdpi-v4/share_btn_weibo_normal.png
+SHA1-Digest: IyRvCIpw+TftiffFZcp/saPdlHE=
+
+Name: res/layout-nodpi-v4/ddrive_cancel_trip_view.xml
+SHA1-Digest: t/S2+AOrixhhpY6nXzkveqKOQXk=
+
+Name: res/layout/bts_driver_order_manager.xml
+SHA1-Digest: ExDJBYd7a+XjAO3ZArvPDR/wt1Y=
+
+Name: res/drawable/common_pay_checkbox_selector.xml
+SHA1-Digest: wbr7P+lV7vxvnbZ370zdSTBTcbE=
+
+Name: res/drawable-nodpi-v4/realtime_btn_trigger_pressed.9.png
+SHA1-Digest: IjFrvq+ZMFbIpWSky05QG7bnZ1w=
+
+Name: res/layout/bts_normal_fee_item.xml
+SHA1-Digest: s6fP2lQ2jvNioYOiguiXaVMpM1Y=
+
+Name: res/raw-nodpi-v4/sfx_tips_1_4.wav
+SHA1-Digest: Ofc7N4qj/1T9ScR5zuLMsuwyUo8=
+
+Name: res/raw-nodpi-v4/common_title_bar_bg_above.png
+SHA1-Digest: JwE8xb8FFMJtWuNEFU+YPfHe/K4=
+
+Name: res/drawable-nodpi-v4/realtime_slide_call_item_bg_normal.png
+SHA1-Digest: 6SB29an+J6RXSwMygyyBeYN61cI=
+
+Name: res/drawable-nodpi-v4/image_dialog_profession2.png
+SHA1-Digest: blC0HI7cETdLGQHe/VFLFqsyqW0=
+
+Name: res/layout/bts_map_user_layout.xml
+SHA1-Digest: mb8NDVyCLku+1jSJc+iHgOwwMPk=
+
+Name: res/layout/bts_hour_minute_widget.xml
+SHA1-Digest: 519Xqfeh7v0iYh0r6BLzoFvj67w=
+
+Name: res/drawable-nodpi-v4/user_level_gold.png
+SHA1-Digest: 563gEnMWDdy6m3YhappqjJp/8yk=
+
+Name: assets/tencentmap/mapsdk_vector/poi_icon_file.png
+SHA1-Digest: SwwrLUhbENLD2j/CKqJkz+0j+P4=
+
+Name: res/drawable-hdpi-v4/booking_btn_input_time.png
+SHA1-Digest: ft9iV77cOMXnCoepL9wzxq4bNuw=
+
+Name: res/drawable/im_timestamp_backgroud.xml
+SHA1-Digest: yC2p/6MW4r0qM/WUzygXGYG3K3s=
+
+Name: res/drawable-nodpi-v4/review_btn_select_pressed.png
+SHA1-Digest: B7CT8x6IseOFes0cQgZrNxzY4oI=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_general_n.png
+SHA1-Digest: 4R04HMRz5Cn/SVhaI/UTrHigF/U=
+
+Name: res/layout-nodpi-v4/booking_fragment.xml
+SHA1-Digest: +bOzz1fWmW0KEX9mUtoGY3ZWvjk=
+
+Name: res/drawable-nodpi-v4/ic_driverinfo_empty.png
+SHA1-Digest: 6I4ltUnuEzsWLCram/0lrWxwplM=
+
+Name: res/drawable-nodpi-v4/hongbao_share.png
+SHA1-Digest: J+S39ya5IWxbWKAzf125cIIHzY8=
+
+Name: res/drawable-nodpi-v4/dialog_info.png
+SHA1-Digest: na5M7FiFCelfuEFeSWfDCaea06A=
+
+Name: assets/inc_pause.png
+SHA1-Digest: UkLcpnPC6Coap0C5kU17jfKcXVk=
+
+Name: res/drawable-xxhdpi-v4/ddrive_driver_icon_fxp.png
+SHA1-Digest: C1jpR+NatxfMCo8JWtK75GlRsHs=
+
+Name: res/drawable-nodpi-v4/driver_head_wreath.png
+SHA1-Digest: DmlJOK+lt5ecZCM3oMuYTj7Q6T8=
+
+Name: res/raw-nodpi-v4/sfx_star_3.wav
+SHA1-Digest: UVNjr0Riwfcue9I0gEbjTwf9V4E=
+
+Name: res/drawable-xhdpi-v4/logo_qzone.png
+SHA1-Digest: ygwro4okMJjfWFvNLPk1hTobe1g=
+
+Name: res/drawable-nodpi-v4/complain_icn_message_gray.png
+SHA1-Digest: WCKhHrTkv88k06GsCwTX+NhUk4s=
+
+Name: res/drawable-hdpi-v4/share_btn_contacts_normal.png
+SHA1-Digest: exWoJKtvX7zB4zDlWEugmawRzF0=
+
+Name: res/anim/intercome_left_play_audio_anim.xml
+SHA1-Digest: q8GffPRRCygXbINPNuHMyFoLBQU=
+
+Name: res/drawable-xxhdpi-v4/icon_webviewtool_default.png
+SHA1-Digest: GpjjLF4P6X+/2AGvjoy8e9QGqEE=
+
+Name: res/drawable-nodpi-v4/common_btn_pull_pressed.png
+SHA1-Digest: eSTGRxY/VDpSYwLHLYg+7SrLu6o=
+
+Name: res/layout-nodpi-v4/remark_fragment.xml
+SHA1-Digest: yQQSQmIvLchS2bm0DcZMtkzdXH8=
+
+Name: res/drawable-nodpi-v4/pull_listview_arrow.png
+SHA1-Digest: 4eka/7KGH6mTQPj0knavB5sNjMY=
+
+Name: res/drawable-nodpi-v4/setting_pic_address.png
+SHA1-Digest: UHtVYf/EtRHdq16vZhdE9s9AJPM=
+
+Name: res/drawable-xhdpi-v4/taxi_bearing.png
+SHA1-Digest: SUU2QYYpne4KmXYaa8z3MK8vfMo=
+
+Name: res/drawable-nodpi-v4/icon_activity_minus_price.png
+SHA1-Digest: o6sdcF2lIM9Bh+shXMM7pnawSRs=
+
+Name: res/drawable-xhdpi-v4/car_add_price_ques.png
+SHA1-Digest: RVn9I382UyIZ5z0l0PawmoZfELM=
+
+Name: res/layout-nodpi-v4/depart_sug_item.xml
+SHA1-Digest: GjUMSDQ9u5pI0NY/0fqrAxp6zfU=
+
+Name: res/drawable-nodpi-v4/common_icn_waittime_normal.png
+SHA1-Digest: ZCFlsOM5SXyVwLJc+CS/0UIeslM=
+
+Name: res/drawable/bts_evaluate_happy.xml
+SHA1-Digest: w8vVKuS0eSM9kmL960rpFzpekm4=
+
+Name: res/raw-nodpi-v4/sfx_tips_1_2.wav
+SHA1-Digest: ezvtplne4OSx0lf7zqfNXhN0jko=
+
+Name: res/drawable-nodpi-v4/menu_icon_food_pressed.png
+SHA1-Digest: fqAgNdYwMrJj5mflWWJ5DkNI22g=
+
+Name: res/layout-nodpi-v4/car_pay_type_view.xml
+SHA1-Digest: 4GK+dsW8z96lxcsM55oCU1L2iAg=
+
+Name: res/drawable-nodpi-v4/voice_icon_white_right2.png
+SHA1-Digest: eoThqxxBEV/45dJa4I5k3ptoICY=
+
+Name: assets/tencentmap/mapsdk_vector/color_point_texture.png
+SHA1-Digest: kfozO3aHOrU832ykwPMRgE1YmuU=
+
+Name: res/drawable/trade_select_check.xml
+SHA1-Digest: wHCWWy7HWBY8RhQu1puH/8k+Ymw=
+
+Name: res/drawable-nodpi-v4/image_dialog_profession.png
+SHA1-Digest: GB1sQ5BCSYFVQkJbohYAeESHjdg=
+
+Name: res/drawable-xhdpi-v4/cancel_route_background_1.png
+SHA1-Digest: cAoC6zPokwj9yulih3ijzSO7IVA=
+
+Name: res/drawable-nodpi-v4/icon_delete_normal.png
+SHA1-Digest: VJEsSA93OiZoanWyXnwRhh4nQDM=
+
+Name: res/drawable-xxhdpi-v4/trip_self_bubble_startpoint.png
+SHA1-Digest: /UTfEOoXEblu55FtB3ledOhjW34=
+
+Name: res/drawable-xxhdpi-v4/bts_img_newstart.png
+SHA1-Digest: 9Xj6xIcNA5wmDJCUfpsnGPaDcTo=
+
+Name: res/drawable/bts_btn_orange_box_selector.xml
+SHA1-Digest: wZ2lUblxGv1t2TUoIVRMepeJ3eE=
+
+Name: res/drawable-nodpi-v4/driverpage_star_light.png
+SHA1-Digest: 8BvT1pQy3MjhvHHXobDQIb949dA=
+
+Name: res/drawable/car_notification_count_title_bg.xml
+SHA1-Digest: MBwrM2JJ1WWceIm2UsbMff6uf8E=
+
+Name: res/layout-nodpi-v4/push_drive_pop.xml
+SHA1-Digest: TrFHZT8G/+vhYpMFqboHeQWM2YI=
+
+Name: res/layout-nodpi-v4/menu_frame.xml
+SHA1-Digest: ROcfv7iWvlU9tnkdZg29iPgLhMY=
+
+Name: res/layout/bts_passenger_profile_bar.xml
+SHA1-Digest: OWFL1b3Q9SqBrO/QktGU9xM/coU=
+
+Name: res/drawable-nodpi-v4/voice_icon_gray_left1.png
+SHA1-Digest: NAElaGdl8y8YSnP4iziwWxlifGU=
+
+Name: res/drawable/car_estimate_down_part_bg.xml
+SHA1-Digest: 1vbBtUU4j+Zsnt9m0TY6/Bx3QGk=
+
+Name: res/drawable-nodpi-v4/arrival_btn_close_normal.png
+SHA1-Digest: aILOVQXBOQNAXLax7wWHbzlmDRw=
+
+Name: res/drawable-xxhdpi-v4/bts_price_detail.png
+SHA1-Digest: X5R1h/XUX6JiguK8b590MXMj/dM=
+
+Name: res/drawable-xxhdpi-v4/bts_evaluate_unhappy_n.png
+SHA1-Digest: lXWmJqIdzXN2iFcmIxxlA4rsl/E=
+
+Name: res/layout-nodpi-v4/wait_for_response_info_bar.xml
+SHA1-Digest: X1AD8t6ymXXbAkf6zjHEHxdMDBk=
+
+Name: res/drawable-nodpi-v4/title_bar_bell_normal.png
+SHA1-Digest: JeBcYHwj1xDJUyq+iJgXSm50Utg=
+
+Name: res/drawable/city_pick_search_bg.xml
+SHA1-Digest: aknUtnaQSdiLCfwScYkXqol8ubc=
+
+Name: res/layout/bts_passenger_order_detail.xml
+SHA1-Digest: DK88tjLKBF6t3UNUtfIkUuVoSIY=
+
+Name: res/drawable-nodpi-v4/im_message_right_bg.9.png
+SHA1-Digest: vrKs709zqTPVyI9qvVtyc8Lf/Og=
+
+Name: res/drawable-xxhdpi-v4/bts_attestation_identityicon_p.png
+SHA1-Digest: XVza/DyzxQA2Ig5IVRfgqpPwPAw=
+
+Name: res/drawable-nodpi-v4/addnotes_icn_plus_light.png
+SHA1-Digest: BuRlTgmW0KQoQfO1FIEcdKHNtwI=
+
+Name: res/drawable-xxhdpi-v4/bts_ad_passenger_2.png
+SHA1-Digest: GJAwd+oFFlAbkx4d9SKV3pLHqiA=
+
+Name: res/drawable-xxhdpi-v4/drive_img_guide.png
+SHA1-Digest: 5cxC+kX+FXilqY3uty4d3AmxLUc=
+
+Name: res/drawable-nodpi-v4/common_bg_circle_pressed.png
+SHA1-Digest: i56qpx+1Soxm/TLwRWbrKUQCv/I=
+
+Name: res/drawable-xhdpi-v4/edittext_back.9.png
+SHA1-Digest: MckapfoGDrtqi6hM5gmfdvtVuOo=
+
+Name: res/layout/bts_route_config_layout.xml
+SHA1-Digest: FRvwIUsMED3C7ElXMOMpJEg3rj8=
+
+Name: res/drawable-nodpi-v4/driver_bg_wreath.png
+SHA1-Digest: WLIj6BiYSyx2JZqguL90WyT31g4=
+
+Name: res/drawable-nodpi-v4/common_toast_icon_info.png
+SHA1-Digest: yh/jZih9PgVxm7OcDZ8+sNtitWQ=
+
+Name: res/drawable-nodpi-v4/common_icn_note_disabled.png
+SHA1-Digest: GQgaM9ont3m8kYaW+TsuMEKGuQk=
+
+Name: res/drawable-nodpi-v4/fare_txt_bg_below.png
+SHA1-Digest: DsmQRmBI9Lob76W3WULtD3beVo4=
+
+Name: res/drawable-nodpi-v4/menu_icon_choice_normal.png
+SHA1-Digest: HiJvHgntQzdunKMRiHvboHCIsbA=
+
+Name: res/drawable-nodpi-v4/map_bg_bubble_normal.9.png
+SHA1-Digest: r8tdih74kCrOF2yGYqaKP/zY0pM=
+
+Name: res/anim/fade_in.xml
+SHA1-Digest: 9coJw7oofcox3djem3IIitwgwJU=
+
